@@ -5,10 +5,10 @@ package cronjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -390,7 +390,7 @@ func NewCronJob(scope constructs.Construct, id *string, config *CronJobConfig) C
 	j := jsiiProxy_CronJob{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJob",
+		"@cdktn/provider-kubernetes.cronJob.CronJob",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -403,7 +403,7 @@ func NewCronJob_Override(c CronJob, scope constructs.Construct, id *string, conf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJob",
+		"@cdktn/provider-kubernetes.cronJob.CronJob",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -498,7 +498,7 @@ func CronJob_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.cronJob.CronJob",
+		"@cdktn/provider-kubernetes.cronJob.CronJob",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func CronJob_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.cronJob.CronJob",
+		"@cdktn/provider-kubernetes.cronJob.CronJob",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func CronJob_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.cronJob.CronJob",
+		"@cdktn/provider-kubernetes.cronJob.CronJob",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func CronJob_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.cronJob.CronJob",
+		"@cdktn/provider-kubernetes.cronJob.CronJob",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func CronJob_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.cronJob.CronJob",
+		"@cdktn/provider-kubernetes.cronJob.CronJob",
 		"tfResourceType",
 		&returns,
 	)

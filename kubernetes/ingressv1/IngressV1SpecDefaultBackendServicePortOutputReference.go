@@ -5,9 +5,9 @@ package ingressv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewIngressV1SpecDefaultBackendServicePortOutputReference(terraformResource 
 	j := jsiiProxy_IngressV1SpecDefaultBackendServicePortOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServicePortOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServicePortOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewIngressV1SpecDefaultBackendServicePortOutputReference_Override(i Ingress
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServicePortOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServicePortOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

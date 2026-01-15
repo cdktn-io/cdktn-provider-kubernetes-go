@@ -5,9 +5,9 @@ package endpoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/endpoints/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/endpoints/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewEndpointsSubsetNotReadyAddressOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_EndpointsSubsetNotReadyAddressOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpoints.EndpointsSubsetNotReadyAddressOutputReference",
+		"@cdktn/provider-kubernetes.endpoints.EndpointsSubsetNotReadyAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewEndpointsSubsetNotReadyAddressOutputReference_Override(e EndpointsSubset
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpoints.EndpointsSubsetNotReadyAddressOutputReference",
+		"@cdktn/provider-kubernetes.endpoints.EndpointsSubsetNotReadyAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

@@ -5,9 +5,9 @@ package deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/deployment/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/deployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -349,7 +349,7 @@ func NewDeploymentSpecTemplateSpecVolumeRbdOutputReference(terraformResource cdk
 	j := jsiiProxy_DeploymentSpecTemplateSpecVolumeRbdOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deployment.DeploymentSpecTemplateSpecVolumeRbdOutputReference",
+		"@cdktn/provider-kubernetes.deployment.DeploymentSpecTemplateSpecVolumeRbdOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -361,7 +361,7 @@ func NewDeploymentSpecTemplateSpecVolumeRbdOutputReference_Override(d Deployment
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deployment.DeploymentSpecTemplateSpecVolumeRbdOutputReference",
+		"@cdktn/provider-kubernetes.deployment.DeploymentSpecTemplateSpecVolumeRbdOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

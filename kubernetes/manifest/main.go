@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.manifest.Manifest",
+		"@cdktn/provider-kubernetes.manifest.Manifest",
 		reflect.TypeOf((*Manifest)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -87,15 +87,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.manifest.ManifestConfig",
+		"@cdktn/provider-kubernetes.manifest.ManifestConfig",
 		reflect.TypeOf((*ManifestConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.manifest.ManifestFieldManager",
+		"@cdktn/provider-kubernetes.manifest.ManifestFieldManager",
 		reflect.TypeOf((*ManifestFieldManager)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.manifest.ManifestFieldManagerOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestFieldManagerOutputReference",
 		reflect.TypeOf((*ManifestFieldManagerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -133,11 +133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.manifest.ManifestTimeouts",
+		"@cdktn/provider-kubernetes.manifest.ManifestTimeouts",
 		reflect.TypeOf((*ManifestTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.manifest.ManifestTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestTimeoutsOutputReference",
 		reflect.TypeOf((*ManifestTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -178,15 +178,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.manifest.ManifestWait",
+		"@cdktn/provider-kubernetes.manifest.ManifestWait",
 		reflect.TypeOf((*ManifestWait)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.manifest.ManifestWaitCondition",
+		"@cdktn/provider-kubernetes.manifest.ManifestWaitCondition",
 		reflect.TypeOf((*ManifestWaitCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.manifest.ManifestWaitConditionList",
+		"@cdktn/provider-kubernetes.manifest.ManifestWaitConditionList",
 		reflect.TypeOf((*ManifestWaitConditionList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -208,7 +208,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.manifest.ManifestWaitConditionOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestWaitConditionOutputReference",
 		reflect.TypeOf((*ManifestWaitConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -246,11 +246,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.manifest.ManifestWaitFor",
+		"@cdktn/provider-kubernetes.manifest.ManifestWaitFor",
 		reflect.TypeOf((*ManifestWaitFor)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.manifest.ManifestWaitForOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestWaitForOutputReference",
 		reflect.TypeOf((*ManifestWaitForOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -285,7 +285,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.manifest.ManifestWaitOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestWaitOutputReference",
 		reflect.TypeOf((*ManifestWaitOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

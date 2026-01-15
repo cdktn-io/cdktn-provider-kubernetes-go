@@ -5,9 +5,9 @@ package cronjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewCronJobSpecJobTemplateSpecPodFailurePolicyOutputReference(terraformResou
 	j := jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecPodFailurePolicyOutputReference",
+		"@cdktn/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecPodFailurePolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewCronJobSpecJobTemplateSpecPodFailurePolicyOutputReference_Override(c Cro
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecPodFailurePolicyOutputReference",
+		"@cdktn/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecPodFailurePolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

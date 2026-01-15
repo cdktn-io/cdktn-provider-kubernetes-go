@@ -5,9 +5,9 @@ package podsecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/podsecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/podsecuritypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPodSecurityPolicySpecAllowedHostPathsList(terraformResource cdktf.IInter
 	j := jsiiProxy_PodSecurityPolicySpecAllowedHostPathsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podSecurityPolicy.PodSecurityPolicySpecAllowedHostPathsList",
+		"@cdktn/provider-kubernetes.podSecurityPolicy.PodSecurityPolicySpecAllowedHostPathsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPodSecurityPolicySpecAllowedHostPathsList_Override(p PodSecurityPolicySp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podSecurityPolicy.PodSecurityPolicySpecAllowedHostPathsList",
+		"@cdktn/provider-kubernetes.podSecurityPolicy.PodSecurityPolicySpecAllowedHostPathsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

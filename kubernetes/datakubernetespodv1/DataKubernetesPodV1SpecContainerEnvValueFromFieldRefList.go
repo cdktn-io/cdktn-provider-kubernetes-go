@@ -5,9 +5,9 @@ package datakubernetespodv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetespodv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespodv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataKubernetesPodV1SpecContainerEnvValueFromFieldRefList(terraformResour
 	j := jsiiProxy_DataKubernetesPodV1SpecContainerEnvValueFromFieldRefList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPodV1.DataKubernetesPodV1SpecContainerEnvValueFromFieldRefList",
+		"@cdktn/provider-kubernetes.dataKubernetesPodV1.DataKubernetesPodV1SpecContainerEnvValueFromFieldRefList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataKubernetesPodV1SpecContainerEnvValueFromFieldRefList_Override(d Data
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPodV1.DataKubernetesPodV1SpecContainerEnvValueFromFieldRefList",
+		"@cdktn/provider-kubernetes.dataKubernetesPodV1.DataKubernetesPodV1SpecContainerEnvValueFromFieldRefList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

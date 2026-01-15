@@ -5,9 +5,9 @@ package persistentvolumeclaimv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/persistentvolumeclaimv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/persistentvolumeclaimv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewPersistentVolumeClaimV1SpecSelectorMatchExpressionsOutputReference(terra
 	j := jsiiProxy_PersistentVolumeClaimV1SpecSelectorMatchExpressionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeClaimV1.PersistentVolumeClaimV1SpecSelectorMatchExpressionsOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolumeClaimV1.PersistentVolumeClaimV1SpecSelectorMatchExpressionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewPersistentVolumeClaimV1SpecSelectorMatchExpressionsOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeClaimV1.PersistentVolumeClaimV1SpecSelectorMatchExpressionsOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolumeClaimV1.PersistentVolumeClaimV1SpecSelectorMatchExpressionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		p,
 	)

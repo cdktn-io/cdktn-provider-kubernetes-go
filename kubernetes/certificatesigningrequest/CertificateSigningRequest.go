@@ -5,10 +5,10 @@ package certificatesigningrequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/certificatesigningrequest/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/certificatesigningrequest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewCertificateSigningRequest(scope constructs.Construct, id *string, config
 	j := jsiiProxy_CertificateSigningRequest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
+		"@cdktn/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewCertificateSigningRequest_Override(c CertificateSigningRequest, scope co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
+		"@cdktn/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -544,7 +544,7 @@ func CertificateSigningRequest_GenerateConfigForImport(scope constructs.Construc
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
+		"@cdktn/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -579,7 +579,7 @@ func CertificateSigningRequest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
+		"@cdktn/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func CertificateSigningRequest_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
+		"@cdktn/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func CertificateSigningRequest_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
+		"@cdktn/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func CertificateSigningRequest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
+		"@cdktn/provider-kubernetes.certificateSigningRequest.CertificateSigningRequest",
 		"tfResourceType",
 		&returns,
 	)

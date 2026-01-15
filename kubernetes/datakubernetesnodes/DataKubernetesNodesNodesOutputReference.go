@@ -5,9 +5,9 @@ package datakubernetesnodes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesnodes/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesnodes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -192,7 +192,7 @@ func NewDataKubernetesNodesNodesOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_DataKubernetesNodesNodesOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesNodes.DataKubernetesNodesNodesOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesNodes.DataKubernetesNodesNodesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -204,7 +204,7 @@ func NewDataKubernetesNodesNodesOutputReference_Override(d DataKubernetesNodesNo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesNodes.DataKubernetesNodesNodesOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesNodes.DataKubernetesNodesNodesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

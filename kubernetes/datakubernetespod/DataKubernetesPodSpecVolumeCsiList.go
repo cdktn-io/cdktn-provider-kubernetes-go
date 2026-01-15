@@ -5,9 +5,9 @@ package datakubernetespod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataKubernetesPodSpecVolumeCsiList(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_DataKubernetesPodSpecVolumeCsiList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecVolumeCsiList",
+		"@cdktn/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecVolumeCsiList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataKubernetesPodSpecVolumeCsiList_Override(d DataKubernetesPodSpecVolum
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecVolumeCsiList",
+		"@cdktn/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecVolumeCsiList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

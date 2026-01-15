@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.apiServiceV1.ApiServiceV1",
+		"@cdktn/provider-kubernetes.apiServiceV1.ApiServiceV1",
 		reflect.TypeOf((*ApiServiceV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.apiServiceV1.ApiServiceV1Config",
+		"@cdktn/provider-kubernetes.apiServiceV1.ApiServiceV1Config",
 		reflect.TypeOf((*ApiServiceV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.apiServiceV1.ApiServiceV1Metadata",
+		"@cdktn/provider-kubernetes.apiServiceV1.ApiServiceV1Metadata",
 		reflect.TypeOf((*ApiServiceV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.apiServiceV1.ApiServiceV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.apiServiceV1.ApiServiceV1MetadataOutputReference",
 		reflect.TypeOf((*ApiServiceV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -127,11 +127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.apiServiceV1.ApiServiceV1Spec",
+		"@cdktn/provider-kubernetes.apiServiceV1.ApiServiceV1Spec",
 		reflect.TypeOf((*ApiServiceV1Spec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.apiServiceV1.ApiServiceV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.apiServiceV1.ApiServiceV1SpecOutputReference",
 		reflect.TypeOf((*ApiServiceV1SpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caBundle", GoGetter: "CaBundle"},
@@ -181,11 +181,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.apiServiceV1.ApiServiceV1SpecService",
+		"@cdktn/provider-kubernetes.apiServiceV1.ApiServiceV1SpecService",
 		reflect.TypeOf((*ApiServiceV1SpecService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.apiServiceV1.ApiServiceV1SpecServiceOutputReference",
+		"@cdktn/provider-kubernetes.apiServiceV1.ApiServiceV1SpecServiceOutputReference",
 		reflect.TypeOf((*ApiServiceV1SpecServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

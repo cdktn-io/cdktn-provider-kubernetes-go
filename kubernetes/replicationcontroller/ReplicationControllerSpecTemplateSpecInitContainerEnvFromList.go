@@ -5,9 +5,9 @@ package replicationcontroller
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/replicationcontroller/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/replicationcontroller/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewReplicationControllerSpecTemplateSpecInitContainerEnvFromList(terraformR
 	j := jsiiProxy_ReplicationControllerSpecTemplateSpecInitContainerEnvFromList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationControllerSpecTemplateSpecInitContainerEnvFromList",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationControllerSpecTemplateSpecInitContainerEnvFromList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewReplicationControllerSpecTemplateSpecInitContainerEnvFromList_Override(r
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationControllerSpecTemplateSpecInitContainerEnvFromList",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationControllerSpecTemplateSpecInitContainerEnvFromList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

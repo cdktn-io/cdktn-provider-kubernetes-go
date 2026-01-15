@@ -5,10 +5,10 @@ package statefulset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewStatefulSet(scope constructs.Construct, id *string, config *StatefulSetC
 	j := jsiiProxy_StatefulSet{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSet",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSet",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewStatefulSet_Override(s StatefulSet, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSet",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSet",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -533,7 +533,7 @@ func StatefulSet_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSet",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSet",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -568,7 +568,7 @@ func StatefulSet_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSet",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSet",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -587,7 +587,7 @@ func StatefulSet_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSet",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSet",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func StatefulSet_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSet",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSet",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func StatefulSet_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSet",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSet",
 		"tfResourceType",
 		&returns,
 	)

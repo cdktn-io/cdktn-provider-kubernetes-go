@@ -5,9 +5,9 @@ package datakubernetespod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataKubernetesPodSpecContainerStartupProbeGrpcOutputReference(terraformR
 	j := jsiiProxy_DataKubernetesPodSpecContainerStartupProbeGrpcOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecContainerStartupProbeGrpcOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecContainerStartupProbeGrpcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataKubernetesPodSpecContainerStartupProbeGrpcOutputReference_Override(d
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecContainerStartupProbeGrpcOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecContainerStartupProbeGrpcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

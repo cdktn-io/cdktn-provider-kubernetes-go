@@ -5,10 +5,10 @@ package ingressv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewIngressV1(scope constructs.Construct, id *string, config *IngressV1Confi
 	j := jsiiProxy_IngressV1{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewIngressV1_Override(i IngressV1, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -544,7 +544,7 @@ func IngressV1_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -579,7 +579,7 @@ func IngressV1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func IngressV1_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func IngressV1_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func IngressV1_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package rolev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/rolev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/rolev1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewRoleV1RuleList(terraformResource cdktf.IInterpolatingParent, terraformAt
 	j := jsiiProxy_RoleV1RuleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.roleV1.RoleV1RuleList",
+		"@cdktn/provider-kubernetes.roleV1.RoleV1RuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewRoleV1RuleList_Override(r RoleV1RuleList, terraformResource cdktf.IInter
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.roleV1.RoleV1RuleList",
+		"@cdktn/provider-kubernetes.roleV1.RoleV1RuleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

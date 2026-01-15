@@ -5,9 +5,9 @@ package nodetaint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/nodetaint/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/nodetaint/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewNodeTaintMetadataOutputReference(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_NodeTaintMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.nodeTaint.NodeTaintMetadataOutputReference",
+		"@cdktn/provider-kubernetes.nodeTaint.NodeTaintMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewNodeTaintMetadataOutputReference_Override(n NodeTaintMetadataOutputRefer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.nodeTaint.NodeTaintMetadataOutputReference",
+		"@cdktn/provider-kubernetes.nodeTaint.NodeTaintMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

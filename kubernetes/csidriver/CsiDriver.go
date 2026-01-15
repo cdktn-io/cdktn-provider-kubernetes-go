@@ -5,10 +5,10 @@ package csidriver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/csidriver/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/csidriver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -367,7 +367,7 @@ func NewCsiDriver(scope constructs.Construct, id *string, config *CsiDriverConfi
 	j := jsiiProxy_CsiDriver{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.csiDriver.CsiDriver",
+		"@cdktn/provider-kubernetes.csiDriver.CsiDriver",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -380,7 +380,7 @@ func NewCsiDriver_Override(c CsiDriver, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.csiDriver.CsiDriver",
+		"@cdktn/provider-kubernetes.csiDriver.CsiDriver",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -475,7 +475,7 @@ func CsiDriver_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.csiDriver.CsiDriver",
+		"@cdktn/provider-kubernetes.csiDriver.CsiDriver",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func CsiDriver_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.csiDriver.CsiDriver",
+		"@cdktn/provider-kubernetes.csiDriver.CsiDriver",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func CsiDriver_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.csiDriver.CsiDriver",
+		"@cdktn/provider-kubernetes.csiDriver.CsiDriver",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func CsiDriver_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.csiDriver.CsiDriver",
+		"@cdktn/provider-kubernetes.csiDriver.CsiDriver",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func CsiDriver_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.csiDriver.CsiDriver",
+		"@cdktn/provider-kubernetes.csiDriver.CsiDriver",
 		"tfResourceType",
 		&returns,
 	)

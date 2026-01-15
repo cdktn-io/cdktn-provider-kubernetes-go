@@ -5,9 +5,9 @@ package cronjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewCronJobTimeoutsOutputReference(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_CronJobTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.cronJob.CronJobTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewCronJobTimeoutsOutputReference_Override(c CronJobTimeoutsOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.cronJob.CronJobTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

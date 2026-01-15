@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecret",
+		"@cdktn/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecret",
 		reflect.TypeOf((*DataKubernetesSecret)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,15 +67,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretConfig",
+		"@cdktn/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretConfig",
 		reflect.TypeOf((*DataKubernetesSecretConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretMetadata",
+		"@cdktn/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretMetadata",
 		reflect.TypeOf((*DataKubernetesSecretMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretMetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretMetadataOutputReference",
 		reflect.TypeOf((*DataKubernetesSecretMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},

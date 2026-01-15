@@ -5,9 +5,9 @@ package secret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/secret/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/secret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewSecretMetadataOutputReference(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_SecretMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.secret.SecretMetadataOutputReference",
+		"@cdktn/provider-kubernetes.secret.SecretMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewSecretMetadataOutputReference_Override(s SecretMetadataOutputReference, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.secret.SecretMetadataOutputReference",
+		"@cdktn/provider-kubernetes.secret.SecretMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

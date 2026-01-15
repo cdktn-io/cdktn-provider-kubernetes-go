@@ -5,9 +5,9 @@ package deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/deployment/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/deployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDeploymentSpecTemplateSpecTopologySpreadConstraintList(terraformResource
 	j := jsiiProxy_DeploymentSpecTemplateSpecTopologySpreadConstraintList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deployment.DeploymentSpecTemplateSpecTopologySpreadConstraintList",
+		"@cdktn/provider-kubernetes.deployment.DeploymentSpecTemplateSpecTopologySpreadConstraintList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDeploymentSpecTemplateSpecTopologySpreadConstraintList_Override(d Deploy
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deployment.DeploymentSpecTemplateSpecTopologySpreadConstraintList",
+		"@cdktn/provider-kubernetes.deployment.DeploymentSpecTemplateSpecTopologySpreadConstraintList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

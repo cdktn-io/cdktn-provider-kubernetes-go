@@ -5,9 +5,9 @@ package job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/job/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/job/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewJobSpecTemplateSpecContainerLifecyclePreStopTcpSocketOutputReference(ter
 	j := jsiiProxy_JobSpecTemplateSpecContainerLifecyclePreStopTcpSocketOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.JobSpecTemplateSpecContainerLifecyclePreStopTcpSocketOutputReference",
+		"@cdktn/provider-kubernetes.job.JobSpecTemplateSpecContainerLifecyclePreStopTcpSocketOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewJobSpecTemplateSpecContainerLifecyclePreStopTcpSocketOutputReference_Ove
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.JobSpecTemplateSpecContainerLifecyclePreStopTcpSocketOutputReference",
+		"@cdktn/provider-kubernetes.job.JobSpecTemplateSpecContainerLifecyclePreStopTcpSocketOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		j,
 	)

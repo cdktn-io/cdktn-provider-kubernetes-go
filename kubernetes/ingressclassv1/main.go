@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressClassV1.IngressClassV1",
+		"@cdktn/provider-kubernetes.ingressClassV1.IngressClassV1",
 		reflect.TypeOf((*IngressClassV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressClassV1.IngressClassV1Config",
+		"@cdktn/provider-kubernetes.ingressClassV1.IngressClassV1Config",
 		reflect.TypeOf((*IngressClassV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressClassV1.IngressClassV1Metadata",
+		"@cdktn/provider-kubernetes.ingressClassV1.IngressClassV1Metadata",
 		reflect.TypeOf((*IngressClassV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressClassV1.IngressClassV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.ingressClassV1.IngressClassV1MetadataOutputReference",
 		reflect.TypeOf((*IngressClassV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -127,11 +127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressClassV1.IngressClassV1Spec",
+		"@cdktn/provider-kubernetes.ingressClassV1.IngressClassV1Spec",
 		reflect.TypeOf((*IngressClassV1Spec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressClassV1.IngressClassV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.ingressClassV1.IngressClassV1SpecOutputReference",
 		reflect.TypeOf((*IngressClassV1SpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -170,11 +170,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressClassV1.IngressClassV1SpecParameters",
+		"@cdktn/provider-kubernetes.ingressClassV1.IngressClassV1SpecParameters",
 		reflect.TypeOf((*IngressClassV1SpecParameters)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressClassV1.IngressClassV1SpecParametersList",
+		"@cdktn/provider-kubernetes.ingressClassV1.IngressClassV1SpecParametersList",
 		reflect.TypeOf((*IngressClassV1SpecParametersList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -196,7 +196,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressClassV1.IngressClassV1SpecParametersOutputReference",
+		"@cdktn/provider-kubernetes.ingressClassV1.IngressClassV1SpecParametersOutputReference",
 		reflect.TypeOf((*IngressClassV1SpecParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGroup", GoGetter: "ApiGroup"},

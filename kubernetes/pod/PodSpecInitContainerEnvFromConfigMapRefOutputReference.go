@@ -5,9 +5,9 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewPodSpecInitContainerEnvFromConfigMapRefOutputReference(terraformResource
 	j := jsiiProxy_PodSpecInitContainerEnvFromConfigMapRefOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecInitContainerEnvFromConfigMapRefOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecInitContainerEnvFromConfigMapRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewPodSpecInitContainerEnvFromConfigMapRefOutputReference_Override(p PodSpe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecInitContainerEnvFromConfigMapRefOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecInitContainerEnvFromConfigMapRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

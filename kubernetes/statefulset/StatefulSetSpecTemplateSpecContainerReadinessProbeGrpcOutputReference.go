@@ -5,9 +5,9 @@ package statefulset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewStatefulSetSpecTemplateSpecContainerReadinessProbeGrpcOutputReference(te
 	j := jsiiProxy_StatefulSetSpecTemplateSpecContainerReadinessProbeGrpcOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecTemplateSpecContainerReadinessProbeGrpcOutputReference",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecTemplateSpecContainerReadinessProbeGrpcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewStatefulSetSpecTemplateSpecContainerReadinessProbeGrpcOutputReference_Ov
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecTemplateSpecContainerReadinessProbeGrpcOutputReference",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecTemplateSpecContainerReadinessProbeGrpcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		s,
 	)

@@ -5,9 +5,9 @@ package job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/job/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/job/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewJobSpecTemplateSpecContainerPortList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_JobSpecTemplateSpecContainerPortList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.JobSpecTemplateSpecContainerPortList",
+		"@cdktn/provider-kubernetes.job.JobSpecTemplateSpecContainerPortList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewJobSpecTemplateSpecContainerPortList_Override(j JobSpecTemplateSpecConta
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.JobSpecTemplateSpecContainerPortList",
+		"@cdktn/provider-kubernetes.job.JobSpecTemplateSpecContainerPortList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		j,
 	)

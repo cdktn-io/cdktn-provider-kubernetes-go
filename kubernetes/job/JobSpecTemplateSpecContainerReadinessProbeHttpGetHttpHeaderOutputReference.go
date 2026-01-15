@@ -5,9 +5,9 @@ package job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/job/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/job/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewJobSpecTemplateSpecContainerReadinessProbeHttpGetHttpHeaderOutputReferen
 	j := jsiiProxy_JobSpecTemplateSpecContainerReadinessProbeHttpGetHttpHeaderOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.JobSpecTemplateSpecContainerReadinessProbeHttpGetHttpHeaderOutputReference",
+		"@cdktn/provider-kubernetes.job.JobSpecTemplateSpecContainerReadinessProbeHttpGetHttpHeaderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewJobSpecTemplateSpecContainerReadinessProbeHttpGetHttpHeaderOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.JobSpecTemplateSpecContainerReadinessProbeHttpGetHttpHeaderOutputReference",
+		"@cdktn/provider-kubernetes.job.JobSpecTemplateSpecContainerReadinessProbeHttpGetHttpHeaderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		j,
 	)

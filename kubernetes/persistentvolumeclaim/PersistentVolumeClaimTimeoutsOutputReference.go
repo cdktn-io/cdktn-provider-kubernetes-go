@@ -5,9 +5,9 @@ package persistentvolumeclaim
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/persistentvolumeclaim/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/persistentvolumeclaim/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewPersistentVolumeClaimTimeoutsOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_PersistentVolumeClaimTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaimTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaimTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewPersistentVolumeClaimTimeoutsOutputReference_Override(p PersistentVolume
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaimTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaimTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

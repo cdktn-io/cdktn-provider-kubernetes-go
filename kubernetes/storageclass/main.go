@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.storageClass.StorageClass",
+		"@cdktn/provider-kubernetes.storageClass.StorageClass",
 		reflect.TypeOf((*StorageClass)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -90,15 +90,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.storageClass.StorageClassAllowedTopologies",
+		"@cdktn/provider-kubernetes.storageClass.StorageClassAllowedTopologies",
 		reflect.TypeOf((*StorageClassAllowedTopologies)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.storageClass.StorageClassAllowedTopologiesMatchLabelExpressions",
+		"@cdktn/provider-kubernetes.storageClass.StorageClassAllowedTopologiesMatchLabelExpressions",
 		reflect.TypeOf((*StorageClassAllowedTopologiesMatchLabelExpressions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.storageClass.StorageClassAllowedTopologiesMatchLabelExpressionsList",
+		"@cdktn/provider-kubernetes.storageClass.StorageClassAllowedTopologiesMatchLabelExpressionsList",
 		reflect.TypeOf((*StorageClassAllowedTopologiesMatchLabelExpressionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -120,7 +120,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.storageClass.StorageClassAllowedTopologiesMatchLabelExpressionsOutputReference",
+		"@cdktn/provider-kubernetes.storageClass.StorageClassAllowedTopologiesMatchLabelExpressionsOutputReference",
 		reflect.TypeOf((*StorageClassAllowedTopologiesMatchLabelExpressionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -158,7 +158,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.storageClass.StorageClassAllowedTopologiesOutputReference",
+		"@cdktn/provider-kubernetes.storageClass.StorageClassAllowedTopologiesOutputReference",
 		reflect.TypeOf((*StorageClassAllowedTopologiesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -194,15 +194,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.storageClass.StorageClassConfig",
+		"@cdktn/provider-kubernetes.storageClass.StorageClassConfig",
 		reflect.TypeOf((*StorageClassConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.storageClass.StorageClassMetadata",
+		"@cdktn/provider-kubernetes.storageClass.StorageClassMetadata",
 		reflect.TypeOf((*StorageClassMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.storageClass.StorageClassMetadataOutputReference",
+		"@cdktn/provider-kubernetes.storageClass.StorageClassMetadataOutputReference",
 		reflect.TypeOf((*StorageClassMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},

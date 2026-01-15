@@ -5,9 +5,9 @@ package datakubernetespod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataKubernetesPodSpecInitContainerLifecycleList(terraformResource cdktf.
 	j := jsiiProxy_DataKubernetesPodSpecInitContainerLifecycleList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecInitContainerLifecycleList",
+		"@cdktn/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecInitContainerLifecycleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataKubernetesPodSpecInitContainerLifecycleList_Override(d DataKubernete
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecInitContainerLifecycleList",
+		"@cdktn/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecInitContainerLifecycleList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

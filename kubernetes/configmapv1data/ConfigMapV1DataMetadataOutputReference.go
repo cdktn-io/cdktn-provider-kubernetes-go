@@ -5,9 +5,9 @@ package configmapv1data
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/configmapv1data/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/configmapv1data/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewConfigMapV1DataMetadataOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_ConfigMapV1DataMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.configMapV1Data.ConfigMapV1DataMetadataOutputReference",
+		"@cdktn/provider-kubernetes.configMapV1Data.ConfigMapV1DataMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewConfigMapV1DataMetadataOutputReference_Override(c ConfigMapV1DataMetadat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.configMapV1Data.ConfigMapV1DataMetadataOutputReference",
+		"@cdktn/provider-kubernetes.configMapV1Data.ConfigMapV1DataMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

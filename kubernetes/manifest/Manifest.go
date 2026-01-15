@@ -5,10 +5,10 @@ package manifest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/manifest/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/manifest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -463,7 +463,7 @@ func NewManifest(scope constructs.Construct, id *string, config *ManifestConfig)
 	j := jsiiProxy_Manifest{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.manifest.Manifest",
+		"@cdktn/provider-kubernetes.manifest.Manifest",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -476,7 +476,7 @@ func NewManifest_Override(m Manifest, scope constructs.Construct, id *string, co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.manifest.Manifest",
+		"@cdktn/provider-kubernetes.manifest.Manifest",
 		[]interface{}{scope, id, config},
 		m,
 	)
@@ -593,7 +593,7 @@ func Manifest_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.manifest.Manifest",
+		"@cdktn/provider-kubernetes.manifest.Manifest",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -628,7 +628,7 @@ func Manifest_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.manifest.Manifest",
+		"@cdktn/provider-kubernetes.manifest.Manifest",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -647,7 +647,7 @@ func Manifest_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.manifest.Manifest",
+		"@cdktn/provider-kubernetes.manifest.Manifest",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -666,7 +666,7 @@ func Manifest_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.manifest.Manifest",
+		"@cdktn/provider-kubernetes.manifest.Manifest",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -679,7 +679,7 @@ func Manifest_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.manifest.Manifest",
+		"@cdktn/provider-kubernetes.manifest.Manifest",
 		"tfResourceType",
 		&returns,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1",
 		reflect.TypeOf((*DefaultServiceAccountV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1Config",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1Config",
 		reflect.TypeOf((*DefaultServiceAccountV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1ImagePullSecret",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1ImagePullSecret",
 		reflect.TypeOf((*DefaultServiceAccountV1ImagePullSecret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1ImagePullSecretList",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1ImagePullSecretList",
 		reflect.TypeOf((*DefaultServiceAccountV1ImagePullSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1ImagePullSecretOutputReference",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1ImagePullSecretOutputReference",
 		reflect.TypeOf((*DefaultServiceAccountV1ImagePullSecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1Metadata",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1Metadata",
 		reflect.TypeOf((*DefaultServiceAccountV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1MetadataOutputReference",
 		reflect.TypeOf((*DefaultServiceAccountV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -201,11 +201,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1Secret",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1Secret",
 		reflect.TypeOf((*DefaultServiceAccountV1Secret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1SecretList",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1SecretList",
 		reflect.TypeOf((*DefaultServiceAccountV1SecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -227,7 +227,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1SecretOutputReference",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1SecretOutputReference",
 		reflect.TypeOf((*DefaultServiceAccountV1SecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -262,11 +262,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1Timeouts",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1Timeouts",
 		reflect.TypeOf((*DefaultServiceAccountV1Timeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1TimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1TimeoutsOutputReference",
 		reflect.TypeOf((*DefaultServiceAccountV1TimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

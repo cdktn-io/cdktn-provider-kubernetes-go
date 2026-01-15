@@ -5,10 +5,10 @@ package datakubernetesnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesnamespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -309,7 +309,7 @@ func NewDataKubernetesNamespace(scope constructs.Construct, id *string, config *
 	j := jsiiProxy_DataKubernetesNamespace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
+		"@cdktn/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -322,7 +322,7 @@ func NewDataKubernetesNamespace_Override(d DataKubernetesNamespace, scope constr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
+		"@cdktn/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -395,7 +395,7 @@ func DataKubernetesNamespace_GenerateConfigForImport(scope constructs.Construct,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
+		"@cdktn/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -430,7 +430,7 @@ func DataKubernetesNamespace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
+		"@cdktn/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -449,7 +449,7 @@ func DataKubernetesNamespace_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
+		"@cdktn/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -468,7 +468,7 @@ func DataKubernetesNamespace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
+		"@cdktn/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -481,7 +481,7 @@ func DataKubernetesNamespace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
+		"@cdktn/provider-kubernetes.dataKubernetesNamespace.DataKubernetesNamespace",
 		"tfResourceType",
 		&returns,
 	)

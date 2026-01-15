@@ -5,9 +5,9 @@ package daemonsetv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/daemonsetv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/daemonsetv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -351,7 +351,7 @@ func NewDaemonSetV1SpecTemplateSpecTopologySpreadConstraintOutputReference(terra
 	j := jsiiProxy_DaemonSetV1SpecTemplateSpecTopologySpreadConstraintOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonSetV1.DaemonSetV1SpecTemplateSpecTopologySpreadConstraintOutputReference",
+		"@cdktn/provider-kubernetes.daemonSetV1.DaemonSetV1SpecTemplateSpecTopologySpreadConstraintOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -363,7 +363,7 @@ func NewDaemonSetV1SpecTemplateSpecTopologySpreadConstraintOutputReference_Overr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonSetV1.DaemonSetV1SpecTemplateSpecTopologySpreadConstraintOutputReference",
+		"@cdktn/provider-kubernetes.daemonSetV1.DaemonSetV1SpecTemplateSpecTopologySpreadConstraintOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

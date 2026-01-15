@@ -5,9 +5,9 @@ package deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/deployment/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/deployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -350,7 +350,7 @@ func NewDeploymentSpecOutputReference(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_DeploymentSpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deployment.DeploymentSpecOutputReference",
+		"@cdktn/provider-kubernetes.deployment.DeploymentSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -362,7 +362,7 @@ func NewDeploymentSpecOutputReference_Override(d DeploymentSpecOutputReference, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deployment.DeploymentSpecOutputReference",
+		"@cdktn/provider-kubernetes.deployment.DeploymentSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

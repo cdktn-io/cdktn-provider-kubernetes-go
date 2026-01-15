@@ -5,9 +5,9 @@ package jobv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jobv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jobv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -446,7 +446,7 @@ func NewJobV1SpecOutputReference(terraformResource cdktf.IInterpolatingParent, t
 	j := jsiiProxy_JobV1SpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.jobV1.JobV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.jobV1.JobV1SpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -458,7 +458,7 @@ func NewJobV1SpecOutputReference_Override(j JobV1SpecOutputReference, terraformR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.jobV1.JobV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.jobV1.JobV1SpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		j,
 	)

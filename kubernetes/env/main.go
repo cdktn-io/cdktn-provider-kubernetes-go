@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.env.Env",
+		"@cdktn/provider-kubernetes.env.Env",
 		reflect.TypeOf((*Env)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -88,15 +88,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.env.EnvConfig",
+		"@cdktn/provider-kubernetes.env.EnvConfig",
 		reflect.TypeOf((*EnvConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.env.EnvEnv",
+		"@cdktn/provider-kubernetes.env.EnvEnv",
 		reflect.TypeOf((*EnvEnv)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.env.EnvEnvList",
+		"@cdktn/provider-kubernetes.env.EnvEnvList",
 		reflect.TypeOf((*EnvEnvList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -118,7 +118,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.env.EnvEnvOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvOutputReference",
 		reflect.TypeOf((*EnvEnvOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -159,15 +159,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFrom",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFrom",
 		reflect.TypeOf((*EnvEnvValueFrom)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromConfigMapKeyRef",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromConfigMapKeyRef",
 		reflect.TypeOf((*EnvEnvValueFromConfigMapKeyRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromConfigMapKeyRefOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromConfigMapKeyRefOutputReference",
 		reflect.TypeOf((*EnvEnvValueFromConfigMapKeyRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -208,11 +208,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromFieldRef",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromFieldRef",
 		reflect.TypeOf((*EnvEnvValueFromFieldRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromFieldRefOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromFieldRefOutputReference",
 		reflect.TypeOf((*EnvEnvValueFromFieldRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiVersion", GoGetter: "ApiVersion"},
@@ -250,7 +250,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromOutputReference",
 		reflect.TypeOf((*EnvEnvValueFromOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -298,11 +298,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromResourceFieldRef",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromResourceFieldRef",
 		reflect.TypeOf((*EnvEnvValueFromResourceFieldRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromResourceFieldRefOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromResourceFieldRefOutputReference",
 		reflect.TypeOf((*EnvEnvValueFromResourceFieldRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -342,11 +342,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromSecretKeyRef",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromSecretKeyRef",
 		reflect.TypeOf((*EnvEnvValueFromSecretKeyRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromSecretKeyRefOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromSecretKeyRefOutputReference",
 		reflect.TypeOf((*EnvEnvValueFromSecretKeyRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -387,11 +387,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.env.EnvMetadata",
+		"@cdktn/provider-kubernetes.env.EnvMetadata",
 		reflect.TypeOf((*EnvMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.env.EnvMetadataOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvMetadataOutputReference",
 		reflect.TypeOf((*EnvMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

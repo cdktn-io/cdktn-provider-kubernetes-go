@@ -5,9 +5,9 @@ package env
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/env/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/env/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewEnvEnvOutputReference(terraformResource cdktf.IInterpolatingParent, terr
 	j := jsiiProxy_EnvEnvOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.env.EnvEnvOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewEnvEnvOutputReference_Override(e EnvEnvOutputReference, terraformResourc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.env.EnvEnvOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

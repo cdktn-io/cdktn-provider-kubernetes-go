@@ -5,9 +5,9 @@ package resourcequotav1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/resourcequotav1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/resourcequotav1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewResourceQuotaV1SpecOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_ResourceQuotaV1SpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.resourceQuotaV1.ResourceQuotaV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.resourceQuotaV1.ResourceQuotaV1SpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewResourceQuotaV1SpecOutputReference_Override(r ResourceQuotaV1SpecOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.resourceQuotaV1.ResourceQuotaV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.resourceQuotaV1.ResourceQuotaV1SpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

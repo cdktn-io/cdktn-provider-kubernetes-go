@@ -5,9 +5,9 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPodSpecContainerLifecyclePreStopList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_PodSpecContainerLifecyclePreStopList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecContainerLifecyclePreStopList",
+		"@cdktn/provider-kubernetes.pod.PodSpecContainerLifecyclePreStopList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPodSpecContainerLifecyclePreStopList_Override(p PodSpecContainerLifecycl
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecContainerLifecyclePreStopList",
+		"@cdktn/provider-kubernetes.pod.PodSpecContainerLifecyclePreStopList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

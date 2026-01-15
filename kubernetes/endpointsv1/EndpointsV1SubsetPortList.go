@@ -5,9 +5,9 @@ package endpointsv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/endpointsv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/endpointsv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewEndpointsV1SubsetPortList(terraformResource cdktf.IInterpolatingParent, 
 	j := jsiiProxy_EndpointsV1SubsetPortList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpointsV1.EndpointsV1SubsetPortList",
+		"@cdktn/provider-kubernetes.endpointsV1.EndpointsV1SubsetPortList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewEndpointsV1SubsetPortList_Override(e EndpointsV1SubsetPortList, terrafor
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpointsV1.EndpointsV1SubsetPortList",
+		"@cdktn/provider-kubernetes.endpointsV1.EndpointsV1SubsetPortList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		e,
 	)

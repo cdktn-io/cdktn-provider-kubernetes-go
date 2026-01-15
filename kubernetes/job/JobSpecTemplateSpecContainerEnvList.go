@@ -5,9 +5,9 @@ package job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/job/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/job/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewJobSpecTemplateSpecContainerEnvList(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_JobSpecTemplateSpecContainerEnvList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.JobSpecTemplateSpecContainerEnvList",
+		"@cdktn/provider-kubernetes.job.JobSpecTemplateSpecContainerEnvList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewJobSpecTemplateSpecContainerEnvList_Override(j JobSpecTemplateSpecContai
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.JobSpecTemplateSpecContainerEnvList",
+		"@cdktn/provider-kubernetes.job.JobSpecTemplateSpecContainerEnvList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		j,
 	)

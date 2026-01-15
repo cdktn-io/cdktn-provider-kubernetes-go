@@ -5,9 +5,9 @@ package deploymentv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/deploymentv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/deploymentv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -686,7 +686,7 @@ func NewDeploymentV1SpecTemplateSpecContainerOutputReference(terraformResource c
 	j := jsiiProxy_DeploymentV1SpecTemplateSpecContainerOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deploymentV1.DeploymentV1SpecTemplateSpecContainerOutputReference",
+		"@cdktn/provider-kubernetes.deploymentV1.DeploymentV1SpecTemplateSpecContainerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -698,7 +698,7 @@ func NewDeploymentV1SpecTemplateSpecContainerOutputReference_Override(d Deployme
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deploymentV1.DeploymentV1SpecTemplateSpecContainerOutputReference",
+		"@cdktn/provider-kubernetes.deploymentV1.DeploymentV1SpecTemplateSpecContainerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

@@ -5,10 +5,10 @@ package poddisruptionbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/poddisruptionbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/poddisruptionbudget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -366,7 +366,7 @@ func NewPodDisruptionBudget(scope constructs.Construct, id *string, config *PodD
 	j := jsiiProxy_PodDisruptionBudget{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -379,7 +379,7 @@ func NewPodDisruptionBudget_Override(p PodDisruptionBudget, scope constructs.Con
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -474,7 +474,7 @@ func PodDisruptionBudget_GenerateConfigForImport(scope constructs.Construct, imp
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -509,7 +509,7 @@ func PodDisruptionBudget_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func PodDisruptionBudget_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func PodDisruptionBudget_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func PodDisruptionBudget_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
 		"tfResourceType",
 		&returns,
 	)

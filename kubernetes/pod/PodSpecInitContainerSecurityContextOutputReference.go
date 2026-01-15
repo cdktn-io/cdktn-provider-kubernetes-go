@@ -5,9 +5,9 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -375,7 +375,7 @@ func NewPodSpecInitContainerSecurityContextOutputReference(terraformResource cdk
 	j := jsiiProxy_PodSpecInitContainerSecurityContextOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecInitContainerSecurityContextOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecInitContainerSecurityContextOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -387,7 +387,7 @@ func NewPodSpecInitContainerSecurityContextOutputReference_Override(p PodSpecIni
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecInitContainerSecurityContextOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecInitContainerSecurityContextOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

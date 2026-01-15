@@ -5,9 +5,9 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -831,7 +831,7 @@ func NewPodSpecVolumeOutputReference(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_PodSpecVolumeOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecVolumeOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -843,7 +843,7 @@ func NewPodSpecVolumeOutputReference_Override(p PodSpecVolumeOutputReference, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecVolumeOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecVolumeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		p,
 	)

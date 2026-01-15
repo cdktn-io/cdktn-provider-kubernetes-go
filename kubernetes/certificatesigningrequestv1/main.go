@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1",
 		reflect.TypeOf((*CertificateSigningRequestV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1Config",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1Config",
 		reflect.TypeOf((*CertificateSigningRequestV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1Metadata",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1Metadata",
 		reflect.TypeOf((*CertificateSigningRequestV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1MetadataOutputReference",
 		reflect.TypeOf((*CertificateSigningRequestV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -135,11 +135,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1Spec",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1Spec",
 		reflect.TypeOf((*CertificateSigningRequestV1Spec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1SpecOutputReference",
 		reflect.TypeOf((*CertificateSigningRequestV1SpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -181,11 +181,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1Timeouts",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1Timeouts",
 		reflect.TypeOf((*CertificateSigningRequestV1Timeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1TimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1TimeoutsOutputReference",
 		reflect.TypeOf((*CertificateSigningRequestV1TimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

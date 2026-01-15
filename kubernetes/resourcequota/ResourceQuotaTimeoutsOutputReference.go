@@ -5,9 +5,9 @@ package resourcequota
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/resourcequota/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/resourcequota/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewResourceQuotaTimeoutsOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_ResourceQuotaTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.resourceQuota.ResourceQuotaTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.resourceQuota.ResourceQuotaTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewResourceQuotaTimeoutsOutputReference_Override(r ResourceQuotaTimeoutsOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.resourceQuota.ResourceQuotaTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.resourceQuota.ResourceQuotaTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

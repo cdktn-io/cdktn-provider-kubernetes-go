@@ -5,9 +5,9 @@ package datakubernetespod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecList(terrafor
 	j := jsiiProxy_DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecList",
+		"@cdktn/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecList_Override
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecList",
+		"@cdktn/provider-kubernetes.dataKubernetesPod.DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

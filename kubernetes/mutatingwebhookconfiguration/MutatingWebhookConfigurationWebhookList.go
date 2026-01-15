@@ -5,9 +5,9 @@ package mutatingwebhookconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/mutatingwebhookconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/mutatingwebhookconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewMutatingWebhookConfigurationWebhookList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_MutatingWebhookConfigurationWebhookList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.mutatingWebhookConfiguration.MutatingWebhookConfigurationWebhookList",
+		"@cdktn/provider-kubernetes.mutatingWebhookConfiguration.MutatingWebhookConfigurationWebhookList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewMutatingWebhookConfigurationWebhookList_Override(m MutatingWebhookConfig
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.mutatingWebhookConfiguration.MutatingWebhookConfigurationWebhookList",
+		"@cdktn/provider-kubernetes.mutatingWebhookConfiguration.MutatingWebhookConfigurationWebhookList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		m,
 	)

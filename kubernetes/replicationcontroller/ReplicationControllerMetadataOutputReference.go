@@ -5,9 +5,9 @@ package replicationcontroller
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/replicationcontroller/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/replicationcontroller/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewReplicationControllerMetadataOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_ReplicationControllerMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationControllerMetadataOutputReference",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationControllerMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewReplicationControllerMetadataOutputReference_Override(r ReplicationContr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationControllerMetadataOutputReference",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationControllerMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

@@ -5,9 +5,9 @@ package datakubernetespersistentvolumev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetespersistentvolumev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespersistentvolumev1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewDataKubernetesPersistentVolumeV1SpecPersistentVolumeSourceFcOutputRefere
 	j := jsiiProxy_DataKubernetesPersistentVolumeV1SpecPersistentVolumeSourceFcOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPersistentVolumeV1.DataKubernetesPersistentVolumeV1SpecPersistentVolumeSourceFcOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesPersistentVolumeV1.DataKubernetesPersistentVolumeV1SpecPersistentVolumeSourceFcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewDataKubernetesPersistentVolumeV1SpecPersistentVolumeSourceFcOutputRefere
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesPersistentVolumeV1.DataKubernetesPersistentVolumeV1SpecPersistentVolumeSourceFcOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesPersistentVolumeV1.DataKubernetesPersistentVolumeV1SpecPersistentVolumeSourceFcOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

@@ -5,9 +5,9 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPodSpecVolumeProjectedSourcesSecretList(terraformResource cdktf.IInterpo
 	j := jsiiProxy_PodSpecVolumeProjectedSourcesSecretList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecVolumeProjectedSourcesSecretList",
+		"@cdktn/provider-kubernetes.pod.PodSpecVolumeProjectedSourcesSecretList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPodSpecVolumeProjectedSourcesSecretList_Override(p PodSpecVolumeProjecte
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecVolumeProjectedSourcesSecretList",
+		"@cdktn/provider-kubernetes.pod.PodSpecVolumeProjectedSourcesSecretList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

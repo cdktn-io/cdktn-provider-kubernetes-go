@@ -5,9 +5,9 @@ package validatingwebhookconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/validatingwebhookconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/validatingwebhookconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -275,7 +275,7 @@ func NewValidatingWebhookConfigurationWebhookRuleOutputReference(terraformResour
 	j := jsiiProxy_ValidatingWebhookConfigurationWebhookRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.validatingWebhookConfiguration.ValidatingWebhookConfigurationWebhookRuleOutputReference",
+		"@cdktn/provider-kubernetes.validatingWebhookConfiguration.ValidatingWebhookConfigurationWebhookRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -287,7 +287,7 @@ func NewValidatingWebhookConfigurationWebhookRuleOutputReference_Override(v Vali
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.validatingWebhookConfiguration.ValidatingWebhookConfigurationWebhookRuleOutputReference",
+		"@cdktn/provider-kubernetes.validatingWebhookConfiguration.ValidatingWebhookConfigurationWebhookRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		v,
 	)

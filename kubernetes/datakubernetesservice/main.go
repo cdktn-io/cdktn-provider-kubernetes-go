@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesService",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesService",
 		reflect.TypeOf((*DataKubernetesService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,15 +63,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceConfig",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceConfig",
 		reflect.TypeOf((*DataKubernetesServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceMetadata",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceMetadata",
 		reflect.TypeOf((*DataKubernetesServiceMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceMetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceMetadataOutputReference",
 		reflect.TypeOf((*DataKubernetesServiceMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -118,11 +118,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpec",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpec",
 		reflect.TypeOf((*DataKubernetesServiceSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecList",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecList",
 		reflect.TypeOf((*DataKubernetesServiceSpecList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -143,7 +143,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecOutputReference",
 		reflect.TypeOf((*DataKubernetesServiceSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocateLoadBalancerNodePorts", GoGetter: "AllocateLoadBalancerNodePorts"},
@@ -194,11 +194,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecPort",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecPort",
 		reflect.TypeOf((*DataKubernetesServiceSpecPort)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecPortList",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecPortList",
 		reflect.TypeOf((*DataKubernetesServiceSpecPortList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -219,7 +219,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecPortOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecPortOutputReference",
 		reflect.TypeOf((*DataKubernetesServiceSpecPortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appProtocol", GoGetter: "AppProtocol"},
@@ -257,15 +257,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfig",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfig",
 		reflect.TypeOf((*DataKubernetesServiceSpecSessionAffinityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigClientIp",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigClientIp",
 		reflect.TypeOf((*DataKubernetesServiceSpecSessionAffinityConfigClientIp)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigClientIpList",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigClientIpList",
 		reflect.TypeOf((*DataKubernetesServiceSpecSessionAffinityConfigClientIpList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -286,7 +286,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigClientIpOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigClientIpOutputReference",
 		reflect.TypeOf((*DataKubernetesServiceSpecSessionAffinityConfigClientIpOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -319,7 +319,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigList",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigList",
 		reflect.TypeOf((*DataKubernetesServiceSpecSessionAffinityConfigList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -340,7 +340,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecSessionAffinityConfigOutputReference",
 		reflect.TypeOf((*DataKubernetesServiceSpecSessionAffinityConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientIp", GoGetter: "ClientIp"},
@@ -373,11 +373,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatus",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatus",
 		reflect.TypeOf((*DataKubernetesServiceStatus)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusList",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusList",
 		reflect.TypeOf((*DataKubernetesServiceStatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -398,15 +398,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancer",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancer",
 		reflect.TypeOf((*DataKubernetesServiceStatusLoadBalancer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerIngress",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerIngress",
 		reflect.TypeOf((*DataKubernetesServiceStatusLoadBalancerIngress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerIngressList",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerIngressList",
 		reflect.TypeOf((*DataKubernetesServiceStatusLoadBalancerIngressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -427,7 +427,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerIngressOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerIngressOutputReference",
 		reflect.TypeOf((*DataKubernetesServiceStatusLoadBalancerIngressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -461,7 +461,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerList",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerList",
 		reflect.TypeOf((*DataKubernetesServiceStatusLoadBalancerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -482,7 +482,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusLoadBalancerOutputReference",
 		reflect.TypeOf((*DataKubernetesServiceStatusLoadBalancerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -515,7 +515,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceStatusOutputReference",
 		reflect.TypeOf((*DataKubernetesServiceStatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

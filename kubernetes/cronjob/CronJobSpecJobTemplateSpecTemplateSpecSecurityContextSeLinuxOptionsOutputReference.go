@@ -5,9 +5,9 @@ package cronjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewCronJobSpecJobTemplateSpecTemplateSpecSecurityContextSeLinuxOptionsOutpu
 	j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecSecurityContextSeLinuxOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecSecurityContextSeLinuxOptionsOutputReference",
+		"@cdktn/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecSecurityContextSeLinuxOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewCronJobSpecJobTemplateSpecTemplateSpecSecurityContextSeLinuxOptionsOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecSecurityContextSeLinuxOptionsOutputReference",
+		"@cdktn/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecSecurityContextSeLinuxOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

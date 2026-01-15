@@ -5,9 +5,9 @@ package tokenrequestv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/tokenrequestv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/tokenrequestv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewTokenRequestV1SpecBoundObjectRefOutputReference(terraformResource cdktf.
 	j := jsiiProxy_TokenRequestV1SpecBoundObjectRefOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecBoundObjectRefOutputReference",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecBoundObjectRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewTokenRequestV1SpecBoundObjectRefOutputReference_Override(t TokenRequestV
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecBoundObjectRefOutputReference",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecBoundObjectRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		t,
 	)

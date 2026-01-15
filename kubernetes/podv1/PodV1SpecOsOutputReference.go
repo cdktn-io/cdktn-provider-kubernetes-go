@@ -5,9 +5,9 @@ package podv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/podv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/podv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewPodV1SpecOsOutputReference(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_PodV1SpecOsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podV1.PodV1SpecOsOutputReference",
+		"@cdktn/provider-kubernetes.podV1.PodV1SpecOsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewPodV1SpecOsOutputReference_Override(p PodV1SpecOsOutputReference, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podV1.PodV1SpecOsOutputReference",
+		"@cdktn/provider-kubernetes.podV1.PodV1SpecOsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

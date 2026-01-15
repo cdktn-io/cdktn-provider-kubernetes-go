@@ -5,9 +5,9 @@ package ingress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/ingress/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingress/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewIngressStatusLoadBalancerIngressList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_IngressStatusLoadBalancerIngressList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingress.IngressStatusLoadBalancerIngressList",
+		"@cdktn/provider-kubernetes.ingress.IngressStatusLoadBalancerIngressList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewIngressStatusLoadBalancerIngressList_Override(i IngressStatusLoadBalance
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingress.IngressStatusLoadBalancerIngressList",
+		"@cdktn/provider-kubernetes.ingress.IngressStatusLoadBalancerIngressList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

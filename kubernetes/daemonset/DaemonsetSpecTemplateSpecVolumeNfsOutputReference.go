@@ -5,9 +5,9 @@ package daemonset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewDaemonsetSpecTemplateSpecVolumeNfsOutputReference(terraformResource cdkt
 	j := jsiiProxy_DaemonsetSpecTemplateSpecVolumeNfsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonset.DaemonsetSpecTemplateSpecVolumeNfsOutputReference",
+		"@cdktn/provider-kubernetes.daemonset.DaemonsetSpecTemplateSpecVolumeNfsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewDaemonsetSpecTemplateSpecVolumeNfsOutputReference_Override(d DaemonsetSp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonset.DaemonsetSpecTemplateSpecVolumeNfsOutputReference",
+		"@cdktn/provider-kubernetes.daemonset.DaemonsetSpecTemplateSpecVolumeNfsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

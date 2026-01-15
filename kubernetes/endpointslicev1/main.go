@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1",
 		reflect.TypeOf((*EndpointSliceV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,19 +77,19 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1Config",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1Config",
 		reflect.TypeOf((*EndpointSliceV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1Endpoint",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1Endpoint",
 		reflect.TypeOf((*EndpointSliceV1Endpoint)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointCondition",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointCondition",
 		reflect.TypeOf((*EndpointSliceV1EndpointCondition)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointConditionOutputReference",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointConditionOutputReference",
 		reflect.TypeOf((*EndpointSliceV1EndpointConditionOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -130,7 +130,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointList",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointList",
 		reflect.TypeOf((*EndpointSliceV1EndpointList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -152,7 +152,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointOutputReference",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointOutputReference",
 		reflect.TypeOf((*EndpointSliceV1EndpointOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addresses", GoGetter: "Addresses"},
@@ -203,11 +203,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointTargetRef",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointTargetRef",
 		reflect.TypeOf((*EndpointSliceV1EndpointTargetRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointTargetRefOutputReference",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1EndpointTargetRefOutputReference",
 		reflect.TypeOf((*EndpointSliceV1EndpointTargetRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -253,11 +253,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1Metadata",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1Metadata",
 		reflect.TypeOf((*EndpointSliceV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1MetadataOutputReference",
 		reflect.TypeOf((*EndpointSliceV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -307,11 +307,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1Port",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1Port",
 		reflect.TypeOf((*EndpointSliceV1Port)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1PortList",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1PortList",
 		reflect.TypeOf((*EndpointSliceV1PortList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -333,7 +333,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.endpointSliceV1.EndpointSliceV1PortOutputReference",
+		"@cdktn/provider-kubernetes.endpointSliceV1.EndpointSliceV1PortOutputReference",
 		reflect.TypeOf((*EndpointSliceV1PortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appProtocol", GoGetter: "AppProtocol"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1",
 		reflect.TypeOf((*SecretV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -100,15 +100,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1Config",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1Config",
 		reflect.TypeOf((*SecretV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1Metadata",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1Metadata",
 		reflect.TypeOf((*SecretV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1MetadataOutputReference",
 		reflect.TypeOf((*SecretV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -158,11 +158,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1Timeouts",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1Timeouts",
 		reflect.TypeOf((*SecretV1Timeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1TimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1TimeoutsOutputReference",
 		reflect.TypeOf((*SecretV1TimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

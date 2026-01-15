@@ -5,10 +5,10 @@ package endpoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/endpoints/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/endpoints/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -367,7 +367,7 @@ func NewEndpoints(scope constructs.Construct, id *string, config *EndpointsConfi
 	j := jsiiProxy_Endpoints{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpoints.Endpoints",
+		"@cdktn/provider-kubernetes.endpoints.Endpoints",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -380,7 +380,7 @@ func NewEndpoints_Override(e Endpoints, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpoints.Endpoints",
+		"@cdktn/provider-kubernetes.endpoints.Endpoints",
 		[]interface{}{scope, id, config},
 		e,
 	)
@@ -475,7 +475,7 @@ func Endpoints_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.endpoints.Endpoints",
+		"@cdktn/provider-kubernetes.endpoints.Endpoints",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -510,7 +510,7 @@ func Endpoints_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.endpoints.Endpoints",
+		"@cdktn/provider-kubernetes.endpoints.Endpoints",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -529,7 +529,7 @@ func Endpoints_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.endpoints.Endpoints",
+		"@cdktn/provider-kubernetes.endpoints.Endpoints",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -548,7 +548,7 @@ func Endpoints_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.endpoints.Endpoints",
+		"@cdktn/provider-kubernetes.endpoints.Endpoints",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -561,7 +561,7 @@ func Endpoints_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.endpoints.Endpoints",
+		"@cdktn/provider-kubernetes.endpoints.Endpoints",
 		"tfResourceType",
 		&returns,
 	)

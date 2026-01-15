@@ -5,9 +5,9 @@ package statefulset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewStatefulSetSpecPersistentVolumeClaimRetentionPolicyList(terraformResourc
 	j := jsiiProxy_StatefulSetSpecPersistentVolumeClaimRetentionPolicyList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecPersistentVolumeClaimRetentionPolicyList",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecPersistentVolumeClaimRetentionPolicyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewStatefulSetSpecPersistentVolumeClaimRetentionPolicyList_Override(s State
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecPersistentVolumeClaimRetentionPolicyList",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecPersistentVolumeClaimRetentionPolicyList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

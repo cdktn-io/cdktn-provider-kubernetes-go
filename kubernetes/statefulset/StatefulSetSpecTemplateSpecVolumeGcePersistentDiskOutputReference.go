@@ -5,9 +5,9 @@ package statefulset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewStatefulSetSpecTemplateSpecVolumeGcePersistentDiskOutputReference(terraf
 	j := jsiiProxy_StatefulSetSpecTemplateSpecVolumeGcePersistentDiskOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecTemplateSpecVolumeGcePersistentDiskOutputReference",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecTemplateSpecVolumeGcePersistentDiskOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewStatefulSetSpecTemplateSpecVolumeGcePersistentDiskOutputReference_Overri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecTemplateSpecVolumeGcePersistentDiskOutputReference",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecTemplateSpecVolumeGcePersistentDiskOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

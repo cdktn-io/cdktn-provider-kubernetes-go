@@ -5,9 +5,9 @@ package ingressv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewIngressV1StatusLoadBalancerIngressOutputReference(terraformResource cdkt
 	j := jsiiProxy_IngressV1StatusLoadBalancerIngressOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngressOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewIngressV1StatusLoadBalancerIngressOutputReference_Override(i IngressV1St
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngressOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

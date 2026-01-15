@@ -5,9 +5,9 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -686,7 +686,7 @@ func NewPodSpecInitContainerOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_PodSpecInitContainerOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecInitContainerOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecInitContainerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -698,7 +698,7 @@ func NewPodSpecInitContainerOutputReference_Override(p PodSpecInitContainerOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecInitContainerOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecInitContainerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		p,
 	)

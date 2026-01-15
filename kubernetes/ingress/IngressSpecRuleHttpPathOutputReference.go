@@ -5,9 +5,9 @@ package ingress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/ingress/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingress/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewIngressSpecRuleHttpPathOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_IngressSpecRuleHttpPathOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingress.IngressSpecRuleHttpPathOutputReference",
+		"@cdktn/provider-kubernetes.ingress.IngressSpecRuleHttpPathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewIngressSpecRuleHttpPathOutputReference_Override(i IngressSpecRuleHttpPat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingress.IngressSpecRuleHttpPathOutputReference",
+		"@cdktn/provider-kubernetes.ingress.IngressSpecRuleHttpPathOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		i,
 	)

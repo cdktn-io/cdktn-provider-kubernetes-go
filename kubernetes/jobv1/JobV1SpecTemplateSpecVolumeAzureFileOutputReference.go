@@ -5,9 +5,9 @@ package jobv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jobv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jobv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewJobV1SpecTemplateSpecVolumeAzureFileOutputReference(terraformResource cd
 	j := jsiiProxy_JobV1SpecTemplateSpecVolumeAzureFileOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.jobV1.JobV1SpecTemplateSpecVolumeAzureFileOutputReference",
+		"@cdktn/provider-kubernetes.jobV1.JobV1SpecTemplateSpecVolumeAzureFileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewJobV1SpecTemplateSpecVolumeAzureFileOutputReference_Override(j JobV1Spec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.jobV1.JobV1SpecTemplateSpecVolumeAzureFileOutputReference",
+		"@cdktn/provider-kubernetes.jobV1.JobV1SpecTemplateSpecVolumeAzureFileOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		j,
 	)

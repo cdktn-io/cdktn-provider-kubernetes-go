@@ -5,9 +5,9 @@ package rolebindingv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/rolebindingv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/rolebindingv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewRoleBindingV1SubjectList(terraformResource cdktf.IInterpolatingParent, t
 	j := jsiiProxy_RoleBindingV1SubjectList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1SubjectList",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1SubjectList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewRoleBindingV1SubjectList_Override(r RoleBindingV1SubjectList, terraformR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1SubjectList",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1SubjectList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

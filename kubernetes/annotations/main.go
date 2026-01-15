@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.annotations.Annotations",
+		"@cdktn/provider-kubernetes.annotations.Annotations",
 		reflect.TypeOf((*Annotations)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.annotations.AnnotationsConfig",
+		"@cdktn/provider-kubernetes.annotations.AnnotationsConfig",
 		reflect.TypeOf((*AnnotationsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.annotations.AnnotationsMetadata",
+		"@cdktn/provider-kubernetes.annotations.AnnotationsMetadata",
 		reflect.TypeOf((*AnnotationsMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.annotations.AnnotationsMetadataOutputReference",
+		"@cdktn/provider-kubernetes.annotations.AnnotationsMetadataOutputReference",
 		reflect.TypeOf((*AnnotationsMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

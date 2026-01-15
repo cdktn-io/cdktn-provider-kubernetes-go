@@ -5,9 +5,9 @@ package poddisruptionbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/poddisruptionbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/poddisruptionbudget/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewPodDisruptionBudgetSpecSelectorOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_PodDisruptionBudgetSpecSelectorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorOutputReference",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewPodDisruptionBudgetSpecSelectorOutputReference_Override(p PodDisruptionB
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorOutputReference",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

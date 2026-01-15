@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.namespace.Namespace",
+		"@cdktn/provider-kubernetes.namespace.Namespace",
 		reflect.TypeOf((*Namespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -76,15 +76,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.namespace.NamespaceConfig",
+		"@cdktn/provider-kubernetes.namespace.NamespaceConfig",
 		reflect.TypeOf((*NamespaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.namespace.NamespaceMetadata",
+		"@cdktn/provider-kubernetes.namespace.NamespaceMetadata",
 		reflect.TypeOf((*NamespaceMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.namespace.NamespaceMetadataOutputReference",
+		"@cdktn/provider-kubernetes.namespace.NamespaceMetadataOutputReference",
 		reflect.TypeOf((*NamespaceMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -131,11 +131,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.namespace.NamespaceTimeouts",
+		"@cdktn/provider-kubernetes.namespace.NamespaceTimeouts",
 		reflect.TypeOf((*NamespaceTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.namespace.NamespaceTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.namespace.NamespaceTimeoutsOutputReference",
 		reflect.TypeOf((*NamespaceTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

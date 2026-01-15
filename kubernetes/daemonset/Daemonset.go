@@ -5,10 +5,10 @@ package daemonset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewDaemonset(scope constructs.Construct, id *string, config *DaemonsetConfi
 	j := jsiiProxy_Daemonset{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonset.Daemonset",
+		"@cdktn/provider-kubernetes.daemonset.Daemonset",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewDaemonset_Override(d Daemonset, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonset.Daemonset",
+		"@cdktn/provider-kubernetes.daemonset.Daemonset",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -533,7 +533,7 @@ func Daemonset_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.daemonset.Daemonset",
+		"@cdktn/provider-kubernetes.daemonset.Daemonset",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -568,7 +568,7 @@ func Daemonset_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.daemonset.Daemonset",
+		"@cdktn/provider-kubernetes.daemonset.Daemonset",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -587,7 +587,7 @@ func Daemonset_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.daemonset.Daemonset",
+		"@cdktn/provider-kubernetes.daemonset.Daemonset",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func Daemonset_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.daemonset.Daemonset",
+		"@cdktn/provider-kubernetes.daemonset.Daemonset",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func Daemonset_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.daemonset.Daemonset",
+		"@cdktn/provider-kubernetes.daemonset.Daemonset",
 		"tfResourceType",
 		&returns,
 	)

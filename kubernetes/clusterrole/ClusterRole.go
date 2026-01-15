@@ -5,10 +5,10 @@ package clusterrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/clusterrole/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/clusterrole/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -391,7 +391,7 @@ func NewClusterRole(scope constructs.Construct, id *string, config *ClusterRoleC
 	j := jsiiProxy_ClusterRole{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRole",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRole",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -404,7 +404,7 @@ func NewClusterRole_Override(c ClusterRole, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRole",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRole",
 		[]interface{}{scope, id, config},
 		c,
 	)
@@ -499,7 +499,7 @@ func ClusterRole_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRole",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRole",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -534,7 +534,7 @@ func ClusterRole_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRole",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRole",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -553,7 +553,7 @@ func ClusterRole_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRole",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRole",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -572,7 +572,7 @@ func ClusterRole_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRole",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRole",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -585,7 +585,7 @@ func ClusterRole_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRole",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRole",
 		"tfResourceType",
 		&returns,
 	)

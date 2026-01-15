@@ -5,10 +5,10 @@ package labels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/labels/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/labels/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -460,7 +460,7 @@ func NewLabels(scope constructs.Construct, id *string, config *LabelsConfig) Lab
 	j := jsiiProxy_Labels{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.labels.Labels",
+		"@cdktn/provider-kubernetes.labels.Labels",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -473,7 +473,7 @@ func NewLabels_Override(l Labels, scope constructs.Construct, id *string, config
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.labels.Labels",
+		"@cdktn/provider-kubernetes.labels.Labels",
 		[]interface{}{scope, id, config},
 		l,
 	)
@@ -623,7 +623,7 @@ func Labels_GenerateConfigForImport(scope constructs.Construct, importToId *stri
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.labels.Labels",
+		"@cdktn/provider-kubernetes.labels.Labels",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -658,7 +658,7 @@ func Labels_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.labels.Labels",
+		"@cdktn/provider-kubernetes.labels.Labels",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -677,7 +677,7 @@ func Labels_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.labels.Labels",
+		"@cdktn/provider-kubernetes.labels.Labels",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -696,7 +696,7 @@ func Labels_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.labels.Labels",
+		"@cdktn/provider-kubernetes.labels.Labels",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -709,7 +709,7 @@ func Labels_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.labels.Labels",
+		"@cdktn/provider-kubernetes.labels.Labels",
 		"tfResourceType",
 		&returns,
 	)

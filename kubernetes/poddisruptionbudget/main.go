@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudget",
 		reflect.TypeOf((*PodDisruptionBudget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetConfig",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetConfig",
 		reflect.TypeOf((*PodDisruptionBudgetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetMetadata",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetMetadata",
 		reflect.TypeOf((*PodDisruptionBudgetMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetMetadataOutputReference",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetMetadataOutputReference",
 		reflect.TypeOf((*PodDisruptionBudgetMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpec",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpec",
 		reflect.TypeOf((*PodDisruptionBudgetSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecOutputReference",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecOutputReference",
 		reflect.TypeOf((*PodDisruptionBudgetSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -175,15 +175,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelector",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelector",
 		reflect.TypeOf((*PodDisruptionBudgetSpecSelector)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorMatchExpressions",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorMatchExpressions",
 		reflect.TypeOf((*PodDisruptionBudgetSpecSelectorMatchExpressions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorMatchExpressionsList",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorMatchExpressionsList",
 		reflect.TypeOf((*PodDisruptionBudgetSpecSelectorMatchExpressionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -205,7 +205,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorMatchExpressionsOutputReference",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorMatchExpressionsOutputReference",
 		reflect.TypeOf((*PodDisruptionBudgetSpecSelectorMatchExpressionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -246,7 +246,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorOutputReference",
+		"@cdktn/provider-kubernetes.podDisruptionBudget.PodDisruptionBudgetSpecSelectorOutputReference",
 		reflect.TypeOf((*PodDisruptionBudgetSpecSelectorOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

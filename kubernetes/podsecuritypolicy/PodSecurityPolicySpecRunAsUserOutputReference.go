@@ -5,9 +5,9 @@ package podsecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/podsecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/podsecuritypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewPodSecurityPolicySpecRunAsUserOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_PodSecurityPolicySpecRunAsUserOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podSecurityPolicy.PodSecurityPolicySpecRunAsUserOutputReference",
+		"@cdktn/provider-kubernetes.podSecurityPolicy.PodSecurityPolicySpecRunAsUserOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewPodSecurityPolicySpecRunAsUserOutputReference_Override(p PodSecurityPoli
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podSecurityPolicy.PodSecurityPolicySpecRunAsUserOutputReference",
+		"@cdktn/provider-kubernetes.podSecurityPolicy.PodSecurityPolicySpecRunAsUserOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

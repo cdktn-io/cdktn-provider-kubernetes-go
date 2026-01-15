@@ -5,9 +5,9 @@ package limitrange
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/limitrange/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/limitrange/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewLimitRangeMetadataOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_LimitRangeMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeMetadataOutputReference",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewLimitRangeMetadataOutputReference_Override(l LimitRangeMetadataOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeMetadataOutputReference",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

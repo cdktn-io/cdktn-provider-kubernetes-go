@@ -5,9 +5,9 @@ package secret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/secret/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/secret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewSecretTimeoutsOutputReference(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_SecretTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.secret.SecretTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.secret.SecretTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewSecretTimeoutsOutputReference_Override(s SecretTimeoutsOutputReference, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.secret.SecretTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.secret.SecretTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

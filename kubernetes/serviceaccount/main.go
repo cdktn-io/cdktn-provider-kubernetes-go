@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccount",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccount",
 		reflect.TypeOf((*ServiceAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountConfig",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountConfig",
 		reflect.TypeOf((*ServiceAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountImagePullSecret",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountImagePullSecret",
 		reflect.TypeOf((*ServiceAccountImagePullSecret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountImagePullSecretList",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountImagePullSecretList",
 		reflect.TypeOf((*ServiceAccountImagePullSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountImagePullSecretOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountImagePullSecretOutputReference",
 		reflect.TypeOf((*ServiceAccountImagePullSecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountMetadata",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountMetadata",
 		reflect.TypeOf((*ServiceAccountMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountMetadataOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountMetadataOutputReference",
 		reflect.TypeOf((*ServiceAccountMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountSecret",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountSecret",
 		reflect.TypeOf((*ServiceAccountSecret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountSecretList",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountSecretList",
 		reflect.TypeOf((*ServiceAccountSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -230,7 +230,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountSecretOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountSecretOutputReference",
 		reflect.TypeOf((*ServiceAccountSecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -265,11 +265,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountTimeouts",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountTimeouts",
 		reflect.TypeOf((*ServiceAccountTimeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountTimeoutsOutputReference",
 		reflect.TypeOf((*ServiceAccountTimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package cronjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewCronJobSpecJobTemplateSpecTemplateSpecContainerVolumeMountList(terraform
 	j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerVolumeMountList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecContainerVolumeMountList",
+		"@cdktn/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecContainerVolumeMountList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewCronJobSpecJobTemplateSpecTemplateSpecContainerVolumeMountList_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecContainerVolumeMountList",
+		"@cdktn/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecContainerVolumeMountList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

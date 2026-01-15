@@ -5,9 +5,9 @@ package ingressv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewIngressV1StatusList(terraformResource cdktf.IInterpolatingParent, terraf
 	j := jsiiProxy_IngressV1StatusList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusList",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewIngressV1StatusList_Override(i IngressV1StatusList, terraformResource cd
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusList",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

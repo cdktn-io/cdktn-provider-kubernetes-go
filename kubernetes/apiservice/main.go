@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.apiService.ApiService",
+		"@cdktn/provider-kubernetes.apiService.ApiService",
 		reflect.TypeOf((*ApiService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.apiService.ApiServiceConfig",
+		"@cdktn/provider-kubernetes.apiService.ApiServiceConfig",
 		reflect.TypeOf((*ApiServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.apiService.ApiServiceMetadata",
+		"@cdktn/provider-kubernetes.apiService.ApiServiceMetadata",
 		reflect.TypeOf((*ApiServiceMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.apiService.ApiServiceMetadataOutputReference",
+		"@cdktn/provider-kubernetes.apiService.ApiServiceMetadataOutputReference",
 		reflect.TypeOf((*ApiServiceMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -127,11 +127,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.apiService.ApiServiceSpec",
+		"@cdktn/provider-kubernetes.apiService.ApiServiceSpec",
 		reflect.TypeOf((*ApiServiceSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.apiService.ApiServiceSpecOutputReference",
+		"@cdktn/provider-kubernetes.apiService.ApiServiceSpecOutputReference",
 		reflect.TypeOf((*ApiServiceSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caBundle", GoGetter: "CaBundle"},
@@ -181,11 +181,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.apiService.ApiServiceSpecService",
+		"@cdktn/provider-kubernetes.apiService.ApiServiceSpecService",
 		reflect.TypeOf((*ApiServiceSpecService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.apiService.ApiServiceSpecServiceOutputReference",
+		"@cdktn/provider-kubernetes.apiService.ApiServiceSpecServiceOutputReference",
 		reflect.TypeOf((*ApiServiceSpecServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

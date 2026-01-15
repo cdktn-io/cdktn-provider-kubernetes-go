@@ -5,9 +5,9 @@ package serviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/serviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/serviceaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewServiceAccountSecretList(terraformResource cdktf.IInterpolatingParent, t
 	j := jsiiProxy_ServiceAccountSecretList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountSecretList",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountSecretList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewServiceAccountSecretList_Override(s ServiceAccountSecretList, terraformR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountSecretList",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountSecretList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

@@ -5,9 +5,9 @@ package service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/service/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/service/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -615,7 +615,7 @@ func NewServiceSpecOutputReference(terraformResource cdktf.IInterpolatingParent,
 	j := jsiiProxy_ServiceSpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.service.ServiceSpecOutputReference",
+		"@cdktn/provider-kubernetes.service.ServiceSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -627,7 +627,7 @@ func NewServiceSpecOutputReference_Override(s ServiceSpecOutputReference, terraf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.service.ServiceSpecOutputReference",
+		"@cdktn/provider-kubernetes.service.ServiceSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

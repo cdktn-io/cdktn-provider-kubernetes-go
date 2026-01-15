@@ -5,9 +5,9 @@ package deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/deployment/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/deployment/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewDeploymentSpecTemplateSpecSecurityContextWindowsOptionsOutputReference(t
 	j := jsiiProxy_DeploymentSpecTemplateSpecSecurityContextWindowsOptionsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deployment.DeploymentSpecTemplateSpecSecurityContextWindowsOptionsOutputReference",
+		"@cdktn/provider-kubernetes.deployment.DeploymentSpecTemplateSpecSecurityContextWindowsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewDeploymentSpecTemplateSpecSecurityContextWindowsOptionsOutputReference_O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deployment.DeploymentSpecTemplateSpecSecurityContextWindowsOptionsOutputReference",
+		"@cdktn/provider-kubernetes.deployment.DeploymentSpecTemplateSpecSecurityContextWindowsOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

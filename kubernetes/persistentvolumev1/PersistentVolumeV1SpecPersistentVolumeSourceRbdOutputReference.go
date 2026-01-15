@@ -5,9 +5,9 @@ package persistentvolumev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/persistentvolumev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/persistentvolumev1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -349,7 +349,7 @@ func NewPersistentVolumeV1SpecPersistentVolumeSourceRbdOutputReference(terraform
 	j := jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceRbdOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeV1.PersistentVolumeV1SpecPersistentVolumeSourceRbdOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolumeV1.PersistentVolumeV1SpecPersistentVolumeSourceRbdOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -361,7 +361,7 @@ func NewPersistentVolumeV1SpecPersistentVolumeSourceRbdOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeV1.PersistentVolumeV1SpecPersistentVolumeSourceRbdOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolumeV1.PersistentVolumeV1SpecPersistentVolumeSourceRbdOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

@@ -5,10 +5,10 @@ package datakubernetesserverversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesserverversion/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesserverversion/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -385,7 +385,7 @@ func NewDataKubernetesServerVersion(scope constructs.Construct, id *string, conf
 	j := jsiiProxy_DataKubernetesServerVersion{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
+		"@cdktn/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -398,7 +398,7 @@ func NewDataKubernetesServerVersion_Override(d DataKubernetesServerVersion, scop
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
+		"@cdktn/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -471,7 +471,7 @@ func DataKubernetesServerVersion_GenerateConfigForImport(scope constructs.Constr
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
+		"@cdktn/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -506,7 +506,7 @@ func DataKubernetesServerVersion_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
+		"@cdktn/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -525,7 +525,7 @@ func DataKubernetesServerVersion_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
+		"@cdktn/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -544,7 +544,7 @@ func DataKubernetesServerVersion_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
+		"@cdktn/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -557,7 +557,7 @@ func DataKubernetesServerVersion_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
+		"@cdktn/provider-kubernetes.dataKubernetesServerVersion.DataKubernetesServerVersion",
 		"tfResourceType",
 		&returns,
 	)

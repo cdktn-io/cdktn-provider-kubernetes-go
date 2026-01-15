@@ -5,9 +5,9 @@ package clusterrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/clusterrole/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/clusterrole/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -288,7 +288,7 @@ func NewClusterRoleMetadataOutputReference(terraformResource cdktf.IInterpolatin
 	j := jsiiProxy_ClusterRoleMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleMetadataOutputReference",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -300,7 +300,7 @@ func NewClusterRoleMetadataOutputReference_Override(c ClusterRoleMetadataOutputR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleMetadataOutputReference",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

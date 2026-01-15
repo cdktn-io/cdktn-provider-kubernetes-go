@@ -5,9 +5,9 @@ package secretv1data
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/secretv1data/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/secretv1data/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewSecretV1DataMetadataOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_SecretV1DataMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.secretV1Data.SecretV1DataMetadataOutputReference",
+		"@cdktn/provider-kubernetes.secretV1Data.SecretV1DataMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewSecretV1DataMetadataOutputReference_Override(s SecretV1DataMetadataOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.secretV1Data.SecretV1DataMetadataOutputReference",
+		"@cdktn/provider-kubernetes.secretV1Data.SecretV1DataMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

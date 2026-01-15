@@ -5,9 +5,9 @@ package horizontalpodautoscalerv2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/horizontalpodautoscalerv2/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/horizontalpodautoscalerv2/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewHorizontalPodAutoscalerV2SpecMetricObjectTargetOutputReference(terraform
 	j := jsiiProxy_HorizontalPodAutoscalerV2SpecMetricObjectTargetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.horizontalPodAutoscalerV2.HorizontalPodAutoscalerV2SpecMetricObjectTargetOutputReference",
+		"@cdktn/provider-kubernetes.horizontalPodAutoscalerV2.HorizontalPodAutoscalerV2SpecMetricObjectTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewHorizontalPodAutoscalerV2SpecMetricObjectTargetOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.horizontalPodAutoscalerV2.HorizontalPodAutoscalerV2SpecMetricObjectTargetOutputReference",
+		"@cdktn/provider-kubernetes.horizontalPodAutoscalerV2.HorizontalPodAutoscalerV2SpecMetricObjectTargetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		h,
 	)

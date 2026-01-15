@@ -5,10 +5,10 @@ package annotations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/annotations/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/annotations/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -485,7 +485,7 @@ func NewAnnotations(scope constructs.Construct, id *string, config *AnnotationsC
 	j := jsiiProxy_Annotations{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.annotations.Annotations",
+		"@cdktn/provider-kubernetes.annotations.Annotations",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -498,7 +498,7 @@ func NewAnnotations_Override(a Annotations, scope constructs.Construct, id *stri
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.annotations.Annotations",
+		"@cdktn/provider-kubernetes.annotations.Annotations",
 		[]interface{}{scope, id, config},
 		a,
 	)
@@ -659,7 +659,7 @@ func Annotations_GenerateConfigForImport(scope constructs.Construct, importToId 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.annotations.Annotations",
+		"@cdktn/provider-kubernetes.annotations.Annotations",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -694,7 +694,7 @@ func Annotations_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.annotations.Annotations",
+		"@cdktn/provider-kubernetes.annotations.Annotations",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -713,7 +713,7 @@ func Annotations_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.annotations.Annotations",
+		"@cdktn/provider-kubernetes.annotations.Annotations",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -732,7 +732,7 @@ func Annotations_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.annotations.Annotations",
+		"@cdktn/provider-kubernetes.annotations.Annotations",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -745,7 +745,7 @@ func Annotations_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.annotations.Annotations",
+		"@cdktn/provider-kubernetes.annotations.Annotations",
 		"tfResourceType",
 		&returns,
 	)

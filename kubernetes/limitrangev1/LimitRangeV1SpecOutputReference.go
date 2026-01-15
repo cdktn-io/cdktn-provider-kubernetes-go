@@ -5,9 +5,9 @@ package limitrangev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/limitrangev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/limitrangev1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewLimitRangeV1SpecOutputReference(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_LimitRangeV1SpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.limitRangeV1.LimitRangeV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.limitRangeV1.LimitRangeV1SpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewLimitRangeV1SpecOutputReference_Override(l LimitRangeV1SpecOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.limitRangeV1.LimitRangeV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.limitRangeV1.LimitRangeV1SpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

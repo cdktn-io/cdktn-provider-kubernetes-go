@@ -5,10 +5,10 @@ package datakubernetesmutatingwebhookconfigurationv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesmutatingwebhookconfigurationv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesmutatingwebhookconfigurationv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -309,7 +309,7 @@ func NewDataKubernetesMutatingWebhookConfigurationV1(scope constructs.Construct,
 	j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
+		"@cdktn/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -322,7 +322,7 @@ func NewDataKubernetesMutatingWebhookConfigurationV1_Override(d DataKubernetesMu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
+		"@cdktn/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -395,7 +395,7 @@ func DataKubernetesMutatingWebhookConfigurationV1_GenerateConfigForImport(scope 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
+		"@cdktn/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -430,7 +430,7 @@ func DataKubernetesMutatingWebhookConfigurationV1_IsConstruct(x interface{}) *bo
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
+		"@cdktn/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -449,7 +449,7 @@ func DataKubernetesMutatingWebhookConfigurationV1_IsTerraformDataSource(x interf
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
+		"@cdktn/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -468,7 +468,7 @@ func DataKubernetesMutatingWebhookConfigurationV1_IsTerraformElement(x interface
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
+		"@cdktn/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -481,7 +481,7 @@ func DataKubernetesMutatingWebhookConfigurationV1_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
+		"@cdktn/provider-kubernetes.dataKubernetesMutatingWebhookConfigurationV1.DataKubernetesMutatingWebhookConfigurationV1",
 		"tfResourceType",
 		&returns,
 	)

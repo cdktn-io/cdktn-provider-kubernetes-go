@@ -5,9 +5,9 @@ package deploymentv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/deploymentv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/deploymentv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewDeploymentV1MetadataOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_DeploymentV1MetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deploymentV1.DeploymentV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.deploymentV1.DeploymentV1MetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewDeploymentV1MetadataOutputReference_Override(d DeploymentV1MetadataOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.deploymentV1.DeploymentV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.deploymentV1.DeploymentV1MetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

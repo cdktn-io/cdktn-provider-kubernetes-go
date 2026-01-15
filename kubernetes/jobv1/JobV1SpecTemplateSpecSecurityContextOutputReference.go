@@ -5,9 +5,9 @@ package jobv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jobv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jobv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -399,7 +399,7 @@ func NewJobV1SpecTemplateSpecSecurityContextOutputReference(terraformResource cd
 	j := jsiiProxy_JobV1SpecTemplateSpecSecurityContextOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.jobV1.JobV1SpecTemplateSpecSecurityContextOutputReference",
+		"@cdktn/provider-kubernetes.jobV1.JobV1SpecTemplateSpecSecurityContextOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -411,7 +411,7 @@ func NewJobV1SpecTemplateSpecSecurityContextOutputReference_Override(j JobV1Spec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.jobV1.JobV1SpecTemplateSpecSecurityContextOutputReference",
+		"@cdktn/provider-kubernetes.jobV1.JobV1SpecTemplateSpecSecurityContextOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		j,
 	)

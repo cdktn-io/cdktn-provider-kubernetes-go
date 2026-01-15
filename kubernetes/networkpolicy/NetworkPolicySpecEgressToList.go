@@ -5,9 +5,9 @@ package networkpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/networkpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/networkpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewNetworkPolicySpecEgressToList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_NetworkPolicySpecEgressToList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.networkPolicy.NetworkPolicySpecEgressToList",
+		"@cdktn/provider-kubernetes.networkPolicy.NetworkPolicySpecEgressToList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewNetworkPolicySpecEgressToList_Override(n NetworkPolicySpecEgressToList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.networkPolicy.NetworkPolicySpecEgressToList",
+		"@cdktn/provider-kubernetes.networkPolicy.NetworkPolicySpecEgressToList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
 	)

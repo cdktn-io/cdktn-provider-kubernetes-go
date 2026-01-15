@@ -5,9 +5,9 @@ package servicev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/servicev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/servicev1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewServiceV1SpecSessionAffinityConfigOutputReference(terraformResource cdkt
 	j := jsiiProxy_ServiceV1SpecSessionAffinityConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.serviceV1.ServiceV1SpecSessionAffinityConfigOutputReference",
+		"@cdktn/provider-kubernetes.serviceV1.ServiceV1SpecSessionAffinityConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewServiceV1SpecSessionAffinityConfigOutputReference_Override(s ServiceV1Sp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.serviceV1.ServiceV1SpecSessionAffinityConfigOutputReference",
+		"@cdktn/provider-kubernetes.serviceV1.ServiceV1SpecSessionAffinityConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.configMapV1Data.ConfigMapV1Data",
+		"@cdktn/provider-kubernetes.configMapV1Data.ConfigMapV1Data",
 		reflect.TypeOf((*ConfigMapV1Data)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.configMapV1Data.ConfigMapV1DataConfig",
+		"@cdktn/provider-kubernetes.configMapV1Data.ConfigMapV1DataConfig",
 		reflect.TypeOf((*ConfigMapV1DataConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.configMapV1Data.ConfigMapV1DataMetadata",
+		"@cdktn/provider-kubernetes.configMapV1Data.ConfigMapV1DataMetadata",
 		reflect.TypeOf((*ConfigMapV1DataMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.configMapV1Data.ConfigMapV1DataMetadataOutputReference",
+		"@cdktn/provider-kubernetes.configMapV1Data.ConfigMapV1DataMetadataOutputReference",
 		reflect.TypeOf((*ConfigMapV1DataMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

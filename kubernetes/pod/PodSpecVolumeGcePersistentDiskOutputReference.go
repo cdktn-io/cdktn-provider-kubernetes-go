@@ -5,9 +5,9 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -254,7 +254,7 @@ func NewPodSpecVolumeGcePersistentDiskOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_PodSpecVolumeGcePersistentDiskOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecVolumeGcePersistentDiskOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecVolumeGcePersistentDiskOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -266,7 +266,7 @@ func NewPodSpecVolumeGcePersistentDiskOutputReference_Override(p PodSpecVolumeGc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecVolumeGcePersistentDiskOutputReference",
+		"@cdktn/provider-kubernetes.pod.PodSpecVolumeGcePersistentDiskOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
 		reflect.TypeOf((*DataKubernetesResource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,15 +65,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceConfig",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceConfig",
 		reflect.TypeOf((*DataKubernetesResourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceMetadata",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceMetadata",
 		reflect.TypeOf((*DataKubernetesResourceMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceMetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceMetadataOutputReference",
 		reflect.TypeOf((*DataKubernetesResourceMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

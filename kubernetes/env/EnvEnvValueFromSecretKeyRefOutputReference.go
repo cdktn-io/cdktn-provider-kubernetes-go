@@ -5,9 +5,9 @@ package env
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/env/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/env/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEnvEnvValueFromSecretKeyRefOutputReference(terraformResource cdktf.IInte
 	j := jsiiProxy_EnvEnvValueFromSecretKeyRefOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromSecretKeyRefOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromSecretKeyRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEnvEnvValueFromSecretKeyRefOutputReference_Override(e EnvEnvValueFromSec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromSecretKeyRefOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromSecretKeyRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

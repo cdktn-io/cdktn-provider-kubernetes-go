@@ -5,9 +5,9 @@ package cronjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewCronJobSpecJobTemplateSpecTemplateSpecVolumeSecretItemsOutputReference(t
 	j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeSecretItemsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecVolumeSecretItemsOutputReference",
+		"@cdktn/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecVolumeSecretItemsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewCronJobSpecJobTemplateSpecTemplateSpecVolumeSecretItemsOutputReference_O
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecVolumeSecretItemsOutputReference",
+		"@cdktn/provider-kubernetes.cronJob.CronJobSpecJobTemplateSpecTemplateSpecVolumeSecretItemsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		c,
 	)

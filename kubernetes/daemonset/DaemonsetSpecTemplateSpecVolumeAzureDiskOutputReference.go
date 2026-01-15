@@ -5,9 +5,9 @@ package daemonset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -300,7 +300,7 @@ func NewDaemonsetSpecTemplateSpecVolumeAzureDiskOutputReference(terraformResourc
 	j := jsiiProxy_DaemonsetSpecTemplateSpecVolumeAzureDiskOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonset.DaemonsetSpecTemplateSpecVolumeAzureDiskOutputReference",
+		"@cdktn/provider-kubernetes.daemonset.DaemonsetSpecTemplateSpecVolumeAzureDiskOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -312,7 +312,7 @@ func NewDaemonsetSpecTemplateSpecVolumeAzureDiskOutputReference_Override(d Daemo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonset.DaemonsetSpecTemplateSpecVolumeAzureDiskOutputReference",
+		"@cdktn/provider-kubernetes.daemonset.DaemonsetSpecTemplateSpecVolumeAzureDiskOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

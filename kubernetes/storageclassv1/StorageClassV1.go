@@ -5,10 +5,10 @@ package storageclassv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/storageclassv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/storageclassv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -510,7 +510,7 @@ func NewStorageClassV1(scope constructs.Construct, id *string, config *StorageCl
 	j := jsiiProxy_StorageClassV1{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.storageClassV1.StorageClassV1",
+		"@cdktn/provider-kubernetes.storageClassV1.StorageClassV1",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -523,7 +523,7 @@ func NewStorageClassV1_Override(s StorageClassV1, scope constructs.Construct, id
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.storageClassV1.StorageClassV1",
+		"@cdktn/provider-kubernetes.storageClassV1.StorageClassV1",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -684,7 +684,7 @@ func StorageClassV1_GenerateConfigForImport(scope constructs.Construct, importTo
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.storageClassV1.StorageClassV1",
+		"@cdktn/provider-kubernetes.storageClassV1.StorageClassV1",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -719,7 +719,7 @@ func StorageClassV1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.storageClassV1.StorageClassV1",
+		"@cdktn/provider-kubernetes.storageClassV1.StorageClassV1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -738,7 +738,7 @@ func StorageClassV1_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.storageClassV1.StorageClassV1",
+		"@cdktn/provider-kubernetes.storageClassV1.StorageClassV1",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -757,7 +757,7 @@ func StorageClassV1_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.storageClassV1.StorageClassV1",
+		"@cdktn/provider-kubernetes.storageClassV1.StorageClassV1",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -770,7 +770,7 @@ func StorageClassV1_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.storageClassV1.StorageClassV1",
+		"@cdktn/provider-kubernetes.storageClassV1.StorageClassV1",
 		"tfResourceType",
 		&returns,
 	)

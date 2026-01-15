@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesResources.DataKubernetesResources",
+		"@cdktn/provider-kubernetes.dataKubernetesResources.DataKubernetesResources",
 		reflect.TypeOf((*DataKubernetesResources)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,7 +74,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesResources.DataKubernetesResourcesConfig",
+		"@cdktn/provider-kubernetes.dataKubernetesResources.DataKubernetesResourcesConfig",
 		reflect.TypeOf((*DataKubernetesResourcesConfig)(nil)).Elem(),
 	)
 }

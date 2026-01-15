@@ -5,9 +5,9 @@ package datakubernetesstorageclass
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesstorageclass/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesstorageclass/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -264,7 +264,7 @@ func NewDataKubernetesStorageClassMetadataOutputReference(terraformResource cdkt
 	j := jsiiProxy_DataKubernetesStorageClassMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesStorageClass.DataKubernetesStorageClassMetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesStorageClass.DataKubernetesStorageClassMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -276,7 +276,7 @@ func NewDataKubernetesStorageClassMetadataOutputReference_Override(d DataKuberne
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesStorageClass.DataKubernetesStorageClassMetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesStorageClass.DataKubernetesStorageClassMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

@@ -5,10 +5,10 @@ package persistentvolumeclaim
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/persistentvolumeclaim/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/persistentvolumeclaim/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewPersistentVolumeClaim(scope constructs.Construct, id *string, config *Pe
 	j := jsiiProxy_PersistentVolumeClaim{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewPersistentVolumeClaim_Override(p PersistentVolumeClaim, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -533,7 +533,7 @@ func PersistentVolumeClaim_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -568,7 +568,7 @@ func PersistentVolumeClaim_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -587,7 +587,7 @@ func PersistentVolumeClaim_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func PersistentVolumeClaim_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func PersistentVolumeClaim_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaim",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,10 +5,10 @@ package ingress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/ingress/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingress/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -401,7 +401,7 @@ func NewIngress(scope constructs.Construct, id *string, config *IngressConfig) I
 	j := jsiiProxy_Ingress{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingress.Ingress",
+		"@cdktn/provider-kubernetes.ingress.Ingress",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -414,7 +414,7 @@ func NewIngress_Override(i Ingress, scope constructs.Construct, id *string, conf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingress.Ingress",
+		"@cdktn/provider-kubernetes.ingress.Ingress",
 		[]interface{}{scope, id, config},
 		i,
 	)
@@ -520,7 +520,7 @@ func Ingress_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.ingress.Ingress",
+		"@cdktn/provider-kubernetes.ingress.Ingress",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -555,7 +555,7 @@ func Ingress_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.ingress.Ingress",
+		"@cdktn/provider-kubernetes.ingress.Ingress",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -574,7 +574,7 @@ func Ingress_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.ingress.Ingress",
+		"@cdktn/provider-kubernetes.ingress.Ingress",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -593,7 +593,7 @@ func Ingress_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.ingress.Ingress",
+		"@cdktn/provider-kubernetes.ingress.Ingress",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func Ingress_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.ingress.Ingress",
+		"@cdktn/provider-kubernetes.ingress.Ingress",
 		"tfResourceType",
 		&returns,
 	)

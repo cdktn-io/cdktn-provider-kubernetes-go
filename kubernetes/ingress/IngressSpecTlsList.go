@@ -5,9 +5,9 @@ package ingress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/ingress/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingress/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewIngressSpecTlsList(terraformResource cdktf.IInterpolatingParent, terrafo
 	j := jsiiProxy_IngressSpecTlsList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingress.IngressSpecTlsList",
+		"@cdktn/provider-kubernetes.ingress.IngressSpecTlsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewIngressSpecTlsList_Override(i IngressSpecTlsList, terraformResource cdkt
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingress.IngressSpecTlsList",
+		"@cdktn/provider-kubernetes.ingress.IngressSpecTlsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		i,
 	)

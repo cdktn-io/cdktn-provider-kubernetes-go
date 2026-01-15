@@ -5,9 +5,9 @@ package defaultserviceaccountv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/defaultserviceaccountv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/defaultserviceaccountv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewDefaultServiceAccountV1SecretOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DefaultServiceAccountV1SecretOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1SecretOutputReference",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1SecretOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewDefaultServiceAccountV1SecretOutputReference_Override(d DefaultServiceAc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1SecretOutputReference",
+		"@cdktn/provider-kubernetes.defaultServiceAccountV1.DefaultServiceAccountV1SecretOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

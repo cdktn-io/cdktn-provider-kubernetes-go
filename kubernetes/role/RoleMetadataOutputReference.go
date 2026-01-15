@@ -5,9 +5,9 @@ package role
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/role/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/role/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewRoleMetadataOutputReference(terraformResource cdktf.IInterpolatingParent
 	j := jsiiProxy_RoleMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.role.RoleMetadataOutputReference",
+		"@cdktn/provider-kubernetes.role.RoleMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewRoleMetadataOutputReference_Override(r RoleMetadataOutputReference, terr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.role.RoleMetadataOutputReference",
+		"@cdktn/provider-kubernetes.role.RoleMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		r,
 	)

@@ -5,9 +5,9 @@ package rolebinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/rolebinding/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/rolebinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -253,7 +253,7 @@ func NewRoleBindingSubjectOutputReference(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_RoleBindingSubjectOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.roleBinding.RoleBindingSubjectOutputReference",
+		"@cdktn/provider-kubernetes.roleBinding.RoleBindingSubjectOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -265,7 +265,7 @@ func NewRoleBindingSubjectOutputReference_Override(r RoleBindingSubjectOutputRef
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.roleBinding.RoleBindingSubjectOutputReference",
+		"@cdktn/provider-kubernetes.roleBinding.RoleBindingSubjectOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

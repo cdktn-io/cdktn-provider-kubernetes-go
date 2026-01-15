@@ -5,9 +5,9 @@ package daemonset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewDaemonsetSpecTemplateMetadataOutputReference(terraformResource cdktf.IIn
 	j := jsiiProxy_DaemonsetSpecTemplateMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonset.DaemonsetSpecTemplateMetadataOutputReference",
+		"@cdktn/provider-kubernetes.daemonset.DaemonsetSpecTemplateMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewDaemonsetSpecTemplateMetadataOutputReference_Override(d DaemonsetSpecTem
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.daemonset.DaemonsetSpecTemplateMetadataOutputReference",
+		"@cdktn/provider-kubernetes.daemonset.DaemonsetSpecTemplateMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

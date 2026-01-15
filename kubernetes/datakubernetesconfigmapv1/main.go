@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesConfigMapV1.DataKubernetesConfigMapV1",
+		"@cdktn/provider-kubernetes.dataKubernetesConfigMapV1.DataKubernetesConfigMapV1",
 		reflect.TypeOf((*DataKubernetesConfigMapV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,15 +66,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesConfigMapV1.DataKubernetesConfigMapV1Config",
+		"@cdktn/provider-kubernetes.dataKubernetesConfigMapV1.DataKubernetesConfigMapV1Config",
 		reflect.TypeOf((*DataKubernetesConfigMapV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.dataKubernetesConfigMapV1.DataKubernetesConfigMapV1Metadata",
+		"@cdktn/provider-kubernetes.dataKubernetesConfigMapV1.DataKubernetesConfigMapV1Metadata",
 		reflect.TypeOf((*DataKubernetesConfigMapV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.dataKubernetesConfigMapV1.DataKubernetesConfigMapV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesConfigMapV1.DataKubernetesConfigMapV1MetadataOutputReference",
 		reflect.TypeOf((*DataKubernetesConfigMapV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},

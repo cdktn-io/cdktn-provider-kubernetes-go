@@ -5,9 +5,9 @@ package clusterrolev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/clusterrolev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/clusterrolev1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewClusterRoleV1AggregationRuleOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_ClusterRoleV1AggregationRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRoleV1.ClusterRoleV1AggregationRuleOutputReference",
+		"@cdktn/provider-kubernetes.clusterRoleV1.ClusterRoleV1AggregationRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewClusterRoleV1AggregationRuleOutputReference_Override(c ClusterRoleV1Aggr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRoleV1.ClusterRoleV1AggregationRuleOutputReference",
+		"@cdktn/provider-kubernetes.clusterRoleV1.ClusterRoleV1AggregationRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

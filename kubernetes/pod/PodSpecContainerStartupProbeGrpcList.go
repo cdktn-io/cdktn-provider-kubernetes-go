@@ -5,9 +5,9 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPodSpecContainerStartupProbeGrpcList(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_PodSpecContainerStartupProbeGrpcList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecContainerStartupProbeGrpcList",
+		"@cdktn/provider-kubernetes.pod.PodSpecContainerStartupProbeGrpcList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPodSpecContainerStartupProbeGrpcList_Override(p PodSpecContainerStartupP
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecContainerStartupProbeGrpcList",
+		"@cdktn/provider-kubernetes.pod.PodSpecContainerStartupProbeGrpcList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

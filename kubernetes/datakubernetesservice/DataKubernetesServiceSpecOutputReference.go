@@ -5,9 +5,9 @@ package datakubernetesservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesservice/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesservice/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -368,7 +368,7 @@ func NewDataKubernetesServiceSpecOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_DataKubernetesServiceSpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -380,7 +380,7 @@ func NewDataKubernetesServiceSpecOutputReference_Override(d DataKubernetesServic
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesService.DataKubernetesServiceSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

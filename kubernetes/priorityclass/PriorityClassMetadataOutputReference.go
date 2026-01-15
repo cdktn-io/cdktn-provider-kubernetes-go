@@ -5,9 +5,9 @@ package priorityclass
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/priorityclass/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/priorityclass/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -288,7 +288,7 @@ func NewPriorityClassMetadataOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_PriorityClassMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.priorityClass.PriorityClassMetadataOutputReference",
+		"@cdktn/provider-kubernetes.priorityClass.PriorityClassMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -300,7 +300,7 @@ func NewPriorityClassMetadataOutputReference_Override(p PriorityClassMetadataOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.priorityClass.PriorityClassMetadataOutputReference",
+		"@cdktn/provider-kubernetes.priorityClass.PriorityClassMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

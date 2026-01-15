@@ -5,10 +5,10 @@ package persistentvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/persistentvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/persistentvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -390,7 +390,7 @@ func NewPersistentVolume(scope constructs.Construct, id *string, config *Persist
 	j := jsiiProxy_PersistentVolume{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolume.PersistentVolume",
+		"@cdktn/provider-kubernetes.persistentVolume.PersistentVolume",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -403,7 +403,7 @@ func NewPersistentVolume_Override(p PersistentVolume, scope constructs.Construct
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolume.PersistentVolume",
+		"@cdktn/provider-kubernetes.persistentVolume.PersistentVolume",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -498,7 +498,7 @@ func PersistentVolume_GenerateConfigForImport(scope constructs.Construct, import
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.persistentVolume.PersistentVolume",
+		"@cdktn/provider-kubernetes.persistentVolume.PersistentVolume",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func PersistentVolume_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.persistentVolume.PersistentVolume",
+		"@cdktn/provider-kubernetes.persistentVolume.PersistentVolume",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func PersistentVolume_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.persistentVolume.PersistentVolume",
+		"@cdktn/provider-kubernetes.persistentVolume.PersistentVolume",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func PersistentVolume_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.persistentVolume.PersistentVolume",
+		"@cdktn/provider-kubernetes.persistentVolume.PersistentVolume",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func PersistentVolume_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.persistentVolume.PersistentVolume",
+		"@cdktn/provider-kubernetes.persistentVolume.PersistentVolume",
 		"tfResourceType",
 		&returns,
 	)

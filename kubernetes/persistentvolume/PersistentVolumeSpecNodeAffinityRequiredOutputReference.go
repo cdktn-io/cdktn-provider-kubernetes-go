@@ -5,9 +5,9 @@ package persistentvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/persistentvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/persistentvolume/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -182,7 +182,7 @@ func NewPersistentVolumeSpecNodeAffinityRequiredOutputReference(terraformResourc
 	j := jsiiProxy_PersistentVolumeSpecNodeAffinityRequiredOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolume.PersistentVolumeSpecNodeAffinityRequiredOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolume.PersistentVolumeSpecNodeAffinityRequiredOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -194,7 +194,7 @@ func NewPersistentVolumeSpecNodeAffinityRequiredOutputReference_Override(p Persi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolume.PersistentVolumeSpecNodeAffinityRequiredOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolume.PersistentVolumeSpecNodeAffinityRequiredOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

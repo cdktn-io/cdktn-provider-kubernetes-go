@@ -5,9 +5,9 @@ package mutatingwebhookconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/mutatingwebhookconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/mutatingwebhookconfiguration/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewMutatingWebhookConfigurationWebhookClientConfigOutputReference(terraform
 	j := jsiiProxy_MutatingWebhookConfigurationWebhookClientConfigOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.mutatingWebhookConfiguration.MutatingWebhookConfigurationWebhookClientConfigOutputReference",
+		"@cdktn/provider-kubernetes.mutatingWebhookConfiguration.MutatingWebhookConfigurationWebhookClientConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewMutatingWebhookConfigurationWebhookClientConfigOutputReference_Override(
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.mutatingWebhookConfiguration.MutatingWebhookConfigurationWebhookClientConfigOutputReference",
+		"@cdktn/provider-kubernetes.mutatingWebhookConfiguration.MutatingWebhookConfigurationWebhookClientConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

@@ -5,9 +5,9 @@ package statefulset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewStatefulSetSpecTemplateMetadataOutputReference(terraformResource cdktf.I
 	j := jsiiProxy_StatefulSetSpecTemplateMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecTemplateMetadataOutputReference",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecTemplateMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewStatefulSetSpecTemplateMetadataOutputReference_Override(s StatefulSetSpe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecTemplateMetadataOutputReference",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecTemplateMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

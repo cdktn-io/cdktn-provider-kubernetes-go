@@ -5,10 +5,10 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewPod(scope constructs.Construct, id *string, config *PodConfig) Pod {
 	j := jsiiProxy_Pod{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.Pod",
+		"@cdktn/provider-kubernetes.pod.Pod",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewPod_Override(p Pod, scope constructs.Construct, id *string, config *PodC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.Pod",
+		"@cdktn/provider-kubernetes.pod.Pod",
 		[]interface{}{scope, id, config},
 		p,
 	)
@@ -533,7 +533,7 @@ func Pod_GenerateConfigForImport(scope constructs.Construct, importToId *string,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.pod.Pod",
+		"@cdktn/provider-kubernetes.pod.Pod",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -568,7 +568,7 @@ func Pod_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.pod.Pod",
+		"@cdktn/provider-kubernetes.pod.Pod",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -587,7 +587,7 @@ func Pod_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.pod.Pod",
+		"@cdktn/provider-kubernetes.pod.Pod",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func Pod_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.pod.Pod",
+		"@cdktn/provider-kubernetes.pod.Pod",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func Pod_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.pod.Pod",
+		"@cdktn/provider-kubernetes.pod.Pod",
 		"tfResourceType",
 		&returns,
 	)

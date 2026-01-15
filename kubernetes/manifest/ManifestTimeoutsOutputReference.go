@@ -5,9 +5,9 @@ package manifest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/manifest/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/manifest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewManifestTimeoutsOutputReference(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_ManifestTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.manifest.ManifestTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewManifestTimeoutsOutputReference_Override(m ManifestTimeoutsOutputReferen
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.manifest.ManifestTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

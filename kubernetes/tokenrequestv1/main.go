@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1",
 		reflect.TypeOf((*TokenRequestV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -74,15 +74,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1Config",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1Config",
 		reflect.TypeOf((*TokenRequestV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1Metadata",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1Metadata",
 		reflect.TypeOf((*TokenRequestV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1MetadataOutputReference",
 		reflect.TypeOf((*TokenRequestV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -132,15 +132,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1Spec",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1Spec",
 		reflect.TypeOf((*TokenRequestV1Spec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecBoundObjectRef",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecBoundObjectRef",
 		reflect.TypeOf((*TokenRequestV1SpecBoundObjectRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecBoundObjectRefOutputReference",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecBoundObjectRefOutputReference",
 		reflect.TypeOf((*TokenRequestV1SpecBoundObjectRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiVersion", GoGetter: "ApiVersion"},
@@ -184,7 +184,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.tokenRequestV1.TokenRequestV1SpecOutputReference",
 		reflect.TypeOf((*TokenRequestV1SpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audiences", GoGetter: "Audiences"},

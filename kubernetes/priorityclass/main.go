@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.priorityClass.PriorityClass",
+		"@cdktn/provider-kubernetes.priorityClass.PriorityClass",
 		reflect.TypeOf((*PriorityClass)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.priorityClass.PriorityClassConfig",
+		"@cdktn/provider-kubernetes.priorityClass.PriorityClassConfig",
 		reflect.TypeOf((*PriorityClassConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.priorityClass.PriorityClassMetadata",
+		"@cdktn/provider-kubernetes.priorityClass.PriorityClassMetadata",
 		reflect.TypeOf((*PriorityClassMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.priorityClass.PriorityClassMetadataOutputReference",
+		"@cdktn/provider-kubernetes.priorityClass.PriorityClassMetadataOutputReference",
 		reflect.TypeOf((*PriorityClassMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},

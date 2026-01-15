@@ -5,10 +5,10 @@ package job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/job/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/job/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -414,7 +414,7 @@ func NewJob(scope constructs.Construct, id *string, config *JobConfig) Job {
 	j := jsiiProxy_Job{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.Job",
+		"@cdktn/provider-kubernetes.job.Job",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -427,7 +427,7 @@ func NewJob_Override(j Job, scope constructs.Construct, id *string, config *JobC
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.job.Job",
+		"@cdktn/provider-kubernetes.job.Job",
 		[]interface{}{scope, id, config},
 		j,
 	)
@@ -533,7 +533,7 @@ func Job_GenerateConfigForImport(scope constructs.Construct, importToId *string,
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.job.Job",
+		"@cdktn/provider-kubernetes.job.Job",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -568,7 +568,7 @@ func Job_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.job.Job",
+		"@cdktn/provider-kubernetes.job.Job",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -587,7 +587,7 @@ func Job_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.job.Job",
+		"@cdktn/provider-kubernetes.job.Job",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -606,7 +606,7 @@ func Job_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.job.Job",
+		"@cdktn/provider-kubernetes.job.Job",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -619,7 +619,7 @@ func Job_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.job.Job",
+		"@cdktn/provider-kubernetes.job.Job",
 		"tfResourceType",
 		&returns,
 	)

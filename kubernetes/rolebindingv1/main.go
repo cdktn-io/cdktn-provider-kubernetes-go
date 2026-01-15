@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1",
 		reflect.TypeOf((*RoleBindingV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1Config",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1Config",
 		reflect.TypeOf((*RoleBindingV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1Metadata",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1Metadata",
 		reflect.TypeOf((*RoleBindingV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1MetadataOutputReference",
 		reflect.TypeOf((*RoleBindingV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -133,11 +133,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1RoleRef",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1RoleRef",
 		reflect.TypeOf((*RoleBindingV1RoleRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1RoleRefOutputReference",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1RoleRefOutputReference",
 		reflect.TypeOf((*RoleBindingV1RoleRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGroup", GoGetter: "ApiGroup"},
@@ -175,11 +175,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1Subject",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1Subject",
 		reflect.TypeOf((*RoleBindingV1Subject)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1SubjectList",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1SubjectList",
 		reflect.TypeOf((*RoleBindingV1SubjectList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -201,7 +201,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.roleBindingV1.RoleBindingV1SubjectOutputReference",
+		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1SubjectOutputReference",
 		reflect.TypeOf((*RoleBindingV1SubjectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGroup", GoGetter: "ApiGroup"},

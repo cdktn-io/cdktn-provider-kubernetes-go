@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.csiDriverV1.CsiDriverV1",
+		"@cdktn/provider-kubernetes.csiDriverV1.CsiDriverV1",
 		reflect.TypeOf((*CsiDriverV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.csiDriverV1.CsiDriverV1Config",
+		"@cdktn/provider-kubernetes.csiDriverV1.CsiDriverV1Config",
 		reflect.TypeOf((*CsiDriverV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.csiDriverV1.CsiDriverV1Metadata",
+		"@cdktn/provider-kubernetes.csiDriverV1.CsiDriverV1Metadata",
 		reflect.TypeOf((*CsiDriverV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.csiDriverV1.CsiDriverV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.csiDriverV1.CsiDriverV1MetadataOutputReference",
 		reflect.TypeOf((*CsiDriverV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -128,11 +128,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.csiDriverV1.CsiDriverV1Spec",
+		"@cdktn/provider-kubernetes.csiDriverV1.CsiDriverV1Spec",
 		reflect.TypeOf((*CsiDriverV1Spec)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.csiDriverV1.CsiDriverV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.csiDriverV1.CsiDriverV1SpecOutputReference",
 		reflect.TypeOf((*CsiDriverV1SpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attachRequired", GoGetter: "AttachRequired"},

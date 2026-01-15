@@ -5,9 +5,9 @@ package datakubernetesresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesresource/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesresource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewDataKubernetesResourceMetadataOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_DataKubernetesResourceMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceMetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewDataKubernetesResourceMetadataOutputReference_Override(d DataKubernetesR
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceMetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResourceMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.limitRange.LimitRange",
+		"@cdktn/provider-kubernetes.limitRange.LimitRange",
 		reflect.TypeOf((*LimitRange)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -73,15 +73,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeConfig",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeConfig",
 		reflect.TypeOf((*LimitRangeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeMetadata",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeMetadata",
 		reflect.TypeOf((*LimitRangeMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeMetadataOutputReference",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeMetadataOutputReference",
 		reflect.TypeOf((*LimitRangeMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -131,15 +131,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeSpec",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeSpec",
 		reflect.TypeOf((*LimitRangeSpec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeSpecLimit",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeSpecLimit",
 		reflect.TypeOf((*LimitRangeSpecLimit)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeSpecLimitList",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeSpecLimitList",
 		reflect.TypeOf((*LimitRangeSpecLimitList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -161,7 +161,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeSpecLimitOutputReference",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeSpecLimitOutputReference",
 		reflect.TypeOf((*LimitRangeSpecLimitOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -211,7 +211,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeSpecOutputReference",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeSpecOutputReference",
 		reflect.TypeOf((*LimitRangeSpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

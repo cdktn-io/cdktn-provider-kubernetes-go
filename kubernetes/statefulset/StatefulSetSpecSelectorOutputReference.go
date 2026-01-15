@@ -5,9 +5,9 @@ package statefulset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewStatefulSetSpecSelectorOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_StatefulSetSpecSelectorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecSelectorOutputReference",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewStatefulSetSpecSelectorOutputReference_Override(s StatefulSetSpecSelecto
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.statefulSet.StatefulSetSpecSelectorOutputReference",
+		"@cdktn/provider-kubernetes.statefulSet.StatefulSetSpecSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

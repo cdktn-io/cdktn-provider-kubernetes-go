@@ -5,9 +5,9 @@ package manifest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/manifest/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/manifest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewManifestFieldManagerOutputReference(terraformResource cdktf.IInterpolati
 	j := jsiiProxy_ManifestFieldManagerOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.manifest.ManifestFieldManagerOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestFieldManagerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewManifestFieldManagerOutputReference_Override(m ManifestFieldManagerOutpu
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.manifest.ManifestFieldManagerOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestFieldManagerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		m,
 	)

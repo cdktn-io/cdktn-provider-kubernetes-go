@@ -5,9 +5,9 @@ package datakubernetesingress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesingress/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesingress/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -181,7 +181,7 @@ func NewDataKubernetesIngressSpecTlsOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataKubernetesIngressSpecTlsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesIngress.DataKubernetesIngressSpecTlsOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesIngress.DataKubernetesIngressSpecTlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -193,7 +193,7 @@ func NewDataKubernetesIngressSpecTlsOutputReference_Override(d DataKubernetesIng
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesIngress.DataKubernetesIngressSpecTlsOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesIngress.DataKubernetesIngressSpecTlsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)

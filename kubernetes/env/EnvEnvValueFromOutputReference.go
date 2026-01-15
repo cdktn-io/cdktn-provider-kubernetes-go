@@ -5,9 +5,9 @@ package env
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/env/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/env/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -255,7 +255,7 @@ func NewEnvEnvValueFromOutputReference(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_EnvEnvValueFromOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -267,7 +267,7 @@ func NewEnvEnvValueFromOutputReference_Override(e EnvEnvValueFromOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

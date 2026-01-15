@@ -5,10 +5,10 @@ package replicationcontroller
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/replicationcontroller/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/replicationcontroller/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -390,7 +390,7 @@ func NewReplicationController(scope constructs.Construct, id *string, config *Re
 	j := jsiiProxy_ReplicationController{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationController",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationController",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -403,7 +403,7 @@ func NewReplicationController_Override(r ReplicationController, scope constructs
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationController",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationController",
 		[]interface{}{scope, id, config},
 		r,
 	)
@@ -498,7 +498,7 @@ func ReplicationController_GenerateConfigForImport(scope constructs.Construct, i
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationController",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationController",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -533,7 +533,7 @@ func ReplicationController_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationController",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationController",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -552,7 +552,7 @@ func ReplicationController_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationController",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationController",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -571,7 +571,7 @@ func ReplicationController_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationController",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationController",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -584,7 +584,7 @@ func ReplicationController_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.replicationController.ReplicationController",
+		"@cdktn/provider-kubernetes.replicationController.ReplicationController",
 		"tfResourceType",
 		&returns,
 	)

@@ -5,9 +5,9 @@ package endpointsv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/endpointsv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/endpointsv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewEndpointsV1SubsetAddressOutputReference(terraformResource cdktf.IInterpo
 	j := jsiiProxy_EndpointsV1SubsetAddressOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpointsV1.EndpointsV1SubsetAddressOutputReference",
+		"@cdktn/provider-kubernetes.endpointsV1.EndpointsV1SubsetAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewEndpointsV1SubsetAddressOutputReference_Override(e EndpointsV1SubsetAddr
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpointsV1.EndpointsV1SubsetAddressOutputReference",
+		"@cdktn/provider-kubernetes.endpointsV1.EndpointsV1SubsetAddressOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

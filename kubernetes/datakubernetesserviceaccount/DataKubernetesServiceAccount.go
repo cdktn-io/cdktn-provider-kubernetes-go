@@ -5,10 +5,10 @@ package datakubernetesserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesserviceaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -342,7 +342,7 @@ func NewDataKubernetesServiceAccount(scope constructs.Construct, id *string, con
 	j := jsiiProxy_DataKubernetesServiceAccount{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
+		"@cdktn/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -355,7 +355,7 @@ func NewDataKubernetesServiceAccount_Override(d DataKubernetesServiceAccount, sc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
+		"@cdktn/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -428,7 +428,7 @@ func DataKubernetesServiceAccount_GenerateConfigForImport(scope constructs.Const
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
+		"@cdktn/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -463,7 +463,7 @@ func DataKubernetesServiceAccount_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
+		"@cdktn/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -482,7 +482,7 @@ func DataKubernetesServiceAccount_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
+		"@cdktn/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -501,7 +501,7 @@ func DataKubernetesServiceAccount_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
+		"@cdktn/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -514,7 +514,7 @@ func DataKubernetesServiceAccount_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
+		"@cdktn/provider-kubernetes.dataKubernetesServiceAccount.DataKubernetesServiceAccount",
 		"tfResourceType",
 		&returns,
 	)

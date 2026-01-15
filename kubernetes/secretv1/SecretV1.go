@@ -5,10 +5,10 @@ package secretv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/secretv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/secretv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -583,7 +583,7 @@ func NewSecretV1(scope constructs.Construct, id *string, config *SecretV1Config)
 	j := jsiiProxy_SecretV1{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -596,7 +596,7 @@ func NewSecretV1_Override(s SecretV1, scope constructs.Construct, id *string, co
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -790,7 +790,7 @@ func SecretV1_GenerateConfigForImport(scope constructs.Construct, importToId *st
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -825,7 +825,7 @@ func SecretV1_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -844,7 +844,7 @@ func SecretV1_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -863,7 +863,7 @@ func SecretV1_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -876,7 +876,7 @@ func SecretV1_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.secretV1.SecretV1",
+		"@cdktn/provider-kubernetes.secretV1.SecretV1",
 		"tfResourceType",
 		&returns,
 	)

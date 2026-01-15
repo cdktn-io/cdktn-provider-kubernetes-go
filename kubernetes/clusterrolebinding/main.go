@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBinding",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBinding",
 		reflect.TypeOf((*ClusterRoleBinding)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -75,15 +75,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingConfig",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingConfig",
 		reflect.TypeOf((*ClusterRoleBindingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingMetadata",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingMetadata",
 		reflect.TypeOf((*ClusterRoleBindingMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingMetadataOutputReference",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingMetadataOutputReference",
 		reflect.TypeOf((*ClusterRoleBindingMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingRoleRef",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingRoleRef",
 		reflect.TypeOf((*ClusterRoleBindingRoleRef)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingRoleRefOutputReference",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingRoleRefOutputReference",
 		reflect.TypeOf((*ClusterRoleBindingRoleRefOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGroup", GoGetter: "ApiGroup"},
@@ -172,11 +172,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingSubject",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingSubject",
 		reflect.TypeOf((*ClusterRoleBindingSubject)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingSubjectList",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingSubjectList",
 		reflect.TypeOf((*ClusterRoleBindingSubjectList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -198,7 +198,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingSubjectOutputReference",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingSubjectOutputReference",
 		reflect.TypeOf((*ClusterRoleBindingSubjectOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGroup", GoGetter: "ApiGroup"},

@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1",
 		reflect.TypeOf((*IngressV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -80,15 +80,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1Config",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1Config",
 		reflect.TypeOf((*IngressV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1Metadata",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1Metadata",
 		reflect.TypeOf((*IngressV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1MetadataOutputReference",
 		reflect.TypeOf((*IngressV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -138,15 +138,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1Spec",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1Spec",
 		reflect.TypeOf((*IngressV1Spec)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackend",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackend",
 		reflect.TypeOf((*IngressV1SpecDefaultBackend)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendOutputReference",
 		reflect.TypeOf((*IngressV1SpecDefaultBackendOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -186,11 +186,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendResource",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendResource",
 		reflect.TypeOf((*IngressV1SpecDefaultBackendResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendResourceOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendResourceOutputReference",
 		reflect.TypeOf((*IngressV1SpecDefaultBackendResourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGroup", GoGetter: "ApiGroup"},
@@ -228,11 +228,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendService",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendService",
 		reflect.TypeOf((*IngressV1SpecDefaultBackendService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServiceOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServiceOutputReference",
 		reflect.TypeOf((*IngressV1SpecDefaultBackendServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -269,11 +269,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServicePort",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServicePort",
 		reflect.TypeOf((*IngressV1SpecDefaultBackendServicePort)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServicePortOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecDefaultBackendServicePortOutputReference",
 		reflect.TypeOf((*IngressV1SpecDefaultBackendServicePortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -311,7 +311,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecOutputReference",
 		reflect.TypeOf((*IngressV1SpecOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -358,15 +358,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRule",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRule",
 		reflect.TypeOf((*IngressV1SpecRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttp",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttp",
 		reflect.TypeOf((*IngressV1SpecRuleHttp)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpOutputReference",
 		reflect.TypeOf((*IngressV1SpecRuleHttpOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -401,15 +401,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPath",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPath",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPath)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackend",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackend",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathBackend)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendOutputReference",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathBackendOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -449,11 +449,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendResource",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendResource",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathBackendResource)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendResourceOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendResourceOutputReference",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathBackendResourceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGroup", GoGetter: "ApiGroup"},
@@ -491,11 +491,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendService",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendService",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathBackendService)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendServiceOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendServiceOutputReference",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathBackendServiceOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -532,11 +532,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendServicePort",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendServicePort",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathBackendServicePort)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendServicePortOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathBackendServicePortOutputReference",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathBackendServicePortOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -574,7 +574,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathList",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathList",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -596,7 +596,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleHttpPathOutputReference",
 		reflect.TypeOf((*IngressV1SpecRuleHttpPathOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backend", GoGetter: "Backend"},
@@ -638,7 +638,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleList",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleList",
 		reflect.TypeOf((*IngressV1SpecRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -660,7 +660,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecRuleOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecRuleOutputReference",
 		reflect.TypeOf((*IngressV1SpecRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -699,11 +699,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecTls",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecTls",
 		reflect.TypeOf((*IngressV1SpecTls)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecTlsList",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecTlsList",
 		reflect.TypeOf((*IngressV1SpecTlsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -725,7 +725,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1SpecTlsOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1SpecTlsOutputReference",
 		reflect.TypeOf((*IngressV1SpecTlsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -763,11 +763,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1Status",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1Status",
 		reflect.TypeOf((*IngressV1Status)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusList",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusList",
 		reflect.TypeOf((*IngressV1StatusList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -788,15 +788,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancer",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancer",
 		reflect.TypeOf((*IngressV1StatusLoadBalancer)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngress",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngress",
 		reflect.TypeOf((*IngressV1StatusLoadBalancerIngress)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngressList",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngressList",
 		reflect.TypeOf((*IngressV1StatusLoadBalancerIngressList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -817,7 +817,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngressOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerIngressOutputReference",
 		reflect.TypeOf((*IngressV1StatusLoadBalancerIngressOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -851,7 +851,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerList",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerList",
 		reflect.TypeOf((*IngressV1StatusLoadBalancerList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -872,7 +872,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusLoadBalancerOutputReference",
 		reflect.TypeOf((*IngressV1StatusLoadBalancerOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -905,7 +905,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1StatusOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1StatusOutputReference",
 		reflect.TypeOf((*IngressV1StatusOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -938,11 +938,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1Timeouts",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1Timeouts",
 		reflect.TypeOf((*IngressV1Timeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1TimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1TimeoutsOutputReference",
 		reflect.TypeOf((*IngressV1TimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

@@ -5,9 +5,9 @@ package datakubernetesnamespacev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesnamespacev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesnamespacev1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataKubernetesNamespaceV1SpecList(terraformResource cdktf.IInterpolating
 	j := jsiiProxy_DataKubernetesNamespaceV1SpecList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesNamespaceV1.DataKubernetesNamespaceV1SpecList",
+		"@cdktn/provider-kubernetes.dataKubernetesNamespaceV1.DataKubernetesNamespaceV1SpecList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataKubernetesNamespaceV1SpecList_Override(d DataKubernetesNamespaceV1Sp
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesNamespaceV1.DataKubernetesNamespaceV1SpecList",
+		"@cdktn/provider-kubernetes.dataKubernetesNamespaceV1.DataKubernetesNamespaceV1SpecList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

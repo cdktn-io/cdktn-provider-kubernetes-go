@@ -5,9 +5,9 @@ package datakubernetesingress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesingress/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesingress/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataKubernetesIngressStatusList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_DataKubernetesIngressStatusList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesIngress.DataKubernetesIngressStatusList",
+		"@cdktn/provider-kubernetes.dataKubernetesIngress.DataKubernetesIngressStatusList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataKubernetesIngressStatusList_Override(d DataKubernetesIngressStatusLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesIngress.DataKubernetesIngressStatusList",
+		"@cdktn/provider-kubernetes.dataKubernetesIngress.DataKubernetesIngressStatusList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

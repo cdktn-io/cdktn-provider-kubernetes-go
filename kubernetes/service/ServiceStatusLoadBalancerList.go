@@ -5,9 +5,9 @@ package service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/service/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/service/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewServiceStatusLoadBalancerList(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_ServiceStatusLoadBalancerList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.service.ServiceStatusLoadBalancerList",
+		"@cdktn/provider-kubernetes.service.ServiceStatusLoadBalancerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewServiceStatusLoadBalancerList_Override(s ServiceStatusLoadBalancerList, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.service.ServiceStatusLoadBalancerList",
+		"@cdktn/provider-kubernetes.service.ServiceStatusLoadBalancerList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

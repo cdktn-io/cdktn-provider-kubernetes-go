@@ -5,9 +5,9 @@ package replicationcontrollerv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/replicationcontrollerv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/replicationcontrollerv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewReplicationControllerV1SpecTemplateSpecHostAliasesList(terraformResource
 	j := jsiiProxy_ReplicationControllerV1SpecTemplateSpecHostAliasesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.replicationControllerV1.ReplicationControllerV1SpecTemplateSpecHostAliasesList",
+		"@cdktn/provider-kubernetes.replicationControllerV1.ReplicationControllerV1SpecTemplateSpecHostAliasesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewReplicationControllerV1SpecTemplateSpecHostAliasesList_Override(r Replic
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.replicationControllerV1.ReplicationControllerV1SpecTemplateSpecHostAliasesList",
+		"@cdktn/provider-kubernetes.replicationControllerV1.ReplicationControllerV1SpecTemplateSpecHostAliasesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		r,
 	)

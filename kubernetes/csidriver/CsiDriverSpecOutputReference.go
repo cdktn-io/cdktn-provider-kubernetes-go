@@ -5,9 +5,9 @@ package csidriver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/csidriver/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/csidriver/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -230,7 +230,7 @@ func NewCsiDriverSpecOutputReference(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_CsiDriverSpecOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.csiDriver.CsiDriverSpecOutputReference",
+		"@cdktn/provider-kubernetes.csiDriver.CsiDriverSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -242,7 +242,7 @@ func NewCsiDriverSpecOutputReference_Override(c CsiDriverSpecOutputReference, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.csiDriver.CsiDriverSpecOutputReference",
+		"@cdktn/provider-kubernetes.csiDriver.CsiDriverSpecOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

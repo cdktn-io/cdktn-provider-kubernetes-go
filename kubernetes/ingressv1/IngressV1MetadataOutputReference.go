@@ -5,9 +5,9 @@ package ingressv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewIngressV1MetadataOutputReference(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_IngressV1MetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1MetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewIngressV1MetadataOutputReference_Override(i IngressV1MetadataOutputRefer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.ingressV1.IngressV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.ingressV1.IngressV1MetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
 	)

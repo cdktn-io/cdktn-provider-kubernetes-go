@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1",
 		reflect.TypeOf((*ServiceAccountV1)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -85,15 +85,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1Config",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1Config",
 		reflect.TypeOf((*ServiceAccountV1Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1ImagePullSecret",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1ImagePullSecret",
 		reflect.TypeOf((*ServiceAccountV1ImagePullSecret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1ImagePullSecretList",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1ImagePullSecretList",
 		reflect.TypeOf((*ServiceAccountV1ImagePullSecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -115,7 +115,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1ImagePullSecretOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1ImagePullSecretOutputReference",
 		reflect.TypeOf((*ServiceAccountV1ImagePullSecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -150,11 +150,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1Metadata",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1Metadata",
 		reflect.TypeOf((*ServiceAccountV1Metadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1MetadataOutputReference",
 		reflect.TypeOf((*ServiceAccountV1MetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -204,11 +204,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1Secret",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1Secret",
 		reflect.TypeOf((*ServiceAccountV1Secret)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1SecretList",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1SecretList",
 		reflect.TypeOf((*ServiceAccountV1SecretList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -230,7 +230,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1SecretOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1SecretOutputReference",
 		reflect.TypeOf((*ServiceAccountV1SecretOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -265,11 +265,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1Timeouts",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1Timeouts",
 		reflect.TypeOf((*ServiceAccountV1Timeouts)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.serviceAccountV1.ServiceAccountV1TimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccountV1.ServiceAccountV1TimeoutsOutputReference",
 		reflect.TypeOf((*ServiceAccountV1TimeoutsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

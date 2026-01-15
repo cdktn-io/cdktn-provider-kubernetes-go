@@ -5,9 +5,9 @@ package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/pod/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewPodSpecTolerationList(terraformResource cdktf.IInterpolatingParent, terr
 	j := jsiiProxy_PodSpecTolerationList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecTolerationList",
+		"@cdktn/provider-kubernetes.pod.PodSpecTolerationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewPodSpecTolerationList_Override(p PodSpecTolerationList, terraformResourc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.pod.PodSpecTolerationList",
+		"@cdktn/provider-kubernetes.pod.PodSpecTolerationList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		p,
 	)

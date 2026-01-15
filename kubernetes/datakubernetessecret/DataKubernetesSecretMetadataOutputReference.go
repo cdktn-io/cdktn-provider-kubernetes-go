@@ -5,9 +5,9 @@ package datakubernetessecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetessecret/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetessecret/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewDataKubernetesSecretMetadataOutputReference(terraformResource cdktf.IInt
 	j := jsiiProxy_DataKubernetesSecretMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretMetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewDataKubernetesSecretMetadataOutputReference_Override(d DataKubernetesSec
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretMetadataOutputReference",
+		"@cdktn/provider-kubernetes.dataKubernetesSecret.DataKubernetesSecretMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		d,
 	)

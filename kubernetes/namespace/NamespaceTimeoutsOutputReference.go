@@ -5,9 +5,9 @@ package namespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/namespace/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/namespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -183,7 +183,7 @@ func NewNamespaceTimeoutsOutputReference(terraformResource cdktf.IInterpolatingP
 	j := jsiiProxy_NamespaceTimeoutsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.namespace.NamespaceTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.namespace.NamespaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -195,7 +195,7 @@ func NewNamespaceTimeoutsOutputReference_Override(n NamespaceTimeoutsOutputRefer
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.namespace.NamespaceTimeoutsOutputReference",
+		"@cdktn/provider-kubernetes.namespace.NamespaceTimeoutsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		n,
 	)

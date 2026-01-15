@@ -5,9 +5,9 @@ package podv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/podv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/podv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewPodV1SpecContainerLifecyclePreStopOutputReference(terraformResource cdkt
 	j := jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podV1.PodV1SpecContainerLifecyclePreStopOutputReference",
+		"@cdktn/provider-kubernetes.podV1.PodV1SpecContainerLifecyclePreStopOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewPodV1SpecContainerLifecyclePreStopOutputReference_Override(p PodV1SpecCo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podV1.PodV1SpecContainerLifecyclePreStopOutputReference",
+		"@cdktn/provider-kubernetes.podV1.PodV1SpecContainerLifecyclePreStopOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		p,
 	)

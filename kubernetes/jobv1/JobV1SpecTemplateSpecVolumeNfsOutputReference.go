@@ -5,9 +5,9 @@ package jobv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jobv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jobv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -229,7 +229,7 @@ func NewJobV1SpecTemplateSpecVolumeNfsOutputReference(terraformResource cdktf.II
 	j := jsiiProxy_JobV1SpecTemplateSpecVolumeNfsOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.jobV1.JobV1SpecTemplateSpecVolumeNfsOutputReference",
+		"@cdktn/provider-kubernetes.jobV1.JobV1SpecTemplateSpecVolumeNfsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -241,7 +241,7 @@ func NewJobV1SpecTemplateSpecVolumeNfsOutputReference_Override(j JobV1SpecTempla
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.jobV1.JobV1SpecTemplateSpecVolumeNfsOutputReference",
+		"@cdktn/provider-kubernetes.jobV1.JobV1SpecTemplateSpecVolumeNfsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		j,
 	)

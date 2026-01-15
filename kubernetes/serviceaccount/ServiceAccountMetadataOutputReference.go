@@ -5,9 +5,9 @@ package serviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/serviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/serviceaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -312,7 +312,7 @@ func NewServiceAccountMetadataOutputReference(terraformResource cdktf.IInterpola
 	j := jsiiProxy_ServiceAccountMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountMetadataOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -324,7 +324,7 @@ func NewServiceAccountMetadataOutputReference_Override(s ServiceAccountMetadataO
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.serviceAccount.ServiceAccountMetadataOutputReference",
+		"@cdktn/provider-kubernetes.serviceAccount.ServiceAccountMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)

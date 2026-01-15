@@ -5,9 +5,9 @@ package clusterrolebinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/clusterrolebinding/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/clusterrolebinding/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -228,7 +228,7 @@ func NewClusterRoleBindingRoleRefOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_ClusterRoleBindingRoleRefOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingRoleRefOutputReference",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingRoleRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -240,7 +240,7 @@ func NewClusterRoleBindingRoleRefOutputReference_Override(c ClusterRoleBindingRo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingRoleRefOutputReference",
+		"@cdktn/provider-kubernetes.clusterRoleBinding.ClusterRoleBindingRoleRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

@@ -5,10 +5,10 @@ package datakubernetesresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesresource/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesresource/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -344,7 +344,7 @@ func NewDataKubernetesResource(scope constructs.Construct, id *string, config *D
 	j := jsiiProxy_DataKubernetesResource{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -357,7 +357,7 @@ func NewDataKubernetesResource_Override(d DataKubernetesResource, scope construc
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
 		[]interface{}{scope, id, config},
 		d,
 	)
@@ -452,7 +452,7 @@ func DataKubernetesResource_GenerateConfigForImport(scope constructs.Construct, 
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -487,7 +487,7 @@ func DataKubernetesResource_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -506,7 +506,7 @@ func DataKubernetesResource_IsTerraformDataSource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
 		"isTerraformDataSource",
 		[]interface{}{x},
 		&returns,
@@ -525,7 +525,7 @@ func DataKubernetesResource_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -538,7 +538,7 @@ func DataKubernetesResource_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
+		"@cdktn/provider-kubernetes.dataKubernetesResource.DataKubernetesResource",
 		"tfResourceType",
 		&returns,
 	)

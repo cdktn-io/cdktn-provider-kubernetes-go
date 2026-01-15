@@ -5,9 +5,9 @@ package service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/service/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/service/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewServiceStatusList(terraformResource cdktf.IInterpolatingParent, terrafor
 	j := jsiiProxy_ServiceStatusList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.service.ServiceStatusList",
+		"@cdktn/provider-kubernetes.service.ServiceStatusList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewServiceStatusList_Override(s ServiceStatusList, terraformResource cdktf.
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.service.ServiceStatusList",
+		"@cdktn/provider-kubernetes.service.ServiceStatusList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		s,
 	)

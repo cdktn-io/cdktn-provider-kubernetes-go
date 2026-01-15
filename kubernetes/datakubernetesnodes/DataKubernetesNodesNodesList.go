@@ -5,9 +5,9 @@ package datakubernetesnodes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/datakubernetesnodes/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesnodes/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -112,7 +112,7 @@ func NewDataKubernetesNodesNodesList(terraformResource cdktf.IInterpolatingParen
 	j := jsiiProxy_DataKubernetesNodesNodesList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesNodes.DataKubernetesNodesNodesList",
+		"@cdktn/provider-kubernetes.dataKubernetesNodes.DataKubernetesNodesNodesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -124,7 +124,7 @@ func NewDataKubernetesNodesNodesList_Override(d DataKubernetesNodesNodesList, te
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.dataKubernetesNodes.DataKubernetesNodesNodesList",
+		"@cdktn/provider-kubernetes.dataKubernetesNodes.DataKubernetesNodesNodesList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

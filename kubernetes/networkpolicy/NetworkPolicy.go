@@ -5,10 +5,10 @@ package networkpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/networkpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/networkpolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -366,7 +366,7 @@ func NewNetworkPolicy(scope constructs.Construct, id *string, config *NetworkPol
 	j := jsiiProxy_NetworkPolicy{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.networkPolicy.NetworkPolicy",
+		"@cdktn/provider-kubernetes.networkPolicy.NetworkPolicy",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -379,7 +379,7 @@ func NewNetworkPolicy_Override(n NetworkPolicy, scope constructs.Construct, id *
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.networkPolicy.NetworkPolicy",
+		"@cdktn/provider-kubernetes.networkPolicy.NetworkPolicy",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -474,7 +474,7 @@ func NetworkPolicy_GenerateConfigForImport(scope constructs.Construct, importToI
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.networkPolicy.NetworkPolicy",
+		"@cdktn/provider-kubernetes.networkPolicy.NetworkPolicy",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -509,7 +509,7 @@ func NetworkPolicy_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.networkPolicy.NetworkPolicy",
+		"@cdktn/provider-kubernetes.networkPolicy.NetworkPolicy",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -528,7 +528,7 @@ func NetworkPolicy_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.networkPolicy.NetworkPolicy",
+		"@cdktn/provider-kubernetes.networkPolicy.NetworkPolicy",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -547,7 +547,7 @@ func NetworkPolicy_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.networkPolicy.NetworkPolicy",
+		"@cdktn/provider-kubernetes.networkPolicy.NetworkPolicy",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -560,7 +560,7 @@ func NetworkPolicy_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.networkPolicy.NetworkPolicy",
+		"@cdktn/provider-kubernetes.networkPolicy.NetworkPolicy",
 		"tfResourceType",
 		&returns,
 	)

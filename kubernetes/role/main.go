@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.role.Role",
+		"@cdktn/provider-kubernetes.role.Role",
 		reflect.TypeOf((*Role)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -72,15 +72,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.role.RoleConfig",
+		"@cdktn/provider-kubernetes.role.RoleConfig",
 		reflect.TypeOf((*RoleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.role.RoleMetadata",
+		"@cdktn/provider-kubernetes.role.RoleMetadata",
 		reflect.TypeOf((*RoleMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.role.RoleMetadataOutputReference",
+		"@cdktn/provider-kubernetes.role.RoleMetadataOutputReference",
 		reflect.TypeOf((*RoleMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -130,11 +130,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.role.RoleRule",
+		"@cdktn/provider-kubernetes.role.RoleRule",
 		reflect.TypeOf((*RoleRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.role.RoleRuleList",
+		"@cdktn/provider-kubernetes.role.RoleRuleList",
 		reflect.TypeOf((*RoleRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -156,7 +156,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.role.RoleRuleOutputReference",
+		"@cdktn/provider-kubernetes.role.RoleRuleOutputReference",
 		reflect.TypeOf((*RoleRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGroups", GoGetter: "ApiGroups"},

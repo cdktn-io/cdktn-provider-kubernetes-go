@@ -5,9 +5,9 @@ package podv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/podv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/podv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewPodV1SpecVolumeFlexVolumeSecretRefOutputReference(terraformResource cdkt
 	j := jsiiProxy_PodV1SpecVolumeFlexVolumeSecretRefOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podV1.PodV1SpecVolumeFlexVolumeSecretRefOutputReference",
+		"@cdktn/provider-kubernetes.podV1.PodV1SpecVolumeFlexVolumeSecretRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewPodV1SpecVolumeFlexVolumeSecretRefOutputReference_Override(p PodV1SpecVo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podV1.PodV1SpecVolumeFlexVolumeSecretRefOutputReference",
+		"@cdktn/provider-kubernetes.podV1.PodV1SpecVolumeFlexVolumeSecretRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

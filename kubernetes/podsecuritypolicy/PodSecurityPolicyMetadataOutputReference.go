@@ -5,9 +5,9 @@ package podsecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/podsecuritypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/podsecuritypolicy/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -264,7 +264,7 @@ func NewPodSecurityPolicyMetadataOutputReference(terraformResource cdktf.IInterp
 	j := jsiiProxy_PodSecurityPolicyMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podSecurityPolicy.PodSecurityPolicyMetadataOutputReference",
+		"@cdktn/provider-kubernetes.podSecurityPolicy.PodSecurityPolicyMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -276,7 +276,7 @@ func NewPodSecurityPolicyMetadataOutputReference_Override(p PodSecurityPolicyMet
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.podSecurityPolicy.PodSecurityPolicyMetadataOutputReference",
+		"@cdktn/provider-kubernetes.podSecurityPolicy.PodSecurityPolicyMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)

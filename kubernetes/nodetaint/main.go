@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.nodeTaint.NodeTaint",
+		"@cdktn/provider-kubernetes.nodeTaint.NodeTaint",
 		reflect.TypeOf((*NodeTaint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -78,15 +78,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.nodeTaint.NodeTaintConfig",
+		"@cdktn/provider-kubernetes.nodeTaint.NodeTaintConfig",
 		reflect.TypeOf((*NodeTaintConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.nodeTaint.NodeTaintMetadata",
+		"@cdktn/provider-kubernetes.nodeTaint.NodeTaintMetadata",
 		reflect.TypeOf((*NodeTaintMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.nodeTaint.NodeTaintMetadataOutputReference",
+		"@cdktn/provider-kubernetes.nodeTaint.NodeTaintMetadataOutputReference",
 		reflect.TypeOf((*NodeTaintMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -120,11 +120,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.nodeTaint.NodeTaintTaint",
+		"@cdktn/provider-kubernetes.nodeTaint.NodeTaintTaint",
 		reflect.TypeOf((*NodeTaintTaint)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.nodeTaint.NodeTaintTaintList",
+		"@cdktn/provider-kubernetes.nodeTaint.NodeTaintTaintList",
 		reflect.TypeOf((*NodeTaintTaintList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -146,7 +146,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.nodeTaint.NodeTaintTaintOutputReference",
+		"@cdktn/provider-kubernetes.nodeTaint.NodeTaintTaintOutputReference",
 		reflect.TypeOf((*NodeTaintTaintOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

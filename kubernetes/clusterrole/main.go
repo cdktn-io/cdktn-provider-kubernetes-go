@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRole",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRole",
 		reflect.TypeOf((*ClusterRole)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleAggregationRule",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleAggregationRule",
 		reflect.TypeOf((*ClusterRoleAggregationRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectors",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectors",
 		reflect.TypeOf((*ClusterRoleAggregationRuleClusterRoleSelectors)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsList",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsList",
 		reflect.TypeOf((*ClusterRoleAggregationRuleClusterRoleSelectorsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -107,11 +107,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressions",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressions",
 		reflect.TypeOf((*ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressions)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressionsList",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressionsList",
 		reflect.TypeOf((*ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressionsList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -133,7 +133,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressionsOutputReference",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressionsOutputReference",
 		reflect.TypeOf((*ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressionsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -174,7 +174,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsOutputReference",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleClusterRoleSelectorsOutputReference",
 		reflect.TypeOf((*ClusterRoleAggregationRuleClusterRoleSelectorsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -213,7 +213,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleOutputReference",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleAggregationRuleOutputReference",
 		reflect.TypeOf((*ClusterRoleAggregationRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterRoleSelectors", GoGetter: "ClusterRoleSelectors"},
@@ -249,15 +249,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleConfig",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleConfig",
 		reflect.TypeOf((*ClusterRoleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleMetadata",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleMetadata",
 		reflect.TypeOf((*ClusterRoleMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleMetadataOutputReference",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleMetadataOutputReference",
 		reflect.TypeOf((*ClusterRoleMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
@@ -304,11 +304,11 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleRule",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleRule",
 		reflect.TypeOf((*ClusterRoleRule)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleRuleList",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleRuleList",
 		reflect.TypeOf((*ClusterRoleRuleList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
@@ -330,7 +330,7 @@ func init() {
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.clusterRole.ClusterRoleRuleOutputReference",
+		"@cdktn/provider-kubernetes.clusterRole.ClusterRoleRuleOutputReference",
 		reflect.TypeOf((*ClusterRoleRuleOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGroups", GoGetter: "ApiGroups"},

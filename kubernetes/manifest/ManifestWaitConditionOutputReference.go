@@ -5,9 +5,9 @@ package manifest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/manifest/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/manifest/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewManifestWaitConditionOutputReference(terraformResource cdktf.IInterpolat
 	j := jsiiProxy_ManifestWaitConditionOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.manifest.ManifestWaitConditionOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestWaitConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewManifestWaitConditionOutputReference_Override(m ManifestWaitConditionOut
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.manifest.ManifestWaitConditionOutputReference",
+		"@cdktn/provider-kubernetes.manifest.ManifestWaitConditionOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
 	)

@@ -5,9 +5,9 @@ package env
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/env/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/env/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewEnvEnvValueFromFieldRefOutputReference(terraformResource cdktf.IInterpol
 	j := jsiiProxy_EnvEnvValueFromFieldRefOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromFieldRefOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromFieldRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewEnvEnvValueFromFieldRefOutputReference_Override(e EnvEnvValueFromFieldRe
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.env.EnvEnvValueFromFieldRefOutputReference",
+		"@cdktn/provider-kubernetes.env.EnvEnvValueFromFieldRefOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
 	)

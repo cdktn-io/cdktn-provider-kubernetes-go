@@ -5,10 +5,10 @@ package namespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/namespace/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/namespace/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -391,7 +391,7 @@ func NewNamespace(scope constructs.Construct, id *string, config *NamespaceConfi
 	j := jsiiProxy_Namespace{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.namespace.Namespace",
+		"@cdktn/provider-kubernetes.namespace.Namespace",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -404,7 +404,7 @@ func NewNamespace_Override(n Namespace, scope constructs.Construct, id *string, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.namespace.Namespace",
+		"@cdktn/provider-kubernetes.namespace.Namespace",
 		[]interface{}{scope, id, config},
 		n,
 	)
@@ -510,7 +510,7 @@ func Namespace_GenerateConfigForImport(scope constructs.Construct, importToId *s
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.namespace.Namespace",
+		"@cdktn/provider-kubernetes.namespace.Namespace",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -545,7 +545,7 @@ func Namespace_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.namespace.Namespace",
+		"@cdktn/provider-kubernetes.namespace.Namespace",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -564,7 +564,7 @@ func Namespace_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.namespace.Namespace",
+		"@cdktn/provider-kubernetes.namespace.Namespace",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -583,7 +583,7 @@ func Namespace_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.namespace.Namespace",
+		"@cdktn/provider-kubernetes.namespace.Namespace",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -596,7 +596,7 @@ func Namespace_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.namespace.Namespace",
+		"@cdktn/provider-kubernetes.namespace.Namespace",
 		"tfResourceType",
 		&returns,
 	)

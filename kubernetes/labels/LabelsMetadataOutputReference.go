@@ -5,9 +5,9 @@ package labels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/labels/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/labels/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -206,7 +206,7 @@ func NewLabelsMetadataOutputReference(terraformResource cdktf.IInterpolatingPare
 	j := jsiiProxy_LabelsMetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.labels.LabelsMetadataOutputReference",
+		"@cdktn/provider-kubernetes.labels.LabelsMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -218,7 +218,7 @@ func NewLabelsMetadataOutputReference_Override(l LabelsMetadataOutputReference, 
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.labels.LabelsMetadataOutputReference",
+		"@cdktn/provider-kubernetes.labels.LabelsMetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		l,
 	)

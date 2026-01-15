@@ -5,9 +5,9 @@ package defaultserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/defaultserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/defaultserviceaccount/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewDefaultServiceAccountImagePullSecretList(terraformResource cdktf.IInterp
 	j := jsiiProxy_DefaultServiceAccountImagePullSecretList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.defaultServiceAccount.DefaultServiceAccountImagePullSecretList",
+		"@cdktn/provider-kubernetes.defaultServiceAccount.DefaultServiceAccountImagePullSecretList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewDefaultServiceAccountImagePullSecretList_Override(d DefaultServiceAccoun
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.defaultServiceAccount.DefaultServiceAccountImagePullSecretList",
+		"@cdktn/provider-kubernetes.defaultServiceAccount.DefaultServiceAccountImagePullSecretList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		d,
 	)

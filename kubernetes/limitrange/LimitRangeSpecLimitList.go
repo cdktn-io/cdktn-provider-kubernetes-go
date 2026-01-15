@@ -5,9 +5,9 @@ package limitrange
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/limitrange/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/limitrange/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewLimitRangeSpecLimitList(terraformResource cdktf.IInterpolatingParent, te
 	j := jsiiProxy_LimitRangeSpecLimitList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeSpecLimitList",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeSpecLimitList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewLimitRangeSpecLimitList_Override(l LimitRangeSpecLimitList, terraformRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.limitRange.LimitRangeSpecLimitList",
+		"@cdktn/provider-kubernetes.limitRange.LimitRangeSpecLimitList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		l,
 	)

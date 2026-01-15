@@ -5,9 +5,9 @@ package role
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/role/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/role/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -252,7 +252,7 @@ func NewRoleRuleOutputReference(terraformResource cdktf.IInterpolatingParent, te
 	j := jsiiProxy_RoleRuleOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.role.RoleRuleOutputReference",
+		"@cdktn/provider-kubernetes.role.RoleRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -264,7 +264,7 @@ func NewRoleRuleOutputReference_Override(r RoleRuleOutputReference, terraformRes
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.role.RoleRuleOutputReference",
+		"@cdktn/provider-kubernetes.role.RoleRuleOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)

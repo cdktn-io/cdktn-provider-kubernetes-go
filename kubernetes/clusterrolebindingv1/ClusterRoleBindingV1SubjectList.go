@@ -5,9 +5,9 @@ package clusterrolebindingv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/clusterrolebindingv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/clusterrolebindingv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -124,7 +124,7 @@ func NewClusterRoleBindingV1SubjectList(terraformResource cdktf.IInterpolatingPa
 	j := jsiiProxy_ClusterRoleBindingV1SubjectList{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRoleBindingV1.ClusterRoleBindingV1SubjectList",
+		"@cdktn/provider-kubernetes.clusterRoleBindingV1.ClusterRoleBindingV1SubjectList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		&j,
 	)
@@ -136,7 +136,7 @@ func NewClusterRoleBindingV1SubjectList_Override(c ClusterRoleBindingV1SubjectLi
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.clusterRoleBindingV1.ClusterRoleBindingV1SubjectList",
+		"@cdktn/provider-kubernetes.clusterRoleBindingV1.ClusterRoleBindingV1SubjectList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		c,
 	)

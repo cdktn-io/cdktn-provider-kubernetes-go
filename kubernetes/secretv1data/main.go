@@ -11,7 +11,7 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.secretV1Data.SecretV1Data",
+		"@cdktn/provider-kubernetes.secretV1Data.SecretV1Data",
 		reflect.TypeOf((*SecretV1Data)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -77,15 +77,15 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.secretV1Data.SecretV1DataConfig",
+		"@cdktn/provider-kubernetes.secretV1Data.SecretV1DataConfig",
 		reflect.TypeOf((*SecretV1DataConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktf/provider-kubernetes.secretV1Data.SecretV1DataMetadata",
+		"@cdktn/provider-kubernetes.secretV1Data.SecretV1DataMetadata",
 		reflect.TypeOf((*SecretV1DataMetadata)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktf/provider-kubernetes.secretV1Data.SecretV1DataMetadataOutputReference",
+		"@cdktn/provider-kubernetes.secretV1Data.SecretV1DataMetadataOutputReference",
 		reflect.TypeOf((*SecretV1DataMetadataOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},

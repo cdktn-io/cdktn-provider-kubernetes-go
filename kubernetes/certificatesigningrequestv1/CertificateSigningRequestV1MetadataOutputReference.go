@@ -5,9 +5,9 @@ package certificatesigningrequestv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/certificatesigningrequestv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/certificatesigningrequestv1/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -288,7 +288,7 @@ func NewCertificateSigningRequestV1MetadataOutputReference(terraformResource cdk
 	j := jsiiProxy_CertificateSigningRequestV1MetadataOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1MetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -300,7 +300,7 @@ func NewCertificateSigningRequestV1MetadataOutputReference_Override(c Certificat
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1MetadataOutputReference",
+		"@cdktn/provider-kubernetes.certificateSigningRequestV1.CertificateSigningRequestV1MetadataOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
 	)

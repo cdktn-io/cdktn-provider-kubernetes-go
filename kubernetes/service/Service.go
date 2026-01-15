@@ -5,10 +5,10 @@ package service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/service/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/service/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -425,7 +425,7 @@ func NewService(scope constructs.Construct, id *string, config *ServiceConfig) S
 	j := jsiiProxy_Service{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.service.Service",
+		"@cdktn/provider-kubernetes.service.Service",
 		[]interface{}{scope, id, config},
 		&j,
 	)
@@ -438,7 +438,7 @@ func NewService_Override(s Service, scope constructs.Construct, id *string, conf
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.service.Service",
+		"@cdktn/provider-kubernetes.service.Service",
 		[]interface{}{scope, id, config},
 		s,
 	)
@@ -544,7 +544,7 @@ func Service_GenerateConfigForImport(scope constructs.Construct, importToId *str
 	var returns cdktf.ImportableResource
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.service.Service",
+		"@cdktn/provider-kubernetes.service.Service",
 		"generateConfigForImport",
 		[]interface{}{scope, importToId, importFromId, provider},
 		&returns,
@@ -579,7 +579,7 @@ func Service_IsConstruct(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.service.Service",
+		"@cdktn/provider-kubernetes.service.Service",
 		"isConstruct",
 		[]interface{}{x},
 		&returns,
@@ -598,7 +598,7 @@ func Service_IsTerraformElement(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.service.Service",
+		"@cdktn/provider-kubernetes.service.Service",
 		"isTerraformElement",
 		[]interface{}{x},
 		&returns,
@@ -617,7 +617,7 @@ func Service_IsTerraformResource(x interface{}) *bool {
 	var returns *bool
 
 	_jsii_.StaticInvoke(
-		"@cdktf/provider-kubernetes.service.Service",
+		"@cdktn/provider-kubernetes.service.Service",
 		"isTerraformResource",
 		[]interface{}{x},
 		&returns,
@@ -630,7 +630,7 @@ func Service_TfResourceType() *string {
 	_init_.Initialize()
 	var returns *string
 	_jsii_.StaticGet(
-		"@cdktf/provider-kubernetes.service.Service",
+		"@cdktn/provider-kubernetes.service.Service",
 		"tfResourceType",
 		&returns,
 	)

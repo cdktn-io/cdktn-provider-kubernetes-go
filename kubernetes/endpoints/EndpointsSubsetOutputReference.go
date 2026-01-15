@@ -5,9 +5,9 @@ package endpoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/endpoints/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/endpoints/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -231,7 +231,7 @@ func NewEndpointsSubsetOutputReference(terraformResource cdktf.IInterpolatingPar
 	j := jsiiProxy_EndpointsSubsetOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpoints.EndpointsSubsetOutputReference",
+		"@cdktn/provider-kubernetes.endpoints.EndpointsSubsetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
@@ -243,7 +243,7 @@ func NewEndpointsSubsetOutputReference_Override(e EndpointsSubsetOutputReference
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.endpoints.EndpointsSubsetOutputReference",
+		"@cdktn/provider-kubernetes.endpoints.EndpointsSubsetOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		e,
 	)

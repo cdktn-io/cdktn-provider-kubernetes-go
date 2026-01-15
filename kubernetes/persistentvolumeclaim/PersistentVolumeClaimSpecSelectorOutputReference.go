@@ -5,9 +5,9 @@ package persistentvolumeclaim
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
 
-	"github.com/cdktf/cdktf-provider-kubernetes-go/kubernetes/v12/persistentvolumeclaim/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/persistentvolumeclaim/internal"
 	"github.com/hashicorp/terraform-cdk-go/cdktf"
 )
 
@@ -207,7 +207,7 @@ func NewPersistentVolumeClaimSpecSelectorOutputReference(terraformResource cdktf
 	j := jsiiProxy_PersistentVolumeClaimSpecSelectorOutputReference{}
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaimSpecSelectorOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaimSpecSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
@@ -219,7 +219,7 @@ func NewPersistentVolumeClaimSpecSelectorOutputReference_Override(p PersistentVo
 	_init_.Initialize()
 
 	_jsii_.Create(
-		"@cdktf/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaimSpecSelectorOutputReference",
+		"@cdktn/provider-kubernetes.persistentVolumeClaim.PersistentVolumeClaimSpecSelectorOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
 	)
