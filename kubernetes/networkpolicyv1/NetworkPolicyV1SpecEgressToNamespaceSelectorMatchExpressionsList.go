@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkpolicyv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/networkpolicyv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/networkpolicyv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList interface 
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList interface 
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList interface 
 
 // The jsii proxy struct for NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList
 type jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsL
 	return returns
 }
 
-func (j *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsL
 }
 
 
-func NewNetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList {
+func NewNetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList {
 	_init_.Initialize()
 
 	if err := validateNewNetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewNetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList(terrafo
 	return &j
 }
 
-func NewNetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList_Override(n NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewNetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList_Override(n NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsL
 	)
 }
 
-func (j *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsL
 	)
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (n *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := n.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		n,
@@ -231,7 +231,7 @@ func (n *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsL
 	return returns
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkPolicyV1SpecEgressToNamespaceSelectorMatchExpressionsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

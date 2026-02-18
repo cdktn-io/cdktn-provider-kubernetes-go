@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cronjobv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/cronjobv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/cronjobv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -57,9 +57,9 @@ type CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReferenc
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeoutSeconds() *float64
 	SetTimeoutSeconds(val *float64)
 	TimeoutSecondsInput() *float64
@@ -68,7 +68,7 @@ type CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReferenc
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -84,9 +84,9 @@ type CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReferenc
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExec(value *CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeExec)
 	PutGrpc(value interface{})
 	PutHttpGet(value *CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeHttpGet)
@@ -102,7 +102,7 @@ type CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReferenc
 	ResetTimeoutSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ type CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReferenc
 
 // The jsii proxy struct for CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference
 type jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) ComplexObjectIndex() interface{} {
@@ -335,8 +335,8 @@ func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbe
 	return returns
 }
 
-func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -366,7 +366,7 @@ func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbe
 }
 
 
-func NewCronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference {
+func NewCronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -383,7 +383,7 @@ func NewCronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputRefer
 	return &j
 }
 
-func NewCronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference_Override(c CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference_Override(c CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -481,7 +481,7 @@ func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbe
 	)
 }
 
-func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -532,11 +532,11 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbe
 	return returns
 }
 
-func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -660,8 +660,8 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbe
 	return returns
 }
 
-func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -673,11 +673,11 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbe
 	return returns
 }
 
-func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -805,7 +805,7 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbe
 	)
 }
 
-func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

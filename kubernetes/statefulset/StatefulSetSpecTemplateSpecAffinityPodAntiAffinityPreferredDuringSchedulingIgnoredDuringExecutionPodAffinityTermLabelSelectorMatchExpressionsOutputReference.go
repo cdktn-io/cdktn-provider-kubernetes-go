@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package statefulset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/statefulset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/statefulset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringScheduling
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	SetValues(val *[]*string)
 	ValuesInput() *[]*string
@@ -54,7 +54,7 @@ type StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringScheduling
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringScheduling
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKey()
 	ResetOperator()
 	ResetValues()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringScheduling
 
 // The jsii proxy struct for StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference
 type jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDu
 	return returns
 }
 
-func (j *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDu
 }
 
 
-func NewStatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference {
+func NewStatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -239,7 +239,7 @@ func NewStatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedul
 	return &j
 }
 
-func NewStatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference_Override(s StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewStatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference_Override(s StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDu
 	)
 }
 
-func (j *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDu
 	return returns
 }
 
-func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -494,8 +494,8 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDu
 	return returns
 }
 
-func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -507,11 +507,11 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDu
 	return returns
 }
 
-func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -547,7 +547,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDu
 	)
 }
 
-func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StatefulSetSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package podsecuritypolicyv1beta1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/podsecuritypolicyv1beta1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/podsecuritypolicyv1beta1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PodSecurityPolicyV1Beta1SpecHostPortsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type PodSecurityPolicyV1Beta1SpecHostPortsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type PodSecurityPolicyV1Beta1SpecHostPortsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) PodSecurityPolicyV1Beta1SpecHostPortsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type PodSecurityPolicyV1Beta1SpecHostPortsList interface {
 
 // The jsii proxy struct for PodSecurityPolicyV1Beta1SpecHostPortsList
 type jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) WrapsSet() *bool {
 }
 
 
-func NewPodSecurityPolicyV1Beta1SpecHostPortsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PodSecurityPolicyV1Beta1SpecHostPortsList {
+func NewPodSecurityPolicyV1Beta1SpecHostPortsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PodSecurityPolicyV1Beta1SpecHostPortsList {
 	_init_.Initialize()
 
 	if err := validateNewPodSecurityPolicyV1Beta1SpecHostPortsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewPodSecurityPolicyV1Beta1SpecHostPortsList(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewPodSecurityPolicyV1Beta1SpecHostPortsList_Override(p PodSecurityPolicyV1Beta1SpecHostPortsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewPodSecurityPolicyV1Beta1SpecHostPortsList_Override(p PodSecurityPolicyV1Beta1SpecHostPortsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList)SetWrapsSet(val *bo
 	)
 }
 
-func (p *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (p *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := p.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		p,
@@ -231,7 +231,7 @@ func (p *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) Get(index *float64
 	return returns
 }
 
-func (p *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PodSecurityPolicyV1Beta1SpecHostPortsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

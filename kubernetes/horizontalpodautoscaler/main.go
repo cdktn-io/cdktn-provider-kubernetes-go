@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package horizontalpodautoscaler
@@ -67,7 +67,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscaler{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -125,7 +125,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -173,7 +173,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecBehaviorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -199,7 +199,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecBehaviorScaleDownList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -240,7 +240,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecBehaviorScaleDownOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -266,7 +266,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecBehaviorScaleDownPolicyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -304,7 +304,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecBehaviorScaleDownPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -330,7 +330,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecBehaviorScaleUpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -371,7 +371,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecBehaviorScaleUpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -397,7 +397,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecBehaviorScaleUpPolicyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -435,7 +435,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecBehaviorScaleUpPolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -483,7 +483,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricContainerResourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -530,7 +530,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricContainerResourceTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -576,7 +576,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricExternalMetricOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -602,7 +602,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricExternalMetricSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -628,7 +628,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricExternalMetricSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -669,7 +669,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricExternalMetricSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -708,7 +708,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricExternalMetricSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -747,7 +747,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricExternalOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -794,7 +794,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricExternalTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -816,7 +816,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -862,7 +862,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricObjectDescribedObjectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -904,7 +904,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricObjectMetricOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -930,7 +930,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricObjectMetricSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -956,7 +956,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricObjectMetricSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -997,7 +997,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricObjectMetricSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1036,7 +1036,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricObjectMetricSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1078,7 +1078,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricObjectOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1125,7 +1125,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricObjectTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1179,7 +1179,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1225,7 +1225,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricPodsMetricOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1251,7 +1251,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricPodsMetricSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1277,7 +1277,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricPodsMetricSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1318,7 +1318,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricPodsMetricSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1357,7 +1357,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricPodsMetricSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1396,7 +1396,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricPodsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1443,7 +1443,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricPodsTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1485,7 +1485,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricResourceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1532,7 +1532,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecMetricResourceTargetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1583,7 +1583,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1626,7 +1626,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HorizontalPodAutoscalerSpecScaleTargetRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

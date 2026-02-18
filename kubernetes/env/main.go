@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package env
@@ -83,7 +83,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Env{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -113,7 +113,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EnvEnvList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -154,7 +154,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EnvEnvOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -203,7 +203,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EnvEnvValueFromConfigMapKeyRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -245,7 +245,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EnvEnvValueFromFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -293,7 +293,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EnvEnvValueFromOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -337,7 +337,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EnvEnvValueFromResourceFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -382,7 +382,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EnvEnvValueFromSecretKeyRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -423,7 +423,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EnvMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

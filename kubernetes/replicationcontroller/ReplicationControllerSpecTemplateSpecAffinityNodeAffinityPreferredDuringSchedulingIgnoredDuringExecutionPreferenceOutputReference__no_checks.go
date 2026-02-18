@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -55,7 +55,7 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecAffinityNodeAffinityPref
 	return nil
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecAffinityNodeAffinityPref
 	return nil
 }
 
-func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewReplicationControllerSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewReplicationControllerSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

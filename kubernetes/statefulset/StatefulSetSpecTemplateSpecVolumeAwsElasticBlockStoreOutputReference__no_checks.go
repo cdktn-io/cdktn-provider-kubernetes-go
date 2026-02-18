@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecVolumeAwsElasticBlockStoreOutputRe
 	return nil
 }
 
-func (s *jsiiProxy_StatefulSetSpecTemplateSpecVolumeAwsElasticBlockStoreOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StatefulSetSpecTemplateSpecVolumeAwsElasticBlockStoreOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecVolumeAwsElasticBlockStoreOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_StatefulSetSpecTemplateSpecVolumeAwsElasticBlockStoreOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StatefulSetSpecTemplateSpecVolumeAwsElasticBlockStoreOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecVolumeAwsElasticBlockStoreOutputRe
 	return nil
 }
 
-func validateNewStatefulSetSpecTemplateSpecVolumeAwsElasticBlockStoreOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStatefulSetSpecTemplateSpecVolumeAwsElasticBlockStoreOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

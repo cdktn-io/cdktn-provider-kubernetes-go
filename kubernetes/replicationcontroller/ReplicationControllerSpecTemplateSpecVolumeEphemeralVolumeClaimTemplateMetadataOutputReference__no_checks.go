@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeEphemeralVolumeCla
 	return nil
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateMetadataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateMetadataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeEphemeralVolumeCla
 	return nil
 }
 
-func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateMetadataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateMetadataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewReplicationControllerSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateMetadataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewReplicationControllerSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateMetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

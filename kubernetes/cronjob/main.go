@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cronjob
@@ -71,7 +71,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJob{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -129,7 +129,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -191,7 +191,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -229,7 +229,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -303,7 +303,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -342,7 +342,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -368,7 +368,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -412,7 +412,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnExitCodesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -438,7 +438,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -476,7 +476,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -519,7 +519,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -549,7 +549,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -590,7 +590,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -629,7 +629,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -684,7 +684,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -723,7 +723,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -775,7 +775,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -801,7 +801,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -838,7 +838,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -868,7 +868,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -909,7 +909,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -935,7 +935,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFieldsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -974,7 +974,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFieldsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1014,7 +1014,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1044,7 +1044,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1070,7 +1070,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1111,7 +1111,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1137,7 +1137,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermMatchFieldsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1176,7 +1176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermMatchFieldsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1216,7 +1216,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1252,7 +1252,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1296,7 +1296,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1340,7 +1340,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1366,7 +1366,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1403,7 +1403,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1433,7 +1433,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1459,7 +1459,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1500,7 +1500,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1539,7 +1539,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1565,7 +1565,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1591,7 +1591,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1632,7 +1632,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1671,7 +1671,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1716,7 +1716,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1746,7 +1746,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1772,7 +1772,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1813,7 +1813,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1852,7 +1852,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1874,7 +1874,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1900,7 +1900,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1926,7 +1926,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -1967,7 +1967,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2006,7 +2006,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2051,7 +2051,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2095,7 +2095,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2121,7 +2121,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2158,7 +2158,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2188,7 +2188,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2214,7 +2214,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2255,7 +2255,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2294,7 +2294,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2320,7 +2320,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2346,7 +2346,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2387,7 +2387,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2426,7 +2426,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2471,7 +2471,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2501,7 +2501,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2527,7 +2527,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2568,7 +2568,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2607,7 +2607,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2629,7 +2629,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2655,7 +2655,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2681,7 +2681,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2722,7 +2722,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2761,7 +2761,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2806,7 +2806,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2859,7 +2859,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvFromConfigMapRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2881,7 +2881,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvFromList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -2924,7 +2924,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvFromOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2965,7 +2965,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvFromSecretRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -2987,7 +2987,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3028,7 +3028,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3077,7 +3077,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvValueFromConfigMapKeyRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3119,7 +3119,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvValueFromFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3167,7 +3167,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvValueFromOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3211,7 +3211,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvValueFromResourceFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3256,7 +3256,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerEnvValueFromSecretKeyRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3300,7 +3300,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecycleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3343,7 +3343,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePostStartExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3373,7 +3373,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePostStartHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3411,7 +3411,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePostStartHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3459,7 +3459,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePostStartHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3481,7 +3481,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePostStartList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3525,7 +3525,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePostStartOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3551,7 +3551,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePostStartTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3585,7 +3585,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePostStartTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3628,7 +3628,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePreStopExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3658,7 +3658,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePreStopHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3696,7 +3696,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePreStopHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3744,7 +3744,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePreStopHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3766,7 +3766,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePreStopList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3810,7 +3810,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePreStopOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3836,7 +3836,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePreStopTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3870,7 +3870,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLifecyclePreStopTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3892,7 +3892,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3935,7 +3935,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLivenessProbeExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -3961,7 +3961,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLivenessProbeGrpcList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -3998,7 +3998,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLivenessProbeGrpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4028,7 +4028,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLivenessProbeHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4066,7 +4066,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLivenessProbeHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4114,7 +4114,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLivenessProbeHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4177,7 +4177,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLivenessProbeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4203,7 +4203,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLivenessProbeTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4237,7 +4237,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerLivenessProbeTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4345,7 +4345,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4371,7 +4371,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerPortList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4417,7 +4417,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerPortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4460,7 +4460,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerReadinessProbeExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4486,7 +4486,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerReadinessProbeGrpcList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4523,7 +4523,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerReadinessProbeGrpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4553,7 +4553,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerReadinessProbeHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4591,7 +4591,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerReadinessProbeHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4639,7 +4639,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerReadinessProbeHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4702,7 +4702,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerReadinessProbeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4728,7 +4728,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerReadinessProbeTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -4762,7 +4762,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerReadinessProbeTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4804,7 +4804,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerResourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4850,7 +4850,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerSecurityContextCapabilitiesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4912,7 +4912,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerSecurityContextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -4960,7 +4960,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerSecurityContextSeLinuxOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5002,7 +5002,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerSecurityContextSeccompProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5045,7 +5045,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerStartupProbeExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5071,7 +5071,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerStartupProbeGrpcList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5108,7 +5108,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerStartupProbeGrpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5138,7 +5138,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerStartupProbeHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5176,7 +5176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerStartupProbeHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5224,7 +5224,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerStartupProbeHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5287,7 +5287,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerStartupProbeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5313,7 +5313,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerStartupProbeTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5347,7 +5347,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerStartupProbeTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5373,7 +5373,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerVolumeDeviceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5409,7 +5409,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerVolumeDeviceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5435,7 +5435,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerVolumeMountList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5483,7 +5483,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecContainerVolumeMountOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5513,7 +5513,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecDnsConfigOptionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5550,7 +5550,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecDnsConfigOptionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5592,7 +5592,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecDnsConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5618,7 +5618,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecHostAliasesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5654,7 +5654,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecHostAliasesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5680,7 +5680,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecImagePullSecretsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5714,7 +5714,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecImagePullSecretsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5767,7 +5767,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvFromConfigMapRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5789,7 +5789,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvFromList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5832,7 +5832,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvFromOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5873,7 +5873,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvFromSecretRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5895,7 +5895,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -5936,7 +5936,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -5985,7 +5985,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvValueFromConfigMapKeyRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6027,7 +6027,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvValueFromFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6075,7 +6075,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvValueFromOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6119,7 +6119,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvValueFromResourceFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6164,7 +6164,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerEnvValueFromSecretKeyRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6208,7 +6208,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecycleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6251,7 +6251,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePostStartExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6281,7 +6281,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePostStartHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -6319,7 +6319,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePostStartHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6367,7 +6367,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePostStartHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6389,7 +6389,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePostStartList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -6433,7 +6433,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePostStartOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6459,7 +6459,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePostStartTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -6493,7 +6493,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePostStartTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6536,7 +6536,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePreStopExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6566,7 +6566,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePreStopHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -6604,7 +6604,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePreStopHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6652,7 +6652,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6674,7 +6674,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePreStopList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -6718,7 +6718,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePreStopOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6744,7 +6744,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePreStopTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -6778,7 +6778,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLifecyclePreStopTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6800,7 +6800,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -6843,7 +6843,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLivenessProbeExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6869,7 +6869,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLivenessProbeGrpcList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -6906,7 +6906,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLivenessProbeGrpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -6936,7 +6936,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLivenessProbeHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -6974,7 +6974,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLivenessProbeHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7022,7 +7022,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLivenessProbeHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7085,7 +7085,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLivenessProbeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7111,7 +7111,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLivenessProbeTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -7145,7 +7145,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerLivenessProbeTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7253,7 +7253,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7279,7 +7279,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerPortList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -7325,7 +7325,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerPortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7368,7 +7368,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerReadinessProbeExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7394,7 +7394,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerReadinessProbeGrpcList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -7431,7 +7431,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerReadinessProbeGrpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7461,7 +7461,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerReadinessProbeHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -7499,7 +7499,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerReadinessProbeHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7547,7 +7547,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerReadinessProbeHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7610,7 +7610,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerReadinessProbeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7636,7 +7636,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerReadinessProbeTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -7670,7 +7670,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerReadinessProbeTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7712,7 +7712,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerResourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7758,7 +7758,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextCapabilitiesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7820,7 +7820,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7868,7 +7868,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7910,7 +7910,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextSeccompProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7953,7 +7953,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerStartupProbeExecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -7979,7 +7979,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerStartupProbeGrpcList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -8016,7 +8016,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerStartupProbeGrpcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8046,7 +8046,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerStartupProbeHttpGetHttpHeaderList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -8084,7 +8084,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerStartupProbeHttpGetHttpHeaderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8132,7 +8132,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerStartupProbeHttpGetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8195,7 +8195,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerStartupProbeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8221,7 +8221,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerStartupProbeTcpSocketList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -8255,7 +8255,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerStartupProbeTcpSocketOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8281,7 +8281,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerVolumeDeviceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -8317,7 +8317,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerVolumeDeviceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8343,7 +8343,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerVolumeMountList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -8391,7 +8391,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerVolumeMountOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8429,7 +8429,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8563,7 +8563,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8589,7 +8589,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecReadinessGateList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -8623,7 +8623,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecReadinessGateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8693,7 +8693,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecSecurityContextOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8741,7 +8741,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecSecurityContextSeLinuxOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8783,7 +8783,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecSecurityContextSeccompProfileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8809,7 +8809,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecSecurityContextSysctlList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -8845,7 +8845,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecSecurityContextSysctlOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8893,7 +8893,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecSecurityContextWindowsOptionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8919,7 +8919,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecTolerationList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -8966,7 +8966,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecTolerationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -8996,7 +8996,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraintLabelSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -9022,7 +9022,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraintLabelSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -9063,7 +9063,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraintLabelSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9102,7 +9102,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraintLabelSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9124,7 +9124,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraintList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -9181,7 +9181,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraintOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9232,7 +9232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeAwsElasticBlockStoreOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9283,7 +9283,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeAzureDiskOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9329,7 +9329,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeAzureFileOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9383,7 +9383,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeCephFsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9425,7 +9425,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeCephFsSecretRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9469,7 +9469,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeCinderOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9499,7 +9499,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeConfigMapItemsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -9540,7 +9540,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeConfigMapItemsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9585,7 +9585,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeConfigMapOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9628,7 +9628,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeCsiNodePublishSecretRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9675,7 +9675,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeCsiOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9725,7 +9725,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeDownwardApiItemsFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9747,7 +9747,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeDownwardApiItemsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -9791,7 +9791,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeDownwardApiItemsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9834,7 +9834,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeDownwardApiItemsResourceFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9873,7 +9873,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeDownwardApiOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9915,7 +9915,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeEmptyDirOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -9954,7 +9954,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeEphemeralOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10000,7 +10000,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10039,7 +10039,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10093,7 +10093,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10135,7 +10135,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateSpecResourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10165,7 +10165,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateSpecSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -10206,7 +10206,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateSpecSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10245,7 +10245,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateSpecSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10291,7 +10291,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeFcOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10342,7 +10342,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeFlexVolumeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10384,7 +10384,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeFlexVolumeSecretRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10426,7 +10426,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeFlockerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10473,7 +10473,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeGcePersistentDiskOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10518,7 +10518,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeGitRepoOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10561,7 +10561,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeGlusterfsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10603,7 +10603,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeHostPathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10655,7 +10655,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeIscsiOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10677,7 +10677,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -10716,7 +10716,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeLocalOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10759,7 +10759,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeNfsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10902,7 +10902,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10944,7 +10944,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumePersistentVolumeClaimOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -10985,7 +10985,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumePhotonPersistentDiskOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11011,7 +11011,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -11049,7 +11049,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11083,7 +11083,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapItemsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -11124,7 +11124,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapItemsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11146,7 +11146,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -11188,7 +11188,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11238,7 +11238,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesDownwardApiItemsFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11260,7 +11260,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesDownwardApiItemsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -11305,7 +11305,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesDownwardApiItemsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11348,7 +11348,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesDownwardApiItemsResourceFieldRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11384,7 +11384,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesDownwardApiOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11406,7 +11406,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -11454,7 +11454,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11484,7 +11484,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesSecretItemsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -11525,7 +11525,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesSecretItemsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11547,7 +11547,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesSecretList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -11589,7 +11589,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesSecretOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11633,7 +11633,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11682,7 +11682,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeQuobyteOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11741,7 +11741,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeRbdOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11783,7 +11783,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeRbdSecretRefOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11813,7 +11813,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeSecretItemsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -11854,7 +11854,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeSecretItemsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11899,7 +11899,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeSecretOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11940,7 +11940,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeVsphereVolumeOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -11992,7 +11992,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -12031,7 +12031,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CronJobTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

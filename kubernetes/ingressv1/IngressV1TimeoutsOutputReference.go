@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ingressv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingressv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/ingressv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IngressV1TimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type IngressV1TimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type IngressV1TimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type IngressV1TimeoutsOutputReference interface {
 
 // The jsii proxy struct for IngressV1TimeoutsOutputReference
 type jsiiProxy_IngressV1TimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IngressV1TimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_IngressV1TimeoutsOutputReference) TerraformAttribute() *strin
 	return returns
 }
 
-func (j *jsiiProxy_IngressV1TimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IngressV1TimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_IngressV1TimeoutsOutputReference) TerraformResource() cdktf.I
 }
 
 
-func NewIngressV1TimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IngressV1TimeoutsOutputReference {
+func NewIngressV1TimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IngressV1TimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIngressV1TimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewIngressV1TimeoutsOutputReference(terraformResource cdktf.IInterpolatingP
 	return &j
 }
 
-func NewIngressV1TimeoutsOutputReference_Override(i IngressV1TimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIngressV1TimeoutsOutputReference_Override(i IngressV1TimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_IngressV1TimeoutsOutputReference)SetTerraformAttribute(val *s
 	)
 }
 
-func (j *jsiiProxy_IngressV1TimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IngressV1TimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (i *jsiiProxy_IngressV1TimeoutsOutputReference) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (i *jsiiProxy_IngressV1TimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IngressV1TimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -459,8 +459,8 @@ func (i *jsiiProxy_IngressV1TimeoutsOutputReference) GetStringMapAttribute(terra
 	return returns
 }
 
-func (i *jsiiProxy_IngressV1TimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IngressV1TimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -472,11 +472,11 @@ func (i *jsiiProxy_IngressV1TimeoutsOutputReference) InterpolationAsList() cdktf
 	return returns
 }
 
-func (i *jsiiProxy_IngressV1TimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IngressV1TimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -504,7 +504,7 @@ func (i *jsiiProxy_IngressV1TimeoutsOutputReference) ResetDelete() {
 	)
 }
 
-func (i *jsiiProxy_IngressV1TimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IngressV1TimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

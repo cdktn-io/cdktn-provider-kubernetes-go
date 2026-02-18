@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataKubernetesPersistentVolumeV1SpecList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataKubernetesPersistentVolumeV1SpecList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataKubernetesPersistentVolumeV1SpecList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataKubernetesPersistentVolumeV1SpecList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataKubernetesPersistentVolumeV1SpecList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataKubernetesPersistentVolumeV1SpecList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataKubernetesPersistentVolumeV1SpecList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataKubernetesPersistentVolumeV1SpecListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataKubernetesPersistentVolumeV1SpecListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

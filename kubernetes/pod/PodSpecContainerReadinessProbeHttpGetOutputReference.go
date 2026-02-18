@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package pod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/pod/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/pod/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PodSpecContainerReadinessProbeHttpGetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,15 +51,15 @@ type PodSpecContainerReadinessProbeHttpGetOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type PodSpecContainerReadinessProbeHttpGetOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHttpHeader(value interface{})
 	ResetHost()
 	ResetHttpHeader()
@@ -86,7 +86,7 @@ type PodSpecContainerReadinessProbeHttpGetOutputReference interface {
 	ResetScheme()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type PodSpecContainerReadinessProbeHttpGetOutputReference interface {
 
 // The jsii proxy struct for PodSpecContainerReadinessProbeHttpGetOutputReference
 type jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) Terrafo
 }
 
 
-func NewPodSpecContainerReadinessProbeHttpGetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PodSpecContainerReadinessProbeHttpGetOutputReference {
+func NewPodSpecContainerReadinessProbeHttpGetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PodSpecContainerReadinessProbeHttpGetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPodSpecContainerReadinessProbeHttpGetOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewPodSpecContainerReadinessProbeHttpGetOutputReference(terraformResource c
 	return &j
 }
 
-func NewPodSpecContainerReadinessProbeHttpGetOutputReference_Override(p PodSpecContainerReadinessProbeHttpGetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPodSpecContainerReadinessProbeHttpGetOutputReference_Override(p PodSpecContainerReadinessProbeHttpGetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -425,11 +425,11 @@ func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) GetAnyM
 	return returns
 }
 
-func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -553,8 +553,8 @@ func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) GetStri
 	return returns
 }
 
-func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -566,11 +566,11 @@ func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) Interpo
 	return returns
 }
 
-func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -633,7 +633,7 @@ func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) ResetSc
 	)
 }
 
-func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PodSpecContainerReadinessProbeHttpGetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

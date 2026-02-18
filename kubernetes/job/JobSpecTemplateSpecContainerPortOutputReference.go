@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/job/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/job/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type JobSpecTemplateSpecContainerPortOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -52,15 +52,15 @@ type JobSpecTemplateSpecContainerPortOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,16 +76,16 @@ type JobSpecTemplateSpecContainerPortOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetHostIp()
 	ResetHostPort()
 	ResetName()
 	ResetProtocol()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type JobSpecTemplateSpecContainerPortOutputReference interface {
 
 // The jsii proxy struct for JobSpecTemplateSpecContainerPortOutputReference
 type jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) ComplexObjectIndex() interface{} {
@@ -258,8 +258,8 @@ func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) TerraformRes
 }
 
 
-func NewJobSpecTemplateSpecContainerPortOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) JobSpecTemplateSpecContainerPortOutputReference {
+func NewJobSpecTemplateSpecContainerPortOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) JobSpecTemplateSpecContainerPortOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewJobSpecTemplateSpecContainerPortOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -286,7 +286,7 @@ func NewJobSpecTemplateSpecContainerPortOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewJobSpecTemplateSpecContainerPortOutputReference_Override(j JobSpecTemplateSpecContainerPortOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewJobSpecTemplateSpecContainerPortOutputReference_Override(j JobSpecTemplateSpecContainerPortOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -395,7 +395,7 @@ func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -435,11 +435,11 @@ func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := j.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -563,8 +563,8 @@ func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) GetStringMap
 	return returns
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -576,11 +576,11 @@ func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) Interpolatio
 	return returns
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := j.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -624,7 +624,7 @@ func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) ResetProtoco
 	)
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (j *jsiiProxy_JobSpecTemplateSpecContainerPortOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := j.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

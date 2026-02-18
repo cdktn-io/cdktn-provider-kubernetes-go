@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (s *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerPortList) validateG
 	return nil
 }
 
-func (s *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerPortList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerPortList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerPortList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerPortList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerPortList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerPortList) validateS
 	return nil
 }
 
-func validateNewStatefulSetV1SpecTemplateSpecInitContainerPortListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStatefulSetV1SpecTemplateSpecInitContainerPortListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

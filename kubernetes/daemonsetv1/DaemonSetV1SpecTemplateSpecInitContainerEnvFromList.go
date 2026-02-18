@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package daemonsetv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/daemonsetv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/daemonsetv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DaemonSetV1SpecTemplateSpecInitContainerEnvFromList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DaemonSetV1SpecTemplateSpecInitContainerEnvFromList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DaemonSetV1SpecTemplateSpecInitContainerEnvFromList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DaemonSetV1SpecTemplateSpecInitContainerEnvFromOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DaemonSetV1SpecTemplateSpecInitContainerEnvFromList interface {
 
 // The jsii proxy struct for DaemonSetV1SpecTemplateSpecInitContainerEnvFromList
 type jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) WrapsSet
 }
 
 
-func NewDaemonSetV1SpecTemplateSpecInitContainerEnvFromList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DaemonSetV1SpecTemplateSpecInitContainerEnvFromList {
+func NewDaemonSetV1SpecTemplateSpecInitContainerEnvFromList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DaemonSetV1SpecTemplateSpecInitContainerEnvFromList {
 	_init_.Initialize()
 
 	if err := validateNewDaemonSetV1SpecTemplateSpecInitContainerEnvFromListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDaemonSetV1SpecTemplateSpecInitContainerEnvFromList(terraformResource cd
 	return &j
 }
 
-func NewDaemonSetV1SpecTemplateSpecInitContainerEnvFromList_Override(d DaemonSetV1SpecTemplateSpecInitContainerEnvFromList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDaemonSetV1SpecTemplateSpecInitContainerEnvFromList_Override(d DaemonSetV1SpecTemplateSpecInitContainerEnvFromList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList)SetWrapsS
 	)
 }
 
-func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) Get(inde
 	return returns
 }
 
-func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerEnvFromList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

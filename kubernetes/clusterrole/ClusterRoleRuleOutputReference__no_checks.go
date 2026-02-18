@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (c *jsiiProxy_ClusterRoleRuleOutputReference) validateInterpolationForAttri
 	return nil
 }
 
-func (c *jsiiProxy_ClusterRoleRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ClusterRoleRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ClusterRoleRuleOutputReference) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_ClusterRoleRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ClusterRoleRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ClusterRoleRuleOutputReference) validateSetVerbsParameters(va
 	return nil
 }
 
-func validateNewClusterRoleRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewClusterRoleRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetessecretv1
@@ -62,7 +62,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesSecretV1{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -120,7 +120,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesSecretV1MetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

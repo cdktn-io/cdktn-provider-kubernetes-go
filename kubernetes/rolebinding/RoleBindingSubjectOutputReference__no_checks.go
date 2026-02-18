@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (r *jsiiProxy_RoleBindingSubjectOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (r *jsiiProxy_RoleBindingSubjectOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RoleBindingSubjectOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_RoleBindingSubjectOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_RoleBindingSubjectOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RoleBindingSubjectOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoleBindingSubjectOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRoleBindingSubjectOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

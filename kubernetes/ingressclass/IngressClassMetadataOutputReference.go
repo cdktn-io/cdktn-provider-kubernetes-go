@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ingressclass
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingressclass/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/ingressclass/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IngressClassMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
@@ -51,16 +51,16 @@ type IngressClassMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uid() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,16 +76,16 @@ type IngressClassMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAnnotations()
 	ResetGenerateName()
 	ResetLabels()
 	ResetName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type IngressClassMetadataOutputReference interface {
 
 // The jsii proxy struct for IngressClassMetadataOutputReference
 type jsiiProxy_IngressClassMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IngressClassMetadataOutputReference) Annotations() *map[string]*string {
@@ -258,8 +258,8 @@ func (j *jsiiProxy_IngressClassMetadataOutputReference) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_IngressClassMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IngressClassMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -279,7 +279,7 @@ func (j *jsiiProxy_IngressClassMetadataOutputReference) Uid() *string {
 }
 
 
-func NewIngressClassMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IngressClassMetadataOutputReference {
+func NewIngressClassMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IngressClassMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIngressClassMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -296,7 +296,7 @@ func NewIngressClassMetadataOutputReference(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewIngressClassMetadataOutputReference_Override(i IngressClassMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIngressClassMetadataOutputReference_Override(i IngressClassMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -394,7 +394,7 @@ func (j *jsiiProxy_IngressClassMetadataOutputReference)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_IngressClassMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IngressClassMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -434,11 +434,11 @@ func (i *jsiiProxy_IngressClassMetadataOutputReference) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (i *jsiiProxy_IngressClassMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IngressClassMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -562,8 +562,8 @@ func (i *jsiiProxy_IngressClassMetadataOutputReference) GetStringMapAttribute(te
 	return returns
 }
 
-func (i *jsiiProxy_IngressClassMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IngressClassMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -575,11 +575,11 @@ func (i *jsiiProxy_IngressClassMetadataOutputReference) InterpolationAsList() cd
 	return returns
 }
 
-func (i *jsiiProxy_IngressClassMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IngressClassMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -623,7 +623,7 @@ func (i *jsiiProxy_IngressClassMetadataOutputReference) ResetName() {
 	)
 }
 
-func (i *jsiiProxy_IngressClassMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IngressClassMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecDnsConfigOptionList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecDnsConfigOptionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecDnsConfigOptionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecDnsConfigOptionList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecDnsConfigOptionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecDnsConfigOptionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecDnsConfigOptionList) validateSetWr
 	return nil
 }
 
-func validateNewDaemonSetV1SpecTemplateSpecDnsConfigOptionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDaemonSetV1SpecTemplateSpecDnsConfigOptionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

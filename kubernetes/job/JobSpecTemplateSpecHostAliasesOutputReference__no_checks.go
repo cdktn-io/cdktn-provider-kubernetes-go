@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (j *jsiiProxy_JobSpecTemplateSpecHostAliasesOutputReference) validateInterp
 	return nil
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecHostAliasesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (j *jsiiProxy_JobSpecTemplateSpecHostAliasesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_JobSpecTemplateSpecHostAliasesOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecHostAliasesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_JobSpecTemplateSpecHostAliasesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewJobSpecTemplateSpecHostAliasesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewJobSpecTemplateSpecHostAliasesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

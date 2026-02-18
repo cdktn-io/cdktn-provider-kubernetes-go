@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -51,7 +51,7 @@ func (h *jsiiProxy_HorizontalPodAutoscalerV1SpecOutputReference) validatePutScal
 	return nil
 }
 
-func (h *jsiiProxy_HorizontalPodAutoscalerV1SpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HorizontalPodAutoscalerV1SpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_HorizontalPodAutoscalerV1SpecOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_HorizontalPodAutoscalerV1SpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HorizontalPodAutoscalerV1SpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHorizontalPodAutoscalerV1SpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHorizontalPodAutoscalerV1SpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package statefulsetv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/statefulsetv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/statefulsetv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessModes() *[]*string
 	SetAccessModes(val *[]*string)
 	AccessModesInput() *[]*string
@@ -47,9 +47,9 @@ type StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VolumeMode() *string
 	SetVolumeMode(val *string)
 	VolumeModeInput() *string
@@ -61,7 +61,7 @@ type StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutResources(value *StatefulSetV1SpecVolumeClaimTemplateSpecResources)
 	PutSelector(value *StatefulSetV1SpecVolumeClaimTemplateSpecSelector)
 	ResetSelector()
@@ -88,7 +88,7 @@ type StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference interface {
 	ResetVolumeName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference interface {
 
 // The jsii proxy struct for StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference
 type jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) AccessModes() *[]*string {
@@ -241,8 +241,8 @@ func (j *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -292,7 +292,7 @@ func (j *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) Volu
 }
 
 
-func NewStatefulSetV1SpecVolumeClaimTemplateSpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference {
+func NewStatefulSetV1SpecVolumeClaimTemplateSpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStatefulSetV1SpecVolumeClaimTemplateSpecOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -309,7 +309,7 @@ func NewStatefulSetV1SpecVolumeClaimTemplateSpecOutputReference(terraformResourc
 	return &j
 }
 
-func NewStatefulSetV1SpecVolumeClaimTemplateSpecOutputReference_Override(s StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStatefulSetV1SpecVolumeClaimTemplateSpecOutputReference_Override(s StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -447,11 +447,11 @@ func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) GetA
 	return returns
 }
 
-func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -575,8 +575,8 @@ func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) GetS
 	return returns
 }
 
-func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -588,11 +588,11 @@ func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -658,7 +658,7 @@ func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) Rese
 	)
 }
 
-func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StatefulSetV1SpecVolumeClaimTemplateSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

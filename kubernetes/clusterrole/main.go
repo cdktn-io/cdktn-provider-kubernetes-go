@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package clusterrole
@@ -72,7 +72,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClusterRole{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -102,7 +102,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClusterRoleAggregationRuleClusterRoleSelectorsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -128,7 +128,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -169,7 +169,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClusterRoleAggregationRuleClusterRoleSelectorsMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -208,7 +208,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClusterRoleAggregationRuleClusterRoleSelectorsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -244,7 +244,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClusterRoleAggregationRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -299,7 +299,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClusterRoleMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -325,7 +325,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClusterRoleRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -371,7 +371,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ClusterRoleRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

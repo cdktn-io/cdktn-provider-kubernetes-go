@@ -1,21 +1,21 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesnodes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesnodes/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetesnodes/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesNodesNodesStatusOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Addresses() DataKubernetesNodesNodesStatusAddressesList
-	Allocatable() cdktf.StringMap
-	Capacity() cdktf.StringMap
+	Allocatable() cdktn.StringMap
+	Capacity() cdktn.StringMap
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type DataKubernetesNodesNodesStatusOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataKubernetesNodesNodesStatusOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataKubernetesNodesNodesStatusOutputReference interface {
 
 // The jsii proxy struct for DataKubernetesNodesNodesStatusOutputReference
 type jsiiProxy_DataKubernetesNodesNodesStatusOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) Addresses() DataKubernetesNodesNodesStatusAddressesList {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) Addresses() Da
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) Allocatable() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) Allocatable() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"allocatable",
@@ -104,8 +104,8 @@ func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) Allocatable() 
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) Capacity() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) Capacity() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"capacity",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) TerraformResou
 }
 
 
-func NewDataKubernetesNodesNodesStatusOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesNodesNodesStatusOutputReference {
+func NewDataKubernetesNodesNodesStatusOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesNodesNodesStatusOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesNodesNodesStatusOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataKubernetesNodesNodesStatusOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewDataKubernetesNodesNodesStatusOutputReference_Override(d DataKubernetesNodesNodesStatusOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataKubernetesNodesNodesStatusOutputReference_Override(d DataKubernetesNodesNodesStatusOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) GetStringMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) InterpolationA
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) InterpolationF
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesNodesNodesStatusOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

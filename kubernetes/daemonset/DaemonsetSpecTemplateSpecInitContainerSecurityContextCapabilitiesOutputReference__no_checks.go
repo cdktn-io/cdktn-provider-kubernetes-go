@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecInitContainerSecurityContextCapabili
 	return nil
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecInitContainerSecurityContextCapabilitiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecInitContainerSecurityContextCapabilitiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecInitContainerSecurityContextCapabili
 	return nil
 }
 
-func (j *jsiiProxy_DaemonsetSpecTemplateSpecInitContainerSecurityContextCapabilitiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DaemonsetSpecTemplateSpecInitContainerSecurityContextCapabilitiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDaemonsetSpecTemplateSpecInitContainerSecurityContextCapabilitiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDaemonsetSpecTemplateSpecInitContainerSecurityContextCapabilitiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

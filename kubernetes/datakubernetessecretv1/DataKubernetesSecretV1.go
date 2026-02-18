@@ -1,40 +1,40 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetessecretv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetessecretv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetessecretv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/secret_v1 kubernetes_secret_v1}.
 type DataKubernetesSecretV1 interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	BinaryData() *map[string]*string
 	SetBinaryData(val *map[string]*string)
 	BinaryDataInput() *map[string]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	Data() cdktf.StringMap
+	Data() cdktn.StringMap
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -42,23 +42,23 @@ type DataKubernetesSecretV1 interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	Immutable() cdktf.IResolvable
+	Immutable() cdktn.IResolvable
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Metadata() DataKubernetesSecretV1MetadataOutputReference
 	MetadataInput() *DataKubernetesSecretV1Metadata
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type DataKubernetesSecretV1 interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,7 +85,7 @@ type DataKubernetesSecretV1 interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -111,7 +111,7 @@ type DataKubernetesSecretV1 interface {
 
 // The jsii proxy struct for DataKubernetesSecretV1
 type jsiiProxy_DataKubernetesSecretV1 struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataKubernetesSecretV1) BinaryData() *map[string]*string {
@@ -134,8 +134,8 @@ func (j *jsiiProxy_DataKubernetesSecretV1) BinaryDataInput() *map[string]*string
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataKubernetesSecretV1) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -164,8 +164,8 @@ func (j *jsiiProxy_DataKubernetesSecretV1) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1) Data() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataKubernetesSecretV1) Data() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"data",
@@ -184,8 +184,8 @@ func (j *jsiiProxy_DataKubernetesSecretV1) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataKubernetesSecretV1) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -234,8 +234,8 @@ func (j *jsiiProxy_DataKubernetesSecretV1) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1) Immutable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesSecretV1) Immutable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"immutable",
@@ -244,8 +244,8 @@ func (j *jsiiProxy_DataKubernetesSecretV1) Immutable() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataKubernetesSecretV1) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -284,8 +284,8 @@ func (j *jsiiProxy_DataKubernetesSecretV1) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataKubernetesSecretV1) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_DataKubernetesSecretV1) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataKubernetesSecretV1) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -404,7 +404,7 @@ func (j *jsiiProxy_DataKubernetesSecretV1)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataKubernetesSecretV1)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataKubernetesSecretV1)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataKubernetesSecretV1)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataKubernetesSecretV1)SetLifecycle(val *cdktf.TerraformResou
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesSecretV1)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataKubernetesSecretV1)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -442,14 +442,14 @@ func (j *jsiiProxy_DataKubernetesSecretV1)SetProvider(val cdktf.TerraformProvide
 	)
 }
 
-// Generates CDKTF code for importing a DataKubernetesSecretV1 resource upon running "cdktf plan <stack-name>".
-func DataKubernetesSecretV1_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataKubernetesSecretV1 resource upon running "cdktn plan <stack-name>".
+func DataKubernetesSecretV1_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataKubernetesSecretV1_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-kubernetes.dataKubernetesSecretV1.DataKubernetesSecretV1",
@@ -572,11 +572,11 @@ func (d *jsiiProxy_DataKubernetesSecretV1) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesSecretV1) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesSecretV1) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -700,11 +700,11 @@ func (d *jsiiProxy_DataKubernetesSecretV1) GetStringMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesSecretV1) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesSecretV1) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

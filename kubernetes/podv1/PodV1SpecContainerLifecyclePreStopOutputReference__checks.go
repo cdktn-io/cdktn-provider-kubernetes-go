@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -120,7 +120,7 @@ func (p *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PodV1SpecContainerLifecyclePreStopTcpSocket:
 		value := value.(*[]*PodV1SpecContainerLifecyclePreStopTcpSocket)
@@ -139,14 +139,14 @@ func (p *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PodV1SpecContainerLifecyclePreStopTcpSocket; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PodV1SpecContainerLifecyclePreStopTcpSocket; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (p *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -221,7 +221,7 @@ func (j *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateSe
 
 func (j *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *PodV1SpecContainerLifecyclePreStop:
 		val := val.(*PodV1SpecContainerLifecyclePreStop)
@@ -236,7 +236,7 @@ func (j *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateSe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *PodV1SpecContainerLifecyclePreStop; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *PodV1SpecContainerLifecyclePreStop; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -251,7 +251,7 @@ func (j *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -259,7 +259,7 @@ func (j *jsiiProxy_PodV1SpecContainerLifecyclePreStopOutputReference) validateSe
 	return nil
 }
 
-func validateNewPodV1SpecContainerLifecyclePreStopOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPodV1SpecContainerLifecyclePreStopOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

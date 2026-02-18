@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (p *jsiiProxy_PersistentVolumeTimeoutsOutputReference) validateInterpolatio
 	return nil
 }
 
-func (p *jsiiProxy_PersistentVolumeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PersistentVolumeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PersistentVolumeTimeoutsOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_PersistentVolumeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PersistentVolumeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPersistentVolumeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPersistentVolumeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

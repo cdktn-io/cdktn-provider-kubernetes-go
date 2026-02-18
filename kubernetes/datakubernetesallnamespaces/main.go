@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesallnamespaces
@@ -54,7 +54,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesAllNamespaces{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)

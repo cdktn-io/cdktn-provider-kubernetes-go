@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesstorageclassv1
@@ -76,7 +76,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesStorageClassV1{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -106,7 +106,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -144,7 +144,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -180,7 +180,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -232,7 +232,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesStorageClassV1MetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

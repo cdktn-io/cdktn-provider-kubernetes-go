@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkPolicySpecOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (n *jsiiProxy_NetworkPolicySpecOutputReference) validatePutEgressParameters
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*NetworkPolicySpecEgress:
 		value := value.(*[]*NetworkPolicySpecEgress)
@@ -117,7 +117,7 @@ func (n *jsiiProxy_NetworkPolicySpecOutputReference) validatePutEgressParameters
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*NetworkPolicySpecEgress; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkPolicySpecEgress; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (n *jsiiProxy_NetworkPolicySpecOutputReference) validatePutIngressParameter
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*NetworkPolicySpecIngress:
 		value := value.(*[]*NetworkPolicySpecIngress)
@@ -148,7 +148,7 @@ func (n *jsiiProxy_NetworkPolicySpecOutputReference) validatePutIngressParameter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*NetworkPolicySpecIngress; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkPolicySpecIngress; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -166,7 +166,7 @@ func (n *jsiiProxy_NetworkPolicySpecOutputReference) validatePutPodSelectorParam
 	return nil
 }
 
-func (n *jsiiProxy_NetworkPolicySpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkPolicySpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -263,7 +263,7 @@ func (j *jsiiProxy_NetworkPolicySpecOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_NetworkPolicySpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkPolicySpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -271,7 +271,7 @@ func (j *jsiiProxy_NetworkPolicySpecOutputReference) validateSetTerraformResourc
 	return nil
 }
 
-func validateNewNetworkPolicySpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkPolicySpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

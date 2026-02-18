@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutEnvParamete
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PodV1SpecInitContainerEnv:
 		value := value.(*[]*PodV1SpecInitContainerEnv)
@@ -117,7 +117,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutEnvParamete
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PodV1SpecInitContainerEnv; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PodV1SpecInitContainerEnv; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutEnvFromPara
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PodV1SpecInitContainerEnvFrom:
 		value := value.(*[]*PodV1SpecInitContainerEnvFrom)
@@ -148,7 +148,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutEnvFromPara
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PodV1SpecInitContainerEnvFrom; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PodV1SpecInitContainerEnvFrom; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -182,7 +182,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutPortParamet
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PodV1SpecInitContainerPort:
 		value := value.(*[]*PodV1SpecInitContainerPort)
@@ -201,7 +201,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutPortParamet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PodV1SpecInitContainerPort; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PodV1SpecInitContainerPort; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -257,7 +257,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutVolumeDevic
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PodV1SpecInitContainerVolumeDevice:
 		value := value.(*[]*PodV1SpecInitContainerVolumeDevice)
@@ -276,7 +276,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutVolumeDevic
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PodV1SpecInitContainerVolumeDevice; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PodV1SpecInitContainerVolumeDevice; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -288,7 +288,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutVolumeMount
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PodV1SpecInitContainerVolumeMount:
 		value := value.(*[]*PodV1SpecInitContainerVolumeMount)
@@ -307,14 +307,14 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validatePutVolumeMount
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PodV1SpecInitContainerVolumeMount; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PodV1SpecInitContainerVolumeMount; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -421,7 +421,7 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetImagePullPo
 
 func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *PodV1SpecInitContainer:
 		val := val.(*PodV1SpecInitContainer)
@@ -436,7 +436,7 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetInternalVal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *PodV1SpecInitContainer; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *PodV1SpecInitContainer; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -460,11 +460,11 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetStdinParame
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -480,11 +480,11 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetStdinOncePa
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -515,7 +515,7 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -532,11 +532,11 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetTtyParamete
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -551,7 +551,7 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetWorkingDirP
 	return nil
 }
 
-func validateNewPodV1SpecInitContainerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPodV1SpecInitContainerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

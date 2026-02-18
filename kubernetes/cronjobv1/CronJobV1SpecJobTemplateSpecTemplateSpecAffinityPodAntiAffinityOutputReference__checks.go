@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffini
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution:
 		value := value.(*[]*CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffini
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffini
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution:
 		value := value.(*[]*CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution)
@@ -148,14 +148,14 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffini
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -244,7 +244,7 @@ func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffini
 	return nil
 }
 
-func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -252,7 +252,7 @@ func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffini
 	return nil
 }
 
-func validateNewCronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCronJobV1SpecJobTemplateSpecTemplateSpecAffinityPodAntiAffinityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

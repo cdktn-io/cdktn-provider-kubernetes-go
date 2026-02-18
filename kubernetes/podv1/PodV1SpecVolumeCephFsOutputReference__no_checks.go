@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -51,7 +51,7 @@ func (p *jsiiProxy_PodV1SpecVolumeCephFsOutputReference) validatePutSecretRefPar
 	return nil
 }
 
-func (p *jsiiProxy_PodV1SpecVolumeCephFsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PodV1SpecVolumeCephFsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PodV1SpecVolumeCephFsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_PodV1SpecVolumeCephFsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PodV1SpecVolumeCephFsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_PodV1SpecVolumeCephFsOutputReference) validateSetUserParamete
 	return nil
 }
 
-func validateNewPodV1SpecVolumeCephFsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPodV1SpecVolumeCephFsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package replicationcontrollerv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/replicationcontrollerv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/replicationcontrollerv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Audience() *string
 	SetAudience(val *string)
 	AudienceInput() *string
@@ -46,15 +46,15 @@ type ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccount
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccount
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAudience()
 	ResetExpirationSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccount
 
 // The jsii proxy struct for ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference
 type jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) Audience() *string {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSources
 	return returns
 }
 
-func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSources
 }
 
 
-func NewReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference {
+func NewReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAcco
 	return &j
 }
 
-func NewReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference_Override(r ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference_Override(r ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSources
 	)
 }
 
-func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSources
 	return returns
 }
 
-func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -493,8 +493,8 @@ func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSources
 	return returns
 }
 
-func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -506,11 +506,11 @@ func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSources
 	return returns
 }
 
-func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -538,7 +538,7 @@ func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSources
 	)
 }
 
-func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecVolumeProjectedSourcesServiceAccountTokenOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

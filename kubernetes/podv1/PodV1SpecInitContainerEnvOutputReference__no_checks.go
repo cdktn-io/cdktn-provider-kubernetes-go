@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -51,7 +51,7 @@ func (p *jsiiProxy_PodV1SpecInitContainerEnvOutputReference) validatePutValueFro
 	return nil
 }
 
-func (p *jsiiProxy_PodV1SpecInitContainerEnvOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PodV1SpecInitContainerEnvOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PodV1SpecInitContainerEnvOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_PodV1SpecInitContainerEnvOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PodV1SpecInitContainerEnvOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PodV1SpecInitContainerEnvOutputReference) validateSetValuePar
 	return nil
 }
 
-func validateNewPodV1SpecInitContainerEnvOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPodV1SpecInitContainerEnvOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nodetaint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/nodetaint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/nodetaint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NodeTaintMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type NodeTaintMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type NodeTaintMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type NodeTaintMetadataOutputReference interface {
 
 // The jsii proxy struct for NodeTaintMetadataOutputReference
 type jsiiProxy_NodeTaintMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NodeTaintMetadataOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_NodeTaintMetadataOutputReference) TerraformAttribute() *strin
 	return returns
 }
 
-func (j *jsiiProxy_NodeTaintMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NodeTaintMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_NodeTaintMetadataOutputReference) TerraformResource() cdktf.I
 }
 
 
-func NewNodeTaintMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NodeTaintMetadataOutputReference {
+func NewNodeTaintMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NodeTaintMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNodeTaintMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewNodeTaintMetadataOutputReference(terraformResource cdktf.IInterpolatingP
 	return &j
 }
 
-func NewNodeTaintMetadataOutputReference_Override(n NodeTaintMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNodeTaintMetadataOutputReference_Override(n NodeTaintMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_NodeTaintMetadataOutputReference)SetTerraformAttribute(val *s
 	)
 }
 
-func (j *jsiiProxy_NodeTaintMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NodeTaintMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (n *jsiiProxy_NodeTaintMetadataOutputReference) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (n *jsiiProxy_NodeTaintMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NodeTaintMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -423,8 +423,8 @@ func (n *jsiiProxy_NodeTaintMetadataOutputReference) GetStringMapAttribute(terra
 	return returns
 }
 
-func (n *jsiiProxy_NodeTaintMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NodeTaintMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -436,11 +436,11 @@ func (n *jsiiProxy_NodeTaintMetadataOutputReference) InterpolationAsList() cdktf
 	return returns
 }
 
-func (n *jsiiProxy_NodeTaintMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NodeTaintMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -452,7 +452,7 @@ func (n *jsiiProxy_NodeTaintMetadataOutputReference) InterpolationForAttribute(t
 	return returns
 }
 
-func (n *jsiiProxy_NodeTaintMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NodeTaintMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

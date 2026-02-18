@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetespod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetespod/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesPodSpecContainerVolumeMountOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -35,7 +35,7 @@ type DataKubernetesPodSpecContainerVolumeMountOutputReference interface {
 	MountPath() *string
 	MountPropagation() *string
 	Name() *string
-	ReadOnly() cdktf.IResolvable
+	ReadOnly() cdktn.IResolvable
 	SubPath() *string
 	SubPathExpr() *string
 	// Experimental.
@@ -43,15 +43,15 @@ type DataKubernetesPodSpecContainerVolumeMountOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataKubernetesPodSpecContainerVolumeMountOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataKubernetesPodSpecContainerVolumeMountOutputReference interface {
 
 // The jsii proxy struct for DataKubernetesPodSpecContainerVolumeMountOutputReference
 type jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) Nam
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) ReadOnly() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) ReadOnly() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"readOnly",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) Ter
 }
 
 
-func NewDataKubernetesPodSpecContainerVolumeMountOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesPodSpecContainerVolumeMountOutputReference {
+func NewDataKubernetesPodSpecContainerVolumeMountOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesPodSpecContainerVolumeMountOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesPodSpecContainerVolumeMountOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewDataKubernetesPodSpecContainerVolumeMountOutputReference(terraformResour
 	return &j
 }
 
-func NewDataKubernetesPodSpecContainerVolumeMountOutputReference_Override(d DataKubernetesPodSpecContainerVolumeMountOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataKubernetesPodSpecContainerVolumeMountOutputReference_Override(d DataKubernetesPodSpecContainerVolumeMountOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -455,8 +455,8 @@ func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -468,11 +468,11 @@ func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -484,7 +484,7 @@ func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesPodSpecContainerVolumeMountOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

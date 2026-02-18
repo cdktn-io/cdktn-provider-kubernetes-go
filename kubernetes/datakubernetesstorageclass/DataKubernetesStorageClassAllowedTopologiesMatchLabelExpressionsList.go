@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesstorageclass
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesstorageclass/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetesstorageclass/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList interf
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList interf
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList interf
 
 // The jsii proxy struct for DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList
 type jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressi
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressi
 }
 
 
-func NewDataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList {
+func NewDataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList(ter
 	return &j
 }
 
-func NewDataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList_Override(d DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList_Override(d DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressi
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressi
 	)
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressi
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesStorageClassAllowedTopologiesMatchLabelExpressionsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

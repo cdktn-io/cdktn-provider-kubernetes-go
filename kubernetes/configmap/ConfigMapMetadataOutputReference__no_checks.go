@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConfigMapMetadataOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (c *jsiiProxy_ConfigMapMetadataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfigMapMetadataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_ConfigMapMetadataOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_ConfigMapMetadataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfigMapMetadataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConfigMapMetadataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConfigMapMetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

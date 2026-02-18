@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionO
 	return nil
 }
 
-func (c *jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionO
 	return nil
 }
 
-func (j *jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionO
 	return nil
 }
 
-func validateNewCronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCronJobSpecJobTemplateSpecPodFailurePolicyRuleOnPodConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

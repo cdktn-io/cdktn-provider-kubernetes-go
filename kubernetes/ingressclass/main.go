@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ingressclass
@@ -67,7 +67,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressClass{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -122,7 +122,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressClassMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -165,7 +165,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressClassSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -191,7 +191,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressClassSpecParametersList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -236,7 +236,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressClassSpecParametersOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

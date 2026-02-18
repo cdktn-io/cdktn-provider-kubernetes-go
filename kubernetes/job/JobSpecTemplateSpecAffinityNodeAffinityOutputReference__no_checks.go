@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -55,7 +55,7 @@ func (j *jsiiProxy_JobSpecTemplateSpecAffinityNodeAffinityOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecAffinityNodeAffinityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (j *jsiiProxy_JobSpecTemplateSpecAffinityNodeAffinityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_JobSpecTemplateSpecAffinityNodeAffinityOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecAffinityNodeAffinityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_JobSpecTemplateSpecAffinityNodeAffinityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewJobSpecTemplateSpecAffinityNodeAffinityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewJobSpecTemplateSpecAffinityNodeAffinityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

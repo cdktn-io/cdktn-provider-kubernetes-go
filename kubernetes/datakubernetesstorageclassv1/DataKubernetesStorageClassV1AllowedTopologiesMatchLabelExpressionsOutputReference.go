@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesstorageclassv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesstorageclassv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetesstorageclassv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputRef
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	SetValues(val *[]*string)
 	ValuesInput() *[]*string
@@ -51,7 +51,7 @@ type DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputRef
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputRef
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKey()
 	ResetValues()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputRef
 
 // The jsii proxy struct for DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference
 type jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpres
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpres
 }
 
 
-func NewDataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference {
+func NewDataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewDataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutput
 	return &j
 }
 
-func NewDataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference_Override(d DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference_Override(d DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpres
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpres
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -459,8 +459,8 @@ func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpres
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -472,11 +472,11 @@ func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpres
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -504,7 +504,7 @@ func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpres
 	)
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesStorageClassV1AllowedTopologiesMatchLabelExpressionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

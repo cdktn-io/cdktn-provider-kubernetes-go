@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesservicev1
@@ -58,7 +58,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -113,7 +113,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1MetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -138,7 +138,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1SpecList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -189,7 +189,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1SpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -214,7 +214,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1SpecPortList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -252,7 +252,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1SpecPortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -281,7 +281,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1SpecSessionAffinityConfigClientIpList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -314,7 +314,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1SpecSessionAffinityConfigClientIpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -335,7 +335,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1SpecSessionAffinityConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -368,7 +368,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1SpecSessionAffinityConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -393,7 +393,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1StatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -422,7 +422,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1StatusLoadBalancerIngressList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -456,7 +456,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1StatusLoadBalancerIngressOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -477,7 +477,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1StatusLoadBalancerList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -510,7 +510,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1StatusLoadBalancerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -543,7 +543,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesServiceV1StatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

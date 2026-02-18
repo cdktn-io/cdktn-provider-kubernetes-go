@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ingress
@@ -71,7 +71,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Ingress{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -129,7 +129,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -175,7 +175,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecBackendOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -222,7 +222,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -265,7 +265,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecRuleHttpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -311,7 +311,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecRuleHttpPathBackendOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -333,7 +333,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecRuleHttpPathList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -372,7 +372,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecRuleHttpPathOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -394,7 +394,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -432,7 +432,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -458,7 +458,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecTlsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -496,7 +496,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressSpecTlsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -521,7 +521,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressStatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -550,7 +550,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressStatusLoadBalancerIngressList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -584,7 +584,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressStatusLoadBalancerIngressOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -605,7 +605,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressStatusLoadBalancerList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -638,7 +638,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressStatusLoadBalancerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -671,7 +671,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_IngressStatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (s *jsiiProxy_ServiceSpecPortList) validateGetParameters(index *float64) er
 	return nil
 }
 
-func (s *jsiiProxy_ServiceSpecPortList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceSpecPortList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ServiceSpecPortList) validateSetTerraformAttributeParameters(
 	return nil
 }
 
-func (j *jsiiProxy_ServiceSpecPortList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceSpecPortList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ServiceSpecPortList) validateSetWrapsSetParameters(val *bool)
 	return nil
 }
 
-func validateNewServiceSpecPortListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewServiceSpecPortListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

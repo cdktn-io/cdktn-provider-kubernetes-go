@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package manifest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/manifest/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/manifest/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ManifestWaitConditionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ManifestWaitConditionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ManifestWaitConditionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ManifestWaitConditionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ManifestWaitConditionList interface {
 
 // The jsii proxy struct for ManifestWaitConditionList
 type jsiiProxy_ManifestWaitConditionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ManifestWaitConditionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ManifestWaitConditionList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ManifestWaitConditionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ManifestWaitConditionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ManifestWaitConditionList) WrapsSet() *bool {
 }
 
 
-func NewManifestWaitConditionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManifestWaitConditionList {
+func NewManifestWaitConditionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ManifestWaitConditionList {
 	_init_.Initialize()
 
 	if err := validateNewManifestWaitConditionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewManifestWaitConditionList(terraformResource cdktf.IInterpolatingParent, 
 	return &j
 }
 
-func NewManifestWaitConditionList_Override(m ManifestWaitConditionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewManifestWaitConditionList_Override(m ManifestWaitConditionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ManifestWaitConditionList)SetTerraformAttribute(val *string) 
 	)
 }
 
-func (j *jsiiProxy_ManifestWaitConditionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ManifestWaitConditionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ManifestWaitConditionList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (m *jsiiProxy_ManifestWaitConditionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (m *jsiiProxy_ManifestWaitConditionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := m.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		m,
@@ -231,7 +231,7 @@ func (m *jsiiProxy_ManifestWaitConditionList) Get(index *float64) ManifestWaitCo
 	return returns
 }
 
-func (m *jsiiProxy_ManifestWaitConditionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_ManifestWaitConditionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

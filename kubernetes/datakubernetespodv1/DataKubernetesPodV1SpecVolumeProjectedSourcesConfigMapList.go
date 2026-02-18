@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetespodv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespodv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetespodv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList interface {
 
 // The jsii proxy struct for DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList
 type jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) T
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) W
 }
 
 
-func NewDataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList {
+func NewDataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList(terraformReso
 	return &j
 }
 
-func NewDataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList_Override(d DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList_Override(d DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList)Se
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList)Se
 	)
 }
 
-func (d *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) G
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesPodV1SpecVolumeProjectedSourcesConfigMapList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -51,7 +51,7 @@ func (j *jsiiProxy_JobSpecTemplateSpecVolumeConfigMapOutputReference) validatePu
 	return nil
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecVolumeConfigMapOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (j *jsiiProxy_JobSpecTemplateSpecVolumeConfigMapOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_JobSpecTemplateSpecVolumeConfigMapOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecVolumeConfigMapOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_JobSpecTemplateSpecVolumeConfigMapOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewJobSpecTemplateSpecVolumeConfigMapOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewJobSpecTemplateSpecVolumeConfigMapOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

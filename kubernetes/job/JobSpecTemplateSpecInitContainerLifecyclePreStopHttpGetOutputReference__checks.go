@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (j *jsiiProxy_JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (j *jsiiProxy_JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutput
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetHttpHeader:
 		value := value.(*[]*JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetHttpHeader)
@@ -117,14 +117,14 @@ func (j *jsiiProxy_JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutput
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetHttpHeader; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetHttpHeader; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (j *jsiiProxy_JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -245,7 +245,7 @@ func (j *jsiiProxy_JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutput
 	return nil
 }
 
-func (j *jsiiProxy_JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -253,7 +253,7 @@ func (j *jsiiProxy_JobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutput
 	return nil
 }
 
-func validateNewJobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewJobSpecTemplateSpecInitContainerLifecyclePreStopHttpGetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -63,7 +63,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecVolumeProjectedSourcesOutputRefere
 	return nil
 }
 
-func (s *jsiiProxy_StatefulSetSpecTemplateSpecVolumeProjectedSourcesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StatefulSetSpecTemplateSpecVolumeProjectedSourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecVolumeProjectedSourcesOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_StatefulSetSpecTemplateSpecVolumeProjectedSourcesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StatefulSetSpecTemplateSpecVolumeProjectedSourcesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStatefulSetSpecTemplateSpecVolumeProjectedSourcesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStatefulSetSpecTemplateSpecVolumeProjectedSourcesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DefaultServiceAccountSecretList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (d *jsiiProxy_DefaultServiceAccountSecretList) validateGetParameters(index 
 	return nil
 }
 
-func (d *jsiiProxy_DefaultServiceAccountSecretList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DefaultServiceAccountSecretList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (d *jsiiProxy_DefaultServiceAccountSecretList) validateResolveParameters(co
 
 func (j *jsiiProxy_DefaultServiceAccountSecretList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DefaultServiceAccountSecret:
 		val := val.(*[]*DefaultServiceAccountSecret)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_DefaultServiceAccountSecretList) validateSetInternalValuePara
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*DefaultServiceAccountSecret; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*DefaultServiceAccountSecret; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_DefaultServiceAccountSecretList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_DefaultServiceAccountSecretList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DefaultServiceAccountSecretList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_DefaultServiceAccountSecretList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewDefaultServiceAccountSecretListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDefaultServiceAccountSecretListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesstorageclass
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesstorageclass/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetesstorageclass/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesStorageClassMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
@@ -48,16 +48,16 @@ type DataKubernetesStorageClassMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uid() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type DataKubernetesStorageClassMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAnnotations()
 	ResetLabels()
 	ResetName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type DataKubernetesStorageClassMetadataOutputReference interface {
 
 // The jsii proxy struct for DataKubernetesStorageClassMetadataOutputReference
 type jsiiProxy_DataKubernetesStorageClassMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) Annotations() *map[string]*string {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -255,7 +255,7 @@ func (j *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) Uid() *str
 }
 
 
-func NewDataKubernetesStorageClassMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataKubernetesStorageClassMetadataOutputReference {
+func NewDataKubernetesStorageClassMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataKubernetesStorageClassMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesStorageClassMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -272,7 +272,7 @@ func NewDataKubernetesStorageClassMetadataOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewDataKubernetesStorageClassMetadataOutputReference_Override(d DataKubernetesStorageClassMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataKubernetesStorageClassMetadataOutputReference_Override(d DataKubernetesStorageClassMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -359,7 +359,7 @@ func (j *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) GetAnyMapA
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -527,8 +527,8 @@ func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) GetStringM
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -540,11 +540,11 @@ func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) Interpolat
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -580,7 +580,7 @@ func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) ResetName(
 	)
 }
 
-func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesStorageClassMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

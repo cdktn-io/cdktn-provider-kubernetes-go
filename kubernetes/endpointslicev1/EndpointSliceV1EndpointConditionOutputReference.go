@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package endpointslicev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/endpointslicev1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/endpointslicev1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EndpointSliceV1EndpointConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type EndpointSliceV1EndpointConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type EndpointSliceV1EndpointConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetReady()
 	ResetServing()
 	ResetTerminating()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type EndpointSliceV1EndpointConditionOutputReference interface {
 
 // The jsii proxy struct for EndpointSliceV1EndpointConditionOutputReference
 type jsiiProxy_EndpointSliceV1EndpointConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) TerraformRes
 }
 
 
-func NewEndpointSliceV1EndpointConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EndpointSliceV1EndpointConditionOutputReference {
+func NewEndpointSliceV1EndpointConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EndpointSliceV1EndpointConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEndpointSliceV1EndpointConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewEndpointSliceV1EndpointConditionOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewEndpointSliceV1EndpointConditionOutputReference_Override(e EndpointSliceV1EndpointConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEndpointSliceV1EndpointConditionOutputReference_Override(e EndpointSliceV1EndpointConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -494,8 +494,8 @@ func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) GetStringMap
 	return returns
 }
 
-func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -507,11 +507,11 @@ func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) Interpolatio
 	return returns
 }
 
-func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -547,7 +547,7 @@ func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) ResetTermina
 	)
 }
 
-func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EndpointSliceV1EndpointConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ingress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingress/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/ingress/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IngressStatusLoadBalancerIngressOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type IngressStatusLoadBalancerIngressOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type IngressStatusLoadBalancerIngressOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type IngressStatusLoadBalancerIngressOutputReference interface {
 
 // The jsii proxy struct for IngressStatusLoadBalancerIngressOutputReference
 type jsiiProxy_IngressStatusLoadBalancerIngressOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) ComplexObjectIndex() interface{} {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) TerraformRes
 }
 
 
-func NewIngressStatusLoadBalancerIngressOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) IngressStatusLoadBalancerIngressOutputReference {
+func NewIngressStatusLoadBalancerIngressOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) IngressStatusLoadBalancerIngressOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIngressStatusLoadBalancerIngressOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewIngressStatusLoadBalancerIngressOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewIngressStatusLoadBalancerIngressOutputReference_Override(i IngressStatusLoadBalancerIngressOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewIngressStatusLoadBalancerIngressOutputReference_Override(i IngressStatusLoadBalancerIngressOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -411,8 +411,8 @@ func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) GetStringMap
 	return returns
 }
 
-func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -424,11 +424,11 @@ func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) Interpolatio
 	return returns
 }
 
-func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -440,7 +440,7 @@ func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) Interpolatio
 	return returns
 }
 
-func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IngressStatusLoadBalancerIngressOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

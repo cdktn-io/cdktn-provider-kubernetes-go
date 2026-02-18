@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecSe
 	return nil
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecSelectorMatchExpressionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecSelectorMatchExpressionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecSe
 	return nil
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecSelectorMatchExpressionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecSelectorMatchExpressionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecSe
 	return nil
 }
 
-func validateNewDataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecSelectorMatchExpressionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataKubernetesPodSpecVolumeEphemeralVolumeClaimTemplateSpecSelectorMatchExpressionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

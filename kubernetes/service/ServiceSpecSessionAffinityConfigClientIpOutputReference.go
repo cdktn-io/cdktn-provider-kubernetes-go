@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/service/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/service/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceSpecSessionAffinityConfigClientIpOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type ServiceSpecSessionAffinityConfigClientIpOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeoutSeconds() *float64
 	SetTimeoutSeconds(val *float64)
 	TimeoutSecondsInput() *float64
@@ -48,7 +48,7 @@ type ServiceSpecSessionAffinityConfigClientIpOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type ServiceSpecSessionAffinityConfigClientIpOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTimeoutSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type ServiceSpecSessionAffinityConfigClientIpOutputReference interface {
 
 // The jsii proxy struct for ServiceSpecSessionAffinityConfigClientIpOutputReference
 type jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) Time
 }
 
 
-func NewServiceSpecSessionAffinityConfigClientIpOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServiceSpecSessionAffinityConfigClientIpOutputReference {
+func NewServiceSpecSessionAffinityConfigClientIpOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServiceSpecSessionAffinityConfigClientIpOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceSpecSessionAffinityConfigClientIpOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewServiceSpecSessionAffinityConfigClientIpOutputReference(terraformResourc
 	return &j
 }
 
-func NewServiceSpecSessionAffinityConfigClientIpOutputReference_Override(s ServiceSpecSessionAffinityConfigClientIpOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServiceSpecSessionAffinityConfigClientIpOutputReference_Override(s ServiceSpecSessionAffinityConfigClientIpOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) GetA
 	return returns
 }
 
-func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -424,8 +424,8 @@ func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) GetS
 	return returns
 }
 
-func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -437,11 +437,11 @@ func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -461,7 +461,7 @@ func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) Rese
 	)
 }
 
-func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceSpecSessionAffinityConfigClientIpOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

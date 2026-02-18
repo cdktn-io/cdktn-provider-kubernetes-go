@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (s *jsiiProxy_StatefulSetV1SpecTemplateMetadataOutputReference) validateInt
 	return nil
 }
 
-func (s *jsiiProxy_StatefulSetV1SpecTemplateMetadataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StatefulSetV1SpecTemplateMetadataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_StatefulSetV1SpecTemplateMetadataOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_StatefulSetV1SpecTemplateMetadataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StatefulSetV1SpecTemplateMetadataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStatefulSetV1SpecTemplateMetadataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStatefulSetV1SpecTemplateMetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package servicev1
@@ -75,7 +75,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -133,7 +133,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1MetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -228,7 +228,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1SpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -254,7 +254,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1SpecPortList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -303,7 +303,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1SpecPortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -346,7 +346,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1SpecSessionAffinityConfigClientIpOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -382,7 +382,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1SpecSessionAffinityConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -407,7 +407,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1StatusList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -436,7 +436,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1StatusLoadBalancerIngressList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -470,7 +470,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1StatusLoadBalancerIngressOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -491,7 +491,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1StatusLoadBalancerList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -524,7 +524,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1StatusLoadBalancerOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -557,7 +557,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1StatusOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -596,7 +596,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceV1TimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

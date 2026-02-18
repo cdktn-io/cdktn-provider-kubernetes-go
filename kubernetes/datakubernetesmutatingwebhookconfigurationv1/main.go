@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesmutatingwebhookconfigurationv1
@@ -57,7 +57,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -109,7 +109,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1MetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -138,7 +138,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookClientConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -173,7 +173,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookClientConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -198,7 +198,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookClientConfigServiceList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -234,7 +234,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookClientConfigServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -255,7 +255,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -280,7 +280,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -305,7 +305,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -340,7 +340,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -374,7 +374,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -399,7 +399,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookObjectSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -424,7 +424,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookObjectSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -459,7 +459,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookObjectSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -493,7 +493,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookObjectSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -536,7 +536,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -561,7 +561,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -598,7 +598,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

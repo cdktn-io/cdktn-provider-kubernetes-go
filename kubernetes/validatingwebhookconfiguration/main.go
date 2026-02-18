@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package validatingwebhookconfiguration
@@ -67,7 +67,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfiguration{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -122,7 +122,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -172,7 +172,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookClientConfigOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -218,7 +218,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookClientConfigServiceOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -240,7 +240,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -270,7 +270,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookNamespaceSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -311,7 +311,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookNamespaceSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -350,7 +350,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookNamespaceSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -380,7 +380,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookObjectSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -421,7 +421,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookObjectSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -460,7 +460,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookObjectSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -524,7 +524,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -550,7 +550,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookRuleList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -593,7 +593,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ValidatingWebhookConfigurationWebhookRuleOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

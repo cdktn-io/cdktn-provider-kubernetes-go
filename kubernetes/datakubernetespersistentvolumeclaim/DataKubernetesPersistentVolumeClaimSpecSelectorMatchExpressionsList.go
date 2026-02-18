@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetespersistentvolumeclaim
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespersistentvolumeclaim/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetespersistentvolumeclaim/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList interfa
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList interfa
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList interfa
 
 // The jsii proxy struct for DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList
 type jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressio
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressio
 }
 
 
-func NewDataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList {
+func NewDataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList(terr
 	return &j
 }
 
-func NewDataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList_Override(d DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList_Override(d DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressio
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressio
 	)
 }
 
-func (d *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressio
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesPersistentVolumeClaimSpecSelectorMatchExpressionsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

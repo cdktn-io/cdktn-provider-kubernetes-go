@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (p *jsiiProxy_PodV1SpecContainerEnvList) validateGetParameters(index *float
 	return nil
 }
 
-func (p *jsiiProxy_PodV1SpecContainerEnvList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PodV1SpecContainerEnvList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PodV1SpecContainerEnvList) validateSetTerraformAttributeParam
 	return nil
 }
 
-func (j *jsiiProxy_PodV1SpecContainerEnvList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PodV1SpecContainerEnvList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PodV1SpecContainerEnvList) validateSetWrapsSetParameters(val 
 	return nil
 }
 
-func validateNewPodV1SpecContainerEnvListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPodV1SpecContainerEnvListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

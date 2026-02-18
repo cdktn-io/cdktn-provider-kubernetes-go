@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutContai
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StatefulSetSpecTemplateSpecContainer:
 		value := value.(*[]*StatefulSetSpecTemplateSpecContainer)
@@ -128,7 +128,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutContai
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StatefulSetSpecTemplateSpecContainer; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StatefulSetSpecTemplateSpecContainer; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -151,7 +151,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutHostAl
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StatefulSetSpecTemplateSpecHostAliases:
 		value := value.(*[]*StatefulSetSpecTemplateSpecHostAliases)
@@ -170,7 +170,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutHostAl
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StatefulSetSpecTemplateSpecHostAliases; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StatefulSetSpecTemplateSpecHostAliases; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -182,7 +182,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutImageP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StatefulSetSpecTemplateSpecImagePullSecrets:
 		value := value.(*[]*StatefulSetSpecTemplateSpecImagePullSecrets)
@@ -201,7 +201,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutImageP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StatefulSetSpecTemplateSpecImagePullSecrets; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StatefulSetSpecTemplateSpecImagePullSecrets; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -213,7 +213,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutInitCo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StatefulSetSpecTemplateSpecInitContainer:
 		value := value.(*[]*StatefulSetSpecTemplateSpecInitContainer)
@@ -232,7 +232,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutInitCo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StatefulSetSpecTemplateSpecInitContainer; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StatefulSetSpecTemplateSpecInitContainer; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -255,7 +255,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutReadin
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StatefulSetSpecTemplateSpecReadinessGate:
 		value := value.(*[]*StatefulSetSpecTemplateSpecReadinessGate)
@@ -274,7 +274,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutReadin
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StatefulSetSpecTemplateSpecReadinessGate; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StatefulSetSpecTemplateSpecReadinessGate; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -297,7 +297,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutTolera
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StatefulSetSpecTemplateSpecToleration:
 		value := value.(*[]*StatefulSetSpecTemplateSpecToleration)
@@ -316,7 +316,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutTolera
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StatefulSetSpecTemplateSpecToleration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StatefulSetSpecTemplateSpecToleration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -328,7 +328,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutTopolo
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StatefulSetSpecTemplateSpecTopologySpreadConstraint:
 		value := value.(*[]*StatefulSetSpecTemplateSpecTopologySpreadConstraint)
@@ -347,7 +347,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutTopolo
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StatefulSetSpecTemplateSpecTopologySpreadConstraint; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StatefulSetSpecTemplateSpecTopologySpreadConstraint; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -359,7 +359,7 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutVolume
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StatefulSetSpecTemplateSpecVolume:
 		value := value.(*[]*StatefulSetSpecTemplateSpecVolume)
@@ -378,14 +378,14 @@ func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validatePutVolume
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StatefulSetSpecTemplateSpecVolume; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StatefulSetSpecTemplateSpecVolume; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -410,11 +410,11 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetAutomo
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -503,11 +503,11 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetEnable
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -523,11 +523,11 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetHostIp
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -551,11 +551,11 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetHostNe
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -571,11 +571,11 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetHostPi
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -655,11 +655,11 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetShareP
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -690,7 +690,7 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -698,7 +698,7 @@ func (j *jsiiProxy_StatefulSetSpecTemplateSpecOutputReference) validateSetTerraf
 	return nil
 }
 
-func validateNewStatefulSetSpecTemplateSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStatefulSetSpecTemplateSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -59,7 +59,7 @@ func (p *jsiiProxy_PodSpecContainerLifecyclePostStartOutputReference) validatePu
 	return nil
 }
 
-func (p *jsiiProxy_PodSpecContainerLifecyclePostStartOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PodSpecContainerLifecyclePostStartOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_PodSpecContainerLifecyclePostStartOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_PodSpecContainerLifecyclePostStartOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PodSpecContainerLifecyclePostStartOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPodSpecContainerLifecyclePostStartOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPodSpecContainerLifecyclePostStartOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

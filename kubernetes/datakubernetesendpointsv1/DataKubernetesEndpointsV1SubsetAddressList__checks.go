@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateResolvePa
 
 func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataKubernetesEndpointsV1SubsetAddress:
 		val := val.(*[]*DataKubernetesEndpointsV1SubsetAddress)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateSetIntern
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*DataKubernetesEndpointsV1SubsetAddress; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*DataKubernetesEndpointsV1SubsetAddress; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetAddressList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataKubernetesEndpointsV1SubsetAddressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataKubernetesEndpointsV1SubsetAddressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

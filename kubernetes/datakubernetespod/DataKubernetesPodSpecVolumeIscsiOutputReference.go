@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetespod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetespod/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesPodSpecVolumeIscsiOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -36,22 +36,22 @@ type DataKubernetesPodSpecVolumeIscsiOutputReference interface {
 	Iqn() *string
 	IscsiInterface() *string
 	Lun() *float64
-	ReadOnly() cdktf.IResolvable
+	ReadOnly() cdktn.IResolvable
 	TargetPortal() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataKubernetesPodSpecVolumeIscsiOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataKubernetesPodSpecVolumeIscsiOutputReference interface {
 
 // The jsii proxy struct for DataKubernetesPodSpecVolumeIscsiOutputReference
 type jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) ComplexObjectIndex() interface{} {
@@ -175,8 +175,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) Lun() *float
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) ReadOnly() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) ReadOnly() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"readOnly",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) TerraformRes
 }
 
 
-func NewDataKubernetesPodSpecVolumeIscsiOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesPodSpecVolumeIscsiOutputReference {
+func NewDataKubernetesPodSpecVolumeIscsiOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesPodSpecVolumeIscsiOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesPodSpecVolumeIscsiOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewDataKubernetesPodSpecVolumeIscsiOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewDataKubernetesPodSpecVolumeIscsiOutputReference_Override(d DataKubernetesPodSpecVolumeIscsiOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataKubernetesPodSpecVolumeIscsiOutputReference_Override(d DataKubernetesPodSpecVolumeIscsiOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -455,8 +455,8 @@ func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) GetStringMap
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -468,11 +468,11 @@ func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -484,7 +484,7 @@ func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) Interpolatio
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesPodSpecVolumeIscsiOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

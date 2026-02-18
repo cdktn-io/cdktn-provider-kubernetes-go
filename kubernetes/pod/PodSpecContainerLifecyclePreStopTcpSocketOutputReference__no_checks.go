@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (p *jsiiProxy_PodSpecContainerLifecyclePreStopTcpSocketOutputReference) val
 	return nil
 }
 
-func (p *jsiiProxy_PodSpecContainerLifecyclePreStopTcpSocketOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PodSpecContainerLifecyclePreStopTcpSocketOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_PodSpecContainerLifecyclePreStopTcpSocketOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_PodSpecContainerLifecyclePreStopTcpSocketOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PodSpecContainerLifecyclePreStopTcpSocketOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPodSpecContainerLifecyclePreStopTcpSocketOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPodSpecContainerLifecyclePreStopTcpSocketOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package nodetaint
@@ -73,7 +73,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NodeTaint{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -115,7 +115,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NodeTaintMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -141,7 +141,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NodeTaintTaintList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -179,7 +179,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NodeTaintTaintOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -8,7 +8,7 @@ package datakubernetespodv1
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataKubernetesPodV1SpecContainerEnvValueFromList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataKubernetesPodV1SpecContainerEnvValueFromList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataKubernetesPodV1SpecContainerEnvValueFromList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataKubernetesPodV1SpecContainerEnvValueFromList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecContainerEnvValueFromList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataKubernetesPodV1SpecContainerEnvValueFromList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataKubernetesPodV1SpecContainerEnvValueFromList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecContainerEnvValueFromList) validateSet
 	return nil
 }
 
-func validateNewDataKubernetesPodV1SpecContainerEnvValueFromListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataKubernetesPodV1SpecContainerEnvValueFromListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

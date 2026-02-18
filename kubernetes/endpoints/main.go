@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package endpoints
@@ -68,7 +68,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Endpoints{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -126,7 +126,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EndpointsMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -156,7 +156,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EndpointsSubsetAddressList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -196,7 +196,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EndpointsSubsetAddressOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -218,7 +218,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EndpointsSubsetList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -244,7 +244,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EndpointsSubsetNotReadyAddressList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -284,7 +284,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EndpointsSubsetNotReadyAddressOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -328,7 +328,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EndpointsSubsetOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -354,7 +354,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EndpointsSubsetPortList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -394,7 +394,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_EndpointsSubsetPortOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

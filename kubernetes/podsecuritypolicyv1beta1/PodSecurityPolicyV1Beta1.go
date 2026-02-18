@@ -1,22 +1,22 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package podsecuritypolicyv1beta1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/podsecuritypolicyv1beta1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/podsecuritypolicyv1beta1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/pod_security_policy_v1beta1 kubernetes_pod_security_policy_v1beta1}.
 type PodSecurityPolicyV1Beta1 interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type PodSecurityPolicyV1Beta1 interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,17 +43,17 @@ type PodSecurityPolicyV1Beta1 interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Metadata() PodSecurityPolicyV1Beta1MetadataOutputReference
 	MetadataInput() *PodSecurityPolicyV1Beta1Metadata
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -63,7 +63,7 @@ type PodSecurityPolicyV1Beta1 interface {
 	Spec() PodSecurityPolicyV1Beta1SpecOutputReference
 	SpecInput() *PodSecurityPolicyV1Beta1Spec
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -76,7 +76,7 @@ type PodSecurityPolicyV1Beta1 interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -94,9 +94,9 @@ type PodSecurityPolicyV1Beta1 interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -132,11 +132,11 @@ type PodSecurityPolicyV1Beta1 interface {
 
 // The jsii proxy struct for PodSecurityPolicyV1Beta1
 type jsiiProxy_PodSecurityPolicyV1Beta1 struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -185,8 +185,8 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -235,8 +235,8 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -275,8 +275,8 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1) SpecInput() *PodSecurityPolicyV1Bet
 	return returns
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -415,7 +415,7 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -434,7 +434,7 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -445,7 +445,7 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetLifecycle(val *cdktf.TerraformRes
 	)
 }
 
-func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -464,14 +464,14 @@ func (j *jsiiProxy_PodSecurityPolicyV1Beta1)SetProvisioners(val *[]interface{}) 
 	)
 }
 
-// Generates CDKTF code for importing a PodSecurityPolicyV1Beta1 resource upon running "cdktf plan <stack-name>".
-func PodSecurityPolicyV1Beta1_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PodSecurityPolicyV1Beta1 resource upon running "cdktn plan <stack-name>".
+func PodSecurityPolicyV1Beta1_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePodSecurityPolicyV1Beta1_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-kubernetes.podSecurityPolicyV1Beta1.PodSecurityPolicyV1Beta1",
@@ -605,11 +605,11 @@ func (p *jsiiProxy_PodSecurityPolicyV1Beta1) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (p *jsiiProxy_PodSecurityPolicyV1Beta1) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PodSecurityPolicyV1Beta1) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -746,7 +746,7 @@ func (p *jsiiProxy_PodSecurityPolicyV1Beta1) HasResourceMove() interface{} {
 	return returns
 }
 
-func (p *jsiiProxy_PodSecurityPolicyV1Beta1) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PodSecurityPolicyV1Beta1) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -757,11 +757,11 @@ func (p *jsiiProxy_PodSecurityPolicyV1Beta1) ImportFrom(id *string, provider cdk
 	)
 }
 
-func (p *jsiiProxy_PodSecurityPolicyV1Beta1) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PodSecurityPolicyV1Beta1) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

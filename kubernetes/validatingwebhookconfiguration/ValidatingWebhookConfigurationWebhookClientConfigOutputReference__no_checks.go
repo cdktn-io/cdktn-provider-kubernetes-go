@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -51,7 +51,7 @@ func (v *jsiiProxy_ValidatingWebhookConfigurationWebhookClientConfigOutputRefere
 	return nil
 }
 
-func (v *jsiiProxy_ValidatingWebhookConfigurationWebhookClientConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_ValidatingWebhookConfigurationWebhookClientConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ValidatingWebhookConfigurationWebhookClientConfigOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ValidatingWebhookConfigurationWebhookClientConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ValidatingWebhookConfigurationWebhookClientConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ValidatingWebhookConfigurationWebhookClientConfigOutputRefere
 	return nil
 }
 
-func validateNewValidatingWebhookConfigurationWebhookClientConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewValidatingWebhookConfigurationWebhookClientConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

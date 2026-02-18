@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesingressv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesingressv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetesingressv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApiGroup() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -40,15 +40,15 @@ type DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference interface 
 
 // The jsii proxy struct for DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference
 type jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) ApiGroup() *string {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputRefere
 }
 
 
-func NewDataKubernetesIngressV1SpecDefaultBackendResourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference {
+func NewDataKubernetesIngressV1SpecDefaultBackendResourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesIngressV1SpecDefaultBackendResourceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataKubernetesIngressV1SpecDefaultBackendResourceOutputReference(terrafo
 	return &j
 }
 
-func NewDataKubernetesIngressV1SpecDefaultBackendResourceOutputReference_Override(d DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataKubernetesIngressV1SpecDefaultBackendResourceOutputReference_Override(d DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputRefere
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesIngressV1SpecDefaultBackendResourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceHostPathOutputRef
 	return nil
 }
 
-func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceHostPathOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceHostPathOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceHostPathOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceHostPathOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceHostPathOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceHostPathOutputRef
 	return nil
 }
 
-func validateNewPersistentVolumeV1SpecPersistentVolumeSourceHostPathOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPersistentVolumeV1SpecPersistentVolumeSourceHostPathOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

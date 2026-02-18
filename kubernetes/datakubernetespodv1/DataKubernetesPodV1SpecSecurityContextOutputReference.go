@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetespodv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespodv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetespodv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesPodV1SpecSecurityContextOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -35,7 +35,7 @@ type DataKubernetesPodV1SpecSecurityContextOutputReference interface {
 	InternalValue() *DataKubernetesPodV1SpecSecurityContext
 	SetInternalValue(val *DataKubernetesPodV1SpecSecurityContext)
 	RunAsGroup() *string
-	RunAsNonRoot() cdktf.IResolvable
+	RunAsNonRoot() cdktn.IResolvable
 	RunAsUser() *string
 	SeccompProfile() DataKubernetesPodV1SpecSecurityContextSeccompProfileList
 	SeLinuxOptions() DataKubernetesPodV1SpecSecurityContextSeLinuxOptionsList
@@ -46,16 +46,16 @@ type DataKubernetesPodV1SpecSecurityContextOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WindowsOptions() DataKubernetesPodV1SpecSecurityContextWindowsOptionsList
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,12 +71,12 @@ type DataKubernetesPodV1SpecSecurityContextOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type DataKubernetesPodV1SpecSecurityContextOutputReference interface {
 
 // The jsii proxy struct for DataKubernetesPodV1SpecSecurityContextOutputReference
 type jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) ComplexObjectIndex() interface{} {
@@ -169,8 +169,8 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) RunAsG
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) RunAsNonRoot() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) RunAsNonRoot() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"runAsNonRoot",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -260,7 +260,7 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) Window
 }
 
 
-func NewDataKubernetesPodV1SpecSecurityContextOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesPodV1SpecSecurityContextOutputReference {
+func NewDataKubernetesPodV1SpecSecurityContextOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesPodV1SpecSecurityContextOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesPodV1SpecSecurityContextOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -277,7 +277,7 @@ func NewDataKubernetesPodV1SpecSecurityContextOutputReference(terraformResource 
 	return &j
 }
 
-func NewDataKubernetesPodV1SpecSecurityContextOutputReference_Override(d DataKubernetesPodV1SpecSecurityContextOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataKubernetesPodV1SpecSecurityContextOutputReference_Override(d DataKubernetesPodV1SpecSecurityContextOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -331,7 +331,7 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -371,11 +371,11 @@ func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) GetAny
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -499,8 +499,8 @@ func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) GetStr
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -512,11 +512,11 @@ func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) Interp
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -528,7 +528,7 @@ func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) Interp
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesPodV1SpecSecurityContextOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

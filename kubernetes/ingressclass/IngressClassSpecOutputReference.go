@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package ingressclass
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/ingressclass/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/ingressclass/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IngressClassSpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type IngressClassSpecOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type IngressClassSpecOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutParameters(value interface{})
 	ResetController()
 	ResetParameters()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type IngressClassSpecOutputReference interface {
 
 // The jsii proxy struct for IngressClassSpecOutputReference
 type jsiiProxy_IngressClassSpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IngressClassSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_IngressClassSpecOutputReference) TerraformAttribute() *string
 	return returns
 }
 
-func (j *jsiiProxy_IngressClassSpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IngressClassSpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_IngressClassSpecOutputReference) TerraformResource() cdktf.II
 }
 
 
-func NewIngressClassSpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IngressClassSpecOutputReference {
+func NewIngressClassSpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IngressClassSpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIngressClassSpecOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewIngressClassSpecOutputReference(terraformResource cdktf.IInterpolatingPa
 	return &j
 }
 
-func NewIngressClassSpecOutputReference_Override(i IngressClassSpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIngressClassSpecOutputReference_Override(i IngressClassSpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_IngressClassSpecOutputReference)SetTerraformAttribute(val *st
 	)
 }
 
-func (j *jsiiProxy_IngressClassSpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IngressClassSpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (i *jsiiProxy_IngressClassSpecOutputReference) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (i *jsiiProxy_IngressClassSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IngressClassSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -448,8 +448,8 @@ func (i *jsiiProxy_IngressClassSpecOutputReference) GetStringMapAttribute(terraf
 	return returns
 }
 
-func (i *jsiiProxy_IngressClassSpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IngressClassSpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -461,11 +461,11 @@ func (i *jsiiProxy_IngressClassSpecOutputReference) InterpolationAsList() cdktf.
 	return returns
 }
 
-func (i *jsiiProxy_IngressClassSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IngressClassSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -504,7 +504,7 @@ func (i *jsiiProxy_IngressClassSpecOutputReference) ResetParameters() {
 	)
 }
 
-func (i *jsiiProxy_IngressClassSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IngressClassSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

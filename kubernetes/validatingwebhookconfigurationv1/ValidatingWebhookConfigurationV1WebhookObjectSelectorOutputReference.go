@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package validatingwebhookconfigurationv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/validatingwebhookconfigurationv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/validatingwebhookconfigurationv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMatchExpressions(value interface{})
 	ResetMatchExpressions()
 	ResetMatchLabels()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference interf
 
 // The jsii proxy struct for ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference
 type jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputRe
 }
 
 
-func NewValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference {
+func NewValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference(ter
 	return &j
 }
 
-func NewValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference_Override(v ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference_Override(v ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputRe
 	)
 }
 
-func (j *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputRe
 	return returns
 }
 
-func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -448,8 +448,8 @@ func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputRe
 	return returns
 }
 
-func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -461,11 +461,11 @@ func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputRe
 	return returns
 }
 
-func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -504,7 +504,7 @@ func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputRe
 	)
 }
 
-func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_ValidatingWebhookConfigurationV1WebhookObjectSelectorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

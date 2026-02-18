@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package podv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/podv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/podv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PodV1SpecAffinityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type PodV1SpecAffinityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,9 +67,9 @@ type PodV1SpecAffinityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutNodeAffinity(value *PodV1SpecAffinityNodeAffinity)
 	PutPodAffinity(value *PodV1SpecAffinityPodAffinity)
 	PutPodAntiAffinity(value *PodV1SpecAffinityPodAntiAffinity)
@@ -78,7 +78,7 @@ type PodV1SpecAffinityOutputReference interface {
 	ResetPodAntiAffinity()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type PodV1SpecAffinityOutputReference interface {
 
 // The jsii proxy struct for PodV1SpecAffinityOutputReference
 type jsiiProxy_PodV1SpecAffinityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PodV1SpecAffinityOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_PodV1SpecAffinityOutputReference) TerraformAttribute() *strin
 	return returns
 }
 
-func (j *jsiiProxy_PodV1SpecAffinityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PodV1SpecAffinityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_PodV1SpecAffinityOutputReference) TerraformResource() cdktf.I
 }
 
 
-func NewPodV1SpecAffinityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PodV1SpecAffinityOutputReference {
+func NewPodV1SpecAffinityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PodV1SpecAffinityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPodV1SpecAffinityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewPodV1SpecAffinityOutputReference(terraformResource cdktf.IInterpolatingP
 	return &j
 }
 
-func NewPodV1SpecAffinityOutputReference_Override(p PodV1SpecAffinityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPodV1SpecAffinityOutputReference_Override(p PodV1SpecAffinityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -293,7 +293,7 @@ func (j *jsiiProxy_PodV1SpecAffinityOutputReference)SetTerraformAttribute(val *s
 	)
 }
 
-func (j *jsiiProxy_PodV1SpecAffinityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PodV1SpecAffinityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -333,11 +333,11 @@ func (p *jsiiProxy_PodV1SpecAffinityOutputReference) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (p *jsiiProxy_PodV1SpecAffinityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PodV1SpecAffinityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -461,8 +461,8 @@ func (p *jsiiProxy_PodV1SpecAffinityOutputReference) GetStringMapAttribute(terra
 	return returns
 }
 
-func (p *jsiiProxy_PodV1SpecAffinityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PodV1SpecAffinityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -474,11 +474,11 @@ func (p *jsiiProxy_PodV1SpecAffinityOutputReference) InterpolationAsList() cdktf
 	return returns
 }
 
-func (p *jsiiProxy_PodV1SpecAffinityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PodV1SpecAffinityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -547,7 +547,7 @@ func (p *jsiiProxy_PodV1SpecAffinityOutputReference) ResetPodAntiAffinity() {
 	)
 }
 
-func (p *jsiiProxy_PodV1SpecAffinityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PodV1SpecAffinityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

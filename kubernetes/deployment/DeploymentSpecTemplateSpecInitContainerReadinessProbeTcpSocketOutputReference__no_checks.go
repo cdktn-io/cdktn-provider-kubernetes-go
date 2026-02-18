@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerReadinessProbeTcpSocke
 	return nil
 }
 
-func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerReadinessProbeTcpSocketOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerReadinessProbeTcpSocketOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerReadinessProbeTcpSocke
 	return nil
 }
 
-func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerReadinessProbeTcpSocketOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerReadinessProbeTcpSocketOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDeploymentSpecTemplateSpecInitContainerReadinessProbeTcpSocketOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDeploymentSpecTemplateSpecInitContainerReadinessProbeTcpSocketOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

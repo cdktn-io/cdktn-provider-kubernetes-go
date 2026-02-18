@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesC
 	return nil
 }
 
-func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapItemsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapItemsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesC
 	return nil
 }
 
-func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapItemsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapItemsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapItemsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCronJobSpecJobTemplateSpecTemplateSpecVolumeProjectedSourcesConfigMapItemsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

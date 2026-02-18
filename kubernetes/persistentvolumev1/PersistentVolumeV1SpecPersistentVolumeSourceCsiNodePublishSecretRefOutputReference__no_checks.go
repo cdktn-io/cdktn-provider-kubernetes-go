@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceCsiNodePublishSec
 	return nil
 }
 
-func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceCsiNodePublishSecretRefOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceCsiNodePublishSecretRefOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceCsiNodePublishSec
 	return nil
 }
 
-func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceCsiNodePublishSecretRefOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceCsiNodePublishSecretRefOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPersistentVolumeV1SpecPersistentVolumeSourceCsiNodePublishSecretRefOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPersistentVolumeV1SpecPersistentVolumeSourceCsiNodePublishSecretRefOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

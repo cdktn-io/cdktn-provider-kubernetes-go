@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package replicationcontroller
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/replicationcontroller/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/replicationcontroller/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ReplicationControllerSpecTemplateSpecVolumeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AwsElasticBlockStore() ReplicationControllerSpecTemplateSpecVolumeAwsElasticBlockStoreOutputReference
 	AwsElasticBlockStoreInput() *ReplicationControllerSpecTemplateSpecVolumeAwsElasticBlockStore
 	AzureDisk() ReplicationControllerSpecTemplateSpecVolumeAzureDiskOutputReference
@@ -92,9 +92,9 @@ type ReplicationControllerSpecTemplateSpecVolumeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VsphereVolume() ReplicationControllerSpecTemplateSpecVolumeVsphereVolumeOutputReference
 	VsphereVolumeInput() *ReplicationControllerSpecTemplateSpecVolumeVsphereVolume
 	// Experimental.
@@ -102,7 +102,7 @@ type ReplicationControllerSpecTemplateSpecVolumeOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type ReplicationControllerSpecTemplateSpecVolumeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAwsElasticBlockStore(value *ReplicationControllerSpecTemplateSpecVolumeAwsElasticBlockStore)
 	PutAzureDisk(value *ReplicationControllerSpecTemplateSpecVolumeAzureDisk)
 	PutAzureFile(value *ReplicationControllerSpecTemplateSpecVolumeAzureFile)
@@ -178,7 +178,7 @@ type ReplicationControllerSpecTemplateSpecVolumeOutputReference interface {
 	ResetVsphereVolume()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -188,7 +188,7 @@ type ReplicationControllerSpecTemplateSpecVolumeOutputReference interface {
 
 // The jsii proxy struct for ReplicationControllerSpecTemplateSpecVolumeOutputReference
 type jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) AwsElasticBlockStore() ReplicationControllerSpecTemplateSpecVolumeAwsElasticBlockStoreOutputReference {
@@ -791,8 +791,8 @@ func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -822,7 +822,7 @@ func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) V
 }
 
 
-func NewReplicationControllerSpecTemplateSpecVolumeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ReplicationControllerSpecTemplateSpecVolumeOutputReference {
+func NewReplicationControllerSpecTemplateSpecVolumeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ReplicationControllerSpecTemplateSpecVolumeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewReplicationControllerSpecTemplateSpecVolumeOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -839,7 +839,7 @@ func NewReplicationControllerSpecTemplateSpecVolumeOutputReference(terraformReso
 	return &j
 }
 
-func NewReplicationControllerSpecTemplateSpecVolumeOutputReference_Override(r ReplicationControllerSpecTemplateSpecVolumeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewReplicationControllerSpecTemplateSpecVolumeOutputReference_Override(r ReplicationControllerSpecTemplateSpecVolumeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -904,7 +904,7 @@ func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -944,11 +944,11 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) G
 	return returns
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1072,8 +1072,8 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) G
 	return returns
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1085,11 +1085,11 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) I
 	return returns
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1622,7 +1622,7 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) R
 	)
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecVolumeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

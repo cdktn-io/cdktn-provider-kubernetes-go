@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkpolicyv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/networkpolicyv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/networkpolicyv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	SetValues(val *[]*string)
 	ValuesInput() *[]*string
@@ -54,7 +54,7 @@ type NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKey()
 	ResetOperator()
 	ResetValues()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference interface {
 
 // The jsii proxy struct for NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference
 type jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference
 }
 
 
-func NewNetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference {
+func NewNetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -239,7 +239,7 @@ func NewNetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference(terraformR
 	return &j
 }
 
-func NewNetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference_Override(n NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference_Override(n NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference
 	)
 }
 
-func (j *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference
 	return returns
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -494,8 +494,8 @@ func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference
 	return returns
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -507,11 +507,11 @@ func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference
 	return returns
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -547,7 +547,7 @@ func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference
 	)
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkPolicyV1SpecPodSelectorMatchExpressionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

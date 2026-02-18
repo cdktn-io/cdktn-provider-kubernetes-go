@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package cronjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/cronjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/cronjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowPrivilegeEscalation() interface{}
 	SetAllowPrivilegeEscalation(val interface{})
 	AllowPrivilegeEscalationInput() interface{}
@@ -61,15 +61,15 @@ type CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputRef
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,9 +85,9 @@ type CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputRef
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCapabilities(value *CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextCapabilities)
 	PutSeccompProfile(value *CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextSeccompProfile)
 	PutSeLinuxOptions(value *CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextSeLinuxOptions)
@@ -102,7 +102,7 @@ type CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputRef
 	ResetSeLinuxOptions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ type CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputRef
 
 // The jsii proxy struct for CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference
 type jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) AllowPrivilegeEscalation() interface{} {
@@ -355,8 +355,8 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityCo
 	return returns
 }
 
-func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -366,7 +366,7 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityCo
 }
 
 
-func NewCronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference {
+func NewCronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -383,7 +383,7 @@ func NewCronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutput
 	return &j
 }
 
-func NewCronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference_Override(c CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference_Override(c CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -503,7 +503,7 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityCo
 	)
 }
 
-func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -543,11 +543,11 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityCo
 	return returns
 }
 
-func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -671,8 +671,8 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityCo
 	return returns
 }
 
-func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -684,11 +684,11 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityCo
 	return returns
 }
 
-func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -805,7 +805,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityCo
 	)
 }
 
-func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerSecurityContextOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

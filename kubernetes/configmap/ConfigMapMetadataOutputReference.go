@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package configmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/configmap/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/configmap/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ConfigMapMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Annotations() *map[string]*string
 	SetAnnotations(val *map[string]*string)
 	AnnotationsInput() *map[string]*string
@@ -54,16 +54,16 @@ type ConfigMapMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uid() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type ConfigMapMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAnnotations()
 	ResetGenerateName()
 	ResetLabels()
@@ -89,7 +89,7 @@ type ConfigMapMetadataOutputReference interface {
 	ResetNamespace()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type ConfigMapMetadataOutputReference interface {
 
 // The jsii proxy struct for ConfigMapMetadataOutputReference
 type jsiiProxy_ConfigMapMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ConfigMapMetadataOutputReference) Annotations() *map[string]*string {
@@ -282,8 +282,8 @@ func (j *jsiiProxy_ConfigMapMetadataOutputReference) TerraformAttribute() *strin
 	return returns
 }
 
-func (j *jsiiProxy_ConfigMapMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ConfigMapMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -303,7 +303,7 @@ func (j *jsiiProxy_ConfigMapMetadataOutputReference) Uid() *string {
 }
 
 
-func NewConfigMapMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ConfigMapMetadataOutputReference {
+func NewConfigMapMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ConfigMapMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewConfigMapMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -320,7 +320,7 @@ func NewConfigMapMetadataOutputReference(terraformResource cdktf.IInterpolatingP
 	return &j
 }
 
-func NewConfigMapMetadataOutputReference_Override(c ConfigMapMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewConfigMapMetadataOutputReference_Override(c ConfigMapMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -429,7 +429,7 @@ func (j *jsiiProxy_ConfigMapMetadataOutputReference)SetTerraformAttribute(val *s
 	)
 }
 
-func (j *jsiiProxy_ConfigMapMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ConfigMapMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -469,11 +469,11 @@ func (c *jsiiProxy_ConfigMapMetadataOutputReference) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (c *jsiiProxy_ConfigMapMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConfigMapMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -597,8 +597,8 @@ func (c *jsiiProxy_ConfigMapMetadataOutputReference) GetStringMapAttribute(terra
 	return returns
 }
 
-func (c *jsiiProxy_ConfigMapMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ConfigMapMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -610,11 +610,11 @@ func (c *jsiiProxy_ConfigMapMetadataOutputReference) InterpolationAsList() cdktf
 	return returns
 }
 
-func (c *jsiiProxy_ConfigMapMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConfigMapMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -666,7 +666,7 @@ func (c *jsiiProxy_ConfigMapMetadataOutputReference) ResetNamespace() {
 	)
 }
 
-func (c *jsiiProxy_ConfigMapMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ConfigMapMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

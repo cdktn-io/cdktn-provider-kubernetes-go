@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -51,7 +51,7 @@ func (n *jsiiProxy_NetworkPolicySpecEgressToNamespaceSelectorOutputReference) va
 	return nil
 }
 
-func (n *jsiiProxy_NetworkPolicySpecEgressToNamespaceSelectorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkPolicySpecEgressToNamespaceSelectorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkPolicySpecEgressToNamespaceSelectorOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_NetworkPolicySpecEgressToNamespaceSelectorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkPolicySpecEgressToNamespaceSelectorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkPolicySpecEgressToNamespaceSelectorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkPolicySpecEgressToNamespaceSelectorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

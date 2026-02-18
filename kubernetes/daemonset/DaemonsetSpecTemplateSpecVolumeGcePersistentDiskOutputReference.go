@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package daemonset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/daemonset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFsType()
 	ResetPartition()
 	ResetReadOnly()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference interface {
 
 // The jsii proxy struct for DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference
 type jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) ComplexObjectIndex() interface{} {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReferen
 }
 
 
-func NewDaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference {
+func NewDaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewDaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference(terrafor
 	return &j
 }
 
-func NewDaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference_Override(d DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference_Override(d DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -360,7 +360,7 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReferen
 	)
 }
 
-func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -528,8 +528,8 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -541,11 +541,11 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReferen
 	return returns
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -581,7 +581,7 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReferen
 	)
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeGcePersistentDiskOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

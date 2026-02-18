@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EndpointSliceV1PortOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (e *jsiiProxy_EndpointSliceV1PortOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (e *jsiiProxy_EndpointSliceV1PortOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EndpointSliceV1PortOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_EndpointSliceV1PortOutputReference) validateSetComplexObjectI
 
 func (j *jsiiProxy_EndpointSliceV1PortOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *EndpointSliceV1Port:
 		val := val.(*EndpointSliceV1Port)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_EndpointSliceV1PortOutputReference) validateSetInternalValueP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *EndpointSliceV1Port; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *EndpointSliceV1Port; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -230,7 +230,7 @@ func (j *jsiiProxy_EndpointSliceV1PortOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_EndpointSliceV1PortOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EndpointSliceV1PortOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_EndpointSliceV1PortOutputReference) validateSetTerraformResou
 	return nil
 }
 
-func validateNewEndpointSliceV1PortOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEndpointSliceV1PortOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

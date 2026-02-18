@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (s *jsiiProxy_StatefulSetV1SpecPersistentVolumeClaimRetentionPolicyOutputRe
 	return nil
 }
 
-func (s *jsiiProxy_StatefulSetV1SpecPersistentVolumeClaimRetentionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StatefulSetV1SpecPersistentVolumeClaimRetentionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_StatefulSetV1SpecPersistentVolumeClaimRetentionPolicyOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_StatefulSetV1SpecPersistentVolumeClaimRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StatefulSetV1SpecPersistentVolumeClaimRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StatefulSetV1SpecPersistentVolumeClaimRetentionPolicyOutputRe
 	return nil
 }
 
-func validateNewStatefulSetV1SpecPersistentVolumeClaimRetentionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStatefulSetV1SpecPersistentVolumeClaimRetentionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

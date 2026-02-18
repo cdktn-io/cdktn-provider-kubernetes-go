@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (p *jsiiProxy_PodV1SpecContainerVolumeDeviceList) validateGetParameters(ind
 	return nil
 }
 
-func (p *jsiiProxy_PodV1SpecContainerVolumeDeviceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PodV1SpecContainerVolumeDeviceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PodV1SpecContainerVolumeDeviceList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_PodV1SpecContainerVolumeDeviceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PodV1SpecContainerVolumeDeviceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PodV1SpecContainerVolumeDeviceList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewPodV1SpecContainerVolumeDeviceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPodV1SpecContainerVolumeDeviceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

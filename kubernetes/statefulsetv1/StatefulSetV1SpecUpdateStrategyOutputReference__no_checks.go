@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -51,7 +51,7 @@ func (s *jsiiProxy_StatefulSetV1SpecUpdateStrategyOutputReference) validatePutRo
 	return nil
 }
 
-func (s *jsiiProxy_StatefulSetV1SpecUpdateStrategyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StatefulSetV1SpecUpdateStrategyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_StatefulSetV1SpecUpdateStrategyOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_StatefulSetV1SpecUpdateStrategyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StatefulSetV1SpecUpdateStrategyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StatefulSetV1SpecUpdateStrategyOutputReference) validateSetTy
 	return nil
 }
 
-func validateNewStatefulSetV1SpecUpdateStrategyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStatefulSetV1SpecUpdateStrategyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

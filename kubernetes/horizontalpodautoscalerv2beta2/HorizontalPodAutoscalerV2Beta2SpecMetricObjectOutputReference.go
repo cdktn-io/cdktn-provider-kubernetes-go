@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package horizontalpodautoscalerv2beta2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/horizontalpodautoscalerv2beta2/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/horizontalpodautoscalerv2beta2/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,16 +67,16 @@ type HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDescribedObject(value *HorizontalPodAutoscalerV2Beta2SpecMetricObjectDescribedObject)
 	PutMetric(value *HorizontalPodAutoscalerV2Beta2SpecMetricObjectMetric)
 	PutTarget(value *HorizontalPodAutoscalerV2Beta2SpecMetricObjectTarget)
 	ResetTarget()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference interface {
 
 // The jsii proxy struct for HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference
 type jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) ComplexObjectIndex() interface{} {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference
 }
 
 
-func NewHorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference {
+func NewHorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewHorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference(terraformR
 	return &j
 }
 
-func NewHorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference_Override(h HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference_Override(h HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference
 	)
 }
 
-func (j *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference
 	return returns
 }
 
-func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -459,8 +459,8 @@ func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference
 	return returns
 }
 
-func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -472,11 +472,11 @@ func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference
 	return returns
 }
 
-func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -529,7 +529,7 @@ func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference
 	)
 }
 
-func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HorizontalPodAutoscalerV2Beta2SpecMetricObjectOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

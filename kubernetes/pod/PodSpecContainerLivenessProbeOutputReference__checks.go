@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (p *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validatePutGrpc
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PodSpecContainerLivenessProbeGrpc:
 		value := value.(*[]*PodSpecContainerLivenessProbeGrpc)
@@ -128,7 +128,7 @@ func (p *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validatePutGrpc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PodSpecContainerLivenessProbeGrpc; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PodSpecContainerLivenessProbeGrpc; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -151,7 +151,7 @@ func (p *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validatePutTcpS
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*PodSpecContainerLivenessProbeTcpSocket:
 		value := value.(*[]*PodSpecContainerLivenessProbeTcpSocket)
@@ -170,14 +170,14 @@ func (p *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validatePutTcpS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*PodSpecContainerLivenessProbeTcpSocket; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*PodSpecContainerLivenessProbeTcpSocket; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (p *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -298,7 +298,7 @@ func (j *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -314,7 +314,7 @@ func (j *jsiiProxy_PodSpecContainerLivenessProbeOutputReference) validateSetTime
 	return nil
 }
 
-func validateNewPodSpecContainerLivenessProbeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPodSpecContainerLivenessProbeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

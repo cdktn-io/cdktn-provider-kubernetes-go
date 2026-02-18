@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesmutatingwebhookconfigurationv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesmutatingwebhookconfigurationv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetesmutatingwebhookconfigurationv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,21 +33,21 @@ type DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputR
 	InternalValue() *DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelector
 	SetInternalValue(val *DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelector)
 	MatchExpressions() DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorMatchExpressionsList
-	MatchLabels() cdktf.StringMap
+	MatchLabels() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputR
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputR
 
 // The jsii proxy struct for DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference
 type jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) ComplexObjectIndex() interface{} {
@@ -141,8 +141,8 @@ func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceS
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) MatchLabels() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) MatchLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"matchLabels",
@@ -161,8 +161,8 @@ func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceS
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceS
 }
 
 
-func NewDataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference {
+func NewDataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewDataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutp
 	return &j
 }
 
-func NewDataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference_Override(d DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference_Override(d DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceS
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceS
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceS
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceS
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceS
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1WebhookNamespaceSelectorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

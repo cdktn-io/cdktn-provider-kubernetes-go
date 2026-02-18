@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/deployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/deployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DeploymentSpecTemplateSpecVolumeEphemeralOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type DeploymentSpecTemplateSpecVolumeEphemeralOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VolumeClaimTemplate() DeploymentSpecTemplateSpecVolumeEphemeralVolumeClaimTemplateOutputReference
 	VolumeClaimTemplateInput() *DeploymentSpecTemplateSpecVolumeEphemeralVolumeClaimTemplate
 	// Experimental.
@@ -47,7 +47,7 @@ type DeploymentSpecTemplateSpecVolumeEphemeralOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,13 +63,13 @@ type DeploymentSpecTemplateSpecVolumeEphemeralOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutVolumeClaimTemplate(value *DeploymentSpecTemplateSpecVolumeEphemeralVolumeClaimTemplate)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DeploymentSpecTemplateSpecVolumeEphemeralOutputReference interface {
 
 // The jsii proxy struct for DeploymentSpecTemplateSpecVolumeEphemeralOutputReference
 type jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) ComplexObjectIndex() interface{} {
@@ -142,8 +142,8 @@ func (j *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) Vol
 }
 
 
-func NewDeploymentSpecTemplateSpecVolumeEphemeralOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DeploymentSpecTemplateSpecVolumeEphemeralOutputReference {
+func NewDeploymentSpecTemplateSpecVolumeEphemeralOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DeploymentSpecTemplateSpecVolumeEphemeralOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDeploymentSpecTemplateSpecVolumeEphemeralOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewDeploymentSpecTemplateSpecVolumeEphemeralOutputReference(terraformResour
 	return &j
 }
 
-func NewDeploymentSpecTemplateSpecVolumeEphemeralOutputReference_Override(d DeploymentSpecTemplateSpecVolumeEphemeralOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDeploymentSpecTemplateSpecVolumeEphemeralOutputReference_Override(d DeploymentSpecTemplateSpecVolumeEphemeralOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -284,11 +284,11 @@ func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -412,8 +412,8 @@ func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -425,11 +425,11 @@ func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -452,7 +452,7 @@ func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) Put
 	)
 }
 
-func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DeploymentSpecTemplateSpecVolumeEphemeralOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package networkpolicyv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/networkpolicyv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/networkpolicyv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkPolicyV1SpecEgressPortsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type NetworkPolicyV1SpecEgressPortsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type NetworkPolicyV1SpecEgressPortsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEndPort()
 	ResetPort()
 	ResetProtocol()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type NetworkPolicyV1SpecEgressPortsOutputReference interface {
 
 // The jsii proxy struct for NetworkPolicyV1SpecEgressPortsOutputReference
 type jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) TerraformResou
 }
 
 
-func NewNetworkPolicyV1SpecEgressPortsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkPolicyV1SpecEgressPortsOutputReference {
+func NewNetworkPolicyV1SpecEgressPortsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkPolicyV1SpecEgressPortsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkPolicyV1SpecEgressPortsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -239,7 +239,7 @@ func NewNetworkPolicyV1SpecEgressPortsOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewNetworkPolicyV1SpecEgressPortsOutputReference_Override(n NetworkPolicyV1SpecEgressPortsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNetworkPolicyV1SpecEgressPortsOutputReference_Override(n NetworkPolicyV1SpecEgressPortsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -494,8 +494,8 @@ func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) GetStringMapAt
 	return returns
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -507,11 +507,11 @@ func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) InterpolationA
 	return returns
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -547,7 +547,7 @@ func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) ResetProtocol(
 	)
 }
 
-func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkPolicyV1SpecEgressPortsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (l *jsiiProxy_LimitRangeV1SpecLimitOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (l *jsiiProxy_LimitRangeV1SpecLimitOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LimitRangeV1SpecLimitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LimitRangeV1SpecLimitOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_LimitRangeV1SpecLimitOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LimitRangeV1SpecLimitOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_LimitRangeV1SpecLimitOutputReference) validateSetTypeParamete
 	return nil
 }
 
-func validateNewLimitRangeV1SpecLimitOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLimitRangeV1SpecLimitOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

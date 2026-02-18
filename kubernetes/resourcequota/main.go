@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package resourcequota
@@ -72,7 +72,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResourceQuota{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -130,7 +130,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResourceQuotaMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -176,7 +176,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResourceQuotaSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -206,7 +206,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResourceQuotaSpecScopeSelectorMatchExpressionList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -245,7 +245,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResourceQuotaSpecScopeSelectorMatchExpressionOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -281,7 +281,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResourceQuotaSpecScopeSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -323,7 +323,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ResourceQuotaTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

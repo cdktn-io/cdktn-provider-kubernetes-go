@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -15,7 +15,7 @@ func (i *jsiiProxy_IngressV1SpecRuleHttpPathList) validateGetParameters(index *f
 	return nil
 }
 
-func (i *jsiiProxy_IngressV1SpecRuleHttpPathList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IngressV1SpecRuleHttpPathList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IngressV1SpecRuleHttpPathList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_IngressV1SpecRuleHttpPathList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IngressV1SpecRuleHttpPathList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IngressV1SpecRuleHttpPathList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewIngressV1SpecRuleHttpPathListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIngressV1SpecRuleHttpPathListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

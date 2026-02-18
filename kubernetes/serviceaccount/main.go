@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package serviceaccount
@@ -80,7 +80,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAccount{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -110,7 +110,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAccountImagePullSecretList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -145,7 +145,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAccountImagePullSecretOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -199,7 +199,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAccountMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -225,7 +225,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAccountSecretList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -260,7 +260,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAccountSecretOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -299,7 +299,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceAccountTimeoutsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

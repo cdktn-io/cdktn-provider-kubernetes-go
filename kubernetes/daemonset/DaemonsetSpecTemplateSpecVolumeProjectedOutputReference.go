@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package daemonset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/daemonset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DaemonsetSpecTemplateSpecVolumeProjectedOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type DaemonsetSpecTemplateSpecVolumeProjectedOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,14 +66,14 @@ type DaemonsetSpecTemplateSpecVolumeProjectedOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSources(value interface{})
 	ResetDefaultMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type DaemonsetSpecTemplateSpecVolumeProjectedOutputReference interface {
 
 // The jsii proxy struct for DaemonsetSpecTemplateSpecVolumeProjectedOutputReference
 type jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) Terr
 }
 
 
-func NewDaemonsetSpecTemplateSpecVolumeProjectedOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DaemonsetSpecTemplateSpecVolumeProjectedOutputReference {
+func NewDaemonsetSpecTemplateSpecVolumeProjectedOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DaemonsetSpecTemplateSpecVolumeProjectedOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDaemonsetSpecTemplateSpecVolumeProjectedOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewDaemonsetSpecTemplateSpecVolumeProjectedOutputReference(terraformResourc
 	return &j
 }
 
-func NewDaemonsetSpecTemplateSpecVolumeProjectedOutputReference_Override(d DaemonsetSpecTemplateSpecVolumeProjectedOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDaemonsetSpecTemplateSpecVolumeProjectedOutputReference_Override(d DaemonsetSpecTemplateSpecVolumeProjectedOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -319,11 +319,11 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) GetA
 	return returns
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -447,8 +447,8 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) GetS
 	return returns
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -460,11 +460,11 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) Inte
 	return returns
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -495,7 +495,7 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) Rese
 	)
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecVolumeProjectedOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesendpointsv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesendpointsv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetesendpointsv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesEndpointsV1SubsetList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataKubernetesEndpointsV1SubsetList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataKubernetesEndpointsV1SubsetList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataKubernetesEndpointsV1SubsetOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataKubernetesEndpointsV1SubsetList interface {
 
 // The jsii proxy struct for DataKubernetesEndpointsV1SubsetList
 type jsiiProxy_DataKubernetesEndpointsV1SubsetList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetList) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetList) WrapsSet() *bool {
 }
 
 
-func NewDataKubernetesEndpointsV1SubsetList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataKubernetesEndpointsV1SubsetList {
+func NewDataKubernetesEndpointsV1SubsetList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataKubernetesEndpointsV1SubsetList {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesEndpointsV1SubsetListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDataKubernetesEndpointsV1SubsetList(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewDataKubernetesEndpointsV1SubsetList_Override(d DataKubernetesEndpointsV1SubsetList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataKubernetesEndpointsV1SubsetList_Override(d DataKubernetesEndpointsV1SubsetList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetList)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataKubernetesEndpointsV1SubsetList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetList) Get(index *float64) Data
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesEndpointsV1SubsetList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

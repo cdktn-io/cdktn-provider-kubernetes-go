@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package endpointsv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/endpointsv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/endpointsv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EndpointsV1SubsetNotReadyAddressOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type EndpointsV1SubsetNotReadyAddressOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type EndpointsV1SubsetNotReadyAddressOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetHostname()
 	ResetNodeName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type EndpointsV1SubsetNotReadyAddressOutputReference interface {
 
 // The jsii proxy struct for EndpointsV1SubsetNotReadyAddressOutputReference
 type jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) ComplexObjectIndex() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) TerraformRes
 }
 
 
-func NewEndpointsV1SubsetNotReadyAddressOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EndpointsV1SubsetNotReadyAddressOutputReference {
+func NewEndpointsV1SubsetNotReadyAddressOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EndpointsV1SubsetNotReadyAddressOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEndpointsV1SubsetNotReadyAddressOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -238,7 +238,7 @@ func NewEndpointsV1SubsetNotReadyAddressOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewEndpointsV1SubsetNotReadyAddressOutputReference_Override(e EndpointsV1SubsetNotReadyAddressOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEndpointsV1SubsetNotReadyAddressOutputReference_Override(e EndpointsV1SubsetNotReadyAddressOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -493,8 +493,8 @@ func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) GetStringMap
 	return returns
 }
 
-func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -506,11 +506,11 @@ func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) Interpolatio
 	return returns
 }
 
-func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -538,7 +538,7 @@ func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) ResetNodeNam
 	)
 }
 
-func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EndpointsV1SubsetNotReadyAddressOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

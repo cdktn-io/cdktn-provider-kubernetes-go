@@ -1,21 +1,21 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetespod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetespod/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetespod/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataKubernetesPodSpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDeadlineSeconds() *float64
 	Affinity() DataKubernetesPodSpecAffinityList
-	AutomountServiceAccountToken() cdktf.IResolvable
+	AutomountServiceAccountToken() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -34,20 +34,20 @@ type DataKubernetesPodSpecOutputReference interface {
 	CreationStack() *[]*string
 	DnsConfig() DataKubernetesPodSpecDnsConfigList
 	DnsPolicy() *string
-	EnableServiceLinks() cdktf.IResolvable
+	EnableServiceLinks() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	HostAliases() DataKubernetesPodSpecHostAliasesList
-	HostIpc() cdktf.IResolvable
+	HostIpc() cdktn.IResolvable
 	Hostname() *string
-	HostNetwork() cdktf.IResolvable
-	HostPid() cdktf.IResolvable
+	HostNetwork() cdktn.IResolvable
+	HostPid() cdktn.IResolvable
 	ImagePullSecrets() DataKubernetesPodSpecImagePullSecretsList
 	InitContainer() DataKubernetesPodSpecInitContainerList
 	InternalValue() *DataKubernetesPodSpec
 	SetInternalValue(val *DataKubernetesPodSpec)
 	NodeName() *string
-	NodeSelector() cdktf.StringMap
+	NodeSelector() cdktn.StringMap
 	Os() DataKubernetesPodSpecOsList
 	PriorityClassName() *string
 	ReadinessGate() DataKubernetesPodSpecReadinessGateList
@@ -56,7 +56,7 @@ type DataKubernetesPodSpecOutputReference interface {
 	SchedulerName() *string
 	SecurityContext() DataKubernetesPodSpecSecurityContextList
 	ServiceAccountName() *string
-	ShareProcessNamespace() cdktf.IResolvable
+	ShareProcessNamespace() cdktn.IResolvable
 	Subdomain() *string
 	TerminationGracePeriodSeconds() *float64
 	// Experimental.
@@ -64,9 +64,9 @@ type DataKubernetesPodSpecOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Toleration() DataKubernetesPodSpecTolerationList
 	TopologySpreadConstraint() DataKubernetesPodSpecTopologySpreadConstraintList
 	Volume() DataKubernetesPodSpecVolumeList
@@ -75,7 +75,7 @@ type DataKubernetesPodSpecOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,12 +91,12 @@ type DataKubernetesPodSpecOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -106,7 +106,7 @@ type DataKubernetesPodSpecOutputReference interface {
 
 // The jsii proxy struct for DataKubernetesPodSpecOutputReference
 type jsiiProxy_DataKubernetesPodSpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) ActiveDeadlineSeconds() *float64 {
@@ -129,8 +129,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) Affinity() DataKubernet
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) AutomountServiceAccountToken() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) AutomountServiceAccountToken() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"automountServiceAccountToken",
@@ -199,8 +199,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) DnsPolicy() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) EnableServiceLinks() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) EnableServiceLinks() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableServiceLinks",
@@ -229,8 +229,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) HostAliases() DataKuber
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) HostIpc() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) HostIpc() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hostIpc",
@@ -249,8 +249,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) Hostname() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) HostNetwork() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) HostNetwork() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hostNetwork",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) HostNetwork() cdktf.IRe
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) HostPid() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) HostPid() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hostPid",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) NodeName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) NodeSelector() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) NodeSelector() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"nodeSelector",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) ServiceAccountName() *s
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) ShareProcessNamespace() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) ShareProcessNamespace() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"shareProcessNamespace",
@@ -439,8 +439,8 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -480,7 +480,7 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference) Volume() DataKubernetes
 }
 
 
-func NewDataKubernetesPodSpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesPodSpecOutputReference {
+func NewDataKubernetesPodSpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesPodSpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataKubernetesPodSpecOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -497,7 +497,7 @@ func NewDataKubernetesPodSpecOutputReference(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewDataKubernetesPodSpecOutputReference_Override(d DataKubernetesPodSpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataKubernetesPodSpecOutputReference_Override(d DataKubernetesPodSpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -551,7 +551,7 @@ func (j *jsiiProxy_DataKubernetesPodSpecOutputReference)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesPodSpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataKubernetesPodSpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -591,11 +591,11 @@ func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -719,8 +719,8 @@ func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) GetStringMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -732,11 +732,11 @@ func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) InterpolationAsList() c
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -748,7 +748,7 @@ func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) InterpolationForAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataKubernetesPodSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

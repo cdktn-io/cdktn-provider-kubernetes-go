@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package limitrange
@@ -68,7 +68,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LimitRange{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformResource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
@@ -126,7 +126,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LimitRangeMetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -156,7 +156,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LimitRangeSpecLimitList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -206,7 +206,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LimitRangeSpecLimitOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -242,7 +242,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_LimitRangeSpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package daemonset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/daemonset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/daemonset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DaemonsetSpecTemplateSpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDeadlineSeconds() *float64
 	SetActiveDeadlineSeconds(val *float64)
 	ActiveDeadlineSecondsInput() *float64
@@ -109,9 +109,9 @@ type DaemonsetSpecTemplateSpecOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Toleration() DaemonsetSpecTemplateSpecTolerationList
 	TolerationInput() interface{}
 	TopologySpreadConstraint() DaemonsetSpecTemplateSpecTopologySpreadConstraintList
@@ -123,7 +123,7 @@ type DaemonsetSpecTemplateSpecOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -139,9 +139,9 @@ type DaemonsetSpecTemplateSpecOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAffinity(value *DaemonsetSpecTemplateSpecAffinity)
 	PutContainer(value interface{})
 	PutDnsConfig(value *DaemonsetSpecTemplateSpecDnsConfig)
@@ -186,7 +186,7 @@ type DaemonsetSpecTemplateSpecOutputReference interface {
 	ResetVolume()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -196,7 +196,7 @@ type DaemonsetSpecTemplateSpecOutputReference interface {
 
 // The jsii proxy struct for DaemonsetSpecTemplateSpecOutputReference
 type jsiiProxy_DaemonsetSpecTemplateSpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) ActiveDeadlineSeconds() *float64 {
@@ -799,8 +799,8 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -870,7 +870,7 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) VolumeInput() inter
 }
 
 
-func NewDaemonsetSpecTemplateSpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DaemonsetSpecTemplateSpecOutputReference {
+func NewDaemonsetSpecTemplateSpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DaemonsetSpecTemplateSpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDaemonsetSpecTemplateSpecOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -887,7 +887,7 @@ func NewDaemonsetSpecTemplateSpecOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewDaemonsetSpecTemplateSpecOutputReference_Override(d DaemonsetSpecTemplateSpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDaemonsetSpecTemplateSpecOutputReference_Override(d DaemonsetSpecTemplateSpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -1139,7 +1139,7 @@ func (j *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -1179,11 +1179,11 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1307,8 +1307,8 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1320,11 +1320,11 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) InterpolationAsList
 	return returns
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1708,7 +1708,7 @@ func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) ResetVolume() {
 	)
 }
 
-func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DaemonsetSpecTemplateSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

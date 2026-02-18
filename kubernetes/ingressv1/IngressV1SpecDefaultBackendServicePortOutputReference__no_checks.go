@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -47,7 +47,7 @@ func (i *jsiiProxy_IngressV1SpecDefaultBackendServicePortOutputReference) valida
 	return nil
 }
 
-func (i *jsiiProxy_IngressV1SpecDefaultBackendServicePortOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IngressV1SpecDefaultBackendServicePortOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IngressV1SpecDefaultBackendServicePortOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_IngressV1SpecDefaultBackendServicePortOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IngressV1SpecDefaultBackendServicePortOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIngressV1SpecDefaultBackendServicePortOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIngressV1SpecDefaultBackendServicePortOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

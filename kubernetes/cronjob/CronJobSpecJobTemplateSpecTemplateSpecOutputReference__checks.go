@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobSpecJobTemplateSpecTemplateSpecContainer:
 		value := value.(*[]*CronJobSpecJobTemplateSpecTemplateSpecContainer)
@@ -128,7 +128,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecContainer; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecContainer; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -151,7 +151,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobSpecJobTemplateSpecTemplateSpecHostAliases:
 		value := value.(*[]*CronJobSpecJobTemplateSpecTemplateSpecHostAliases)
@@ -170,7 +170,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecHostAliases; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecHostAliases; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -182,7 +182,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobSpecJobTemplateSpecTemplateSpecImagePullSecrets:
 		value := value.(*[]*CronJobSpecJobTemplateSpecTemplateSpecImagePullSecrets)
@@ -201,7 +201,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecImagePullSecrets; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecImagePullSecrets; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -213,7 +213,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobSpecJobTemplateSpecTemplateSpecInitContainer:
 		value := value.(*[]*CronJobSpecJobTemplateSpecTemplateSpecInitContainer)
@@ -232,7 +232,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecInitContainer; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecInitContainer; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -255,7 +255,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobSpecJobTemplateSpecTemplateSpecReadinessGate:
 		value := value.(*[]*CronJobSpecJobTemplateSpecTemplateSpecReadinessGate)
@@ -274,7 +274,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecReadinessGate; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecReadinessGate; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -297,7 +297,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobSpecJobTemplateSpecTemplateSpecToleration:
 		value := value.(*[]*CronJobSpecJobTemplateSpecTemplateSpecToleration)
@@ -316,7 +316,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecToleration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecToleration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -328,7 +328,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraint:
 		value := value.(*[]*CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraint)
@@ -347,7 +347,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraint; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecTopologySpreadConstraint; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -359,7 +359,7 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobSpecJobTemplateSpecTemplateSpecVolume:
 		value := value.(*[]*CronJobSpecJobTemplateSpecTemplateSpecVolume)
@@ -378,14 +378,14 @@ func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecVolume; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobSpecJobTemplateSpecTemplateSpecVolume; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -410,11 +410,11 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -503,11 +503,11 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -523,11 +523,11 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -551,11 +551,11 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -571,11 +571,11 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -655,11 +655,11 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -690,7 +690,7 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -698,7 +698,7 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecOutputReference) valida
 	return nil
 }
 
-func validateNewCronJobSpecJobTemplateSpecTemplateSpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCronJobSpecJobTemplateSpecTemplateSpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

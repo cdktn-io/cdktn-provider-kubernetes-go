@@ -1,23 +1,23 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetesserviceaccountv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/datakubernetesserviceaccountv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/datakubernetesserviceaccountv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/service_account_v1 kubernetes_service_account_v1}.
 type DataKubernetesServiceAccountV1 interface {
-	cdktf.TerraformDataSource
-	AutomountServiceAccountToken() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AutomountServiceAccountToken() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,9 +30,9 @@ type DataKubernetesServiceAccountV1 interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -42,22 +42,22 @@ type DataKubernetesServiceAccountV1 interface {
 	IdInput() *string
 	ImagePullSecret() DataKubernetesServiceAccountV1ImagePullSecretList
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Metadata() DataKubernetesServiceAccountV1MetadataOutputReference
 	MetadataInput() *DataKubernetesServiceAccountV1Metadata
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	Secret() DataKubernetesServiceAccountV1SecretList
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -67,7 +67,7 @@ type DataKubernetesServiceAccountV1 interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -83,7 +83,7 @@ type DataKubernetesServiceAccountV1 interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -108,11 +108,11 @@ type DataKubernetesServiceAccountV1 interface {
 
 // The jsii proxy struct for DataKubernetesServiceAccountV1
 type jsiiProxy_DataKubernetesServiceAccountV1 struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataKubernetesServiceAccountV1) AutomountServiceAccountToken() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataKubernetesServiceAccountV1) AutomountServiceAccountToken() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"automountServiceAccountToken",
@@ -121,8 +121,8 @@ func (j *jsiiProxy_DataKubernetesServiceAccountV1) AutomountServiceAccountToken(
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesServiceAccountV1) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataKubernetesServiceAccountV1) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -171,8 +171,8 @@ func (j *jsiiProxy_DataKubernetesServiceAccountV1) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesServiceAccountV1) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataKubernetesServiceAccountV1) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -231,8 +231,8 @@ func (j *jsiiProxy_DataKubernetesServiceAccountV1) ImagePullSecret() DataKuberne
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesServiceAccountV1) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataKubernetesServiceAccountV1) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -271,8 +271,8 @@ func (j *jsiiProxy_DataKubernetesServiceAccountV1) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesServiceAccountV1) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataKubernetesServiceAccountV1) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -301,8 +301,8 @@ func (j *jsiiProxy_DataKubernetesServiceAccountV1) Secret() DataKubernetesServic
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesServiceAccountV1) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataKubernetesServiceAccountV1) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -399,7 +399,7 @@ func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -410,7 +410,7 @@ func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetLifecycle(val *cdktf.Terraf
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -418,14 +418,14 @@ func (j *jsiiProxy_DataKubernetesServiceAccountV1)SetProvider(val cdktf.Terrafor
 	)
 }
 
-// Generates CDKTF code for importing a DataKubernetesServiceAccountV1 resource upon running "cdktf plan <stack-name>".
-func DataKubernetesServiceAccountV1_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataKubernetesServiceAccountV1 resource upon running "cdktn plan <stack-name>".
+func DataKubernetesServiceAccountV1_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataKubernetesServiceAccountV1_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-kubernetes.dataKubernetesServiceAccountV1.DataKubernetesServiceAccountV1",
@@ -548,11 +548,11 @@ func (d *jsiiProxy_DataKubernetesServiceAccountV1) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesServiceAccountV1) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesServiceAccountV1) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -676,11 +676,11 @@ func (d *jsiiProxy_DataKubernetesServiceAccountV1) GetStringMapAttribute(terrafo
 	return returns
 }
 
-func (d *jsiiProxy_DataKubernetesServiceAccountV1) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataKubernetesServiceAccountV1) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

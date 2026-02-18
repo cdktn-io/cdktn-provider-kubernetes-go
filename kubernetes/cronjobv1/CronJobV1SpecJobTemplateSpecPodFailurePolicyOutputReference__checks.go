@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build !no_runtime_type_checking
@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReference) 
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CronJobV1SpecJobTemplateSpecPodFailurePolicyRule:
 		value := value.(*[]*CronJobV1SpecJobTemplateSpecPodFailurePolicyRule)
@@ -117,14 +117,14 @@ func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReference) 
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CronJobV1SpecJobTemplateSpecPodFailurePolicyRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CronJobV1SpecJobTemplateSpecPodFailurePolicyRule; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -213,7 +213,7 @@ func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -221,7 +221,7 @@ func (j *jsiiProxy_CronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReference) 
 	return nil
 }
 
-func validateNewCronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCronJobV1SpecJobTemplateSpecPodFailurePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

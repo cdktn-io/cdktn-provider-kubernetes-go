@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package deployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/deployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/deployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputR
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -57,7 +57,7 @@ type DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputR
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputR
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetLevel()
 	ResetRole()
 	ResetType()
 	ResetUser()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputR
 
 // The jsii proxy struct for DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference
 type jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinux
 	return returns
 }
 
-func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinux
 }
 
 
-func NewDeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference {
+func NewDeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewDeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutp
 	return &j
 }
 
-func NewDeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference_Override(d DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference_Override(d DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -339,7 +339,7 @@ func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinux
 	)
 }
 
-func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinux
 	return returns
 }
 
-func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,8 +529,8 @@ func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinux
 	return returns
 }
 
-func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -542,11 +542,11 @@ func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinux
 	return returns
 }
 
-func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinux
 	)
 }
 
-func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DeploymentSpecTemplateSpecInitContainerSecurityContextSeLinuxOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package persistentvolumev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/persistentvolumev1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/persistentvolumev1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PersistentVolumeV1SpecPersistentVolumeSourceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AwsElasticBlockStore() PersistentVolumeV1SpecPersistentVolumeSourceAwsElasticBlockStoreOutputReference
 	AwsElasticBlockStoreInput() *PersistentVolumeV1SpecPersistentVolumeSourceAwsElasticBlockStore
 	AzureDisk() PersistentVolumeV1SpecPersistentVolumeSourceAzureDiskOutputReference
@@ -73,9 +73,9 @@ type PersistentVolumeV1SpecPersistentVolumeSourceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VsphereVolume() PersistentVolumeV1SpecPersistentVolumeSourceVsphereVolumeOutputReference
 	VsphereVolumeInput() *PersistentVolumeV1SpecPersistentVolumeSourceVsphereVolume
 	// Experimental.
@@ -83,7 +83,7 @@ type PersistentVolumeV1SpecPersistentVolumeSourceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,9 +99,9 @@ type PersistentVolumeV1SpecPersistentVolumeSourceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAwsElasticBlockStore(value *PersistentVolumeV1SpecPersistentVolumeSourceAwsElasticBlockStore)
 	PutAzureDisk(value *PersistentVolumeV1SpecPersistentVolumeSourceAzureDisk)
 	PutAzureFile(value *PersistentVolumeV1SpecPersistentVolumeSourceAzureFile)
@@ -142,7 +142,7 @@ type PersistentVolumeV1SpecPersistentVolumeSourceOutputReference interface {
 	ResetVsphereVolume()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -152,7 +152,7 @@ type PersistentVolumeV1SpecPersistentVolumeSourceOutputReference interface {
 
 // The jsii proxy struct for PersistentVolumeV1SpecPersistentVolumeSourceOutputReference
 type jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) AwsElasticBlockStore() PersistentVolumeV1SpecPersistentVolumeSourceAwsElasticBlockStoreOutputReference {
@@ -575,8 +575,8 @@ func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -606,7 +606,7 @@ func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) 
 }
 
 
-func NewPersistentVolumeV1SpecPersistentVolumeSourceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PersistentVolumeV1SpecPersistentVolumeSourceOutputReference {
+func NewPersistentVolumeV1SpecPersistentVolumeSourceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PersistentVolumeV1SpecPersistentVolumeSourceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPersistentVolumeV1SpecPersistentVolumeSourceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -623,7 +623,7 @@ func NewPersistentVolumeV1SpecPersistentVolumeSourceOutputReference(terraformRes
 	return &j
 }
 
-func NewPersistentVolumeV1SpecPersistentVolumeSourceOutputReference_Override(p PersistentVolumeV1SpecPersistentVolumeSourceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPersistentVolumeV1SpecPersistentVolumeSourceOutputReference_Override(p PersistentVolumeV1SpecPersistentVolumeSourceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -677,7 +677,7 @@ func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -717,11 +717,11 @@ func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) 
 	return returns
 }
 
-func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -845,8 +845,8 @@ func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) 
 	return returns
 }
 
-func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -858,11 +858,11 @@ func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) 
 	return returns
 }
 
-func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -1235,7 +1235,7 @@ func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) 
 	)
 }
 
-func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PersistentVolumeV1SpecPersistentVolumeSourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

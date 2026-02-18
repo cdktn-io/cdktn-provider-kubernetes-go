@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package datakubernetespersistentvolumeclaimv1
@@ -60,7 +60,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfTerraformDataSource)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
@@ -118,7 +118,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1MetadataOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -144,7 +144,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1SpecList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -191,7 +191,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1SpecOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -216,7 +216,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1SpecResourcesList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -250,7 +250,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1SpecResourcesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -276,7 +276,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1SpecSelectorList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -302,7 +302,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1SpecSelectorMatchExpressionsList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexList)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
@@ -343,7 +343,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1SpecSelectorMatchExpressionsOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -382,7 +382,7 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesPersistentVolumeClaimV1SpecSelectorOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktfComplexObject)
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

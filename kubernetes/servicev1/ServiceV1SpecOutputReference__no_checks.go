@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -55,7 +55,7 @@ func (s *jsiiProxy_ServiceV1SpecOutputReference) validatePutSessionAffinityConfi
 	return nil
 }
 
-func (s *jsiiProxy_ServiceV1SpecOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceV1SpecOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -139,7 +139,7 @@ func (j *jsiiProxy_ServiceV1SpecOutputReference) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_ServiceV1SpecOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceV1SpecOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -147,7 +147,7 @@ func (j *jsiiProxy_ServiceV1SpecOutputReference) validateSetTypeParameters(val *
 	return nil
 }
 
-func validateNewServiceV1SpecOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceV1SpecOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

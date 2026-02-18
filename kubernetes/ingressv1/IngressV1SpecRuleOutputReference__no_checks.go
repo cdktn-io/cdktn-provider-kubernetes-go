@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -51,7 +51,7 @@ func (i *jsiiProxy_IngressV1SpecRuleOutputReference) validatePutHttpParameters(v
 	return nil
 }
 
-func (i *jsiiProxy_IngressV1SpecRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IngressV1SpecRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IngressV1SpecRuleOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_IngressV1SpecRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IngressV1SpecRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIngressV1SpecRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIngressV1SpecRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

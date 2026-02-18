@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/job/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/job/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type JobSpecPodFailurePolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type JobSpecPodFailurePolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,13 +63,13 @@ type JobSpecPodFailurePolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutRule(value interface{})
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type JobSpecPodFailurePolicyOutputReference interface {
 
 // The jsii proxy struct for JobSpecPodFailurePolicyOutputReference
 type jsiiProxy_JobSpecPodFailurePolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) TerraformResource() c
 }
 
 
-func NewJobSpecPodFailurePolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) JobSpecPodFailurePolicyOutputReference {
+func NewJobSpecPodFailurePolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) JobSpecPodFailurePolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewJobSpecPodFailurePolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewJobSpecPodFailurePolicyOutputReference(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewJobSpecPodFailurePolicyOutputReference_Override(j JobSpecPodFailurePolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewJobSpecPodFailurePolicyOutputReference_Override(j JobSpecPodFailurePolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -284,11 +284,11 @@ func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) GetAnyMapAttribute(te
 	return returns
 }
 
-func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := j.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -412,8 +412,8 @@ func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) GetStringMapAttribute
 	return returns
 }
 
-func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -425,11 +425,11 @@ func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) InterpolationAsList()
 	return returns
 }
 
-func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := j.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		j,
@@ -452,7 +452,7 @@ func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) PutRule(value interfa
 	)
 }
 
-func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (j *jsiiProxy_JobSpecPodFailurePolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := j.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

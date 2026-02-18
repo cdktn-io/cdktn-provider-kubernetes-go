@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package replicationcontroller
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/replicationcontroller/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/replicationcontroller/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ReplicationControllerSpecTemplateSpecOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDeadlineSeconds() *float64
 	SetActiveDeadlineSeconds(val *float64)
 	ActiveDeadlineSecondsInput() *float64
@@ -109,9 +109,9 @@ type ReplicationControllerSpecTemplateSpecOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Toleration() ReplicationControllerSpecTemplateSpecTolerationList
 	TolerationInput() interface{}
 	TopologySpreadConstraint() ReplicationControllerSpecTemplateSpecTopologySpreadConstraintList
@@ -123,7 +123,7 @@ type ReplicationControllerSpecTemplateSpecOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -139,9 +139,9 @@ type ReplicationControllerSpecTemplateSpecOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAffinity(value *ReplicationControllerSpecTemplateSpecAffinity)
 	PutContainer(value interface{})
 	PutDnsConfig(value *ReplicationControllerSpecTemplateSpecDnsConfig)
@@ -186,7 +186,7 @@ type ReplicationControllerSpecTemplateSpecOutputReference interface {
 	ResetVolume()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -196,7 +196,7 @@ type ReplicationControllerSpecTemplateSpecOutputReference interface {
 
 // The jsii proxy struct for ReplicationControllerSpecTemplateSpecOutputReference
 type jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) ActiveDeadlineSeconds() *float64 {
@@ -799,8 +799,8 @@ func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -870,7 +870,7 @@ func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) VolumeI
 }
 
 
-func NewReplicationControllerSpecTemplateSpecOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ReplicationControllerSpecTemplateSpecOutputReference {
+func NewReplicationControllerSpecTemplateSpecOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ReplicationControllerSpecTemplateSpecOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewReplicationControllerSpecTemplateSpecOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -887,7 +887,7 @@ func NewReplicationControllerSpecTemplateSpecOutputReference(terraformResource c
 	return &j
 }
 
-func NewReplicationControllerSpecTemplateSpecOutputReference_Override(r ReplicationControllerSpecTemplateSpecOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewReplicationControllerSpecTemplateSpecOutputReference_Override(r ReplicationControllerSpecTemplateSpecOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -1139,7 +1139,7 @@ func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -1179,11 +1179,11 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) GetAnyM
 	return returns
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1307,8 +1307,8 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) GetStri
 	return returns
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1320,11 +1320,11 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) Interpo
 	return returns
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1708,7 +1708,7 @@ func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) ResetVo
 	)
 }
 
-func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_ReplicationControllerSpecTemplateSpecOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

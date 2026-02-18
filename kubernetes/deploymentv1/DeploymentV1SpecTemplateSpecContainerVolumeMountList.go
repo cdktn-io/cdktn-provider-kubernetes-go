@@ -1,18 +1,18 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 package deploymentv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v12/deploymentv1/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/deploymentv1/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DeploymentV1SpecTemplateSpecContainerVolumeMountList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DeploymentV1SpecTemplateSpecContainerVolumeMountList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DeploymentV1SpecTemplateSpecContainerVolumeMountList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DeploymentV1SpecTemplateSpecContainerVolumeMountOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DeploymentV1SpecTemplateSpecContainerVolumeMountList interface {
 
 // The jsii proxy struct for DeploymentV1SpecTemplateSpecContainerVolumeMountList
 type jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) WrapsSe
 }
 
 
-func NewDeploymentV1SpecTemplateSpecContainerVolumeMountList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DeploymentV1SpecTemplateSpecContainerVolumeMountList {
+func NewDeploymentV1SpecTemplateSpecContainerVolumeMountList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DeploymentV1SpecTemplateSpecContainerVolumeMountList {
 	_init_.Initialize()
 
 	if err := validateNewDeploymentV1SpecTemplateSpecContainerVolumeMountListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDeploymentV1SpecTemplateSpecContainerVolumeMountList(terraformResource c
 	return &j
 }
 
-func NewDeploymentV1SpecTemplateSpecContainerVolumeMountList_Override(d DeploymentV1SpecTemplateSpecContainerVolumeMountList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDeploymentV1SpecTemplateSpecContainerVolumeMountList_Override(d DeploymentV1SpecTemplateSpecContainerVolumeMountList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList)SetTerra
 	)
 }
 
-func (j *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList)SetWraps
 	)
 }
 
-func (d *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) Get(ind
 	return returns
 }
 
-func (d *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DeploymentV1SpecTemplateSpecContainerVolumeMountList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

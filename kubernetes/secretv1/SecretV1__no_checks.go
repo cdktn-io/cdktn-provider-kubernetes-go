@@ -1,4 +1,4 @@
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2021, 2026
 // SPDX-License-Identifier: MPL-2.0
 
 //go:build no_runtime_type_checking
@@ -139,7 +139,7 @@ func (j *jsiiProxy_SecretV1) validateSetImmutableParameters(val interface{}) err
 	return nil
 }
 
-func (j *jsiiProxy_SecretV1) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecretV1) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 
