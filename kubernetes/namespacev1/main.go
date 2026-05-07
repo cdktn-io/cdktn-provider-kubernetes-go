@@ -68,6 +68,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForDefaultServiceAccount", GoGetter: "WaitForDefaultServiceAccount"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForDefaultServiceAccountInput", GoGetter: "WaitForDefaultServiceAccountInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NamespaceV1{}

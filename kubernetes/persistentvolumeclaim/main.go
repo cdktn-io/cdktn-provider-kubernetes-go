@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "waitUntilBound", GoGetter: "WaitUntilBound"},
 			_jsii_.MemberProperty{JsiiProperty: "waitUntilBoundInput", GoGetter: "WaitUntilBoundInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_PersistentVolumeClaim{}

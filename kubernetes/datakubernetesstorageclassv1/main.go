@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeBindingMode", GoGetter: "VolumeBindingMode"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeBindingModeInput", GoGetter: "VolumeBindingModeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataKubernetesStorageClassV1{}

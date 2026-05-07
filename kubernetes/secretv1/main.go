@@ -92,6 +92,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForServiceAccountToken", GoGetter: "WaitForServiceAccountToken"},
 			_jsii_.MemberProperty{JsiiProperty: "waitForServiceAccountTokenInput", GoGetter: "WaitForServiceAccountTokenInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SecretV1{}

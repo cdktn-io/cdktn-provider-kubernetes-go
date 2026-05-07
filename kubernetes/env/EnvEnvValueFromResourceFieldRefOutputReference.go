@@ -5,9 +5,9 @@ package env
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v13/env/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/env/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
