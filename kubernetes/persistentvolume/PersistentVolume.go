@@ -5,14 +5,14 @@ package persistentvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/persistentvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/persistentvolume/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/persistent_volume kubernetes_persistent_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/persistent_volume kubernetes_persistent_volume}.
 type PersistentVolume interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_PersistentVolume) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/persistent_volume kubernetes_persistent_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/persistent_volume kubernetes_persistent_volume} Resource.
 func NewPersistentVolume(scope constructs.Construct, id *string, config *PersistentVolumeConfig) PersistentVolume {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewPersistentVolume(scope constructs.Construct, id *string, config *Persist
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/persistent_volume kubernetes_persistent_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/persistent_volume kubernetes_persistent_volume} Resource.
 func NewPersistentVolume_Override(p PersistentVolume, scope constructs.Construct, id *string, config *PersistentVolumeConfig) {
 	_init_.Initialize()
 

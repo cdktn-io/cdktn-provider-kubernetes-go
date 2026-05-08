@@ -451,6 +451,14 @@ func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference) validateSetN
 	return nil
 }
 
+func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference) validateSetRestartPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference) validateSetStdinParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -5,14 +5,14 @@ package datakubernetespersistentvolumev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/datakubernetespersistentvolumev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetespersistentvolumev1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1}.
 type DataKubernetesPersistentVolumeV1 interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataKubernetesPersistentVolumeV1) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1} Data Source.
 func NewDataKubernetesPersistentVolumeV1(scope constructs.Construct, id *string, config *DataKubernetesPersistentVolumeV1Config) DataKubernetesPersistentVolumeV1 {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataKubernetesPersistentVolumeV1(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1} Data Source.
 func NewDataKubernetesPersistentVolumeV1_Override(d DataKubernetesPersistentVolumeV1, scope constructs.Construct, id *string, config *DataKubernetesPersistentVolumeV1Config) {
 	_init_.Initialize()
 

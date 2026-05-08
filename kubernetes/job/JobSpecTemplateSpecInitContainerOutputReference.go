@@ -5,9 +5,9 @@ package job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/job/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/job/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -61,6 +61,9 @@ type JobSpecTemplateSpecInitContainerOutputReference interface {
 	ReadinessProbeInput() *JobSpecTemplateSpecInitContainerReadinessProbe
 	Resources() JobSpecTemplateSpecInitContainerResourcesOutputReference
 	ResourcesInput() *JobSpecTemplateSpecInitContainerResources
+	RestartPolicy() *string
+	SetRestartPolicy(val *string)
+	RestartPolicyInput() *string
 	SecurityContext() JobSpecTemplateSpecInitContainerSecurityContextOutputReference
 	SecurityContextInput() *JobSpecTemplateSpecInitContainerSecurityContext
 	StartupProbe() JobSpecTemplateSpecInitContainerStartupProbeOutputReference
@@ -141,6 +144,7 @@ type JobSpecTemplateSpecInitContainerOutputReference interface {
 	ResetPort()
 	ResetReadinessProbe()
 	ResetResources()
+	ResetRestartPolicy()
 	ResetSecurityContext()
 	ResetStartupProbe()
 	ResetStdin()
@@ -451,6 +455,26 @@ func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference) ResourcesInp
 	_jsii_.Get(
 		j,
 		"resourcesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference) RestartPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restartPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference) RestartPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restartPolicyInput",
 		&returns,
 	)
 	return returns
@@ -788,6 +812,17 @@ func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference)SetName(val *
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference)SetRestartPolicy(val *string) {
+	if err := j.validateSetRestartPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"restartPolicy",
 		val,
 	)
 }
@@ -1271,6 +1306,14 @@ func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference) ResetResourc
 	_jsii_.InvokeVoid(
 		j,
 		"resetResources",
+		nil, // no parameters
+	)
+}
+
+func (j *jsiiProxy_JobSpecTemplateSpecInitContainerOutputReference) ResetRestartPolicy() {
+	_jsii_.InvokeVoid(
+		j,
+		"resetRestartPolicy",
 		nil, // no parameters
 	)
 }

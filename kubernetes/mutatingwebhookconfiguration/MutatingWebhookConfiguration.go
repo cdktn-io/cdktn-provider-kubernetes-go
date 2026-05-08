@@ -5,14 +5,14 @@ package mutatingwebhookconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/mutatingwebhookconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/mutatingwebhookconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/mutating_webhook_configuration kubernetes_mutating_webhook_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/mutating_webhook_configuration kubernetes_mutating_webhook_configuration}.
 type MutatingWebhookConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_MutatingWebhookConfiguration) WebhookInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/mutating_webhook_configuration kubernetes_mutating_webhook_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/mutating_webhook_configuration kubernetes_mutating_webhook_configuration} Resource.
 func NewMutatingWebhookConfiguration(scope constructs.Construct, id *string, config *MutatingWebhookConfigurationConfig) MutatingWebhookConfiguration {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewMutatingWebhookConfiguration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/mutating_webhook_configuration kubernetes_mutating_webhook_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/mutating_webhook_configuration kubernetes_mutating_webhook_configuration} Resource.
 func NewMutatingWebhookConfiguration_Override(m MutatingWebhookConfiguration, scope constructs.Construct, id *string, config *MutatingWebhookConfigurationConfig) {
 	_init_.Initialize()
 

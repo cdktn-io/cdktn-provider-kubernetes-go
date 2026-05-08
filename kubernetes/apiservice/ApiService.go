@@ -5,14 +5,14 @@ package apiservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/apiservice/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/apiservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/api_service kubernetes_api_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/api_service kubernetes_api_service}.
 type ApiService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_ApiService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/api_service kubernetes_api_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/api_service kubernetes_api_service} Resource.
 func NewApiService(scope constructs.Construct, id *string, config *ApiServiceConfig) ApiService {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewApiService(scope constructs.Construct, id *string, config *ApiServiceCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/api_service kubernetes_api_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/api_service kubernetes_api_service} Resource.
 func NewApiService_Override(a ApiService, scope constructs.Construct, id *string, config *ApiServiceConfig) {
 	_init_.Initialize()
 

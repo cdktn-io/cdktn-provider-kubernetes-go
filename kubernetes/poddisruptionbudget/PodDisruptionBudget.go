@@ -5,14 +5,14 @@ package poddisruptionbudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/poddisruptionbudget/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/poddisruptionbudget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/pod_disruption_budget kubernetes_pod_disruption_budget}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/pod_disruption_budget kubernetes_pod_disruption_budget}.
 type PodDisruptionBudget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_PodDisruptionBudget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/pod_disruption_budget kubernetes_pod_disruption_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/pod_disruption_budget kubernetes_pod_disruption_budget} Resource.
 func NewPodDisruptionBudget(scope constructs.Construct, id *string, config *PodDisruptionBudgetConfig) PodDisruptionBudget {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewPodDisruptionBudget(scope constructs.Construct, id *string, config *PodD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/pod_disruption_budget kubernetes_pod_disruption_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/pod_disruption_budget kubernetes_pod_disruption_budget} Resource.
 func NewPodDisruptionBudget_Override(p PodDisruptionBudget, scope constructs.Construct, id *string, config *PodDisruptionBudgetConfig) {
 	_init_.Initialize()
 

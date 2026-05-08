@@ -5,14 +5,14 @@ package datakubernetespersistentvolumeclaim
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/datakubernetespersistentvolumeclaim/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetespersistentvolumeclaim/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/persistent_volume_claim kubernetes_persistent_volume_claim}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/persistent_volume_claim kubernetes_persistent_volume_claim}.
 type DataKubernetesPersistentVolumeClaim interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataKubernetesPersistentVolumeClaim) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/persistent_volume_claim kubernetes_persistent_volume_claim} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/persistent_volume_claim kubernetes_persistent_volume_claim} Data Source.
 func NewDataKubernetesPersistentVolumeClaim(scope constructs.Construct, id *string, config *DataKubernetesPersistentVolumeClaimConfig) DataKubernetesPersistentVolumeClaim {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataKubernetesPersistentVolumeClaim(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/persistent_volume_claim kubernetes_persistent_volume_claim} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/persistent_volume_claim kubernetes_persistent_volume_claim} Data Source.
 func NewDataKubernetesPersistentVolumeClaim_Override(d DataKubernetesPersistentVolumeClaim, scope constructs.Construct, id *string, config *DataKubernetesPersistentVolumeClaimConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package certificatesigningrequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/certificatesigningrequest/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/certificatesigningrequest/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/certificate_signing_request kubernetes_certificate_signing_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/certificate_signing_request kubernetes_certificate_signing_request}.
 type CertificateSigningRequest interface {
 	cdktn.TerraformResource
 	AutoApprove() interface{}
@@ -424,7 +424,7 @@ func (j *jsiiProxy_CertificateSigningRequest) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/certificate_signing_request kubernetes_certificate_signing_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/certificate_signing_request kubernetes_certificate_signing_request} Resource.
 func NewCertificateSigningRequest(scope constructs.Construct, id *string, config *CertificateSigningRequestConfig) CertificateSigningRequest {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewCertificateSigningRequest(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/certificate_signing_request kubernetes_certificate_signing_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/certificate_signing_request kubernetes_certificate_signing_request} Resource.
 func NewCertificateSigningRequest_Override(c CertificateSigningRequest, scope constructs.Construct, id *string, config *CertificateSigningRequestConfig) {
 	_init_.Initialize()
 

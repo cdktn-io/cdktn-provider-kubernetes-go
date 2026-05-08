@@ -5,14 +5,14 @@ package datakubernetesservicev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/datakubernetesservicev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetesservicev1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/service_v1 kubernetes_service_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/service_v1 kubernetes_service_v1}.
 type DataKubernetesServiceV1 interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataKubernetesServiceV1) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/service_v1 kubernetes_service_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/service_v1 kubernetes_service_v1} Data Source.
 func NewDataKubernetesServiceV1(scope constructs.Construct, id *string, config *DataKubernetesServiceV1Config) DataKubernetesServiceV1 {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataKubernetesServiceV1(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/service_v1 kubernetes_service_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/service_v1 kubernetes_service_v1} Data Source.
 func NewDataKubernetesServiceV1_Override(d DataKubernetesServiceV1, scope constructs.Construct, id *string, config *DataKubernetesServiceV1Config) {
 	_init_.Initialize()
 

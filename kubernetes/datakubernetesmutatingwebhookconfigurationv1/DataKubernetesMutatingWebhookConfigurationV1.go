@@ -5,14 +5,14 @@ package datakubernetesmutatingwebhookconfigurationv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/datakubernetesmutatingwebhookconfigurationv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetesmutatingwebhookconfigurationv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/mutating_webhook_configuration_v1 kubernetes_mutating_webhook_configuration_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/mutating_webhook_configuration_v1 kubernetes_mutating_webhook_configuration_v1}.
 type DataKubernetesMutatingWebhookConfigurationV1 interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataKubernetesMutatingWebhookConfigurationV1) Webhook() DataK
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/mutating_webhook_configuration_v1 kubernetes_mutating_webhook_configuration_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/mutating_webhook_configuration_v1 kubernetes_mutating_webhook_configuration_v1} Data Source.
 func NewDataKubernetesMutatingWebhookConfigurationV1(scope constructs.Construct, id *string, config *DataKubernetesMutatingWebhookConfigurationV1Config) DataKubernetesMutatingWebhookConfigurationV1 {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataKubernetesMutatingWebhookConfigurationV1(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/mutating_webhook_configuration_v1 kubernetes_mutating_webhook_configuration_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/mutating_webhook_configuration_v1 kubernetes_mutating_webhook_configuration_v1} Data Source.
 func NewDataKubernetesMutatingWebhookConfigurationV1_Override(d DataKubernetesMutatingWebhookConfigurationV1, scope constructs.Construct, id *string, config *DataKubernetesMutatingWebhookConfigurationV1Config) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package configmapv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/configmapv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/configmapv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/config_map_v1 kubernetes_config_map_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/config_map_v1 kubernetes_config_map_v1}.
 type ConfigMapV1 interface {
 	cdktn.TerraformResource
 	BinaryData() *map[string]*string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ConfigMapV1) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/config_map_v1 kubernetes_config_map_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/config_map_v1 kubernetes_config_map_v1} Resource.
 func NewConfigMapV1(scope constructs.Construct, id *string, config *ConfigMapV1Config) ConfigMapV1 {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewConfigMapV1(scope constructs.Construct, id *string, config *ConfigMapV1C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/config_map_v1 kubernetes_config_map_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/config_map_v1 kubernetes_config_map_v1} Resource.
 func NewConfigMapV1_Override(c ConfigMapV1, scope constructs.Construct, id *string, config *ConfigMapV1Config) {
 	_init_.Initialize()
 

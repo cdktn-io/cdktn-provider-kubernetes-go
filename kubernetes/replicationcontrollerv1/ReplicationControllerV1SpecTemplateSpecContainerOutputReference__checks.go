@@ -451,6 +451,14 @@ func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecContainerOutputReferen
 	return nil
 }
 
+func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecContainerOutputReference) validateSetRestartPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecContainerOutputReference) validateSetStdinParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

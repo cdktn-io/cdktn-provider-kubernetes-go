@@ -5,9 +5,9 @@ package replicationcontrollerv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/replicationcontrollerv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/replicationcontrollerv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -61,6 +61,9 @@ type ReplicationControllerV1SpecTemplateSpecInitContainerOutputReference interfa
 	ReadinessProbeInput() *ReplicationControllerV1SpecTemplateSpecInitContainerReadinessProbe
 	Resources() ReplicationControllerV1SpecTemplateSpecInitContainerResourcesOutputReference
 	ResourcesInput() *ReplicationControllerV1SpecTemplateSpecInitContainerResources
+	RestartPolicy() *string
+	SetRestartPolicy(val *string)
+	RestartPolicyInput() *string
 	SecurityContext() ReplicationControllerV1SpecTemplateSpecInitContainerSecurityContextOutputReference
 	SecurityContextInput() *ReplicationControllerV1SpecTemplateSpecInitContainerSecurityContext
 	StartupProbe() ReplicationControllerV1SpecTemplateSpecInitContainerStartupProbeOutputReference
@@ -141,6 +144,7 @@ type ReplicationControllerV1SpecTemplateSpecInitContainerOutputReference interfa
 	ResetPort()
 	ResetReadinessProbe()
 	ResetResources()
+	ResetRestartPolicy()
 	ResetSecurityContext()
 	ResetStartupProbe()
 	ResetStdin()
@@ -451,6 +455,26 @@ func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecInitContainerOutputRef
 	_jsii_.Get(
 		j,
 		"resourcesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecInitContainerOutputReference) RestartPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restartPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecInitContainerOutputReference) RestartPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restartPolicyInput",
 		&returns,
 	)
 	return returns
@@ -788,6 +812,17 @@ func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecInitContainerOutputRef
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ReplicationControllerV1SpecTemplateSpecInitContainerOutputReference)SetRestartPolicy(val *string) {
+	if err := j.validateSetRestartPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"restartPolicy",
 		val,
 	)
 }
@@ -1271,6 +1306,14 @@ func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecInitContainerOutputRef
 	_jsii_.InvokeVoid(
 		r,
 		"resetResources",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_ReplicationControllerV1SpecTemplateSpecInitContainerOutputReference) ResetRestartPolicy() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetRestartPolicy",
 		nil, // no parameters
 	)
 }

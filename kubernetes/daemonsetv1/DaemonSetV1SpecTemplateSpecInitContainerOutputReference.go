@@ -5,9 +5,9 @@ package daemonsetv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/daemonsetv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/daemonsetv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -61,6 +61,9 @@ type DaemonSetV1SpecTemplateSpecInitContainerOutputReference interface {
 	ReadinessProbeInput() *DaemonSetV1SpecTemplateSpecInitContainerReadinessProbe
 	Resources() DaemonSetV1SpecTemplateSpecInitContainerResourcesOutputReference
 	ResourcesInput() *DaemonSetV1SpecTemplateSpecInitContainerResources
+	RestartPolicy() *string
+	SetRestartPolicy(val *string)
+	RestartPolicyInput() *string
 	SecurityContext() DaemonSetV1SpecTemplateSpecInitContainerSecurityContextOutputReference
 	SecurityContextInput() *DaemonSetV1SpecTemplateSpecInitContainerSecurityContext
 	StartupProbe() DaemonSetV1SpecTemplateSpecInitContainerStartupProbeOutputReference
@@ -141,6 +144,7 @@ type DaemonSetV1SpecTemplateSpecInitContainerOutputReference interface {
 	ResetPort()
 	ResetReadinessProbe()
 	ResetResources()
+	ResetRestartPolicy()
 	ResetSecurityContext()
 	ResetStartupProbe()
 	ResetStdin()
@@ -451,6 +455,26 @@ func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerOutputReference) Reso
 	_jsii_.Get(
 		j,
 		"resourcesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerOutputReference) RestartPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restartPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerOutputReference) RestartPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restartPolicyInput",
 		&returns,
 	)
 	return returns
@@ -788,6 +812,17 @@ func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerOutputReference)SetNa
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerOutputReference)SetRestartPolicy(val *string) {
+	if err := j.validateSetRestartPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"restartPolicy",
 		val,
 	)
 }
@@ -1271,6 +1306,14 @@ func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerOutputReference) Rese
 	_jsii_.InvokeVoid(
 		d,
 		"resetResources",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DaemonSetV1SpecTemplateSpecInitContainerOutputReference) ResetRestartPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRestartPolicy",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package job
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/job/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/job/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/job kubernetes_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/job kubernetes_job}.
 type Job interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_Job) WaitForCompletionInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/job kubernetes_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/job kubernetes_job} Resource.
 func NewJob(scope constructs.Construct, id *string, config *JobConfig) Job {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewJob(scope constructs.Construct, id *string, config *JobConfig) Job {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/job kubernetes_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/job kubernetes_job} Resource.
 func NewJob_Override(j Job, scope constructs.Construct, id *string, config *JobConfig) {
 	_init_.Initialize()
 

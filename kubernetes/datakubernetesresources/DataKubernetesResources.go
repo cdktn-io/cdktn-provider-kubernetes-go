@@ -5,14 +5,14 @@ package datakubernetesresources
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/datakubernetesresources/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetesresources/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/resources kubernetes_resources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/resources kubernetes_resources}.
 type DataKubernetesResources interface {
 	cdktn.TerraformDataSource
 	ApiVersion() *string
@@ -416,7 +416,7 @@ func (j *jsiiProxy_DataKubernetesResources) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/resources kubernetes_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/resources kubernetes_resources} Data Source.
 func NewDataKubernetesResources(scope constructs.Construct, id *string, config *DataKubernetesResourcesConfig) DataKubernetesResources {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataKubernetesResources(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/resources kubernetes_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/resources kubernetes_resources} Data Source.
 func NewDataKubernetesResources_Override(d DataKubernetesResources, scope constructs.Construct, id *string, config *DataKubernetesResourcesConfig) {
 	_init_.Initialize()
 

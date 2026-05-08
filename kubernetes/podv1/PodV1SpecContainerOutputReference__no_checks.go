@@ -127,6 +127,10 @@ func (j *jsiiProxy_PodV1SpecContainerOutputReference) validateSetNameParameters(
 	return nil
 }
 
+func (j *jsiiProxy_PodV1SpecContainerOutputReference) validateSetRestartPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PodV1SpecContainerOutputReference) validateSetStdinParameters(val interface{}) error {
 	return nil
 }

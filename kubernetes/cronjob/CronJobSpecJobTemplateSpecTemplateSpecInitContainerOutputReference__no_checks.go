@@ -127,6 +127,10 @@ func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerOutputRefe
 	return nil
 }
 
+func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerOutputReference) validateSetRestartPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CronJobSpecJobTemplateSpecTemplateSpecInitContainerOutputReference) validateSetStdinParameters(val interface{}) error {
 	return nil
 }

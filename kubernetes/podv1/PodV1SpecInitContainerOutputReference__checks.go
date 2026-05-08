@@ -451,6 +451,14 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetNameParamet
 	return nil
 }
 
+func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetRestartPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) validateSetStdinParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

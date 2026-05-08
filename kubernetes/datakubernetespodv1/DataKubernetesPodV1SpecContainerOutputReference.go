@@ -5,9 +5,9 @@ package datakubernetespodv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/datakubernetespodv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetespodv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,6 +44,7 @@ type DataKubernetesPodV1SpecContainerOutputReference interface {
 	Port() DataKubernetesPodV1SpecContainerPortList
 	ReadinessProbe() DataKubernetesPodV1SpecContainerReadinessProbeList
 	Resources() DataKubernetesPodV1SpecContainerResourcesList
+	RestartPolicy() *string
 	SecurityContext() DataKubernetesPodV1SpecContainerSecurityContextList
 	StartupProbe() DataKubernetesPodV1SpecContainerStartupProbeList
 	Stdin() cdktn.IResolvable
@@ -266,6 +267,16 @@ func (j *jsiiProxy_DataKubernetesPodV1SpecContainerOutputReference) Resources() 
 	_jsii_.Get(
 		j,
 		"resources",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataKubernetesPodV1SpecContainerOutputReference) RestartPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restartPolicy",
 		&returns,
 	)
 	return returns

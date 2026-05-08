@@ -5,14 +5,14 @@ package secretv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/secretv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/secretv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/secret_v1 kubernetes_secret_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/secret_v1 kubernetes_secret_v1}.
 type SecretV1 interface {
 	cdktn.TerraformResource
 	BinaryData() *map[string]*string
@@ -582,7 +582,7 @@ func (j *jsiiProxy_SecretV1) WaitForServiceAccountTokenInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/secret_v1 kubernetes_secret_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/secret_v1 kubernetes_secret_v1} Resource.
 func NewSecretV1(scope constructs.Construct, id *string, config *SecretV1Config) SecretV1 {
 	_init_.Initialize()
 
@@ -600,7 +600,7 @@ func NewSecretV1(scope constructs.Construct, id *string, config *SecretV1Config)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/secret_v1 kubernetes_secret_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/secret_v1 kubernetes_secret_v1} Resource.
 func NewSecretV1_Override(s SecretV1, scope constructs.Construct, id *string, config *SecretV1Config) {
 	_init_.Initialize()
 

@@ -1,4 +1,4 @@
-module github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14
+module github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15
 
 go 1.25
 

@@ -127,6 +127,10 @@ func (j *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerOutputReference) va
 	return nil
 }
 
+func (j *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerOutputReference) validateSetRestartPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StatefulSetV1SpecTemplateSpecInitContainerOutputReference) validateSetStdinParameters(val interface{}) error {
 	return nil
 }

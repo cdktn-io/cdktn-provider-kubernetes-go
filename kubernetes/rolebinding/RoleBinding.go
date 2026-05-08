@@ -5,14 +5,14 @@ package rolebinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/rolebinding/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/rolebinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/role_binding kubernetes_role_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/role_binding kubernetes_role_binding}.
 type RoleBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -388,7 +388,7 @@ func (j *jsiiProxy_RoleBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/role_binding kubernetes_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/role_binding kubernetes_role_binding} Resource.
 func NewRoleBinding(scope constructs.Construct, id *string, config *RoleBindingConfig) RoleBinding {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewRoleBinding(scope constructs.Construct, id *string, config *RoleBindingC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/role_binding kubernetes_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/role_binding kubernetes_role_binding} Resource.
 func NewRoleBinding_Override(r RoleBinding, scope constructs.Construct, id *string, config *RoleBindingConfig) {
 	_init_.Initialize()
 

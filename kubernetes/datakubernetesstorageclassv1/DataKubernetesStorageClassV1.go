@@ -5,14 +5,14 @@ package datakubernetesstorageclassv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/datakubernetesstorageclassv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetesstorageclassv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/storage_class_v1 kubernetes_storage_class_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/storage_class_v1 kubernetes_storage_class_v1}.
 type DataKubernetesStorageClassV1 interface {
 	cdktn.TerraformDataSource
 	AllowedTopologies() DataKubernetesStorageClassV1AllowedTopologiesOutputReference
@@ -452,7 +452,7 @@ func (j *jsiiProxy_DataKubernetesStorageClassV1) VolumeBindingModeInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/storage_class_v1 kubernetes_storage_class_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/storage_class_v1 kubernetes_storage_class_v1} Data Source.
 func NewDataKubernetesStorageClassV1(scope constructs.Construct, id *string, config *DataKubernetesStorageClassV1Config) DataKubernetesStorageClassV1 {
 	_init_.Initialize()
 
@@ -470,7 +470,7 @@ func NewDataKubernetesStorageClassV1(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/storage_class_v1 kubernetes_storage_class_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/storage_class_v1 kubernetes_storage_class_v1} Data Source.
 func NewDataKubernetesStorageClassV1_Override(d DataKubernetesStorageClassV1, scope constructs.Construct, id *string, config *DataKubernetesStorageClassV1Config) {
 	_init_.Initialize()
 

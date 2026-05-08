@@ -5,14 +5,14 @@ package clusterrolebinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/clusterrolebinding/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/clusterrolebinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/cluster_role_binding kubernetes_cluster_role_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/cluster_role_binding kubernetes_cluster_role_binding}.
 type ClusterRoleBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -388,7 +388,7 @@ func (j *jsiiProxy_ClusterRoleBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/cluster_role_binding kubernetes_cluster_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/cluster_role_binding kubernetes_cluster_role_binding} Resource.
 func NewClusterRoleBinding(scope constructs.Construct, id *string, config *ClusterRoleBindingConfig) ClusterRoleBinding {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewClusterRoleBinding(scope constructs.Construct, id *string, config *Clust
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/cluster_role_binding kubernetes_cluster_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/cluster_role_binding kubernetes_cluster_role_binding} Resource.
 func NewClusterRoleBinding_Override(c ClusterRoleBinding, scope constructs.Construct, id *string, config *ClusterRoleBindingConfig) {
 	_init_.Initialize()
 

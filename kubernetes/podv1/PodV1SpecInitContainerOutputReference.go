@@ -5,9 +5,9 @@ package podv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/podv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/podv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -61,6 +61,9 @@ type PodV1SpecInitContainerOutputReference interface {
 	ReadinessProbeInput() *PodV1SpecInitContainerReadinessProbe
 	Resources() PodV1SpecInitContainerResourcesOutputReference
 	ResourcesInput() *PodV1SpecInitContainerResources
+	RestartPolicy() *string
+	SetRestartPolicy(val *string)
+	RestartPolicyInput() *string
 	SecurityContext() PodV1SpecInitContainerSecurityContextOutputReference
 	SecurityContextInput() *PodV1SpecInitContainerSecurityContext
 	StartupProbe() PodV1SpecInitContainerStartupProbeOutputReference
@@ -141,6 +144,7 @@ type PodV1SpecInitContainerOutputReference interface {
 	ResetPort()
 	ResetReadinessProbe()
 	ResetResources()
+	ResetRestartPolicy()
 	ResetSecurityContext()
 	ResetStartupProbe()
 	ResetStdin()
@@ -451,6 +455,26 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) ResourcesInput() *PodV
 	_jsii_.Get(
 		j,
 		"resourcesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) RestartPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restartPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PodV1SpecInitContainerOutputReference) RestartPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"restartPolicyInput",
 		&returns,
 	)
 	return returns
@@ -788,6 +812,17 @@ func (j *jsiiProxy_PodV1SpecInitContainerOutputReference)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PodV1SpecInitContainerOutputReference)SetRestartPolicy(val *string) {
+	if err := j.validateSetRestartPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"restartPolicy",
 		val,
 	)
 }
@@ -1271,6 +1306,14 @@ func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) ResetResources() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetResources",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PodV1SpecInitContainerOutputReference) ResetRestartPolicy() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetRestartPolicy",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package servicev1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/servicev1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/servicev1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,7 @@ type ServiceV1StatusLoadBalancerIngressOutputReference interface {
 	InternalValue() *ServiceV1StatusLoadBalancerIngress
 	SetInternalValue(val *ServiceV1StatusLoadBalancerIngress)
 	Ip() *string
+	IpMode() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -146,6 +147,16 @@ func (j *jsiiProxy_ServiceV1StatusLoadBalancerIngressOutputReference) Ip() *stri
 	_jsii_.Get(
 		j,
 		"ip",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ServiceV1StatusLoadBalancerIngressOutputReference) IpMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipMode",
 		&returns,
 	)
 	return returns

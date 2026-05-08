@@ -5,14 +5,14 @@ package statefulset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/statefulset/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/statefulset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/stateful_set kubernetes_stateful_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/stateful_set kubernetes_stateful_set}.
 type StatefulSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_StatefulSet) WaitForRolloutInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/stateful_set kubernetes_stateful_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/stateful_set kubernetes_stateful_set} Resource.
 func NewStatefulSet(scope constructs.Construct, id *string, config *StatefulSetConfig) StatefulSet {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewStatefulSet(scope constructs.Construct, id *string, config *StatefulSetC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/stateful_set kubernetes_stateful_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/stateful_set kubernetes_stateful_set} Resource.
 func NewStatefulSet_Override(s StatefulSet, scope constructs.Construct, id *string, config *StatefulSetConfig) {
 	_init_.Initialize()
 

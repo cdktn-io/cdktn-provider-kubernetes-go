@@ -5,14 +5,14 @@ package datakubernetesserverversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/datakubernetesserverversion/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetesserverversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/server_version kubernetes_server_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/server_version kubernetes_server_version}.
 type DataKubernetesServerVersion interface {
 	cdktn.TerraformDataSource
 	BuildDate() *string
@@ -384,7 +384,7 @@ func (j *jsiiProxy_DataKubernetesServerVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/server_version kubernetes_server_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/server_version kubernetes_server_version} Data Source.
 func NewDataKubernetesServerVersion(scope constructs.Construct, id *string, config *DataKubernetesServerVersionConfig) DataKubernetesServerVersion {
 	_init_.Initialize()
 
@@ -402,7 +402,7 @@ func NewDataKubernetesServerVersion(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/server_version kubernetes_server_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/server_version kubernetes_server_version} Data Source.
 func NewDataKubernetesServerVersion_Override(d DataKubernetesServerVersion, scope constructs.Construct, id *string, config *DataKubernetesServerVersionConfig) {
 	_init_.Initialize()
 

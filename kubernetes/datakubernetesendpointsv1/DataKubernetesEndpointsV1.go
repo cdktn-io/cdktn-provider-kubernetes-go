@@ -5,14 +5,14 @@ package datakubernetesendpointsv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/datakubernetesendpointsv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetesendpointsv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/endpoints_v1 kubernetes_endpoints_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/endpoints_v1 kubernetes_endpoints_v1}.
 type DataKubernetesEndpointsV1 interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataKubernetesEndpointsV1) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/endpoints_v1 kubernetes_endpoints_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/endpoints_v1 kubernetes_endpoints_v1} Data Source.
 func NewDataKubernetesEndpointsV1(scope constructs.Construct, id *string, config *DataKubernetesEndpointsV1Config) DataKubernetesEndpointsV1 {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataKubernetesEndpointsV1(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/data-sources/endpoints_v1 kubernetes_endpoints_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/data-sources/endpoints_v1 kubernetes_endpoints_v1} Data Source.
 func NewDataKubernetesEndpointsV1_Override(d DataKubernetesEndpointsV1, scope constructs.Construct, id *string, config *DataKubernetesEndpointsV1Config) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package defaultserviceaccountv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v14/defaultserviceaccountv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/defaultserviceaccountv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/default_service_account_v1 kubernetes_default_service_account_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/default_service_account_v1 kubernetes_default_service_account_v1}.
 type DefaultServiceAccountV1 interface {
 	cdktn.TerraformResource
 	AutomountServiceAccountToken() interface{}
@@ -449,7 +449,7 @@ func (j *jsiiProxy_DefaultServiceAccountV1) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/default_service_account_v1 kubernetes_default_service_account_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/default_service_account_v1 kubernetes_default_service_account_v1} Resource.
 func NewDefaultServiceAccountV1(scope constructs.Construct, id *string, config *DefaultServiceAccountV1Config) DefaultServiceAccountV1 {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewDefaultServiceAccountV1(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/2.38.0/docs/resources/default_service_account_v1 kubernetes_default_service_account_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/default_service_account_v1 kubernetes_default_service_account_v1} Resource.
 func NewDefaultServiceAccountV1_Override(d DefaultServiceAccountV1, scope constructs.Construct, id *string, config *DefaultServiceAccountV1Config) {
 	_init_.Initialize()
 
