@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/storage_class kubernetes_storage_class}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/storage_class kubernetes_storage_class}.
 type StorageClass interface {
 	cdktn.TerraformResource
 	AllowedTopologies() StorageClassAllowedTopologiesOutputReference
@@ -509,7 +509,7 @@ func (j *jsiiProxy_StorageClass) VolumeBindingModeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/storage_class kubernetes_storage_class} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/storage_class kubernetes_storage_class} Resource.
 func NewStorageClass(scope constructs.Construct, id *string, config *StorageClassConfig) StorageClass {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewStorageClass(scope constructs.Construct, id *string, config *StorageClas
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/storage_class kubernetes_storage_class} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/storage_class kubernetes_storage_class} Resource.
 func NewStorageClass_Override(s StorageClass, scope constructs.Construct, id *string, config *StorageClassConfig) {
 	_init_.Initialize()
 

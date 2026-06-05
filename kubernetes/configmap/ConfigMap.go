@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/config_map kubernetes_config_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/config_map kubernetes_config_map}.
 type ConfigMap interface {
 	cdktn.TerraformResource
 	BinaryData() *map[string]*string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ConfigMap) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/config_map kubernetes_config_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/config_map kubernetes_config_map} Resource.
 func NewConfigMap(scope constructs.Construct, id *string, config *ConfigMapConfig) ConfigMap {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewConfigMap(scope constructs.Construct, id *string, config *ConfigMapConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/config_map kubernetes_config_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/config_map kubernetes_config_map} Resource.
 func NewConfigMap_Override(c ConfigMap, scope constructs.Construct, id *string, config *ConfigMapConfig) {
 	_init_.Initialize()
 

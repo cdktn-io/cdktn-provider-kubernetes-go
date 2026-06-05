@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/cluster_role kubernetes_cluster_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/cluster_role kubernetes_cluster_role}.
 type ClusterRole interface {
 	cdktn.TerraformResource
 	AggregationRule() ClusterRoleAggregationRuleOutputReference
@@ -390,7 +390,7 @@ func (j *jsiiProxy_ClusterRole) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/cluster_role kubernetes_cluster_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/cluster_role kubernetes_cluster_role} Resource.
 func NewClusterRole(scope constructs.Construct, id *string, config *ClusterRoleConfig) ClusterRole {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewClusterRole(scope constructs.Construct, id *string, config *ClusterRoleC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/cluster_role kubernetes_cluster_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/cluster_role kubernetes_cluster_role} Resource.
 func NewClusterRole_Override(c ClusterRole, scope constructs.Construct, id *string, config *ClusterRoleConfig) {
 	_init_.Initialize()
 

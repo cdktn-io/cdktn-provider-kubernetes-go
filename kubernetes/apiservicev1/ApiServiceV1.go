@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/api_service_v1 kubernetes_api_service_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/api_service_v1 kubernetes_api_service_v1}.
 type ApiServiceV1 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_ApiServiceV1) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/api_service_v1 kubernetes_api_service_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/api_service_v1 kubernetes_api_service_v1} Resource.
 func NewApiServiceV1(scope constructs.Construct, id *string, config *ApiServiceV1Config) ApiServiceV1 {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewApiServiceV1(scope constructs.Construct, id *string, config *ApiServiceV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/api_service_v1 kubernetes_api_service_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/api_service_v1 kubernetes_api_service_v1} Resource.
 func NewApiServiceV1_Override(a ApiServiceV1, scope constructs.Construct, id *string, config *ApiServiceV1Config) {
 	_init_.Initialize()
 

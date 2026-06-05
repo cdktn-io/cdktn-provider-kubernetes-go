@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/labels kubernetes_labels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/labels kubernetes_labels}.
 type Labels interface {
 	cdktn.TerraformResource
 	ApiVersion() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_Labels) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/labels kubernetes_labels} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/labels kubernetes_labels} Resource.
 func NewLabels(scope constructs.Construct, id *string, config *LabelsConfig) Labels {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewLabels(scope constructs.Construct, id *string, config *LabelsConfig) Lab
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/labels kubernetes_labels} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/labels kubernetes_labels} Resource.
 func NewLabels_Override(l Labels, scope constructs.Construct, id *string, config *LabelsConfig) {
 	_init_.Initialize()
 

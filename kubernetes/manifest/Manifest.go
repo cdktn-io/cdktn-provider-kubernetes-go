@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/manifest kubernetes_manifest}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/manifest kubernetes_manifest}.
 type Manifest interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_Manifest) WaitInput() *ManifestWait {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/manifest kubernetes_manifest} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/manifest kubernetes_manifest} Resource.
 func NewManifest(scope constructs.Construct, id *string, config *ManifestConfig) Manifest {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewManifest(scope constructs.Construct, id *string, config *ManifestConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/manifest kubernetes_manifest} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/manifest kubernetes_manifest} Resource.
 func NewManifest_Override(m Manifest, scope constructs.Construct, id *string, config *ManifestConfig) {
 	_init_.Initialize()
 

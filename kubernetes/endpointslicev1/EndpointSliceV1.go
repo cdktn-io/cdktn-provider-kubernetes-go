@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/endpoint_slice_v1 kubernetes_endpoint_slice_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/endpoint_slice_v1 kubernetes_endpoint_slice_v1}.
 type EndpointSliceV1 interface {
 	cdktn.TerraformResource
 	AddressType() *string
@@ -411,7 +411,7 @@ func (j *jsiiProxy_EndpointSliceV1) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/endpoint_slice_v1 kubernetes_endpoint_slice_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/endpoint_slice_v1 kubernetes_endpoint_slice_v1} Resource.
 func NewEndpointSliceV1(scope constructs.Construct, id *string, config *EndpointSliceV1Config) EndpointSliceV1 {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewEndpointSliceV1(scope constructs.Construct, id *string, config *Endpoint
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/endpoint_slice_v1 kubernetes_endpoint_slice_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/endpoint_slice_v1 kubernetes_endpoint_slice_v1} Resource.
 func NewEndpointSliceV1_Override(e EndpointSliceV1, scope constructs.Construct, id *string, config *EndpointSliceV1Config) {
 	_init_.Initialize()
 

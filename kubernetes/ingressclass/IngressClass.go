@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/ingress_class kubernetes_ingress_class}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/ingress_class kubernetes_ingress_class}.
 type IngressClass interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_IngressClass) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/ingress_class kubernetes_ingress_class} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/ingress_class kubernetes_ingress_class} Resource.
 func NewIngressClass(scope constructs.Construct, id *string, config *IngressClassConfig) IngressClass {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewIngressClass(scope constructs.Construct, id *string, config *IngressClas
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/ingress_class kubernetes_ingress_class} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/ingress_class kubernetes_ingress_class} Resource.
 func NewIngressClass_Override(i IngressClass, scope constructs.Construct, id *string, config *IngressClassConfig) {
 	_init_.Initialize()
 

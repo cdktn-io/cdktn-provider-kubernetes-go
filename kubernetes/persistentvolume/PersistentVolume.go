@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/persistent_volume kubernetes_persistent_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/persistent_volume kubernetes_persistent_volume}.
 type PersistentVolume interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_PersistentVolume) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/persistent_volume kubernetes_persistent_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/persistent_volume kubernetes_persistent_volume} Resource.
 func NewPersistentVolume(scope constructs.Construct, id *string, config *PersistentVolumeConfig) PersistentVolume {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewPersistentVolume(scope constructs.Construct, id *string, config *Persist
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/persistent_volume kubernetes_persistent_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/persistent_volume kubernetes_persistent_volume} Resource.
 func NewPersistentVolume_Override(p PersistentVolume, scope constructs.Construct, id *string, config *PersistentVolumeConfig) {
 	_init_.Initialize()
 

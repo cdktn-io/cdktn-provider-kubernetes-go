@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/validating_admission_policy_v1 kubernetes_validating_admission_policy_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/validating_admission_policy_v1 kubernetes_validating_admission_policy_v1}.
 type ValidatingAdmissionPolicyV1 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_ValidatingAdmissionPolicyV1) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/validating_admission_policy_v1 kubernetes_validating_admission_policy_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/validating_admission_policy_v1 kubernetes_validating_admission_policy_v1} Resource.
 func NewValidatingAdmissionPolicyV1(scope constructs.Construct, id *string, config *ValidatingAdmissionPolicyV1Config) ValidatingAdmissionPolicyV1 {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewValidatingAdmissionPolicyV1(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.1.0/docs/resources/validating_admission_policy_v1 kubernetes_validating_admission_policy_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/validating_admission_policy_v1 kubernetes_validating_admission_policy_v1} Resource.
 func NewValidatingAdmissionPolicyV1_Override(v ValidatingAdmissionPolicyV1, scope constructs.Construct, id *string, config *ValidatingAdmissionPolicyV1Config) {
 	_init_.Initialize()
 
