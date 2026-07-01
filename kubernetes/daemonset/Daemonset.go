@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/daemonset kubernetes_daemonset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/daemonset kubernetes_daemonset}.
 type Daemonset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_Daemonset) WaitForRolloutInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/daemonset kubernetes_daemonset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/daemonset kubernetes_daemonset} Resource.
 func NewDaemonset(scope constructs.Construct, id *string, config *DaemonsetConfig) Daemonset {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDaemonset(scope constructs.Construct, id *string, config *DaemonsetConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/daemonset kubernetes_daemonset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/daemonset kubernetes_daemonset} Resource.
 func NewDaemonset_Override(d Daemonset, scope constructs.Construct, id *string, config *DaemonsetConfig) {
 	_init_.Initialize()
 

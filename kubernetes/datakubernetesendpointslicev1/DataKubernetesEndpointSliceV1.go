@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/endpoint_slice_v1 kubernetes_endpoint_slice_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/endpoint_slice_v1 kubernetes_endpoint_slice_v1}.
 type DataKubernetesEndpointSliceV1 interface {
 	cdktn.TerraformDataSource
 	AddressType() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataKubernetesEndpointSliceV1) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/endpoint_slice_v1 kubernetes_endpoint_slice_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/endpoint_slice_v1 kubernetes_endpoint_slice_v1} Data Source.
 func NewDataKubernetesEndpointSliceV1(scope constructs.Construct, id *string, config *DataKubernetesEndpointSliceV1Config) DataKubernetesEndpointSliceV1 {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataKubernetesEndpointSliceV1(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/endpoint_slice_v1 kubernetes_endpoint_slice_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/endpoint_slice_v1 kubernetes_endpoint_slice_v1} Data Source.
 func NewDataKubernetesEndpointSliceV1_Override(d DataKubernetesEndpointSliceV1, scope constructs.Construct, id *string, config *DataKubernetesEndpointSliceV1Config) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/secret_v1 kubernetes_secret_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/secret_v1 kubernetes_secret_v1}.
 type DataKubernetesSecretV1 interface {
 	cdktn.TerraformDataSource
 	BinaryData() *map[string]*string
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataKubernetesSecretV1) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/secret_v1 kubernetes_secret_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/secret_v1 kubernetes_secret_v1} Data Source.
 func NewDataKubernetesSecretV1(scope constructs.Construct, id *string, config *DataKubernetesSecretV1Config) DataKubernetesSecretV1 {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDataKubernetesSecretV1(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/secret_v1 kubernetes_secret_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/secret_v1 kubernetes_secret_v1} Data Source.
 func NewDataKubernetesSecretV1_Override(d DataKubernetesSecretV1, scope constructs.Construct, id *string, config *DataKubernetesSecretV1Config) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1}.
 type DataKubernetesPersistentVolumeV1 interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataKubernetesPersistentVolumeV1) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1} Data Source.
 func NewDataKubernetesPersistentVolumeV1(scope constructs.Construct, id *string, config *DataKubernetesPersistentVolumeV1Config) DataKubernetesPersistentVolumeV1 {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataKubernetesPersistentVolumeV1(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/persistent_volume_v1 kubernetes_persistent_volume_v1} Data Source.
 func NewDataKubernetesPersistentVolumeV1_Override(d DataKubernetesPersistentVolumeV1, scope constructs.Construct, id *string, config *DataKubernetesPersistentVolumeV1Config) {
 	_init_.Initialize()
 

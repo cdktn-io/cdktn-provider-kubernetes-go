@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/replication_controller kubernetes_replication_controller}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/replication_controller kubernetes_replication_controller}.
 type ReplicationController interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_ReplicationController) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/replication_controller kubernetes_replication_controller} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/replication_controller kubernetes_replication_controller} Resource.
 func NewReplicationController(scope constructs.Construct, id *string, config *ReplicationControllerConfig) ReplicationController {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewReplicationController(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/replication_controller kubernetes_replication_controller} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/replication_controller kubernetes_replication_controller} Resource.
 func NewReplicationController_Override(r ReplicationController, scope constructs.Construct, id *string, config *ReplicationControllerConfig) {
 	_init_.Initialize()
 

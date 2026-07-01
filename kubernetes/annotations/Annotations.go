@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/annotations kubernetes_annotations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/annotations kubernetes_annotations}.
 type Annotations interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_Annotations) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/annotations kubernetes_annotations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/annotations kubernetes_annotations} Resource.
 func NewAnnotations(scope constructs.Construct, id *string, config *AnnotationsConfig) Annotations {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewAnnotations(scope constructs.Construct, id *string, config *AnnotationsC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/annotations kubernetes_annotations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/annotations kubernetes_annotations} Resource.
 func NewAnnotations_Override(a Annotations, scope constructs.Construct, id *string, config *AnnotationsConfig) {
 	_init_.Initialize()
 

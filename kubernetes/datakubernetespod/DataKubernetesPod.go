@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/pod kubernetes_pod}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/pod kubernetes_pod}.
 type DataKubernetesPod interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataKubernetesPod) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/pod kubernetes_pod} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/pod kubernetes_pod} Data Source.
 func NewDataKubernetesPod(scope constructs.Construct, id *string, config *DataKubernetesPodConfig) DataKubernetesPod {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataKubernetesPod(scope constructs.Construct, id *string, config *DataKu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/pod kubernetes_pod} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/pod kubernetes_pod} Data Source.
 func NewDataKubernetesPod_Override(d DataKubernetesPod, scope constructs.Construct, id *string, config *DataKubernetesPodConfig) {
 	_init_.Initialize()
 

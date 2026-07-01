@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/namespace kubernetes_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/namespace kubernetes_namespace}.
 type Namespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_Namespace) WaitForDefaultServiceAccountInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/namespace kubernetes_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/namespace kubernetes_namespace} Resource.
 func NewNamespace(scope constructs.Construct, id *string, config *NamespaceConfig) Namespace {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewNamespace(scope constructs.Construct, id *string, config *NamespaceConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/resources/namespace kubernetes_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/namespace kubernetes_namespace} Resource.
 func NewNamespace_Override(n Namespace, scope constructs.Construct, id *string, config *NamespaceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/service_account kubernetes_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/service_account kubernetes_service_account}.
 type DataKubernetesServiceAccount interface {
 	cdktn.TerraformDataSource
 	AutomountServiceAccountToken() cdktn.IResolvable
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataKubernetesServiceAccount) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/service_account kubernetes_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/service_account kubernetes_service_account} Data Source.
 func NewDataKubernetesServiceAccount(scope constructs.Construct, id *string, config *DataKubernetesServiceAccountConfig) DataKubernetesServiceAccount {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataKubernetesServiceAccount(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/service_account kubernetes_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/service_account kubernetes_service_account} Data Source.
 func NewDataKubernetesServiceAccount_Override(d DataKubernetesServiceAccount, scope constructs.Construct, id *string, config *DataKubernetesServiceAccountConfig) {
 	_init_.Initialize()
 

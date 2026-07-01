@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/ingress kubernetes_ingress}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/ingress kubernetes_ingress}.
 type DataKubernetesIngress interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataKubernetesIngress) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/ingress kubernetes_ingress} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/ingress kubernetes_ingress} Data Source.
 func NewDataKubernetesIngress(scope constructs.Construct, id *string, config *DataKubernetesIngressConfig) DataKubernetesIngress {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataKubernetesIngress(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.0/docs/data-sources/ingress kubernetes_ingress} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/ingress kubernetes_ingress} Data Source.
 func NewDataKubernetesIngress_Override(d DataKubernetesIngress, scope constructs.Construct, id *string, config *DataKubernetesIngressConfig) {
 	_init_.Initialize()
 
