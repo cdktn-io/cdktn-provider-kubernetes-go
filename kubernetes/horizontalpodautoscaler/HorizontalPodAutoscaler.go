@@ -5,10 +5,10 @@ package horizontalpodautoscaler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/horizontalpodautoscaler/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v16/horizontalpodautoscaler/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

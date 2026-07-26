@@ -5,10 +5,10 @@ package datakubernetessecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v15/datakubernetessecret/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v16/datakubernetessecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
