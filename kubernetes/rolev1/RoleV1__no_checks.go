@@ -59,6 +59,10 @@ func (r *jsiiProxy_RoleV1) validateInterpolationForAttributeParameters(terraform
 	return nil
 }
 
+func (r *jsiiProxy_RoleV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RoleV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_RoleV1) validatePutMetadataParameters(value *RoleV1Metadata) 
 }
 
 func (r *jsiiProxy_RoleV1) validatePutRuleParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RoleV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

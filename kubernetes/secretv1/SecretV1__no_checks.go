@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecretV1) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (s *jsiiProxy_SecretV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecretV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SecretV1) validatePutMetadataParameters(value *SecretV1Metada
 }
 
 func (s *jsiiProxy_SecretV1) validatePutTimeoutsParameters(value *SecretV1Timeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecretV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

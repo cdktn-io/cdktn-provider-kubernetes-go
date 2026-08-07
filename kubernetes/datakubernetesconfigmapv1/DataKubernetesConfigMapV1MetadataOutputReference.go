@@ -5,9 +5,9 @@ package datakubernetesconfigmapv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v16/datakubernetesconfigmapv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v17/datakubernetesconfigmapv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

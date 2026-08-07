@@ -59,6 +59,10 @@ func (c *jsiiProxy_CsiDriver) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (c *jsiiProxy_CsiDriver) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CsiDriver) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CsiDriver) validatePutMetadataParameters(value *CsiDriverMeta
 }
 
 func (c *jsiiProxy_CsiDriver) validatePutSpecParameters(value *CsiDriverSpec) error {
+	return nil
+}
+
+func (c *jsiiProxy_CsiDriver) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

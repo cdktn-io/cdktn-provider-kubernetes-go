@@ -59,6 +59,10 @@ func (s *jsiiProxy_StatefulSet) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (s *jsiiProxy_StatefulSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StatefulSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_StatefulSet) validatePutSpecParameters(value *StatefulSetSpec
 }
 
 func (s *jsiiProxy_StatefulSet) validatePutTimeoutsParameters(value *StatefulSetTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StatefulSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

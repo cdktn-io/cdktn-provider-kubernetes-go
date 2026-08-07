@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageClassV1) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (s *jsiiProxy_StorageClassV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageClassV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StorageClassV1) validatePutAllowedTopologiesParameters(value 
 }
 
 func (s *jsiiProxy_StorageClassV1) validatePutMetadataParameters(value *StorageClassV1Metadata) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageClassV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

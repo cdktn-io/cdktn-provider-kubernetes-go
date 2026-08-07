@@ -59,6 +59,10 @@ func (p *jsiiProxy_PriorityClassV1) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (p *jsiiProxy_PriorityClassV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PriorityClassV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PriorityClassV1) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (p *jsiiProxy_PriorityClassV1) validatePutMetadataParameters(value *PriorityClassV1Metadata) error {
+	return nil
+}
+
+func (p *jsiiProxy_PriorityClassV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

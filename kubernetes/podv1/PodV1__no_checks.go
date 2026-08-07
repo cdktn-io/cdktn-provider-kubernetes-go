@@ -59,6 +59,10 @@ func (p *jsiiProxy_PodV1) validateInterpolationForAttributeParameters(terraformA
 	return nil
 }
 
+func (p *jsiiProxy_PodV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PodV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (p *jsiiProxy_PodV1) validatePutSpecParameters(value *PodV1Spec) error {
 }
 
 func (p *jsiiProxy_PodV1) validatePutTimeoutsParameters(value *PodV1Timeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PodV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

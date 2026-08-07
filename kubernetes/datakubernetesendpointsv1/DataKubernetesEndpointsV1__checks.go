@@ -156,6 +156,14 @@ func (d *jsiiProxy_DataKubernetesEndpointsV1) validatePutSubsetParameters(value 
 	return nil
 }
 
+func (d *jsiiProxy_DataKubernetesEndpointsV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateDataKubernetesEndpointsV1_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

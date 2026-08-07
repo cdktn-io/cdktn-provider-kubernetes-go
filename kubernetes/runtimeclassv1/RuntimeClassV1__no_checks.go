@@ -59,6 +59,10 @@ func (r *jsiiProxy_RuntimeClassV1) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (r *jsiiProxy_RuntimeClassV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RuntimeClassV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RuntimeClassV1) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (r *jsiiProxy_RuntimeClassV1) validatePutMetadataParameters(value *RuntimeClassV1Metadata) error {
+	return nil
+}
+
+func (r *jsiiProxy_RuntimeClassV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

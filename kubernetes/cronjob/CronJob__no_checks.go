@@ -59,6 +59,10 @@ func (c *jsiiProxy_CronJob) validateInterpolationForAttributeParameters(terrafor
 	return nil
 }
 
+func (c *jsiiProxy_CronJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CronJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CronJob) validatePutSpecParameters(value *CronJobSpec) error 
 }
 
 func (c *jsiiProxy_CronJob) validatePutTimeoutsParameters(value *CronJobTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CronJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MutatingWebhookConfiguration) validateInterpolationForAttribu
 	return nil
 }
 
+func (m *jsiiProxy_MutatingWebhookConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MutatingWebhookConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MutatingWebhookConfiguration) validatePutMetadataParameters(v
 }
 
 func (m *jsiiProxy_MutatingWebhookConfiguration) validatePutWebhookParameters(value interface{}) error {
+	return nil
+}
+
+func (m *jsiiProxy_MutatingWebhookConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

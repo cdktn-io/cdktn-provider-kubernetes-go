@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConfigMap) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (c *jsiiProxy_ConfigMap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConfigMap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ConfigMap) validateOverrideLogicalIdParameters(newLogicalId *
 }
 
 func (c *jsiiProxy_ConfigMap) validatePutMetadataParameters(value *ConfigMapMetadata) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigMap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DefaultServiceAccountV1) validateInterpolationForAttributePar
 	return nil
 }
 
+func (d *jsiiProxy_DefaultServiceAccountV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DefaultServiceAccountV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (d *jsiiProxy_DefaultServiceAccountV1) validatePutSecretParameters(value in
 }
 
 func (d *jsiiProxy_DefaultServiceAccountV1) validatePutTimeoutsParameters(value *DefaultServiceAccountV1Timeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DefaultServiceAccountV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

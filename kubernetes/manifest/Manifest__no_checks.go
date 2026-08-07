@@ -59,6 +59,10 @@ func (m *jsiiProxy_Manifest) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (m *jsiiProxy_Manifest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_Manifest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_Manifest) validatePutWaitParameters(value *ManifestWait) erro
 }
 
 func (m *jsiiProxy_Manifest) validatePutWaitForParameters(value *ManifestWaitFor) error {
+	return nil
+}
+
+func (m *jsiiProxy_Manifest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

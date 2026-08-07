@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiServiceV1) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (a *jsiiProxy_ApiServiceV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiServiceV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ApiServiceV1) validatePutMetadataParameters(value *ApiService
 }
 
 func (a *jsiiProxy_ApiServiceV1) validatePutSpecParameters(value *ApiServiceV1Spec) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiServiceV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

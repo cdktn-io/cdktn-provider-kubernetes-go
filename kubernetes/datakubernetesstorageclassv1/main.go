@@ -53,6 +53,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "reclaimPolicy", GoGetter: "ReclaimPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "reclaimPolicyInput", GoGetter: "ReclaimPolicyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowedTopologies", GoMethod: "ResetAllowedTopologies"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowVolumeExpansion", GoMethod: "ResetAllowVolumeExpansion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},

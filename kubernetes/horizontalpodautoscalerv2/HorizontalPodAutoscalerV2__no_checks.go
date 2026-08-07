@@ -59,6 +59,10 @@ func (h *jsiiProxy_HorizontalPodAutoscalerV2) validateInterpolationForAttributeP
 	return nil
 }
 
+func (h *jsiiProxy_HorizontalPodAutoscalerV2) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HorizontalPodAutoscalerV2) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (h *jsiiProxy_HorizontalPodAutoscalerV2) validatePutMetadataParameters(valu
 }
 
 func (h *jsiiProxy_HorizontalPodAutoscalerV2) validatePutSpecParameters(value *HorizontalPodAutoscalerV2Spec) error {
+	return nil
+}
+
+func (h *jsiiProxy_HorizontalPodAutoscalerV2) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

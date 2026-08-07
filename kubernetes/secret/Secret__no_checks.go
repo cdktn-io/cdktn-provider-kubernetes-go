@@ -59,6 +59,10 @@ func (s *jsiiProxy_Secret) validateInterpolationForAttributeParameters(terraform
 	return nil
 }
 
+func (s *jsiiProxy_Secret) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Secret) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_Secret) validatePutMetadataParameters(value *SecretMetadata) 
 }
 
 func (s *jsiiProxy_Secret) validatePutTimeoutsParameters(value *SecretTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_Secret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

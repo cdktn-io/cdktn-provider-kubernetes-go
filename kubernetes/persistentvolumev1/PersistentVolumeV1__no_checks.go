@@ -59,6 +59,10 @@ func (p *jsiiProxy_PersistentVolumeV1) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (p *jsiiProxy_PersistentVolumeV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PersistentVolumeV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (p *jsiiProxy_PersistentVolumeV1) validatePutSpecParameters(value interface
 }
 
 func (p *jsiiProxy_PersistentVolumeV1) validatePutTimeoutsParameters(value *PersistentVolumeV1Timeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PersistentVolumeV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

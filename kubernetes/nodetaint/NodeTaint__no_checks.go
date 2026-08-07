@@ -59,6 +59,10 @@ func (n *jsiiProxy_NodeTaint) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (n *jsiiProxy_NodeTaint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NodeTaint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NodeTaint) validatePutMetadataParameters(value *NodeTaintMeta
 }
 
 func (n *jsiiProxy_NodeTaint) validatePutTaintParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NodeTaint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

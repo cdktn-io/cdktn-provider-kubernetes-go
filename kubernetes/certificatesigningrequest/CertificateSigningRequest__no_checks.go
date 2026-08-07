@@ -59,6 +59,10 @@ func (c *jsiiProxy_CertificateSigningRequest) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_CertificateSigningRequest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CertificateSigningRequest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CertificateSigningRequest) validatePutSpecParameters(value *C
 }
 
 func (c *jsiiProxy_CertificateSigningRequest) validatePutTimeoutsParameters(value *CertificateSigningRequestTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CertificateSigningRequest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

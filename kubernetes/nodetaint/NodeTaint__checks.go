@@ -122,6 +122,14 @@ func (n *jsiiProxy_NodeTaint) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (n *jsiiProxy_NodeTaint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (n *jsiiProxy_NodeTaint) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -244,6 +252,14 @@ func (n *jsiiProxy_NodeTaint) validatePutTaintParameters(value interface{}) erro
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NodeTaintTaint; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (n *jsiiProxy_NodeTaint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (i *jsiiProxy_IngressV1) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (i *jsiiProxy_IngressV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IngressV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (i *jsiiProxy_IngressV1) validatePutSpecParameters(value *IngressV1Spec) er
 }
 
 func (i *jsiiProxy_IngressV1) validatePutTimeoutsParameters(value *IngressV1Timeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IngressV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

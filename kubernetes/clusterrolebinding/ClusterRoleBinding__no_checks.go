@@ -59,6 +59,10 @@ func (c *jsiiProxy_ClusterRoleBinding) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (c *jsiiProxy_ClusterRoleBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ClusterRoleBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ClusterRoleBinding) validatePutRoleRefParameters(value *Clust
 }
 
 func (c *jsiiProxy_ClusterRoleBinding) validatePutSubjectParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ClusterRoleBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

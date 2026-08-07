@@ -59,6 +59,10 @@ func (i *jsiiProxy_IngressClass) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (i *jsiiProxy_IngressClass) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IngressClass) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_IngressClass) validatePutMetadataParameters(value *IngressCla
 }
 
 func (i *jsiiProxy_IngressClass) validatePutSpecParameters(value *IngressClassSpec) error {
+	return nil
+}
+
+func (i *jsiiProxy_IngressClass) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

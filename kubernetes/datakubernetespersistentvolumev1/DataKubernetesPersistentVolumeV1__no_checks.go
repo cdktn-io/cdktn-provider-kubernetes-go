@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataKubernetesPersistentVolumeV1) validatePutSpecParameters(v
 	return nil
 }
 
+func (d *jsiiProxy_DataKubernetesPersistentVolumeV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataKubernetesPersistentVolumeV1_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (l *jsiiProxy_LimitRange) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (l *jsiiProxy_LimitRange) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LimitRange) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LimitRange) validatePutMetadataParameters(value *LimitRangeMe
 }
 
 func (l *jsiiProxy_LimitRange) validatePutSpecParameters(value *LimitRangeSpec) error {
+	return nil
+}
+
+func (l *jsiiProxy_LimitRange) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

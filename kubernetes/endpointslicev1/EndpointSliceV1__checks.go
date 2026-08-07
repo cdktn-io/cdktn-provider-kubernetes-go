@@ -122,6 +122,14 @@ func (e *jsiiProxy_EndpointSliceV1) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (e *jsiiProxy_EndpointSliceV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (e *jsiiProxy_EndpointSliceV1) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -275,6 +283,14 @@ func (e *jsiiProxy_EndpointSliceV1) validatePutPortParameters(value interface{})
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EndpointSliceV1Port; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (e *jsiiProxy_EndpointSliceV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

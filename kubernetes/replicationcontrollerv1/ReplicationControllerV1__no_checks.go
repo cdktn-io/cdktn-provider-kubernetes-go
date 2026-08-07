@@ -59,6 +59,10 @@ func (r *jsiiProxy_ReplicationControllerV1) validateInterpolationForAttributePar
 	return nil
 }
 
+func (r *jsiiProxy_ReplicationControllerV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_ReplicationControllerV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (r *jsiiProxy_ReplicationControllerV1) validatePutSpecParameters(value *Rep
 }
 
 func (r *jsiiProxy_ReplicationControllerV1) validatePutTimeoutsParameters(value *ReplicationControllerV1Timeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_ReplicationControllerV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

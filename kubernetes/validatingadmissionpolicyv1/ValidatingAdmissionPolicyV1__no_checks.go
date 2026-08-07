@@ -59,6 +59,10 @@ func (v *jsiiProxy_ValidatingAdmissionPolicyV1) validateInterpolationForAttribut
 	return nil
 }
 
+func (v *jsiiProxy_ValidatingAdmissionPolicyV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_ValidatingAdmissionPolicyV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_ValidatingAdmissionPolicyV1) validatePutSpecParameters(value 
 }
 
 func (v *jsiiProxy_ValidatingAdmissionPolicyV1) validatePutTimeoutsParameters(value *ValidatingAdmissionPolicyV1Timeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_ValidatingAdmissionPolicyV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

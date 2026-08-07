@@ -59,6 +59,10 @@ func (d *jsiiProxy_Daemonset) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (d *jsiiProxy_Daemonset) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_Daemonset) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_Daemonset) validatePutSpecParameters(value *DaemonsetSpec) er
 }
 
 func (d *jsiiProxy_Daemonset) validatePutTimeoutsParameters(value *DaemonsetTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_Daemonset) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (r *jsiiProxy_RoleBinding) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (r *jsiiProxy_RoleBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RoleBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (r *jsiiProxy_RoleBinding) validatePutRoleRefParameters(value *RoleBindingR
 }
 
 func (r *jsiiProxy_RoleBinding) validatePutSubjectParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RoleBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

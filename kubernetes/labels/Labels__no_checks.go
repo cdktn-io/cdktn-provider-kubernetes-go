@@ -59,6 +59,10 @@ func (l *jsiiProxy_Labels) validateInterpolationForAttributeParameters(terraform
 	return nil
 }
 
+func (l *jsiiProxy_Labels) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_Labels) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_Labels) validateOverrideLogicalIdParameters(newLogicalId *str
 }
 
 func (l *jsiiProxy_Labels) validatePutMetadataParameters(value *LabelsMetadata) error {
+	return nil
+}
+
+func (l *jsiiProxy_Labels) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

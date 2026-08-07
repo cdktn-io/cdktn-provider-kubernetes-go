@@ -59,6 +59,10 @@ func (p *jsiiProxy_PodDisruptionBudget) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (p *jsiiProxy_PodDisruptionBudget) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PodDisruptionBudget) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (p *jsiiProxy_PodDisruptionBudget) validatePutMetadataParameters(value *Pod
 }
 
 func (p *jsiiProxy_PodDisruptionBudget) validatePutSpecParameters(value *PodDisruptionBudgetSpec) error {
+	return nil
+}
+
+func (p *jsiiProxy_PodDisruptionBudget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -1,0 +1,25 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package ephemeralkubernetestokenrequestv1
+
+
+type EphemeralKubernetesTokenRequestV1SpecBoundObjectRef struct {
+	// API version of the referent.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/token_request_v1#api_version EphemeralKubernetesTokenRequestV1#api_version}
+	ApiVersion *string `field:"optional" json:"apiVersion" yaml:"apiVersion"`
+	// Kind of the referent. Valid kinds are 'Pod' and 'Secret'.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/token_request_v1#kind EphemeralKubernetesTokenRequestV1#kind}
+	Kind *string `field:"optional" json:"kind" yaml:"kind"`
+	// Name of the referent.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/token_request_v1#name EphemeralKubernetesTokenRequestV1#name}
+	Name *string `field:"optional" json:"name" yaml:"name"`
+	// UID of the referent.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/token_request_v1#uid EphemeralKubernetesTokenRequestV1#uid}
+	Uid *string `field:"optional" json:"uid" yaml:"uid"`
+}
+

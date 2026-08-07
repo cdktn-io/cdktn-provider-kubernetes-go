@@ -59,6 +59,10 @@ func (p *jsiiProxy_PersistentVolumeClaimV1) validateInterpolationForAttributePar
 	return nil
 }
 
+func (p *jsiiProxy_PersistentVolumeClaimV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PersistentVolumeClaimV1) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (p *jsiiProxy_PersistentVolumeClaimV1) validatePutSpecParameters(value *Per
 }
 
 func (p *jsiiProxy_PersistentVolumeClaimV1) validatePutTimeoutsParameters(value *PersistentVolumeClaimV1Timeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PersistentVolumeClaimV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

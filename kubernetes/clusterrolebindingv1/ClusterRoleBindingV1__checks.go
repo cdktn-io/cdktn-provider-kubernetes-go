@@ -122,6 +122,14 @@ func (c *jsiiProxy_ClusterRoleBindingV1) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_ClusterRoleBindingV1) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ClusterRoleBindingV1) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -255,6 +263,14 @@ func (c *jsiiProxy_ClusterRoleBindingV1) validatePutSubjectParameters(value inte
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ClusterRoleBindingV1Subject; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_ClusterRoleBindingV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

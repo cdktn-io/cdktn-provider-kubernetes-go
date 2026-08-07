@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataKubernetesServerVersion) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataKubernetesServerVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataKubernetesServerVersion_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

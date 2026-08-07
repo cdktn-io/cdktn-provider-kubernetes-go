@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataKubernetesEndpointSliceV1) validatePutMetadataParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataKubernetesEndpointSliceV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataKubernetesEndpointSliceV1_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataKubernetesPodV1) validatePutMetadataParameters(value *Dat
 	return nil
 }
 
+func (d *jsiiProxy_DataKubernetesPodV1) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataKubernetesPodV1_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataKubernetesResource) validatePutMetadataParameters(value *
 	return nil
 }
 
+func (d *jsiiProxy_DataKubernetesResource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataKubernetesResource_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
