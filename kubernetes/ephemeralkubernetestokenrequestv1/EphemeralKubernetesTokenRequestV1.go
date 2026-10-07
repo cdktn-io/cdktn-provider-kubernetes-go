@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/token_request_v1 kubernetes_token_request_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/ephemeral-resources/token_request_v1 kubernetes_token_request_v1}.
 type EphemeralKubernetesTokenRequestV1 interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_EphemeralKubernetesTokenRequestV1) TokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/token_request_v1 kubernetes_token_request_v1} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/ephemeral-resources/token_request_v1 kubernetes_token_request_v1} Ephemeral Resource.
 func NewEphemeralKubernetesTokenRequestV1(scope constructs.Construct, id *string, config *EphemeralKubernetesTokenRequestV1Config) EphemeralKubernetesTokenRequestV1 {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewEphemeralKubernetesTokenRequestV1(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/token_request_v1 kubernetes_token_request_v1} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/ephemeral-resources/token_request_v1 kubernetes_token_request_v1} Ephemeral Resource.
 func NewEphemeralKubernetesTokenRequestV1_Override(e EphemeralKubernetesTokenRequestV1, scope constructs.Construct, id *string, config *EphemeralKubernetesTokenRequestV1Config) {
 	_init_.Initialize()
 

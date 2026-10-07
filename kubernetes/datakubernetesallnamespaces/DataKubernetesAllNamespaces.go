@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/all_namespaces kubernetes_all_namespaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/data-sources/all_namespaces kubernetes_all_namespaces}.
 type DataKubernetesAllNamespaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -36,8 +36,6 @@ type DataKubernetesAllNamespaces interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
-	SetId(val *string)
-	IdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -95,7 +93,6 @@ type DataKubernetesAllNamespaces interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -207,16 +204,6 @@ func (j *jsiiProxy_DataKubernetesAllNamespaces) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesAllNamespaces) IdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"idInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataKubernetesAllNamespaces) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -298,7 +285,7 @@ func (j *jsiiProxy_DataKubernetesAllNamespaces) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/all_namespaces kubernetes_all_namespaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/data-sources/all_namespaces kubernetes_all_namespaces} Data Source.
 func NewDataKubernetesAllNamespaces(scope constructs.Construct, id *string, config *DataKubernetesAllNamespacesConfig) DataKubernetesAllNamespaces {
 	_init_.Initialize()
 
@@ -316,7 +303,7 @@ func NewDataKubernetesAllNamespaces(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/all_namespaces kubernetes_all_namespaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/data-sources/all_namespaces kubernetes_all_namespaces} Data Source.
 func NewDataKubernetesAllNamespaces_Override(d DataKubernetesAllNamespaces, scope constructs.Construct, id *string, config *DataKubernetesAllNamespacesConfig) {
 	_init_.Initialize()
 
@@ -350,17 +337,6 @@ func (j *jsiiProxy_DataKubernetesAllNamespaces)SetForEach(val cdktn.ITerraformIt
 	_jsii_.Set(
 		j,
 		"forEach",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataKubernetesAllNamespaces)SetId(val *string) {
-	if err := j.validateSetIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"id",
 		val,
 	)
 }
@@ -677,14 +653,6 @@ func (d *jsiiProxy_DataKubernetesAllNamespaces) RegisterProviderFeatureUsage(fea
 		d,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
-	)
-}
-
-func (d *jsiiProxy_DataKubernetesAllNamespaces) ResetId() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetId",
-		nil, // no parameters
 	)
 }
 

@@ -37,8 +37,8 @@ type NamespaceV1MetadataOutputReference interface {
 	SetGenerateName(val *string)
 	GenerateNameInput() *string
 	Generation() *float64
-	InternalValue() *NamespaceV1Metadata
-	SetInternalValue(val *NamespaceV1Metadata)
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
 	Labels() *map[string]*string
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
@@ -188,8 +188,8 @@ func (j *jsiiProxy_NamespaceV1MetadataOutputReference) Generation() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_NamespaceV1MetadataOutputReference) InternalValue() *NamespaceV1Metadata {
-	var returns *NamespaceV1Metadata
+func (j *jsiiProxy_NamespaceV1MetadataOutputReference) InternalValue() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -279,29 +279,29 @@ func (j *jsiiProxy_NamespaceV1MetadataOutputReference) Uid() *string {
 }
 
 
-func NewNamespaceV1MetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NamespaceV1MetadataOutputReference {
+func NewNamespaceV1MetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NamespaceV1MetadataOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewNamespaceV1MetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+	if err := validateNewNamespaceV1MetadataOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_NamespaceV1MetadataOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-kubernetes.namespaceV1.NamespaceV1MetadataOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
 
 	return &j
 }
 
-func NewNamespaceV1MetadataOutputReference_Override(n NamespaceV1MetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+func NewNamespaceV1MetadataOutputReference_Override(n NamespaceV1MetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-kubernetes.namespaceV1.NamespaceV1MetadataOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		n,
 	)
 }
@@ -350,7 +350,7 @@ func (j *jsiiProxy_NamespaceV1MetadataOutputReference)SetGenerateName(val *strin
 	)
 }
 
-func (j *jsiiProxy_NamespaceV1MetadataOutputReference)SetInternalValue(val *NamespaceV1Metadata) {
+func (j *jsiiProxy_NamespaceV1MetadataOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}

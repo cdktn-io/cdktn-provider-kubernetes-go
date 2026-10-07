@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/namespace_v1 kubernetes_namespace_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/namespace_v1 kubernetes_namespace_v1}.
 type NamespaceV1 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -40,14 +40,12 @@ type NamespaceV1 interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
-	SetId(val *string)
-	IdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
-	Metadata() NamespaceV1MetadataOutputReference
-	MetadataInput() *NamespaceV1Metadata
+	Metadata() NamespaceV1MetadataList
+	MetadataInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -150,7 +148,7 @@ type NamespaceV1 interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutMetadata(value *NamespaceV1Metadata)
+	PutMetadata(value interface{})
 	PutTimeouts(value *NamespaceV1Timeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -165,7 +163,7 @@ type NamespaceV1 interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetId()
+	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -288,16 +286,6 @@ func (j *jsiiProxy_NamespaceV1) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NamespaceV1) IdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"idInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_NamespaceV1) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -308,8 +296,8 @@ func (j *jsiiProxy_NamespaceV1) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	return returns
 }
 
-func (j *jsiiProxy_NamespaceV1) Metadata() NamespaceV1MetadataOutputReference {
-	var returns NamespaceV1MetadataOutputReference
+func (j *jsiiProxy_NamespaceV1) Metadata() NamespaceV1MetadataList {
+	var returns NamespaceV1MetadataList
 	_jsii_.Get(
 		j,
 		"metadata",
@@ -318,8 +306,8 @@ func (j *jsiiProxy_NamespaceV1) Metadata() NamespaceV1MetadataOutputReference {
 	return returns
 }
 
-func (j *jsiiProxy_NamespaceV1) MetadataInput() *NamespaceV1Metadata {
-	var returns *NamespaceV1Metadata
+func (j *jsiiProxy_NamespaceV1) MetadataInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"metadataInput",
@@ -439,7 +427,7 @@ func (j *jsiiProxy_NamespaceV1) WaitForDefaultServiceAccountInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/namespace_v1 kubernetes_namespace_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/namespace_v1 kubernetes_namespace_v1} Resource.
 func NewNamespaceV1(scope constructs.Construct, id *string, config *NamespaceV1Config) NamespaceV1 {
 	_init_.Initialize()
 
@@ -457,7 +445,7 @@ func NewNamespaceV1(scope constructs.Construct, id *string, config *NamespaceV1C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/namespace_v1 kubernetes_namespace_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/namespace_v1 kubernetes_namespace_v1} Resource.
 func NewNamespaceV1_Override(n NamespaceV1, scope constructs.Construct, id *string, config *NamespaceV1Config) {
 	_init_.Initialize()
 
@@ -502,17 +490,6 @@ func (j *jsiiProxy_NamespaceV1)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NamespaceV1)SetId(val *string) {
-	if err := j.validateSetIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"id",
 		val,
 	)
 }
@@ -927,7 +904,7 @@ func (n *jsiiProxy_NamespaceV1) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
-func (n *jsiiProxy_NamespaceV1) PutMetadata(value *NamespaceV1Metadata) {
+func (n *jsiiProxy_NamespaceV1) PutMetadata(value interface{}) {
 	if err := n.validatePutMetadataParameters(value); err != nil {
 		panic(err)
 	}
@@ -960,10 +937,10 @@ func (n *jsiiProxy_NamespaceV1) RegisterProviderFeatureUsage(feature cdktn.Provi
 	)
 }
 
-func (n *jsiiProxy_NamespaceV1) ResetId() {
+func (n *jsiiProxy_NamespaceV1) ResetMetadata() {
 	_jsii_.InvokeVoid(
 		n,
-		"resetId",
+		"resetMetadata",
 		nil, // no parameters
 	)
 }

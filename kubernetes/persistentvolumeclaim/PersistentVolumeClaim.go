@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/persistent_volume_claim kubernetes_persistent_volume_claim}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/persistent_volume_claim kubernetes_persistent_volume_claim}.
 type PersistentVolumeClaim interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_PersistentVolumeClaim) WaitUntilBoundInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/persistent_volume_claim kubernetes_persistent_volume_claim} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/persistent_volume_claim kubernetes_persistent_volume_claim} Resource.
 func NewPersistentVolumeClaim(scope constructs.Construct, id *string, config *PersistentVolumeClaimConfig) PersistentVolumeClaim {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewPersistentVolumeClaim(scope constructs.Construct, id *string, config *Pe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/persistent_volume_claim kubernetes_persistent_volume_claim} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/persistent_volume_claim kubernetes_persistent_volume_claim} Resource.
 func NewPersistentVolumeClaim_Override(p PersistentVolumeClaim, scope constructs.Construct, id *string, config *PersistentVolumeClaimConfig) {
 	_init_.Initialize()
 

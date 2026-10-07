@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/certificate_signing_request_v1 kubernetes_certificate_signing_request_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/ephemeral-resources/certificate_signing_request_v1 kubernetes_certificate_signing_request_v1}.
 type EphemeralKubernetesCertificateSigningRequestV1 interface {
 	cdktn.TerraformEphemeralResource
 	AutoApprove() interface{}
@@ -357,7 +357,7 @@ func (j *jsiiProxy_EphemeralKubernetesCertificateSigningRequestV1) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/certificate_signing_request_v1 kubernetes_certificate_signing_request_v1} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/ephemeral-resources/certificate_signing_request_v1 kubernetes_certificate_signing_request_v1} Ephemeral Resource.
 func NewEphemeralKubernetesCertificateSigningRequestV1(scope constructs.Construct, id *string, config *EphemeralKubernetesCertificateSigningRequestV1Config) EphemeralKubernetesCertificateSigningRequestV1 {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewEphemeralKubernetesCertificateSigningRequestV1(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/ephemeral-resources/certificate_signing_request_v1 kubernetes_certificate_signing_request_v1} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/ephemeral-resources/certificate_signing_request_v1 kubernetes_certificate_signing_request_v1} Ephemeral Resource.
 func NewEphemeralKubernetesCertificateSigningRequestV1_Override(e EphemeralKubernetesCertificateSigningRequestV1, scope constructs.Construct, id *string, config *EphemeralKubernetesCertificateSigningRequestV1Config) {
 	_init_.Initialize()
 

@@ -79,7 +79,7 @@ func (n *jsiiProxy_NamespaceV1) validateOverrideLogicalIdParameters(newLogicalId
 	return nil
 }
 
-func (n *jsiiProxy_NamespaceV1) validatePutMetadataParameters(value *NamespaceV1Metadata) error {
+func (n *jsiiProxy_NamespaceV1) validatePutMetadataParameters(value interface{}) error {
 	return nil
 }
 
@@ -112,10 +112,6 @@ func (j *jsiiProxy_NamespaceV1) validateSetConnectionParameters(val interface{})
 }
 
 func (j *jsiiProxy_NamespaceV1) validateSetCountParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_NamespaceV1) validateSetIdParameters(val *string) error {
 	return nil
 }
 

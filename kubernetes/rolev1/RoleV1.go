@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/role_v1 kubernetes_role_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/role_v1 kubernetes_role_v1}.
 type RoleV1 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_RoleV1) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/role_v1 kubernetes_role_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/role_v1 kubernetes_role_v1} Resource.
 func NewRoleV1(scope constructs.Construct, id *string, config *RoleV1Config) RoleV1 {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewRoleV1(scope constructs.Construct, id *string, config *RoleV1Config) Rol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/role_v1 kubernetes_role_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/role_v1 kubernetes_role_v1} Resource.
 func NewRoleV1_Override(r RoleV1, scope constructs.Construct, id *string, config *RoleV1Config) {
 	_init_.Initialize()
 

@@ -55,7 +55,7 @@ func (d *jsiiProxy_DataKubernetesNamespaceV1) validateOverrideLogicalIdParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataKubernetesNamespaceV1) validatePutMetadataParameters(value *DataKubernetesNamespaceV1Metadata) error {
+func (d *jsiiProxy_DataKubernetesNamespaceV1) validatePutMetadataParameters(value interface{}) error {
 	return nil
 }
 
@@ -80,10 +80,6 @@ func validateDataKubernetesNamespaceV1_IsTerraformElementParameters(x interface{
 }
 
 func (j *jsiiProxy_DataKubernetesNamespaceV1) validateSetCountParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_DataKubernetesNamespaceV1) validateSetIdParameters(val *string) error {
 	return nil
 }
 

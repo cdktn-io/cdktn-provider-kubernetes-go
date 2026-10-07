@@ -34,8 +34,8 @@ type DataKubernetesNamespaceV1MetadataOutputReference interface {
 	// Experimental.
 	Fqn() *string
 	Generation() *float64
-	InternalValue() *DataKubernetesNamespaceV1Metadata
-	SetInternalValue(val *DataKubernetesNamespaceV1Metadata)
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
 	Labels() *map[string]*string
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
@@ -78,7 +78,6 @@ type DataKubernetesNamespaceV1MetadataOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAnnotations()
 	ResetLabels()
-	ResetName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -164,8 +163,8 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) Generation(
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) InternalValue() *DataKubernetesNamespaceV1Metadata {
-	var returns *DataKubernetesNamespaceV1Metadata
+func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) InternalValue() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -255,29 +254,29 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) Uid() *stri
 }
 
 
-func NewDataKubernetesNamespaceV1MetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataKubernetesNamespaceV1MetadataOutputReference {
+func NewDataKubernetesNamespaceV1MetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataKubernetesNamespaceV1MetadataOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewDataKubernetesNamespaceV1MetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+	if err := validateNewDataKubernetesNamespaceV1MetadataOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-kubernetes.dataKubernetesNamespaceV1.DataKubernetesNamespaceV1MetadataOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
 
 	return &j
 }
 
-func NewDataKubernetesNamespaceV1MetadataOutputReference_Override(d DataKubernetesNamespaceV1MetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+func NewDataKubernetesNamespaceV1MetadataOutputReference_Override(d DataKubernetesNamespaceV1MetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-kubernetes.dataKubernetesNamespaceV1.DataKubernetesNamespaceV1MetadataOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		d,
 	)
 }
@@ -315,7 +314,7 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference)SetComplexOb
 	)
 }
 
-func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference)SetInternalValue(val *DataKubernetesNamespaceV1Metadata) {
+func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}
@@ -568,14 +567,6 @@ func (d *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) ResetLabels
 	_jsii_.InvokeVoid(
 		d,
 		"resetLabels",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) ResetName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetName",
 		nil, // no parameters
 	)
 }

@@ -63,7 +63,7 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) validateSetInternalValueParameters(val *DataKubernetesNamespaceV1Metadata) error {
+func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1MetadataOutputReference) validateSet
 	return nil
 }
 
-func validateNewDataKubernetesNamespaceV1MetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataKubernetesNamespaceV1MetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

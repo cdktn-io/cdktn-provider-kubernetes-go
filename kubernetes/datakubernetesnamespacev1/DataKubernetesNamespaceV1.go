@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/namespace_v1 kubernetes_namespace_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/data-sources/namespace_v1 kubernetes_namespace_v1}.
 type DataKubernetesNamespaceV1 interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -36,14 +36,12 @@ type DataKubernetesNamespaceV1 interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
-	SetId(val *string)
-	IdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
-	Metadata() DataKubernetesNamespaceV1MetadataOutputReference
-	MetadataInput() *DataKubernetesNamespaceV1Metadata
+	Metadata() DataKubernetesNamespaceV1MetadataList
+	MetadataInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -84,7 +82,7 @@ type DataKubernetesNamespaceV1 interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutMetadata(value *DataKubernetesNamespaceV1Metadata)
+	PutMetadata(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -98,7 +96,7 @@ type DataKubernetesNamespaceV1 interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetId()
+	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -210,16 +208,6 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesNamespaceV1) IdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"idInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataKubernetesNamespaceV1) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -230,8 +218,8 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1) Lifecycle() *cdktn.TerraformResour
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesNamespaceV1) Metadata() DataKubernetesNamespaceV1MetadataOutputReference {
-	var returns DataKubernetesNamespaceV1MetadataOutputReference
+func (j *jsiiProxy_DataKubernetesNamespaceV1) Metadata() DataKubernetesNamespaceV1MetadataList {
+	var returns DataKubernetesNamespaceV1MetadataList
 	_jsii_.Get(
 		j,
 		"metadata",
@@ -240,8 +228,8 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1) Metadata() DataKubernetesNamespace
 	return returns
 }
 
-func (j *jsiiProxy_DataKubernetesNamespaceV1) MetadataInput() *DataKubernetesNamespaceV1Metadata {
-	var returns *DataKubernetesNamespaceV1Metadata
+func (j *jsiiProxy_DataKubernetesNamespaceV1) MetadataInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"metadataInput",
@@ -321,7 +309,7 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/namespace_v1 kubernetes_namespace_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/data-sources/namespace_v1 kubernetes_namespace_v1} Data Source.
 func NewDataKubernetesNamespaceV1(scope constructs.Construct, id *string, config *DataKubernetesNamespaceV1Config) DataKubernetesNamespaceV1 {
 	_init_.Initialize()
 
@@ -339,7 +327,7 @@ func NewDataKubernetesNamespaceV1(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/data-sources/namespace_v1 kubernetes_namespace_v1} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/data-sources/namespace_v1 kubernetes_namespace_v1} Data Source.
 func NewDataKubernetesNamespaceV1_Override(d DataKubernetesNamespaceV1, scope constructs.Construct, id *string, config *DataKubernetesNamespaceV1Config) {
 	_init_.Initialize()
 
@@ -373,17 +361,6 @@ func (j *jsiiProxy_DataKubernetesNamespaceV1)SetForEach(val cdktn.ITerraformIter
 	_jsii_.Set(
 		j,
 		"forEach",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DataKubernetesNamespaceV1)SetId(val *string) {
-	if err := j.validateSetIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"id",
 		val,
 	)
 }
@@ -692,7 +669,7 @@ func (d *jsiiProxy_DataKubernetesNamespaceV1) OverrideLogicalId(newLogicalId *st
 	)
 }
 
-func (d *jsiiProxy_DataKubernetesNamespaceV1) PutMetadata(value *DataKubernetesNamespaceV1Metadata) {
+func (d *jsiiProxy_DataKubernetesNamespaceV1) PutMetadata(value interface{}) {
 	if err := d.validatePutMetadataParameters(value); err != nil {
 		panic(err)
 	}
@@ -714,10 +691,10 @@ func (d *jsiiProxy_DataKubernetesNamespaceV1) RegisterProviderFeatureUsage(featu
 	)
 }
 
-func (d *jsiiProxy_DataKubernetesNamespaceV1) ResetId() {
+func (d *jsiiProxy_DataKubernetesNamespaceV1) ResetMetadata() {
 	_jsii_.InvokeVoid(
 		d,
-		"resetId",
+		"resetMetadata",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/env kubernetes_env}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/env kubernetes_env}.
 type Env interface {
 	cdktn.TerraformResource
 	ApiVersion() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_Env) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/env kubernetes_env} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/env kubernetes_env} Resource.
 func NewEnv(scope constructs.Construct, id *string, config *EnvConfig) Env {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewEnv(scope constructs.Construct, id *string, config *EnvConfig) Env {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/env kubernetes_env} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/env kubernetes_env} Resource.
 func NewEnv_Override(e Env, scope constructs.Construct, id *string, config *EnvConfig) {
 	_init_.Initialize()
 

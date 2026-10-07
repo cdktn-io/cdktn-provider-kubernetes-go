@@ -79,10 +79,6 @@ func (j *jsiiProxy_DataKubernetesAllNamespaces) validateSetCountParameters(val i
 	return nil
 }
 
-func (j *jsiiProxy_DataKubernetesAllNamespaces) validateSetIdParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_DataKubernetesAllNamespaces) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

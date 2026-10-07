@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/pod kubernetes_pod}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/pod kubernetes_pod}.
 type Pod interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_Pod) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/pod kubernetes_pod} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/pod kubernetes_pod} Resource.
 func NewPod(scope constructs.Construct, id *string, config *PodConfig) Pod {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewPod(scope constructs.Construct, id *string, config *PodConfig) Pod {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.2.1/docs/resources/pod kubernetes_pod} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/pod kubernetes_pod} Resource.
 func NewPod_Override(p Pod, scope constructs.Construct, id *string, config *PodConfig) {
 	_init_.Initialize()
 

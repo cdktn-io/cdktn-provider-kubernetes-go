@@ -67,7 +67,7 @@ func (j *jsiiProxy_NamespaceV1MetadataOutputReference) validateSetGenerateNamePa
 	return nil
 }
 
-func (j *jsiiProxy_NamespaceV1MetadataOutputReference) validateSetInternalValueParameters(val *NamespaceV1Metadata) error {
+func (j *jsiiProxy_NamespaceV1MetadataOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NamespaceV1MetadataOutputReference) validateSetTerraformResou
 	return nil
 }
 
-func validateNewNamespaceV1MetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNamespaceV1MetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 
