@@ -79,7 +79,7 @@ func (r *jsiiProxy_RoleV1) validateOverrideLogicalIdParameters(newLogicalId *str
 	return nil
 }
 
-func (r *jsiiProxy_RoleV1) validatePutMetadataParameters(value *RoleV1Metadata) error {
+func (r *jsiiProxy_RoleV1) validatePutMetadataParameters(value interface{}) error {
 	return nil
 }
 
@@ -112,10 +112,6 @@ func (j *jsiiProxy_RoleV1) validateSetConnectionParameters(val interface{}) erro
 }
 
 func (j *jsiiProxy_RoleV1) validateSetCountParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_RoleV1) validateSetIdParameters(val *string) error {
 	return nil
 }
 

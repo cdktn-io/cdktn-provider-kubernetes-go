@@ -24,16 +24,11 @@ type RoleV1Config struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// metadata block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/role_v1#metadata RoleV1#metadata}
-	Metadata *RoleV1Metadata `field:"required" json:"metadata" yaml:"metadata"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/role_v1#metadata RoleV1#metadata}
+	Metadata interface{} `field:"optional" json:"metadata" yaml:"metadata"`
 	// rule block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/role_v1#rule RoleV1#rule}
-	Rule interface{} `field:"required" json:"rule" yaml:"rule"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/role_v1#id RoleV1#id}.
-	//
-	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-	Id *string `field:"optional" json:"id" yaml:"id"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/role_v1#rule RoleV1#rule}
+	Rule interface{} `field:"optional" json:"rule" yaml:"rule"`
 }
 

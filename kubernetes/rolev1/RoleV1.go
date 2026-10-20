@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/role_v1 kubernetes_role_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/role_v1 kubernetes_role_v1}.
 type RoleV1 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -40,14 +40,12 @@ type RoleV1 interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
-	SetId(val *string)
-	IdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
-	Metadata() RoleV1MetadataOutputReference
-	MetadataInput() *RoleV1Metadata
+	Metadata() RoleV1MetadataList
+	MetadataInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -147,7 +145,7 @@ type RoleV1 interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutMetadata(value *RoleV1Metadata)
+	PutMetadata(value interface{})
 	PutRule(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -162,10 +160,11 @@ type RoleV1 interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetId()
+	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRule()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -283,16 +282,6 @@ func (j *jsiiProxy_RoleV1) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RoleV1) IdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"idInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_RoleV1) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -303,8 +292,8 @@ func (j *jsiiProxy_RoleV1) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	return returns
 }
 
-func (j *jsiiProxy_RoleV1) Metadata() RoleV1MetadataOutputReference {
-	var returns RoleV1MetadataOutputReference
+func (j *jsiiProxy_RoleV1) Metadata() RoleV1MetadataList {
+	var returns RoleV1MetadataList
 	_jsii_.Get(
 		j,
 		"metadata",
@@ -313,8 +302,8 @@ func (j *jsiiProxy_RoleV1) Metadata() RoleV1MetadataOutputReference {
 	return returns
 }
 
-func (j *jsiiProxy_RoleV1) MetadataInput() *RoleV1Metadata {
-	var returns *RoleV1Metadata
+func (j *jsiiProxy_RoleV1) MetadataInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"metadataInput",
@@ -414,7 +403,7 @@ func (j *jsiiProxy_RoleV1) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/role_v1 kubernetes_role_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/role_v1 kubernetes_role_v1} Resource.
 func NewRoleV1(scope constructs.Construct, id *string, config *RoleV1Config) RoleV1 {
 	_init_.Initialize()
 
@@ -432,7 +421,7 @@ func NewRoleV1(scope constructs.Construct, id *string, config *RoleV1Config) Rol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.3.0/docs/resources/role_v1 kubernetes_role_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/role_v1 kubernetes_role_v1} Resource.
 func NewRoleV1_Override(r RoleV1, scope constructs.Construct, id *string, config *RoleV1Config) {
 	_init_.Initialize()
 
@@ -477,17 +466,6 @@ func (j *jsiiProxy_RoleV1)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
-		val,
-	)
-}
-
-func (j *jsiiProxy_RoleV1)SetId(val *string) {
-	if err := j.validateSetIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"id",
 		val,
 	)
 }
@@ -891,7 +869,7 @@ func (r *jsiiProxy_RoleV1) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
-func (r *jsiiProxy_RoleV1) PutMetadata(value *RoleV1Metadata) {
+func (r *jsiiProxy_RoleV1) PutMetadata(value interface{}) {
 	if err := r.validatePutMetadataParameters(value); err != nil {
 		panic(err)
 	}
@@ -924,10 +902,10 @@ func (r *jsiiProxy_RoleV1) RegisterProviderFeatureUsage(feature cdktn.ProviderFe
 	)
 }
 
-func (r *jsiiProxy_RoleV1) ResetId() {
+func (r *jsiiProxy_RoleV1) ResetMetadata() {
 	_jsii_.InvokeVoid(
 		r,
-		"resetId",
+		"resetMetadata",
 		nil, // no parameters
 	)
 }
@@ -936,6 +914,14 @@ func (r *jsiiProxy_RoleV1) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RoleV1) ResetRule() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetRule",
 		nil, // no parameters
 	)
 }
