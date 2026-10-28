@@ -5,9 +5,9 @@ package ephemeralkubernetestokenrequestv1
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v18/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v17/ephemeralkubernetestokenrequestv1/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v18/ephemeralkubernetestokenrequestv1/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

@@ -5,11 +5,11 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v17/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v18/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v17/provider/internal"
-	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v17/providerfunctions"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v18/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-kubernetes-go/kubernetes/v18/providerfunctions"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
