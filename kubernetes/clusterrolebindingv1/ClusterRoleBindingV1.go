@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/cluster_role_binding_v1 kubernetes_cluster_role_binding_v1}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/resources/cluster_role_binding_v1 kubernetes_cluster_role_binding_v1}.
 type ClusterRoleBindingV1 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -40,14 +40,12 @@ type ClusterRoleBindingV1 interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
-	SetId(val *string)
-	IdInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
-	Metadata() ClusterRoleBindingV1MetadataOutputReference
-	MetadataInput() *ClusterRoleBindingV1Metadata
+	Metadata() ClusterRoleBindingV1MetadataList
+	MetadataInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -60,8 +58,8 @@ type ClusterRoleBindingV1 interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	RoleRef() ClusterRoleBindingV1RoleRefOutputReference
-	RoleRefInput() *ClusterRoleBindingV1RoleRef
+	RoleRef() ClusterRoleBindingV1RoleRefList
+	RoleRefInput() interface{}
 	Subject() ClusterRoleBindingV1SubjectList
 	SubjectInput() interface{}
 	// Experimental.
@@ -149,8 +147,8 @@ type ClusterRoleBindingV1 interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutMetadata(value *ClusterRoleBindingV1Metadata)
-	PutRoleRef(value *ClusterRoleBindingV1RoleRef)
+	PutMetadata(value interface{})
+	PutRoleRef(value interface{})
 	PutSubject(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -165,10 +163,12 @@ type ClusterRoleBindingV1 interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetId()
+	ResetMetadata()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRoleRef()
+	ResetSubject()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -286,16 +286,6 @@ func (j *jsiiProxy_ClusterRoleBindingV1) Id() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ClusterRoleBindingV1) IdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"idInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_ClusterRoleBindingV1) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -306,8 +296,8 @@ func (j *jsiiProxy_ClusterRoleBindingV1) Lifecycle() *cdktn.TerraformResourceLif
 	return returns
 }
 
-func (j *jsiiProxy_ClusterRoleBindingV1) Metadata() ClusterRoleBindingV1MetadataOutputReference {
-	var returns ClusterRoleBindingV1MetadataOutputReference
+func (j *jsiiProxy_ClusterRoleBindingV1) Metadata() ClusterRoleBindingV1MetadataList {
+	var returns ClusterRoleBindingV1MetadataList
 	_jsii_.Get(
 		j,
 		"metadata",
@@ -316,8 +306,8 @@ func (j *jsiiProxy_ClusterRoleBindingV1) Metadata() ClusterRoleBindingV1Metadata
 	return returns
 }
 
-func (j *jsiiProxy_ClusterRoleBindingV1) MetadataInput() *ClusterRoleBindingV1Metadata {
-	var returns *ClusterRoleBindingV1Metadata
+func (j *jsiiProxy_ClusterRoleBindingV1) MetadataInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"metadataInput",
@@ -366,8 +356,8 @@ func (j *jsiiProxy_ClusterRoleBindingV1) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ClusterRoleBindingV1) RoleRef() ClusterRoleBindingV1RoleRefOutputReference {
-	var returns ClusterRoleBindingV1RoleRefOutputReference
+func (j *jsiiProxy_ClusterRoleBindingV1) RoleRef() ClusterRoleBindingV1RoleRefList {
+	var returns ClusterRoleBindingV1RoleRefList
 	_jsii_.Get(
 		j,
 		"roleRef",
@@ -376,8 +366,8 @@ func (j *jsiiProxy_ClusterRoleBindingV1) RoleRef() ClusterRoleBindingV1RoleRefOu
 	return returns
 }
 
-func (j *jsiiProxy_ClusterRoleBindingV1) RoleRefInput() *ClusterRoleBindingV1RoleRef {
-	var returns *ClusterRoleBindingV1RoleRef
+func (j *jsiiProxy_ClusterRoleBindingV1) RoleRefInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"roleRefInput",
@@ -437,7 +427,7 @@ func (j *jsiiProxy_ClusterRoleBindingV1) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/cluster_role_binding_v1 kubernetes_cluster_role_binding_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/resources/cluster_role_binding_v1 kubernetes_cluster_role_binding_v1} Resource.
 func NewClusterRoleBindingV1(scope constructs.Construct, id *string, config *ClusterRoleBindingV1Config) ClusterRoleBindingV1 {
 	_init_.Initialize()
 
@@ -455,7 +445,7 @@ func NewClusterRoleBindingV1(scope constructs.Construct, id *string, config *Clu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/cluster_role_binding_v1 kubernetes_cluster_role_binding_v1} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/resources/cluster_role_binding_v1 kubernetes_cluster_role_binding_v1} Resource.
 func NewClusterRoleBindingV1_Override(c ClusterRoleBindingV1, scope constructs.Construct, id *string, config *ClusterRoleBindingV1Config) {
 	_init_.Initialize()
 
@@ -500,17 +490,6 @@ func (j *jsiiProxy_ClusterRoleBindingV1)SetForEach(val cdktn.ITerraformIterator)
 	_jsii_.Set(
 		j,
 		"forEach",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ClusterRoleBindingV1)SetId(val *string) {
-	if err := j.validateSetIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"id",
 		val,
 	)
 }
@@ -914,7 +893,7 @@ func (c *jsiiProxy_ClusterRoleBindingV1) OverrideLogicalId(newLogicalId *string)
 	)
 }
 
-func (c *jsiiProxy_ClusterRoleBindingV1) PutMetadata(value *ClusterRoleBindingV1Metadata) {
+func (c *jsiiProxy_ClusterRoleBindingV1) PutMetadata(value interface{}) {
 	if err := c.validatePutMetadataParameters(value); err != nil {
 		panic(err)
 	}
@@ -925,7 +904,7 @@ func (c *jsiiProxy_ClusterRoleBindingV1) PutMetadata(value *ClusterRoleBindingV1
 	)
 }
 
-func (c *jsiiProxy_ClusterRoleBindingV1) PutRoleRef(value *ClusterRoleBindingV1RoleRef) {
+func (c *jsiiProxy_ClusterRoleBindingV1) PutRoleRef(value interface{}) {
 	if err := c.validatePutRoleRefParameters(value); err != nil {
 		panic(err)
 	}
@@ -958,10 +937,10 @@ func (c *jsiiProxy_ClusterRoleBindingV1) RegisterProviderFeatureUsage(feature cd
 	)
 }
 
-func (c *jsiiProxy_ClusterRoleBindingV1) ResetId() {
+func (c *jsiiProxy_ClusterRoleBindingV1) ResetMetadata() {
 	_jsii_.InvokeVoid(
 		c,
-		"resetId",
+		"resetMetadata",
 		nil, // no parameters
 	)
 }
@@ -970,6 +949,22 @@ func (c *jsiiProxy_ClusterRoleBindingV1) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ClusterRoleBindingV1) ResetRoleRef() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRoleRef",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ClusterRoleBindingV1) ResetSubject() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSubject",
 		nil, // no parameters
 	)
 }

@@ -24,15 +24,15 @@ type NamespaceV1Config struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// metadata block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/namespace_v1#metadata NamespaceV1#metadata}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/resources/namespace_v1#metadata NamespaceV1#metadata}
 	Metadata interface{} `field:"optional" json:"metadata" yaml:"metadata"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/namespace_v1#timeouts NamespaceV1#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/resources/namespace_v1#timeouts NamespaceV1#timeouts}
 	Timeouts *NamespaceV1Timeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// Terraform will wait for the default service account to be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/namespace_v1#wait_for_default_service_account NamespaceV1#wait_for_default_service_account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/resources/namespace_v1#wait_for_default_service_account NamespaceV1#wait_for_default_service_account}
 	WaitForDefaultServiceAccount interface{} `field:"optional" json:"waitForDefaultServiceAccount" yaml:"waitForDefaultServiceAccount"`
 }
 

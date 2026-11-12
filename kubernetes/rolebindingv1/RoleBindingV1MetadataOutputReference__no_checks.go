@@ -67,7 +67,7 @@ func (j *jsiiProxy_RoleBindingV1MetadataOutputReference) validateSetGenerateName
 	return nil
 }
 
-func (j *jsiiProxy_RoleBindingV1MetadataOutputReference) validateSetInternalValueParameters(val *RoleBindingV1Metadata) error {
+func (j *jsiiProxy_RoleBindingV1MetadataOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_RoleBindingV1MetadataOutputReference) validateSetTerraformRes
 	return nil
 }
 
-func validateNewRoleBindingV1MetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoleBindingV1MetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

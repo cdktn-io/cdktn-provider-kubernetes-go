@@ -79,11 +79,11 @@ func (c *jsiiProxy_ClusterRoleBindingV1) validateOverrideLogicalIdParameters(new
 	return nil
 }
 
-func (c *jsiiProxy_ClusterRoleBindingV1) validatePutMetadataParameters(value *ClusterRoleBindingV1Metadata) error {
+func (c *jsiiProxy_ClusterRoleBindingV1) validatePutMetadataParameters(value interface{}) error {
 	return nil
 }
 
-func (c *jsiiProxy_ClusterRoleBindingV1) validatePutRoleRefParameters(value *ClusterRoleBindingV1RoleRef) error {
+func (c *jsiiProxy_ClusterRoleBindingV1) validatePutRoleRefParameters(value interface{}) error {
 	return nil
 }
 
@@ -116,10 +116,6 @@ func (j *jsiiProxy_ClusterRoleBindingV1) validateSetConnectionParameters(val int
 }
 
 func (j *jsiiProxy_ClusterRoleBindingV1) validateSetCountParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_ClusterRoleBindingV1) validateSetIdParameters(val *string) error {
 	return nil
 }
 

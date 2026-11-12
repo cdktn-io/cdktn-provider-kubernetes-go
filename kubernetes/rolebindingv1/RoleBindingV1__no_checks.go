@@ -79,11 +79,11 @@ func (r *jsiiProxy_RoleBindingV1) validateOverrideLogicalIdParameters(newLogical
 	return nil
 }
 
-func (r *jsiiProxy_RoleBindingV1) validatePutMetadataParameters(value *RoleBindingV1Metadata) error {
+func (r *jsiiProxy_RoleBindingV1) validatePutMetadataParameters(value interface{}) error {
 	return nil
 }
 
-func (r *jsiiProxy_RoleBindingV1) validatePutRoleRefParameters(value *RoleBindingV1RoleRef) error {
+func (r *jsiiProxy_RoleBindingV1) validatePutRoleRefParameters(value interface{}) error {
 	return nil
 }
 
@@ -116,10 +116,6 @@ func (j *jsiiProxy_RoleBindingV1) validateSetConnectionParameters(val interface{
 }
 
 func (j *jsiiProxy_RoleBindingV1) validateSetCountParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_RoleBindingV1) validateSetIdParameters(val *string) error {
 	return nil
 }
 

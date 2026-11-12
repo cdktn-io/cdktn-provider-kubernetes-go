@@ -37,8 +37,8 @@ type RoleBindingV1MetadataOutputReference interface {
 	SetGenerateName(val *string)
 	GenerateNameInput() *string
 	Generation() *float64
-	InternalValue() *RoleBindingV1Metadata
-	SetInternalValue(val *RoleBindingV1Metadata)
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
 	Labels() *map[string]*string
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
@@ -192,8 +192,8 @@ func (j *jsiiProxy_RoleBindingV1MetadataOutputReference) Generation() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_RoleBindingV1MetadataOutputReference) InternalValue() *RoleBindingV1Metadata {
-	var returns *RoleBindingV1Metadata
+func (j *jsiiProxy_RoleBindingV1MetadataOutputReference) InternalValue() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -303,29 +303,29 @@ func (j *jsiiProxy_RoleBindingV1MetadataOutputReference) Uid() *string {
 }
 
 
-func NewRoleBindingV1MetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RoleBindingV1MetadataOutputReference {
+func NewRoleBindingV1MetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RoleBindingV1MetadataOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewRoleBindingV1MetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+	if err := validateNewRoleBindingV1MetadataOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_RoleBindingV1MetadataOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1MetadataOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
 
 	return &j
 }
 
-func NewRoleBindingV1MetadataOutputReference_Override(r RoleBindingV1MetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+func NewRoleBindingV1MetadataOutputReference_Override(r RoleBindingV1MetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1MetadataOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)
 }
@@ -374,7 +374,7 @@ func (j *jsiiProxy_RoleBindingV1MetadataOutputReference)SetGenerateName(val *str
 	)
 }
 
-func (j *jsiiProxy_RoleBindingV1MetadataOutputReference)SetInternalValue(val *RoleBindingV1Metadata) {
+func (j *jsiiProxy_RoleBindingV1MetadataOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}

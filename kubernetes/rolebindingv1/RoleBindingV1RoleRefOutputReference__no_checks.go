@@ -63,7 +63,7 @@ func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference) validateSetComplexObject
 	return nil
 }
 
-func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference) validateSetInternalValueParameters(val *RoleBindingV1RoleRef) error {
+func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference) validateSetTerraformReso
 	return nil
 }
 
-func validateNewRoleBindingV1RoleRefOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoleBindingV1RoleRefOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

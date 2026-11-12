@@ -24,7 +24,7 @@ type DataKubernetesNamespaceV1Config struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// metadata block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/data-sources/namespace_v1#metadata DataKubernetesNamespaceV1#metadata}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/data-sources/namespace_v1#metadata DataKubernetesNamespaceV1#metadata}
 	Metadata interface{} `field:"optional" json:"metadata" yaml:"metadata"`
 }
 

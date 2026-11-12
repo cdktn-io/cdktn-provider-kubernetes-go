@@ -5,7 +5,7 @@ package serviceaccountv1
 
 
 type ServiceAccountV1Timeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/service_account_v1#create ServiceAccountV1#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/resources/service_account_v1#create ServiceAccountV1#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
 }
 

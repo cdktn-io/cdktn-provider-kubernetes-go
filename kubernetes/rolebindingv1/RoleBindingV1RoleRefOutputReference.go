@@ -33,8 +33,8 @@ type RoleBindingV1RoleRefOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() *RoleBindingV1RoleRef
-	SetInternalValue(val *RoleBindingV1RoleRef)
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
 	Kind() *string
 	SetKind(val *string)
 	KindInput() *string
@@ -148,8 +148,8 @@ func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference) Fqn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference) InternalValue() *RoleBindingV1RoleRef {
-	var returns *RoleBindingV1RoleRef
+func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference) InternalValue() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -219,29 +219,29 @@ func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference) TerraformResource() cdkt
 }
 
 
-func NewRoleBindingV1RoleRefOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RoleBindingV1RoleRefOutputReference {
+func NewRoleBindingV1RoleRefOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RoleBindingV1RoleRefOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewRoleBindingV1RoleRefOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+	if err := validateNewRoleBindingV1RoleRefOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_RoleBindingV1RoleRefOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1RoleRefOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		&j,
 	)
 
 	return &j
 }
 
-func NewRoleBindingV1RoleRefOutputReference_Override(r RoleBindingV1RoleRefOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+func NewRoleBindingV1RoleRefOutputReference_Override(r RoleBindingV1RoleRefOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-kubernetes.roleBindingV1.RoleBindingV1RoleRefOutputReference",
-		[]interface{}{terraformResource, terraformAttribute},
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		r,
 	)
 }
@@ -279,7 +279,7 @@ func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference)SetComplexObjectIsFromSet
 	)
 }
 
-func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference)SetInternalValue(val *RoleBindingV1RoleRef) {
+func (j *jsiiProxy_RoleBindingV1RoleRefOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}

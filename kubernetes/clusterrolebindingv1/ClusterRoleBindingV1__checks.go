@@ -215,23 +215,63 @@ func (c *jsiiProxy_ClusterRoleBindingV1) validateOverrideLogicalIdParameters(new
 	return nil
 }
 
-func (c *jsiiProxy_ClusterRoleBindingV1) validatePutMetadataParameters(value *ClusterRoleBindingV1Metadata) error {
+func (c *jsiiProxy_ClusterRoleBindingV1) validatePutMetadataParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ClusterRoleBindingV1Metadata:
+		value := value.(*[]*ClusterRoleBindingV1Metadata)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ClusterRoleBindingV1Metadata:
+		value_ := value.([]*ClusterRoleBindingV1Metadata)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ClusterRoleBindingV1Metadata; received %#v (a %T)", value, value)
+		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ClusterRoleBindingV1) validatePutRoleRefParameters(value *ClusterRoleBindingV1RoleRef) error {
+func (c *jsiiProxy_ClusterRoleBindingV1) validatePutRoleRefParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ClusterRoleBindingV1RoleRef:
+		value := value.(*[]*ClusterRoleBindingV1RoleRef)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ClusterRoleBindingV1RoleRef:
+		value_ := value.([]*ClusterRoleBindingV1RoleRef)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ClusterRoleBindingV1RoleRef; received %#v (a %T)", value, value)
+		}
 	}
 
 	return nil
@@ -406,14 +446,6 @@ func (j *jsiiProxy_ClusterRoleBindingV1) validateSetCountParameters(val interfac
 	return nil
 }
 
-func (j *jsiiProxy_ClusterRoleBindingV1) validateSetIdParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_ClusterRoleBindingV1) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
@@ -477,9 +509,6 @@ func validateNewClusterRoleBindingV1Parameters(scope constructs.Construct, id *s
 		return fmt.Errorf("parameter id is required, but nil was provided")
 	}
 
-	if config == nil {
-		return fmt.Errorf("parameter config is required, but nil was provided")
-	}
 	if err := _jsii_.ValidateStruct(config, func() string { return "parameter config" }); err != nil {
 		return err
 	}

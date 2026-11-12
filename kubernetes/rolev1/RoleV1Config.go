@@ -24,11 +24,11 @@ type RoleV1Config struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// metadata block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/role_v1#metadata RoleV1#metadata}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/resources/role_v1#metadata RoleV1#metadata}
 	Metadata interface{} `field:"optional" json:"metadata" yaml:"metadata"`
 	// rule block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.4.0/docs/resources/role_v1#rule RoleV1#rule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/kubernetes/3.5.0/docs/resources/role_v1#rule RoleV1#rule}
 	Rule interface{} `field:"optional" json:"rule" yaml:"rule"`
 }
 
